@@ -1,0 +1,162 @@
+in_egg_database	original_name	name	rank	order	parasitoid	internal	conflict_across_sources	references	eggleton1992insect	noyes1989chalcidoidea	pennacchio2006evolution	gauld1988evolutionary	noyes2003universal
+FALSE	Acridoymia	Acridomyia	genus	Diptera	TRUE	TRUE	FALSE	eggleton1992insect	all endoparasitic				
+FALSE	Acroceridae	Acroceridae	family	Diptera	TRUE	FALSE	FALSE	eggleton1992insect	all endoparasitic - eggs laid externally				
+TRUE	Acyglossa	Acyglossa	genus	Diptera	TRUE	TRUE	FALSE	eggleton1992insect	all endoparasitic				
+FALSE	Adelognathinae	Adelognathinae	subfamily	Hymenoptera	TRUE	FALSE	FALSE	gauld1988evolutionary				all ectoparasitic	
+TRUE	Agaonidae	Agaonidae	family	Hymenoptera	FALSE	FALSE	FALSE	eggleton1992insect, noyes1989chalcidoidea, noyes2003universal	endoparasiticphytic, kleptoparasitic	all phytophagous			all phytophagous
+TRUE	Agathidinae	Agathidinae	subfamily	Hymenoptera	TRUE	TRUE	FALSE	gauld1988evolutionary				other subfamily in egg database - assuming status based on taxonomic position	
+TRUE	Agriotypinae	Agriotypinae	subfamily	Hymenoptera	TRUE	TRUE	FALSE	gauld1988evolutionary				some ectoparasitic	
+TRUE	Agriotypinae	Agriotypinae	subfamily	Hymenoptera	TRUE	SOME	FALSE	eggleton1992insect	endoparasitic				
+TRUE	Aleochara	Aleochara	genus	Coleoptera	TRUE	FALSE	FALSE	eggleton1992insect	all ectoparasitic				
+TRUE	Alysiinae	Alysiinae	subfamily	Hymenoptera	TRUE	TRUE	FALSE	gauld1988evolutionary				other subfamily in egg database - assuming status based on taxonomic position	
+TRUE	Aphelinidae	Aphelinidae	family	Hymenoptera	TRUE	SOME	FALSE	noyes1989chalcidoidea, noyes2003universal		most ectoparasitic, some endoparasitic (males only)			females endoparasitic, males endoparasitic, ectoparasitic
+TRUE	Aphidiinae	Aphidiinae	subfamily	Hymenoptera	TRUE	TRUE	FALSE	gauld1988evolutionary				other subfamily in egg database - assuming status based on taxonomic position	
+TRUE	Apidae	Apidae	family	Hymenoptera	FALSE	FALSE	FALSE	eggleton1992insect	some kleptoparasitic				
+FALSE	Asosylus	Asosylus	genus	Coleoptera	TRUE	FALSE	FALSE	eggleton1992insect	all ectoparasitic				
+TRUE	Aulacidae	Aulacidae	family	Hymenoptera	FALSE	TRUE	FALSE	pennacchio2006evolution			all endoparasitic		
+TRUE	Banchinae	Banchinae	subfamily	Hymenoptera	TRUE	TRUE	FALSE	gauld1988evolutionary				endoparasitic	
+FALSE	Baryodma	Baryodma	genus	Coleoptera	TRUE	FALSE	FALSE	eggleton1992insect	all ectoparasitic				
+FALSE	Batrachomyia	Batrachomyia	genus	Diptera	TRUE	TRUE	FALSE	eggleton1992insect	all endoparasitic				
+FALSE	Bellardia	Bellardia	genus	Diptera	TRUE	FALSE	FALSE	eggleton1992insect	all endoparasitic - eggs laid externally				
+TRUE	Bethylidae	Bethylidae	family	Hymenoptera	TRUE	FALSE	FALSE	eggleton1992insect	ectoparasitic				
+TRUE	Bombyliidae	Bombyliidae	family	Diptera	TRUE	FALSE	FALSE	eggleton1992insect	all ectoparasitic				
+FALSE	Bothrideres	Bothrideres	genus	Coleoptera	TRUE	FALSE	FALSE	eggleton1992insect	all ectoparasitic				
+TRUE	Brachinus	Brachinus	genus	Coleoptera	TRUE	FALSE	FALSE	eggleton1992insect	all ectoparasitic				
+TRUE	Braconidae	Braconidae	family	Hymenoptera	TRUE	SOME	FALSE	pennacchio2006evolution					
+TRUE	Braconinae	Braconinae	subfamily	Hymenoptera	TRUE	SOME	FALSE	gauld1988evolutionary				most ectoparasitic	
+FALSE	Calliphora dispar	Calliphora_dispar	species	Diptera	TRUE	FALSE	FALSE	eggleton1992insect	all endoparasitic - eggs laid externally				
+FALSE	Calliphora sternalis	Calliphora_sternalis	species	Diptera	TRUE	FALSE	FALSE	eggleton1992insect	all endoparasitic - eggs laid externally				
+TRUE	Campopleginae	Campopleginae	subfamily	Hymenoptera	TRUE	TRUE	FALSE	gauld1988evolutionary				endoparasitic	
+TRUE	Cardiochilinae	Cardiochilinae	subfamily	Hymenoptera	TRUE	TRUE	FALSE	gauld1988evolutionary				other subfamily in egg database - assuming status based on taxonomic position	
+FALSE	Catogenus rufus	Catogenus_rufus	species	Coleoptera	TRUE	FALSE	FALSE	eggleton1992insect	all ectoparasitic				
+TRUE	Ceraphronoidea	Ceraphronoidea	superfamily	Hymenoptera	TRUE	SOME	FALSE	pennacchio2006evolution			endoparasitic, ectoparasitic		
+TRUE	Chalcididae	Chalcididae	family	Hymenoptera	TRUE	SOME	FALSE	noyes1989chalcidoidea, noyes2003universal		most ectoparasitic, some endoparasitic			most endoparasitic, some ectoparasitic
+TRUE	Chalcidoidea	Chalcidoidea	superfamily	Hymenoptera	SOME	SOME	FALSE	pennacchio2006evolution			endoparasitic, ectoparasitic, phyto, predatory		
+TRUE	Cheloninae	Cheloninae	subfamily	Hymenoptera	TRUE	TRUE	FALSE	gauld1988evolutionary				other subfamily in egg database - assuming status based on taxonomic position	
+TRUE	Chrysididae	Chrysididae	family	Hymenoptera	SOME	FALSE	FALSE	eggleton1992insect	ectoparasitic, kleptoparasitic				
+TRUE	Calliphora tibialis	Cochliomyia_macellaria	species	Diptera	TRUE	FALSE	FALSE	eggleton1992insect	all endoparasitic - eggs laid externally				
+FALSE	Colobaea bifasciella	Colobaea_bifasciella	species	Diptera	TRUE	FALSE	FALSE	eggleton1992insect	all endoparasitic - eggs laid externally				
+TRUE	Conopidae	Conopidae	family	Diptera	TRUE	TRUE	FALSE	eggleton1992insect	all endoparasitic				
+FALSE	Coprochara	Coprochara	genus	Coleoptera	TRUE	FALSE	FALSE	eggleton1992insect	all ectoparasitic				
+TRUE	Cremastinae	Cremastinae	subfamily	Hymenoptera	TRUE	TRUE	FALSE	gauld1988evolutionary				endoparasitic	
+TRUE	Phygadeuontinae	Cryptinae	subfamily	Hymenoptera	TRUE	SOME	FALSE	eggleton1992insect, gauld1988evolutionary	some			endoparasitic, ectoparasitic	
+TRUE	Cryptochetidae	Cryptochetidae	family	Diptera	TRUE	TRUE	FALSE	eggleton1992insect	all endoparasitic				
+TRUE	Cetnopelmatinae	Ctenopelmatinae	subfamily	Hymenoptera	TRUE	TRUE	FALSE	gauld1988evolutionary				endoparasitic	
+TRUE	Cynipidae	Cynipidae	family	Hymenoptera	FALSE	FALSE	FALSE	eggleton1992insect	kleptoparasitic, endoparasiticphytic				
+TRUE	Cynipoidea	Cynipoidea	superfamily	Hymenoptera	SOME	SOME	FALSE	pennacchio2006evolution			endoparasitic, phytophagous		
+TRUE	Dastarcus	Dastarcus	genus	Coleoptera	TRUE	FALSE	FALSE	eggleton1992insect	all ectoparasitic				
+FALSE	Deretaphrus	Deretaphrus	genus	Coleoptera	TRUE	FALSE	FALSE	eggleton1992insect	all ectoparasitic				
+TRUE	Diapriidae	Diapriidae	family	Hymenoptera	TRUE	TRUE	FALSE	csiro1991insects					
+TRUE	Dryinidae	Doryctinae	family	Hymenoptera	TRUE	SOME	FALSE	csiro1991insects					
+TRUE	Dyrctinae	Dryinidae	subfamily	Hymenoptera	TRUE	SOME	FALSE	gauld1988evolutionary				most ectoparasitic	
+FALSE	Eggsiops	Eggisops	genus	Diptera	TRUE	FALSE	FALSE	eggleton1992insect	all endoparasitic - eggs laid externally				
+FALSE	Eginiini	Eginiini	genus	Diptera	TRUE	FALSE	FALSE	eggleton1992insect	all endoparasitic - eggs laid externally				
+FALSE	Eipcrania melanoleuca	Eipcrania_melanoleuca	species	Lepidoptera	TRUE	FALSE	FALSE	eggleton1992insect	all ectoparasitic				
+FALSE	Elasmidae	Elasmidae	family	Hymenoptera	TRUE	FALSE	FALSE	noyes1989chalcidoidea		all eggs laid externally			
+TRUE	Encyrtidae	Encyrtidae	family	Hymenoptera	SOME	SOME	TRUE	noyes1989chalcidoidea, noyes2003universal		most endoparasitic, some predatory			all endoparasitic
+FALSE	Endaphis perfidus	Endaphis_perfidus	species	Diptera	TRUE	FALSE	FALSE	eggleton1992insect	all endoparasitic - eggs laid externally				
+FALSE	endoparasiticpsylla agilis	Endopsylla_agilis	species	Diptera	TRUE	FALSE	FALSE	eggleton1992insect	all endoparasitic - eggs laid externally				
+FALSE	endoparasiticpsylla endoparasiticgena	Endopsylla_endogena	species	Diptera	TRUE	FALSE	FALSE	eggleton1992insect	all endoparasitic - eggs laid externally				
+FALSE	endoparasiticpsyllagregaria	Endopsylla_gregaria	species	Diptera	TRUE	FALSE	FALSE	eggleton1992insect	all endoparasitic - eggs laid externally				
+TRUE	Entedoninae	Entedoninae	subfamily	Hymenoptera	TRUE	TRUE	FALSE	noyes2003universal					all endoparasitic
+TRUE	Eucharitidae	Eucharitidae	family	Hymenoptera	TRUE	SOME	FALSE	eggleton1992insect, noyes2003universal	some ectoparasitic				all endoparasitic or ectoparasitic, all eggs laid externally
+TRUE	Euderinae	Euderinae	subfamily	Hymenoptera	FALSE	SOME	FALSE	noyes1989chalcidoidea, noyes2003universal		ectoparasitic			some endoparasitic, a few ectoparasitic
+TRUE	Eulophidae	Eulophidae	family	Hymenoptera	SOME	SOME	FALSE	eggleton1992insect, noyes1989chalcidoidea, noyes2003universal	endoparasitic, kleptoparasitic, endoparasiticphytic	most endoparasitic, some ectoparasitic, some phytophagous			endoparasitic and ectoparasitic
+TRUE	Eulophinae	Eulophinae	subfamily	Hymenoptera	TRUE	FALSE	FALSE	noyes1989chalcidoidea, noyes2003universal		ectoparasitic			all ectoparasitic
+TRUE	Eupelmidae	Eupelmidae	family	Hymenoptera	TRUE	SOME	FALSE	noyes1989chalcidoidea, noyes2003universal		most ectoparasitic, some endoparasitic			most endoparasitic, some ectoparasitic
+TRUE	Euphorinae	Euphorinae	subfamily	Hymenoptera	TRUE	TRUE	FALSE	gauld1988evolutionary				other subfamily in egg database - assuming status based on taxonomic position	
+FALSE	Eurytoma serratulae	Eurytoma_serratulae	species	Hymenoptera	TRUE	TRUE	FALSE	noyes2003universal					all endoparasitic
+TRUE	Eurytomidae	Eurytomidae	family	Hymenoptera	SOME	SOME	FALSE	eggleton1992insect, noyes1989chalcidoidea, noyes2003universal	some kleptoparasitic, endoparasiticphytic	all phytophagous, predatory			most phytophagous or entomophagous, a few endoparasitic
+TRUE	Evaniidae	Evaniidae	family	Hymenoptera	FALSE	FALSE	FALSE	pennacchio2006evolution			all predatory		
+TRUE	Evanioidea	Evanioidea	superfamily	Hymenoptera	SOME	SOME	FALSE	pennacchio2006evolution			endoparasitic, ectoparasitic, predator		
+TRUE	Figitidae	Figitidae	family	Hymenoptera	TRUE	TRUE	FALSE	csiro1991insects					
+TRUE	Gasteruptiidae	Gasteruptiidae	family	Hymenoptera	TRUE	FALSE	FALSE	eggleton1992insect, pennacchio2006evolution	kleptoparasitic		ectoparasitic, kleptoparasitic		
+FALSE	Tenedipes varus	Goeldichironomus_carus	species	Diptera	TRUE	FALSE	FALSE	eggleton1992insect	all ectoparasitic				
+FALSE	Histomerinae	Histomerinae	subfamily	Hymenoptera	TRUE	SOME	FALSE	gauld1988evolutionary				most ectoparasitic	
+FALSE	Hyperechia bomboides	Hyperechia_bomboides	species	Diptera	TRUE	FALSE	FALSE	eggleton1992insect	all ectoparasitic				
+TRUE	Ibaliidae	Ibaliidae	family	Hymenoptera	TRUE	TRUE	FALSE	csiro1991insects					
+TRUE	Ichneumonidae	Ichneumonidae	family	Hymenoptera	TRUE	SOME	FALSE	eggleton1992insect	some ectoparasitic				
+TRUE	Ichneumoninae	Ichneumoninae	subfamily	Hymenoptera	TRUE	SOME	FALSE	gauld1988evolutionary				some endoparasitic	
+TRUE	Ichneumonoidea	Ichneumonoidea	superfamily	Hymenoptera	TRUE	SOME	FALSE	pennacchio2006evolution			endoparasitic, ectoparasitic		
+FALSE	Labeninae	Labeninae	subfamily	Hymenoptera	TRUE	SOME	FALSE	gauld1988evolutionary				some ectoparasitic	
+FALSE	Lebia	Lebia	genus	Coleoptera	TRUE	FALSE	FALSE	eggleton1992insect	all ectoparasitic				
+TRUE	Leucospidae	Leucospidae	family	Hymenoptera	TRUE	FALSE	FALSE	eggleton1992insect, noyes2003universal	ectoparasitic				all ectoparasitic
+FALSE	Lophorus	Lophorus	genus	Coleoptera	TRUE	FALSE	FALSE	eggleton1992insect	all ectoparasitic				
+TRUE	Lucilia	Lucilia	genus	Diptera	TRUE	FALSE	FALSE	eggleton1992insect	all endoparasitic - eggs laid externally				
+TRUE	Macrocentrinae	Macrocentrinae	subfamily	Hymenoptera	TRUE	TRUE	FALSE	gauld1988evolutionary				other subfamily in egg database - assuming status based on taxonomic position	
+TRUE	Maxfischeriinae	Maxfischeriinae	subfamily	Hymenoptera	TRUE	TRUE	FALSE	gauld1988evolutionary				other subfamily in egg database - assuming status based on taxonomic position	
+FALSE	Megalyroidea	Megalyroidea	superfamily	Hymenoptera	TRUE	FALSE	FALSE	pennacchio2006evolution			all ectoparasitic		
+TRUE	Megaselia 	Megaselia	genus	Diptera	SOME	SOME	FALSE	eggleton1992insect	all endoparasitic - eggs laid externally				
+TRUE	Megastigminae	Megastigminae	subfamily	Hymenoptera	SOME	FALSE	FALSE	noyes2003universal					few ectoparasitic
+TRUE	Megastigmus	Megastigmus	genus	Hymenoptera	FALSE	FALSE	FALSE	noyes2003universal					all phytophagous
+TRUE	Mesochorinae	Mesochorinae	subfamily	Hymenoptera	TRUE	TRUE	FALSE	gauld1988evolutionary				endoparasitic	
+TRUE	Meteorinae	Meteorinae	subfamily	Hymenoptera	TRUE	TRUE	FALSE	gauld1988evolutionary				other subfamily in egg database - assuming status based on taxonomic position	
+TRUE	Microgastrinae	Microgastrinae	subfamily	Hymenoptera	TRUE	TRUE	FALSE	gauld1988evolutionary				other subfamily in egg database - assuming status based on taxonomic position	
+TRUE	Monodontomerinae	Monodontomerinae	subfamily	Hymenoptera	SOME	FALSE	FALSE	noyes2003universal					many ectoparasitic
+FALSE	Monodontomerus aereus	Monodontomerus_aereus	species	Hymenoptera	TRUE	TRUE	FALSE	noyes2003universal					all endoparasitic
+TRUE	Mutillidae	Mutillidae	family	Hymenoptera	TRUE	FALSE	FALSE	eggleton1992insect	ectoparasitic				
+TRUE	Mymaridae	Mymaridae	family	Hymenoptera	TRUE	TRUE	TRUE	eggleton1992insect, noyes1989chalcidoidea, noyes2003universal	some endoparasitic	all endoparasitic			all endoparasitic
+FALSE	Nemestrinidae	Nemestrinidae	family	Diptera	TRUE	FALSE	FALSE	eggleton1992insect	all endoparasitic - eggs laid externally				
+FALSE	Neoneurinae	Neoneurinae	subfamily	Hymenoptera	TRUE	TRUE	FALSE	eggleton1992insect	endoparasitic				
+FALSE	Occuloxenium compitale	Occuloxenium_compitale	species	Diptera	TRUE	FALSE	FALSE	eggleton1992insect	all endoparasitic - eggs laid externally				
+FALSE	Oidematops ferrigineus	Oidematops_ferrugineus	species	Diptera	TRUE	FALSE	FALSE	eggleton1992insect	all endoparasitic - eggs laid externally				
+FALSE	Onesia	Onesia	genus	Diptera	TRUE	FALSE	FALSE	eggleton1992insect	all endoparasitic - eggs laid externally				
+FALSE	Calliphora austalica	Onesia_australica	species	Diptera	TRUE	FALSE	FALSE	eggleton1992insect	all endoparasitic - eggs laid externally				
+FALSE	Calliphora robusta	Onesia_robusta	species	Diptera	TRUE	FALSE	FALSE	eggleton1992insect	all endoparasitic - eggs laid externally				
+FALSE	Opelousiia	Opelousia	genus	Diptera	TRUE	FALSE	FALSE	eggleton1992insect	all endoparasitic - eggs laid externally				
+TRUE	Ophioninae	Ophioninae	subfamily	Hymenoptera	TRUE	TRUE	FALSE	gauld1988evolutionary				endoparasitic	
+TRUE	Opiinae	Opiinae	subfamily	Hymenoptera	TRUE	TRUE	FALSE	gauld1988evolutionary				other subfamily in egg database - assuming status based on taxonomic position	
+TRUE	Orgilinae	Orgilinae	subfamily	Hymenoptera	TRUE	TRUE	FALSE	gauld1988evolutionary				other subfamily in egg database - assuming status based on taxonomic position	
+TRUE	Orussidae	Orussidae	family	Hymenoptera	TRUE	FALSE	FALSE	eggleton1992insect	ectoparasitic				
+FALSE	Oscionoma confluens	Oscionoma_confluens	species	Diptera	TRUE	FALSE	FALSE	eggleton1992insect	all endoparasitic - eggs laid externally				
+TRUE	Pambolinae	Pambolinae	subfamily	Hymenoptera	TRUE	TRUE	FALSE	gauld1988evolutionary				other subfamily in egg database - assuming status based on taxonomic position	
+FALSE	Pelecinidae	Pelecinidae	family	Hymenoptera	TRUE	FALSE	FALSE	eggleton1992insect	ectoparasitic				
+FALSE	Pelecium	Pelecium	genus	Coleoptera	TRUE	FALSE	FALSE	eggleton1992insect	all ectoparasitic				
+TRUE	Perilampidae	Perilampidae	family	Hymenoptera	TRUE	FALSE	TRUE	noyes1989chalcidoidea, noyes2003universal		most endoparasitic, some eggs laid externally			all eggs laid externally
+FALSE	Phaeomyiidae	Phaeomyiidae	family	Diptera	TRUE	FALSE	FALSE	eggleton1992insect	all endoparasitic - eggs laid externally				
+FALSE	Phyllobaenus	Phyllobaenus	genus	Coleoptera	TRUE	SOME	FALSE	eggleton1992insect	all parasitoid - host locating mechanism uknown				
+TRUE	Pimplinae	Pimplinae	subfamily	Hymenoptera	TRUE	SOME	FALSE	gauld1988evolutionary				many ectoparasitic, some endoparasitic	
+TRUE	Pipunculidae	Pipunculidae	family	Diptera	TRUE	TRUE	FALSE	eggleton1992insect	all endoparasitic				
+FALSE	Planarivora insignis	Planarivora_insignis	species	Diptera	TRUE	TRUE	FALSE	eggleton1992insect	all endoparasitic				
+TRUE	Platygastroidea	Platygastroidea	superfamily	Hymenoptera	TRUE	TRUE	FALSE	pennacchio2006evolution			all endoparasitic		
+FALSE	Podagrionini	Podagrionini	tribe	Hymenoptera	TRUE	TRUE	FALSE	noyes1989chalcidoidea, noyes2003universal		all endoparasitic			all endoparasitic
+TRUE	Pollenia	Pollenia	genus	Diptera	TRUE	FALSE	FALSE	eggleton1992insect	all endoparasitic - eggs laid externally				
+FALSE	Polysphictini	Polysphinctini	subfamily	Hymenoptera	TRUE	FALSE	FALSE	gauld1988evolutionary				all ectoparasitic	
+TRUE	Pompilidae	Pompilidae	family	Hymenoptera	TRUE	FALSE	FALSE	eggleton1992insect	ectoparasitic				
+TRUE	Proctotrupoidea	Proctotrupoidea	superfamily	Hymenoptera	TRUE	SOME	TRUE	pennacchio2006evolution			all endoparasitic		
+TRUE	Pseudacteon tricuspis	Pseudacteon_tricuspis	species	Diptera	TRUE	TRUE	FALSE	eggleton1992insect	all endoparasitic				
+FALSE	Pseudendaphis maculans	Pseudendaphis_maculans	species	Diptera	TRUE	FALSE	FALSE	eggleton1992insect	all endoparasitic - eggs laid externally				
+TRUE	Pteromalidae	Pteromalidae	family	Hymenoptera	SOME	SOME	TRUE	eggleton1992insect, noyes1989chalcidoidea, noyes2003universal	ectoparasitic, kleptoparasitic, endoparasiticphytic	most ectoparasitic, some endoparasitic			endoparasitic and ectoparasitic
+TRUE	Pyrgotidae	Pyrgotidae	family	Diptera	TRUE	TRUE	FALSE	eggleton1992insect	all endoparasitic				
+TRUE	Rhinophirdae	Rhinophoridae	family	Diptera	TRUE	FALSE	FALSE	eggleton1992insect	all endoparasitic - eggs laid externally				
+FALSE	Rhipiceridae	Rhipiceridae	family	Coleoptera	TRUE	FALSE	FALSE	eggleton1992insect	all endoparasitic - eggs laid externally				
+FALSE	Rhysipolis	Rhysipolis	genus	Hymenoptera	TRUE	FALSE	FALSE	gauld1988evolutionary				all ectoparasitic	
+TRUE	Rhipiphoridae	Ripiphoridae	family	Coleoptera	TRUE	FALSE	FALSE	eggleton1992insect	all endoparasitic - eggs laid externally				
+TRUE	Rogadinae	Rogadinae	subfamily	Hymenoptera	TRUE	SOME	FALSE	gauld1988evolutionary				most endoparasitic, a few ectoparasitic	
+TRUE	Sapygidae	Sapygidae	family	Hymenoptera	FALSE	FALSE	FALSE	eggleton1992insect	kleptoparasitic				
+TRUE	Sarcophagidae	Sarcophagidae	family	Diptera	FALSE	FALSE	FALSE	eggleton1992insect	all family uterine incubation				
+TRUE	Scelionidae	Scelionidae	family	Hymenoptera	TRUE	TRUE	FALSE	eggleton1992insect	endoparasitic				
+FALSE	Sciomyza aristalis	Sciomyza_aristalis	species	Diptera	TRUE	FALSE	FALSE	eggleton1992insect	all endoparasitic - eggs laid externally				
+FALSE	Pteromicra inermis	Sciomyza_varia	species	Diptera	TRUE	FALSE	FALSE	eggleton1992insect	all endoparasitic - eggs laid externally				
+FALSE	Sciomyza varia	Sciomyza_varia	species	Diptera	TRUE	FALSE	FALSE	eggleton1992insect	all endoparasitic - eggs laid externally				
+TRUE	Scoliidae	Scoliidae	family	Hymenoptera	TRUE	FALSE	FALSE	eggleton1992insect	ectoparasitic				
+FALSE	Signiphoridae	Signiphoridae	family	Hymenoptera	FALSE	TRUE	FALSE	noyes1989chalcidoidea, noyes2003universal		almost all endoparasitic, few ectoparasitic			most endoparasitic
+FALSE	Sosylus	Sosylus	genus	Coleoptera	TRUE	FALSE	FALSE	eggleton1992insect	all ectoparasitic				
+TRUE	Sphecidae	Sphecidae	family	Hymenoptera	TRUE	FALSE	FALSE	eggleton1992insect	ectoparasitic				
+FALSE	Sthenauge parasitus	Sthenauge_parasitus	species	Lepidoptera	TRUE	FALSE	FALSE	eggleton1992insect	all ectoparasitic				
+FALSE	Stilpninae	Stilpnina	subfamily	Hymenoptera	TRUE	TRUE	FALSE	gauld1988evolutionary				endoparasitic	
+FALSE	Sycophila biguttata	Sycophila_biguttata	species	Hymenoptera	TRUE	TRUE	FALSE	noyes2003universal					all endoparasitic
+FALSE	Symphrasinae	Symphrasinae	subfamily	Neuroptera	TRUE	FALSE	FALSE	eggleton1992insect	all ectoparasitic				
+TRUE	Tachinidae	Tachinidae	family	Diptera	TRUE	SOME	FALSE	eggleton1992insect	all endoparasitic - eggs laid externally				
+FALSE	Tanaostigmatidae	Tanaostigmatidae	family	Hymenoptera	FALSE	FALSE	FALSE	eggleton1992insect, noyes2003universal	endoparasiticphytic, kleptoparasitic				all phytophagous
+TRUE	Tersilochinae	Tersilochinae	subfamily	Hymenoptera	TRUE	TRUE	FALSE	gauld1988evolutionary				endoparasitic	
+TRUE	Tetrastichinae	Tetrastichinae	subfamily	Hymenoptera	TRUE	TRUE	FALSE	noyes2003universal					all endoparasitic
+FALSE	Tettigonomyia	Tettigoniomyia	genus	Diptera	TRUE	TRUE	FALSE	eggleton1992insect	all endoparasitic				
+TRUE	Tiphiidae	Tiphiidae	family	Hymenoptera	TRUE	FALSE	FALSE	eggleton1992insect	ectoparasitic				
+TRUE	Torymidae	Torymidae	family	Hymenoptera	SOME	SOME	FALSE	eggleton1992insect, noyes1989chalcidoidea, noyes2003universal	ectoparasitic, kleptoparasitic, endoparasiticphytic	most ectoparasitic, some endoparasitic, some phytophagous			endoparasitic, ectoparasitic, and phytophagous
+TRUE	Toryminae	Toryminae	subfamily	Hymenoptera	SOME	FALSE	FALSE	noyes2003universal					majority ectoparasitic
+FALSE	Trichodes	Trichodes	genus	Coleoptera	FALSE	FALSE	FALSE	eggleton1992insect	all kleptoparasitic				
+TRUE	Trichogrammatidae	Trichogrammatidae	family	Hymenoptera	TRUE	TRUE	TRUE	eggleton1992insect, noyes1989chalcidoidea, noyes2003universal	some endoparasitic	all endoparasitic			all endoparasitic
+TRUE	Trigonalyoidea	Trigonaloidea	superfamily	Hymenoptera	TRUE	FALSE	FALSE	pennacchio2006evolution			all endoparasitic, eggs laid externally		
+TRUE	Tryphonine	Tryphoninae	subfamily	Hymenoptera	TRUE	SOME	FALSE	gauld1988evolutionary				a number ectoparasitic	
+TRUE	Xoridinae	Xoridinae	subfamily	Hymenoptera	TRUE	SOME	FALSE	gauld1988evolutionary				many ectoparasitic	
