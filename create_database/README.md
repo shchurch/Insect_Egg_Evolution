@@ -60,7 +60,7 @@ file with record of bib IDs already parsed
 
 
 ### concatenate_new.py ###
-Pulls new entries from a hardcoded directory (data_by_order) 
+Pulls new entries from a hardcoded directory (`data_by_order`) 
 and combines them into a raw database file and a database 
 file with IDs added. New entries are identfied as those which 
 are not present in the raw database.
@@ -68,25 +68,21 @@ are not present in the raw database.
 ```
 python concatenate_new.py
 ```
-written files = egg_database_raw.txt
- the raw database file, combining all entries in data_by_order
+written files = `egg_database_raw.txt`
+ the raw database file, combining all entries in `data_by_order`
 
-tmp_new_egg_database.txt
+`tmp_new_egg_database.txt`
  a temporary file which can be converted to egg_database.txt
  after verifying that data has not been lost
 
 To replace database:
 `mv tmp_new_egg_database.txt egg_database.txt`
 
-### convert_database.py ###
-
-`python convert_database.py [input] [output]
-
-`input` = text file with list of python dictionaries
-
-`output` = csv file 
 
 ### get_bib_info.py ###
+Incorporates bibliographic information into the egg database by matching the dictionary key `b`
+with the bib ID from a bibtex file, adds all fields as new keys in the dictionary.
+
 `python get_bibinfo.py [input] [output]`
 
 `input` = list of python dictionaries, with bib ID in key 'b'
@@ -96,6 +92,9 @@ To replace database:
 Bibliographic directory is hardcoded
 
 ### double_check_entries.py ###
+Interactively allows the user to double check entries by ID by reopening the pdf
+and presenting the collected data. Dictionary keys can be updated or marked as correct.
+
 `python double_check.py [input] [output] [directory of pdfs]`
  
 `input` = list of python dictionaries, to be cleaned
@@ -103,6 +102,17 @@ Bibliographic directory is hardcoded
 `output` = list of python dictionaries, updated
 
 `pdf directory` = directory with pdfs, named according to bibtex IDs
+
+
+### convert_database.py ###
+Converts the format of the database. The output from `parsing_eggs.py` is a list of python dictionaries.
+To analyze in R, this list is converted to a csv file. Other possible formats include JSON and sqlite.
+
+`python convert_database.py [input] [output]`
+
+`input` = text file with list of python dictionaries
+
+`output` = csv file 
 
 
 ## ADDITIONAL SOFTWARE
