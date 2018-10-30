@@ -31,7 +31,7 @@ egg_analysis_convert_stoddard.R
 
 `stoddard.csv` _avian egg size and shape data downloaded from Stoddard et al. 2014_
 
-`polyembryonic.csv`
+`polyembryonic.csv` _list of insect taxa described as polyembryonic with references_
 
 
 
@@ -85,11 +85,16 @@ egg_analysis_eco_functions.R
 egg_analysis_aquatic.R
 egg_analysis_parasitoid.R
 egg_analysis_wingless_phasmatodea.R
-egg_analysis_aquatic.csv
-egg_analysis_parasitoid.csv
-egg_analysis_migratory_lepidoptera.csv
-egg_analysis_wingless_phasmatodea.csv
 ```
+
+egg_analysis_aquatic.csv  _list of insect taxa described as aquatic, riparian, semiaquatic with references_
+
+egg_analysis_parasitoid.csv _list of insect taxa described as parasitoid with references_
+
+egg_analysis_migratory_lepidoptera.csv _list of Lepidoptera taxa described as migratory with references_
+
+egg_analysis_wingless_phasmatodea.csv _list of Phasmatodea taxa described as wingless / flightless with references_
+
 
 
 ## Print tables and database statistics 
