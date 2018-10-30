@@ -1,4 +1,4 @@
-# EVOLUTIONARY ANALYSIS IN R
+# Evolutionary analysis in R
 
 This file describes how to use the following R scripts to reproduce the figures in the Insect Egg Evolution manuscripts
 All files in this directory were written by SHC between 2017 and 2018
@@ -18,17 +18,21 @@ egg_analysis_model_fitting.R
 egg_analysis_rates_ancestral_states.R
 ```
 
-dependent files:
+### dependent files:
 
 ```
 egg_analysis_read_trees.R
 egg_analysis_body_size.R
 egg_analysis_geiger_functions.R
 egg_analysis_convert_stoddard.R
-groups_orders.txt (list of orders in each of 7 insect clades, e.g. Antliophora)
-stoddard.csv (avian egg size and shape data downloaded from Stoddard et al. 2014)
-polyembryonic.csv
 ```
+
+`groups_orders.txt` _list of orders in each of 7 insect clades, e.g. Antliophora_
+
+`stoddard.csv` _avian egg size and shape data downloaded from Stoddard et al. 2014_
+
+`polyembryonic.csv`
+
 
 
 ## Test allometric relationships 
@@ -45,7 +49,7 @@ egg_analysis_simulate_body.R
 egg_analysis_clades_by_tips.R
 ```
 
-dependent files:
+### dependent files:
 
 *`egg_analysis_pgls_functions.R`
 
@@ -56,7 +60,7 @@ dependent files:
 * rerun after recoding corBlomberg in egg_analysis_pgls_functions.R
 * rerun after recoding Rainford trees in egg_analysis_read_trees.R
 
-dependent files:
+### dependent files:
 
 `development.csv`
 
@@ -74,7 +78,8 @@ dependent files:
 `egg_analysis_separate_ecoallometry.R`
 * run 2x for aquatic and parasitoid
 
-dependent files:
+### dependent files:
+
 ```
 egg_analysis_eco_functions.R
 egg_analysis_aquatic.R
