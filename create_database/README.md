@@ -31,10 +31,10 @@ it sometimes failed, so some duplicate IDs do exist in the database.
 
 ```
 python set_bib_ids.py [input] [output]
-[input] = file with new refs
-[output] = file with corrected refs, to be added to the bibs directory
-additional written files = bib_list.txt   
 ```
+`[input]` = file with new refs
+`[output]` = file with corrected refs, to be added to the bibs directory
+additional written files = bib_list.txt   
 
 ### PARSING TEXT REFERENCES ###
 
@@ -46,12 +46,13 @@ uses with an internal dictionary of hotkeys.
 
 ```
 python parsing_eggs.py --b [input bibtex file] --o [output text file] --p [directory with pdfs]
---r = optional restart flag
+```
+`--r` = optional restart flag
 additional written files = tmp_out.txt
  temporary file storing new database entries
 done_bib_ids.txt
  file with record of bib IDs already parsed
-```
+
 
 ### get_parser_summaries.py ###
 Calculates statistics on the state of parsing entries. It reads in the number
@@ -62,8 +63,9 @@ It also prints a report used in subsequent statistical analyses
 
 ```
 python get_parser_summaries.py
-written files = parser_summaries_report.csv
 ```
+
+written files = parser_summaries_report.csv
 
 
 ### concatenate_new.py ###
@@ -74,6 +76,8 @@ are not present in the raw database.
 
 ```
 python concatenate_new.py
+```
+
 written files = egg_database_raw.txt
  the raw database file, combining all entries in data_by_order
 tmp_new_egg_database.txt
@@ -81,7 +85,7 @@ tmp_new_egg_database.txt
  after verifying that data has not been lost
 To convert:
 mv tmp_new_egg_database.txt egg_database.txt
-```
+
 
 ### STILL TO CLEAN UP ###
 
