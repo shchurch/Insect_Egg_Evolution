@@ -39,27 +39,25 @@ additional written files = bib_list.txt
 ### PARSING TEXT REFERENCES ###
 
 ### parsing_eggs.py ###
- used to extract descriptions 
-of insect eggs from pdfs.
-It is a combination of manual and automatic inputs, and 
-uses with an internal dictionary of hotkeys.
+Used to extract descriptions of insect eggs from pdfs. It is a combination of manual and automatic inputs, and uses with an internal dictionary of hotkeys.
 
 ```
-python parsing_eggs.py --b [input bibtex file] --o [output text file] --p [directory with pdfs]
+python parsing_eggs.py --b [input bibtex] --o [output] --p [directory with pdfs]
 ```
+`--b` = reference file in bibtex format
+`--o` = text file contaning list of python dictionaries with databse entries
+`--p` = directory with pdfs, named according to bibtex IDs
 `--r` = optional restart flag
-additional written files = tmp_out.txt
- temporary file storing new database entries
-done_bib_ids.txt
- file with record of bib IDs already parsed
+
+additional written files = `tmp_out.txt`
+temporary file storing new database entries
+
+`done_bib_ids.txt`
+file with record of bib IDs already parsed
 
 
 ### get_parser_summaries.py ###
-Calculates statistics on the state of parsing entries. It reads in the number
-of bibtex references in a hardcoded directory (bibs_by_order)
-and the number of database entries (data_by_order),
-and calculates the number left to parse.
-It also prints a report used in subsequent statistical analyses
+Calculates statistics on the state of parsing entries. It reads in the number of bibtex references in a hardcoded directory (bibs_by_order) and the number of database entries (data_by_order), and calculates the number left to parse. It also prints a report used in subsequent statistical analyses
 
 ```
 python get_parser_summaries.py
@@ -77,21 +75,34 @@ are not present in the raw database.
 ```
 python concatenate_new.py
 ```
-
 written files = egg_database_raw.txt
  the raw database file, combining all entries in data_by_order
+
 tmp_new_egg_database.txt
  a temporary file which can be converted to egg_database.txt
  after verifying that data has not been lost
+
 To convert:
-mv tmp_new_egg_database.txt egg_database.txt
+`mv tmp_new_egg_database.txt egg_database.txt`
 
+### make_taxon_count_table.py ###
+The purpose of the script is to count the number of species for each named taxon and obtain the number of described species from the Open Tree of LIfe. 
+##
+```
+make_taxon_count_table.py -i [input]
+```
+`-i` = text file containing a list of dictionaries
 
-### STILL TO CLEAN UP ###
+### make_freq_table.py ###
+Builds a word frequency table which is used as a reference for searching for scientific names in a PDF. Currently takes a hardcoded path to a directory of pdfs
 
-make_taxon_count_table.py
+```
 make_freq_table.py
-functions_for_parser.py
+```
+
+### functions_for_parser.py ###
+The purpose of this code is to provide additional functions to the text parsing program, including automatic reading of text, searching 
+
 
 clean egg_database
 python clean_database.py egg_database.txt egg_database.txt ~/Dropbox/Sam_and_Seth/Papers/
