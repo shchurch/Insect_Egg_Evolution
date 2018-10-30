@@ -56,16 +56,6 @@ temporary file storing new database entries
 file with record of bib IDs already parsed
 
 
-### get_parser_summaries.py ###
-Calculates statistics on the state of parsing entries. It reads in the number of bibtex references in a hardcoded directory (bibs_by_order) and the number of database entries (data_by_order), and calculates the number left to parse. It also prints a report used in subsequent statistical analyses
-
-```
-python get_parser_summaries.py
-```
-
-written files = parser_summaries_report.csv
-
-
 ### concatenate_new.py ###
 Pulls new entries from a hardcoded directory (data_by_order) 
 and combines them into a raw database file and a database 
@@ -82,12 +72,52 @@ tmp_new_egg_database.txt
  a temporary file which can be converted to egg_database.txt
  after verifying that data has not been lost
 
-To convert:
+To replace database:
 `mv tmp_new_egg_database.txt egg_database.txt`
+
+### convert_database.py ###
+
+`python convert_database.py [input] [output]
+
+`input` = text file with list of python dictionaries
+
+`output` = csv file 
+
+### get_bib_info.py ###
+`python get_bibinfo.py [input] [output]`
+
+`input` = list of python dictionaries, with bib ID in key 'b'
+
+`output` = list of python dictionaries, with bibliographic information in new keys
+
+Bibliographic directory is hardcoded
+
+### double_check_entries.py ###
+`python double_check.py [input] [output] [directory of pdfs]`
+ 
+`input` = list of python dictionaries, to be cleaned
+
+`output` = list of python dictionaries, updated
+
+`pdf directory` = directory with pdfs, named according to bibtex IDs
+
+
+
+## ADDITIONAL SOFTWARE
+
+### get_parser_summaries.py ###
+Calculates statistics on the state of parsing entries. It reads in the number of bibtex references in a hardcoded directory (bibs_by_order) and the number of database entries (data_by_order), and calculates the number left to parse. It also prints a report used in subsequent statistical analyses
+
+```
+python get_parser_summaries.py
+```
+
+written files = parser_summaries_report.csv
+
 
 ### make_taxon_count_table.py ###
 The purpose of the script is to count the number of species for each named taxon and obtain the number of described species from the Open Tree of LIfe. 
-##
+
 ```
 make_taxon_count_table.py -i [input]
 ```
@@ -103,15 +133,13 @@ make_freq_table.py
 ### functions_for_parser.py ###
 The purpose of this code is to provide additional functions to the text parsing program, including automatic reading of text, searching 
 
+### clean_egg_database.py ###
+`python clean_database.py [input] [output] [directory of pdfs]`
 
-clean egg_database
-python clean_database.py egg_database.txt egg_database.txt ~/Dropbox/Sam_and_Seth/Papers/
-get bib info
-python get_bibinfo.py egg_database.txt egg_database.txt
-- need to change order to directory
+`input` = list of python dictionaries, with bib ID in key 'b'
 
-double check the entries
-python double_check_entries.py egg_database.txt egg_database.txt
+`output` = list of python dictionaries, with bibliographic information in new keys
 
-convert the database to other formats
-python convert_database.py egg_database.txt egg_database.csv
+`pdf directory` = directory with pdfs, named according to bibtex IDs
+
+
