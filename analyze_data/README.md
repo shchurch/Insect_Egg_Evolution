@@ -27,11 +27,11 @@ egg_analysis_geiger_functions.R
 egg_analysis_convert_stoddard.R
 ```
 
-`groups_orders.txt` _list of orders in each of 7 insect clades, e.g. Antliophora_
+`groups_orders.txt` _(list of orders in each of 7 insect clades, e.g. Antliophora)_
 
-`stoddard.csv` _avian egg size and shape data downloaded from Stoddard et al. 2014_
+`stoddard.csv` _(avian egg size and shape data downloaded from Stoddard et al. 2014)_
 
-`polyembryonic.csv` _list of insect taxa described as polyembryonic with references_
+`polyembryonic.csv` _(list of insect taxa described as polyembryonic with references)_
 
 
 
@@ -87,19 +87,19 @@ egg_analysis_parasitoid.R
 egg_analysis_wingless_phasmatodea.R
 ```
 
-egg_analysis_aquatic.csv  _list of insect taxa described as aquatic, riparian, semiaquatic with references_
+egg_analysis_aquatic.csv  _(list of insect taxa described as aquatic, riparian, semiaquatic with references)_
 
-egg_analysis_parasitoid.csv _list of insect taxa described as parasitoid with references_
+egg_analysis_parasitoid.csv _(list of insect taxa described as parasitoid with references)_
 
-egg_analysis_migratory_lepidoptera.csv _list of Lepidoptera taxa described as migratory with references_
+egg_analysis_migratory_lepidoptera.csv _(list of Lepidoptera taxa described as migratory with references)_
 
-egg_analysis_wingless_phasmatodea.csv _list of Phasmatodea taxa described as wingless / flightless with references_
+egg_analysis_wingless_phasmatodea.csv _(list of Phasmatodea taxa described as wingless / flightless with references)_
 
 
 
 ## Print tables and database statistics 
 
-`egg_analysis_latex_tables.R` _Directory containing results from other analysis is hardcoded_
+`egg_analysis_latex_tables.R` _(Directory containing results from other analysis is hardcoded)_
 
 ```
 egg_analysis_art_stats.R
@@ -108,7 +108,7 @@ egg_analysis_database_statistics.R
 
 dependent files
 
-`taxon_count.csv` _estimated number of taxa in insect clades, from OTT_
+`taxon_count.csv` _(estimated number of taxa in insect clades, from OTT)_
 
 
 # General session info 
