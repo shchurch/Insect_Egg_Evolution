@@ -26,6 +26,12 @@ egg_analysis_rates_ancestral_states.R
 		# egg_analysis_read_trees.R
 		# egg_analysis_body_size.R
 		# egg_analysis_geiger_functions.R
+		# egg_analysis_convert_stoddard.R
+		# groups_orders.txt (list of orders in each of 7 insect 
+		#    clades, e.g. Antliophora)
+		# stoddard.csv (avian egg size and shape data 
+		#    downloaded from Stoddard et al. 2014)
+		# polyembryonic.csv
 
 ################################################################
 ##### Egg allometry #####
@@ -51,6 +57,9 @@ egg_analysis_developement.R
 	# need to rerun after recoding corBlomberg in egg_analysis_pgls_functions.R
 	# need to rerun after recoding Rainford trees in egg_analysis_read_trees.R
 
+	# dependent files:
+		# development.csv
+
 ################################################################
 ##### Ecology and eggs #####
 ################################################################
@@ -73,7 +82,10 @@ egg_analysis_separate_ecoallometry.R
 		# egg_analysis_aquatic.R
 		# egg_analysis_parasitoid.R
 		# egg_analysis_wingless_phasmatodea.R
-		# egg_analysis_migratory_lepidoptera.R
+		# egg_analysis_aquatic.csv
+		# egg_analysis_parasitoid.csv
+		# egg_analysis_migratory_lepidoptera.csv
+		# egg_analysis_wingless_phasmatodea.csv
 
 ################################################################
 ##### Print tables, database statistics #####
@@ -84,6 +96,8 @@ egg_analysis_latex_tables.R
 egg_analysis_art_stats.R
 egg_analysis_database_statistics.R
 
+	# dependent files
+		# taxon_count.csv (estimated number of taxa in insect clades, from OTT)
 
 
 ################################################################
