@@ -29,7 +29,9 @@ egg_analysis_convert_stoddard.R
 
 `groups_orders.txt` _(list of orders in each of 7 insect clades, e.g. Antliophora)_
 
-`rainford_family_key.txt` _(list of taxonomic names in the Rainford et al. 2014 tree)_
+`rainford_family_key.txt` _(list of taxonomic names in the Rainford et al. 2014 analysis)_
+
+`family_body_sizes.csv` _(list of max and min body size for insect families, from Rainford et al. 2014)_
 
 `stoddard.csv` _(avian egg size and shape data downloaded from Stoddard et al. 2014)_
 
