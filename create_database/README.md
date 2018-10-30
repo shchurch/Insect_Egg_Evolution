@@ -18,11 +18,9 @@ were stored as entries in a bibtex file.
 ### set_bibids.py ###
 
 Used to introduce new bibs to the database, verifying that IDs 
-are not overlapping.
-It collects all existing bib IDs from a directory 
-(hardcoded as bibs_by_order), and stores them
-in a list - bib_list.txt
-It takes as an input a bibtex file of new refs, and outputs
+are not overlapping. It collects all existing bib IDs from a directory 
+(hardcoded as `bibs_by_order`), and stores them
+in a list - `bib_list.txt`. It takes as an input a bibtex file of new refs, and outputs
 a new file with the bib IDs updated.
 
 This program was only used for entries added after Oct 2016.
@@ -33,10 +31,12 @@ it sometimes failed, so some duplicate IDs do exist in the database.
 python set_bib_ids.py [input] [output]
 ```
 `[input]` = file with new refs
-`[output]` = file with corrected refs, to be added to the bibs directory
-additional written files = bib_list.txt   
 
-### PARSING TEXT REFERENCES ###
+`[output]` = file with corrected refs, to be added to the bibs directory
+
+additional written files = `bib_list.txt`
+
+## PARSING TEXT REFERENCES
 
 ### parsing_eggs.py ###
 Used to extract descriptions of insect eggs from pdfs. It is a combination of manual and automatic inputs, and uses with an internal dictionary of hotkeys.
@@ -45,8 +45,11 @@ Used to extract descriptions of insect eggs from pdfs. It is a combination of ma
 python parsing_eggs.py --b [input bibtex] --o [output] --p [directory with pdfs]
 ```
 `--b` = reference file in bibtex format
+
 `--o` = text file contaning list of python dictionaries with databse entries
+
 `--p` = directory with pdfs, named according to bibtex IDs
+
 `--r` = optional restart flag
 
 additional written files = `tmp_out.txt`
@@ -100,7 +103,6 @@ Bibliographic directory is hardcoded
 `output` = list of python dictionaries, updated
 
 `pdf directory` = directory with pdfs, named according to bibtex IDs
-
 
 
 ## ADDITIONAL SOFTWARE
