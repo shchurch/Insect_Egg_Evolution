@@ -35,7 +35,7 @@ egg_analysis_convert_stoddard.R
 
 `polyembryonic.csv` _(list of insect taxa described as polyembryonic with references)_
 
-
+`bamm.config` _(configuration file to be updated with fitted parameters for bamm analyses)_
 
 ## Test allometric relationships 
 
