@@ -91,6 +91,20 @@ with the bib ID from a bibtex file, adds all fields as new keys in the dictionar
 
 Bibliographic directory is hardcoded
 
+
+### clean_egg_database.py ###
+Automatically cleans known problems in the parsing output, such as trailing spaces, nonalphanumeric characters, etc.
+
+`python clean_database.py [input] [output] [directory of pdfs]`
+
+`input` = list of python dictionaries, with bib ID in key 'b'
+
+`output` = list of python dictionaries, with bibliographic information in new keys
+
+`pdf directory` = directory with pdfs, named according to bibtex IDs
+
+
+
 ### double_check_entries.py ###
 Interactively allows the user to double check entries by ID by reopening the pdf
 and presenting the collected data. Dictionary keys can be updated or marked as correct.
@@ -144,14 +158,5 @@ make_freq_table.py
 
 ### functions_for_parser.py ###
 The purpose of this code is to provide additional functions to the text parsing program, including automatic reading of text, searching 
-
-### clean_egg_database.py ###
-`python clean_database.py [input] [output] [directory of pdfs]`
-
-`input` = list of python dictionaries, with bib ID in key 'b'
-
-`output` = list of python dictionaries, with bibliographic information in new keys
-
-`pdf directory` = directory with pdfs, named according to bibtex IDs
 
 
