@@ -1,7 +1,7 @@
 # Evolutionary analysis in R
 
 This file describes how to use the following R scripts to reproduce the figures in the Insect Egg Evolution manuscripts
-All files in this directory were written by SHC between 2017 and 2018
+All files in this directory were written by shchurch between 2017 and 2018
 
 Each file should be executed in R. Package versions used in genearting these figures are listed at the end of this file
 
