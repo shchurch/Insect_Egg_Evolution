@@ -29,6 +29,8 @@ egg_analysis_convert_stoddard.R
 
 `groups_orders.txt` _(list of orders in each of 7 insect clades, e.g. Antliophora)_
 
+`rainford_family_key.txt` _(list of taxonomic names in the Rainford et al. 2014 tree)_
+
 `stoddard.csv` _(avian egg size and shape data downloaded from Stoddard et al. 2014)_
 
 `polyembryonic.csv` _(list of insect taxa described as polyembryonic with references)_
