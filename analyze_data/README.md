@@ -106,7 +106,7 @@ egg_analysis_art_stats.R
 egg_analysis_database_statistics.R
 ```
 
-dependent files
+### dependent files
 
 `taxon_count.csv` _(estimated number of taxa in insect clades, from OTT)_
 
