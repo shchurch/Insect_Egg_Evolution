@@ -17,13 +17,14 @@ Each file should be executed in R. Package versions used in genearting these fig
 `egg_analysis_rates_ancestral_states.R`
 
 dependent files:
-*`egg_analysis_read_trees.R`
-*`egg_analysis_body_size.R`
-*`egg_analysis_geiger_functions.R`
-*`egg_analysis_convert_stoddard.R`
-*`groups_orders.txt` (list of orders in each of 7 insect clades, e.g. Antliophora)
-*`stoddard.csv` (avian egg size and shape data downloaded from Stoddard et al. 2014)
-*`polyembryonic.csv`
+
+`egg_analysis_read_trees.R`
+`egg_analysis_body_size.R`
+`egg_analysis_geiger_functions.R`
+`egg_analysis_convert_stoddard.R`
+`groups_orders.txt` (list of orders in each of 7 insect clades, e.g. Antliophora)
+`stoddard.csv` (avian egg size and shape data downloaded from Stoddard et al. 2014)
+`polyembryonic.csv`
 
 
 ## Test allometric relationships 
@@ -32,12 +33,14 @@ dependent files:
 `egg_analysis_allometry.R`
 * rerun after recoding corBlomberg in egg_analysis_pgls_functions.R
 * rerun after recoding Rainford trees in egg_analysis_read_trees.R
+
 `egg_analysis_plot_allometry.R`
 `egg_analysis_simulate_allometry_data.R`
 `egg_analysis_simulate_body.R`
 `egg_analysis_clades_by_tips.R`
 
 dependent files:
+
 *`egg_analysis_pgls_functions.R`
 
 
@@ -48,7 +51,8 @@ dependent files:
 * rerun after recoding Rainford trees in egg_analysis_read_trees.R
 
 dependent files:
-*`development.csv`
+
+`development.csv`
 
 
 ## Test relationship between ecology and eggs 
@@ -58,30 +62,34 @@ dependent files:
 * rerun 2x parasitoid and aquatic after changing relaxed to strict  (some --> ancestral) in egg_analysis_eco_functions.R
 * rerun aquatic version after setting aquatic to combined aquatic + riparian in egg_analysis_aquatic.R
 * rerun parasitoid version after setting parasitoid to combined endo + ecto  in egg_analysis_parasitoid.R
+
 `egg_analysis_plot_ecology.R`
 `egg_analysis_separate_ecoallometry.R`
 * run 2x for aquatic and parasitoid
 
 dependent files:
-*`egg_analysis_eco_functions.R`
-*`egg_analysis_aquatic.R`
-*`egg_analysis_parasitoid.R`
-*`egg_analysis_wingless_phasmatodea.R`
-*`egg_analysis_aquatic.csv`
-*`egg_analysis_parasitoid.csv`
-*`egg_analysis_migratory_lepidoptera.csv`
-*`egg_analysis_wingless_phasmatodea.csv`
+
+`egg_analysis_eco_functions.R`
+`egg_analysis_aquatic.R`
+`egg_analysis_parasitoid.R`
+`egg_analysis_wingless_phasmatodea.R`
+`egg_analysis_aquatic.csv`
+`egg_analysis_parasitoid.csv`
+`egg_analysis_migratory_lepidoptera.csv`
+`egg_analysis_wingless_phasmatodea.csv`
 
 
 ## Print tables and database statistics 
 
 `egg_analysis_latex_tables.R`
-* Directory containing results from other analysis is hardcoded
+Directory containing results from other analysis is hardcoded
+
 `egg_analysis_art_stats.R`
 `egg_analysis_database_statistics.R`
 
 dependent files
-*`taxon_count.csv` (estimated number of taxa in insect clades, from OTT)
+
+`taxon_count.csv` (estimated number of taxa in insect clades, from OTT)
 
 
 # General session info 
