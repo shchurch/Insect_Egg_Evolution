@@ -36,7 +36,7 @@ python set_bib_ids.py [input] [output]
 additional written files = bib_list.txt   
 ```
 
-####### PARSING TEXT REFERENCES ######
+### PARSING TEXT REFERENCES ###
 
 ### parsing_eggs.py ###
  used to extract descriptions 
@@ -83,7 +83,7 @@ To convert:
 mv tmp_new_egg_database.txt egg_database.txt
 ```
 
-STILL TO CLEAN UP
+### STILL TO CLEAN UP ###
 
 make_taxon_count_table.py
 make_freq_table.py
