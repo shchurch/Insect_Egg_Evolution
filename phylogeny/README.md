@@ -7,7 +7,7 @@ This folder contains scripts used to generate a phylogeny for insect genera pres
 
 ## Genes
 
-We used 18S and 28S rRNA sequences downloaded from the [Silva ribosomal database|https://www.arb-silva.de], a curated database of rRNA sequences. For both ribosomal subunits, we browsed sequences on Silva website and downloaded sequences using the following filters:
+We used 18S and 28S rRNA sequences downloaded from the [Silva ribosomal database](https://www.arb-silva.de), a curated database of rRNA sequences. For both ribosomal subunits, we browsed sequences on Silva website and downloaded sequences using the following filters:
 * RefNR
 * taxonomy: **Hexapoda**
 * length: **>500**
