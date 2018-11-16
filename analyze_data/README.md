@@ -92,13 +92,13 @@ egg_analysis_parasitoid.R
 egg_analysis_wingless_phasmatodea.R
 ```
 
-egg_analysis_aquatic.csv  _(list of insect taxa described as aquatic, riparian, semiaquatic with references)_
+`egg_analysis_aquatic.csv`  _(list of insect taxa described as aquatic, riparian, semiaquatic with references)_
 
-egg_analysis_parasitoid.csv _(list of insect taxa described as parasitoid with references)_
+`egg_analysis_parasitoid.csv` _(list of insect taxa described as parasitoid with references)_
 
-egg_analysis_migratory_lepidoptera.csv _(list of Lepidoptera taxa described as migratory with references)_
+`egg_analysis_migratory_lepidoptera.csv` _(list of Lepidoptera taxa described as migratory with references)_
 
-egg_analysis_wingless_phasmatodea.csv _(list of Phasmatodea taxa described as wingless / flightless with references)_
+`egg_analysis_wingless_phasmatodea.csv` _(list of Phasmatodea taxa described as wingless / flightless with references)_
 
 
 
