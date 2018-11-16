@@ -1,3 +1,11 @@
+### get_bib_info.py
+# This code was developed by SH Church starting in Oct, 2016
+# The purpose is to add to a list of python dictionaries marked with a bib id
+# additional bibliographic information, drawing from a bibtex file
+
+# This code is not ready for out of the box use for purposes outside
+# of the creation of the insect egg database.
+
 import sys
 from os import listdir
 import os.path
@@ -12,6 +20,7 @@ parser.add_argument('-o','--overwrite', help = 'use this flag to overwrite all t
 args = parser.parse_args()
 
 def build_bib_db(order,bib):
+# PURPOSE: build a database of biliographic information from a bibtex file
 	bib_entry = dict()
 	bib_list = []
 	bib_file_entries = []

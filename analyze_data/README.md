@@ -5,6 +5,7 @@ All files in this directory were written by shchurch between 2017 and 2018
 
 Each file should be executed in R. Package versions used in genearting these figures are listed at the end of this file
 
+Some analyses rely on ecological and developmental data, taken from the primary literature. These data are provided as csv files, with sources listed as bibtex IDs, and full references provided in the file `ecology_development_size_references.bib`
 
 ## Create the cleaned egg database 
 

@@ -1,0 +1,1761 @@
+#NEXUS
+[R-package APE, Tue May 22 09:54:56 2018]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX = 874;
+	TAXLABELS
+		Campodeidae
+		Projapygoidea
+		Japygidae
+		Parajapygidae
+		Fujientomidae
+		Eosentomidae
+		Sinentomidae
+		Hesperentomidae
+		Acerentomidae
+		Berberentomidae
+		Neelidae
+		Katiannidae
+		Tomoceridae
+		Entomobryidae
+		Paronellidae
+		Oncopoduridae
+		Dicyrtomidae
+		Bourletiellidae
+		Sminthuridae
+		Isotomidae
+		Tullbergiidae
+		Odontellidae
+		Onychiuridae
+		Poduridae
+		Hypogastruridae
+		Brachystomellidae
+		Neanuridae
+		Archaeognatha
+		Lepidotrichidae
+		Lepismatidae
+		Nicoletiidae
+		Leptophlebiidae
+		Baetidae
+		Leptohyphidae
+		Teloganodidae
+		Tricorythidae
+		Potamanthidae
+		Prosopistomatidae
+		Ephemeridae
+		Siphlonuridae
+		Polymitarcyidae
+		Behningiidae
+		Palingeniidae
+		Euthyplociidae
+		Ichthybotidae
+		Acanthametropodidae
+		Neoephemeridae
+		Coloburiscidae
+		Oniscigastridae
+		Baetiscidae
+		Ameletopsidae
+		Siphlaenigmatidae
+		Metretopodidae
+		Dipteromimidae
+		Isonychiidae
+		Rallidentidae
+		Heptageniidae
+		Nesameletidae
+		Ameletidae
+		Ametropodidae
+		Ephemerellidae
+		Caenidae
+		Oligoneuriidae
+		Petaluridae
+		Neopetaliidae
+		Epiophlebiidae
+		Aeshnidae
+		Austropetaliidae
+		Chlorogomphidae
+		Cordulegastridae
+		Gomphidae
+		Synthemistidae
+		Corduliidae
+		Libellulidae
+		Macromiidae
+		Hemiphlebiidae
+		Synlestidae
+		Chorismagrionidae
+		Perilestidae
+		Lestidae
+		Calopterygidae
+		Platystictidae
+		Isostictidae
+		Polythoridae
+		Megapodagrionidae
+		Amphyipterygidae
+		Pseudolestidae
+		Euphaeidae
+		Chlorocyphidae
+		Diphlebiidae
+		Platycnemididae
+		Coenagrionidae
+		Protoneuridae
+		Dicteriadidae
+		Pseudostigmatidae
+		Apachyidae
+		Anisolabididae
+		Pygidicranidae
+		Labiduridae
+		Labiidae
+		Chelisochidae
+		Forficulidae
+		Notonemouridae
+		Nemouridae
+		Leuctridae
+		Capniidae
+		Taeniopterygidae
+		Scopuridae
+		Austroperlidae
+		Gripopterygidae
+		Diamphipnoidae
+		Eustheniidae
+		Peltoperlidae
+		Pteronarcyidae
+		Styloperlidae
+		Perlidae
+		Chloroperlidae
+		Perlodidae
+		Gryllidae
+		Gryllotalpidae
+		Myrmecophilidae
+		Stenopelmatidae
+		Anostostomatidae
+		Gryllacrididae
+		Rhaphidophoridae
+		Prophalangopsidae
+		Tettigoniidae
+		Cylindrachetidae
+		Rhipipterygidae
+		Tridactylidae
+		Tetrigidae
+		Thericleidae
+		Euschmidtiidae
+		Eumastacidae
+		Chorotypidae
+		Episactidae
+		Proscopiidae
+		Pneumoridae
+		Tanaoceridae
+		Trigonopterygidae
+		Xyronotidae
+		Pyrgomorphidae
+		Pamphagidae
+		Lentulidae
+		Acrididae
+		Romaleidae
+		Grylloblattidae
+		Mantophasmatodea
+		Teratembiidae
+		Oligotomidae
+		Australembiidae
+		Anisembiidae
+		Embiidae
+		Clothodidae
+		Notoligotomidae
+		Timematidae
+		Diapheromeridae
+		Phasmatidae
+		Pseudophasmatidae
+		Agathemeridae
+		Heteronemiidae
+		Bacillidae
+		Heteropterygidae
+		Aschiphasmatidae
+		Phylliidae
+		Zoraptera
+		Nocticolidae
+		Corydiidae
+		Cryptocercidae
+		Blaberidae
+		Ectobiidae
+		Blattidae
+		Kalotermitidae
+		Hodotermitidae
+		Termopsidae
+		Mastotermitidae
+		Rhinotermitidae
+		Serritermitidae
+		Termitidae
+		Acanthopidae
+		Mantoididae
+		Liturgusidae
+		Chaeteessidae
+		Amorphoscelidae
+		Tarachodidae
+		Eremiaphilidae
+		Toxoderidae
+		Hymenopodidae
+		Mantidae
+		Sibyllidae
+		Empusidae
+		Metallyticidae
+		Thespidae
+		Iridopterygidae
+		Paraoxypilidae
+		Liposcelididae
+		Pachytroctidae
+		Ricinidae
+		Boopidae
+		Gyropidae
+		Laemobothriidae
+		Menoponidae
+		Heptapsogasteridae
+		Philopteridae
+		Trichodectidae
+		Haematomyzidae
+		Pedicinidae
+		Pediculidae
+		Pthiridae
+		Echinophthiriidae
+		Polyplacidae
+		Hoplopleuridae
+		Linognathidae
+		Prionoglarididae
+		Psyllipsocidae
+		Sphaeropsocidae
+		Trogiidae
+		Lepidopsocidae
+		Psoquillidae
+		Electrentomidae
+		Compsocidae
+		Musapsocidae
+		Amphientomidae
+		Troctopsocidae
+		Archipsocidae
+		Hemipsocidae
+		Psilopsocidae
+		Myopsocidae
+		Psocidae
+		Epipsocidae
+		Calopsocidae
+		Pseudocaeciliidae
+		Philotarsidae
+		Trichopsocidae
+		Ectopsocidae
+		Elipsocidae
+		Mesopsocidae
+		Lachesillidae
+		Peripsocidae
+		Asiopsocidae
+		Amphipsocidae
+		Caeciliusidae
+		Dasydemellidae
+		Stenopsocidae
+		Aeolothripidae
+		Thripidae
+		Heterothripidae
+		Phlaeothripidae
+		Aleyrodoidea
+		Psylloidea
+		Coccoidea
+		Aphidoidea
+		Phylloxeroidea
+		Myerslopiidae
+		Cicadellidae
+		Aetalionidae
+		Membracidae
+		Cicadidae
+		Machaerotidae
+		Cercopidae
+		Aphrophoridae
+		Clastopteridae
+		Epipygidae
+		Derbidae
+		Flatidae
+		Meenoplidae
+		Cixiidae
+		Delphacidae
+		Achilidae
+		Tropiduchidae
+		Fulgoridae
+		Dictyopharidae
+		Tettigometridae
+		Issidae
+		Nogodinidae
+		Eurybrachyidae
+		Ricaniidae
+		Lophopidae
+		Achilixiidae
+		Caliscelidae
+		Peloridiidae
+		Naucoridae
+		Aphelocheiridae
+		Notonectidae
+		Belostomatidae
+		Nepidae
+		Gelastocoridae
+		Ochteridae
+		Corixidae
+		Enicocephalidae
+		Dipsocoridae
+		Schizopteridae
+		Hydrometridae
+		Gerridae
+		Veliidae
+		Hermatobatidae
+		Mesoveliidae
+		Macroveliidae
+		Hebridae
+		Paraphrynoveliidae
+		Pleidae
+		Leptopodidae
+		Saldidae
+		Miridae
+		Tingidae
+		Thaumastocoridae
+		Plokiophilidae
+		Lyctocoridae
+		Anthocoridae
+		Cimicidae
+		Joppeicidae
+		Microphysidae
+		Phymatidae
+		Berytidae
+		Reduviidae
+		Nabidae
+		Velocipedidae
+		Aradidae
+		Canopidae
+		Cydnidae
+		Dinidoridae
+		Tessaratomidae
+		Pentatomidae
+		Plataspidae
+		Phloeidae
+		Lestoniidae
+		Acanthosomatidae
+		Scutelleridae
+		Hyocephalidae
+		Idiostolidae
+		Alydidae
+		Coreidae
+		Rhopalidae
+		Stenocephalidae
+		Largidae
+		Pyrrhocoridae
+		Piesmatidae
+		Lygaeidae
+		Malcidae
+		Colobathristidae
+		Termitaphididae
+		Xyelidae
+		Blasticotomidae
+		Pergidae
+		Argidae
+		Tenthredinidae
+		Cimbicidae
+		Diprionidae
+		Megalodontesidae
+		Pamphiliidae
+		Xiphydriidae
+		Cephidae
+		Anaxyelidae
+		Siricidae
+		Orussidae
+		Stephanidae
+		Megalyridae
+		Platygastridae
+		Scelionidae
+		Heloridae
+		Maamingidae
+		Mymarommatidae
+		Diapriidae
+		Monomachidae
+		Proctotrupidae
+		Vanhorniidae
+		Pelecinidae
+		Roproniidae
+		Cynipidae
+		Figitidae
+		Ibaliidae
+		Liopteridae
+		Eucharitidae
+		Encyrtidae
+		Agaonidae
+		Mymaridae
+		Eulophidae
+		Pteromalidae
+		Torymidae
+		Aphelinidae
+		Perilampidae
+		Rotoitidae
+		Tetracampidae
+		Trichogrammatidae
+		Eupelmidae
+		Chalcididae
+		Eurytomidae
+		Braconidae
+		Trigonalidae
+		Ichneumonidae
+		Ceraphronidae
+		Megaspilidae
+		Gasteruptiidae
+		Aulacidae
+		Evaniidae
+		Mutillidae
+		Sierolomorphidae
+		Sapygidae
+		Pompilidae
+		Scoliidae
+		Ampulicidae
+		Bradynobaenidae
+		Formicidae
+		Chrysididae
+		Scolebythidae
+		Bethylidae
+		Plumariidae
+		Crabronidae
+		Tiphiidae
+		Vespidae
+		Sphecidae
+		Andrenidae
+		Halictidae
+		Colletidae
+		Stenotritidae
+		Melittidae
+		Apidae
+		Megachilidae
+		Inocelliidae
+		Raphidiidae
+		Corydalidae
+		Sialidae
+		Osmylidae
+		Nevrorthidae
+		Sisyridae
+		Coniopterygidae
+		Psychopsidae
+		Berothidae
+		Mantispidae
+		Chrysopidae
+		Hemerobiidae
+		Ithonidae
+		Polystoechotidae
+		Nymphidae
+		Nemopteridae
+		Ascalaphidae
+		Myrmeleontidae
+		Strepsiptera
+		Cupedidae
+		Micromalthidae
+		Ommatidae
+		Hydroscaphidae
+		Torridincolidae
+		Lepiceridae
+		Sphaeriusidae
+		Gyrinidae
+		Haliplidae
+		Carabidae
+		Trachypachidae
+		Dytiscidae
+		Noteridae
+		Hygrobiidae
+		Amphizoidae
+		Aspidytidae
+		Derodontidae
+		Scirtidae
+		Clambidae
+		Eucinetidae
+		Byrrhidae
+		Chelonariidae
+		Buprestidae
+		Heteroceridae
+		Limnichidae
+		Dascillidae
+		Rhipiceridae
+		Elmidae
+		Ptilodactylidae
+		Callirhipidae
+		Eulichadidae
+		Psephenidae
+		Dryopidae
+		Lutrochidae
+		Scydmaenidae
+		Histeridae
+		Sphaeritidae
+		Omethidae
+		Agyrtidae
+		Leiodidae
+		Eucnemidae
+		Throscidae
+		Cantharidae
+		Drilidae
+		Elateridae
+		Phengodidae
+		Omalisidae
+		Lampyridae
+		Lycidae
+		Ptiliidae
+		Artematopodidae
+		Hydraenidae
+		Hydrochidae
+		Hydrophilidae
+		Epimetopidae
+		Spercheidae
+		Georissidae
+		Helophoridae
+		Geotrupidae
+		Scarabaeidae
+		Passalidae
+		Glaphyridae
+		Ochodaeidae
+		Lucanidae
+		Pleocomidae
+		Glaresidae
+		Ceratocanthidae
+		Hybosoridae
+		Nosodendridae
+		Bostrichidae
+		Ptinidae
+		Anobiidae
+		Dermestidae
+		Silphidae
+		Staphylinidae
+		Phloiophilidae
+		Biphyllidae
+		Byturidae
+		Cleridae
+		Trogossitidae
+		Melyridae
+		Mauroniscidae
+		Prionoceridae
+		Alexiidae
+		Endomychidae
+		Corylophidae
+		Latridiidae
+		Bothrideridae
+		Cerylonidae
+		Discolomatidae
+		Coccinellidae
+		Sphindidae
+		Synchroidae
+		Prostomidae
+		Pythidae
+		Pyrochroidae
+		Tenebrionidae
+		Cephaloidae
+		Ciidae
+		Trictenotomidae
+		Scraptiidae
+		Boridae
+		Oedemeridae
+		Aderidae
+		Lymexylidae
+		Salpingidae
+		Anthicidae
+		Meloidae
+		Mordellidae
+		Tetratomidae
+		Zopheridae
+		Melandryidae
+		Mycetophagidae
+		Perimylopidae
+		Ripiphoridae
+		Silvanidae
+		Protocucujidae
+		Nemonychidae
+		Belidae
+		Anthribidae
+		Attelabidae
+		Brachyceridae
+		Curculionidae
+		Brentidae
+		Ithyceridae
+		Nitidulidae
+		Cucujidae
+		Phloeostichidae
+		Cerambycidae
+		Chrysomelidae
+		Orsodacnidae
+		Helotidae
+		Passandridae
+		Erotylidae
+		Languriidae
+		Cryptophagidae
+		Kateretidae
+		Monotomidae
+		Phalacridae
+		Laemophloeidae
+		Propalticidae
+		Nannochoristidae
+		Meropeidae
+		Apteropanorpidae
+		Choristidae
+		Bittacidae
+		Panorpidae
+		Panorpodidae
+		Boreidae
+		Ctenophthalmidae
+		Rhopalopsyllidae
+		Chimaeropsyllidae
+		Pulicidae
+		Vermipsyllidae
+		Ischnopsyllidae
+		Ceratophyllidae
+		Leptopsyllidae
+		Macropsyllidae
+		Stephanocircidae
+		Hystrichopsyllidae
+		Coptopsyllidae
+		Lycopsyllidae
+		Pygiopsyllidae
+		Stivaliidae
+		Deuterophlebiidae
+		Tipulidae
+		Trichoceridae
+		Ptychopteridae
+		Blephariceridae
+		Psychodidae
+		Tanyderidae
+		Axymyiidae
+		Dixidae
+		Ceratopogonidae
+		Chironomidae
+		Simuliidae
+		Thaumaleidae
+		Culicidae
+		Chaoboridae
+		Corethrellidae
+		Anisopodidae
+		Canthyloscelidae
+		Scatopsidae
+		Pachyneuridae
+		Bibionidae
+		Hesperinidae
+		Synneuridae
+		Perissommatidae
+		Diadocidiidae
+		Mycetophilidae
+		Keroplatidae
+		Lygistorrhinidae
+		Cecidomyiidae
+		Pleciidae
+		Sciaridae
+		Nemestrinidae
+		Vermileonidae
+		Xylomyidae
+		Acroceridae
+		Stratiomyidae
+		Rhagionidae
+		Pelecorhynchidae
+		Athericidae
+		Tabanidae
+		Austroleptidae
+		Xylophagidae
+		Apsilocephalidae
+		Scenopinidae
+		Therevidae
+		Bombyliidae
+		Mythicomyiidae
+		Apioceridae
+		Asilidae
+		Mydidae
+		Atelestidae
+		Empididae
+		Dolichopodidae
+		Hybotidae
+		Hilarimorphidae
+		Lonchopteridae
+		Platypezidae
+		Phoridae
+		Sciardoceridae
+		Syrphidae
+		Pipunculidae
+		Anthomyzidae
+		Sphaeroceridae
+		Coelopidae
+		Dryomyzidae
+		Lauxaniidae
+		Helcomyzidae
+		Helosciomyzidae
+		Sciomyzidae
+		Conopidae
+		Heterocheilidae
+		Chyromyidae
+		Sepsidae
+		Piophilidae
+		Lonchaeidae
+		Pallopteridae
+		Ulidiidae
+		Milichiidae
+		Richardiidae
+		Acartophthalmidae
+		Strongylophthalmyiidae
+		Micropezidae
+		Psilidae
+		Tephritidae
+		Pyrgotidae
+		Braulidae
+		Platystomatidae
+		Opomyzidae
+		Carnidae
+		Odiniidae
+		Marginidae
+		Chloropidae
+		Somatiidae
+		Diopsidae
+		Clusiidae
+		Neurochaetidae
+		Fergusoninidae
+		Periscelididae
+		Asteiidae
+		Aulacigastridae
+		Australimyzidae
+		Xenasteiidae
+		Drosophilidae
+		Ephydridae
+		Agromyzidae
+		Glossinidae
+		Streblidae
+		Hippoboscidae
+		Nycteribiidae
+		Fanniidae
+		Muscidae
+		Anthomyiidae
+		Scathophagidae
+		Sarcophagidae
+		Tachinidae
+		Calliphoridae
+		Oestridae
+		Rhinophoridae
+		Hydroptilidae
+		Hydrobiosidae
+		Hydropsychidae
+		Glossosomatidae
+		Rhyacophilidae
+		Philopotamidae
+		Stenopsychidae
+		Ecnomidae
+		Polycentropodidae
+		Xiphocentronidae
+		Dipseudopsidae
+		Psychomyiidae
+		Leptoceridae
+		Atriplectididae
+		Calamoceratidae
+		Philorheithridae
+		Chathamiidae
+		Conoesucidae
+		Helicopsychidae
+		Sericostomatidae
+		Tasimiidae
+		Calocidae
+		Helicophidae
+		Hydrosalpingidae
+		Anomalopsychidae
+		Beraeidae
+		Molannidae
+		Odontoceridae
+		Limnocentropodidae
+		Brachycentridae
+		Lepidostomatidae
+		Phryganopsychidae
+		Oeconesidae
+		Kokiriidae
+		Pisuliidae
+		Phryganeidae
+		Uenoidae
+		Apataniidae
+		Goeridae
+		Limnephilidae
+		Agathiphagidae
+		Micropterigidae
+		Heterobathmiidae
+		Eriocraniidae
+		Acanthopteroctetidae
+		Neopseustidae
+		Mnesarchaeidae
+		Hepialidae
+		Prototheoridae
+		Nepticulidae
+		Opostegidae
+		Palaephatidae
+		Tischeriidae
+		Andesianidae
+		Prodoxidae
+		Incurvariidae
+		Crinopterygidae
+		Adelidae
+		Heliozelidae
+		Arrhenophanidae
+		Eriocottidae
+		Acrolophidae
+		Tineidae
+		Glyphidoceridae
+		Roeslerstammiidae
+		Argyresthiidae
+		Yponomeutidae
+		Bedelliidae
+		Plutellidae
+		Bucculatricidae
+		Lyonetiidae
+		Glyphipterigidae
+		Ypsolophidae
+		Psychidae
+		Anomoeotidae
+		Himantopteridae
+		Somabrachyidae
+		Heterogynidae
+		Lacturidae
+		Limacodidae
+		Zygaenidae
+		Dalceridae
+		Aididae
+		Megalopygidae
+		Douglasiidae
+		Immidae
+		Tortricidae
+		Thyrididae
+		Gracillariidae
+		Tineodidae
+		Castniidae
+		Brachodidae
+		Sesiidae
+		Choreutidae
+		Urodidae
+		Dudgeoneidae
+		Epipyropidae
+		Carposinidae
+		Copromorphidae
+		Momphidae
+		Pterophoridae
+		Cossidae
+		Cyclotornidae
+		Papilionidae
+		Pieridae
+		Hedylidae
+		Hesperiidae
+		Lycaenidae
+		Nymphalidae
+		Riodinidae
+		Blastobasidae
+		Gelechiidae
+		Alucitidae
+		Callidulidae
+		Pterolonchidae
+		Oecophoridae
+		Xyloryctidae
+		Amphisbatidae
+		Deuterogoniidae
+		Batrachedridae
+		Agonoxenidae
+		Coleophoridae
+		Lecithoceridae
+		Peleopodidae
+		Autostichidae
+		Deoclonidae
+		Cosmopterigidae
+		Elachistidae
+		Crambidae
+		Hyblaeidae
+		Pyralidae
+		Geometridae
+		Lasiocampidae
+		Drepanidae
+		Mimallonidae
+		Sematuridae
+		Epicopeiidae
+		Uraniidae
+		Notodontidae
+		Noctuidae
+		Arctiidae
+		Lymantriidae
+		Cimeliidae
+		Apatelodidae
+		Eupterotidae
+		Brahmaeidae
+		Lemoniidae
+		Bombycidae
+		Anthelidae
+		Carthaeidae
+		Sphingidae
+		Saturniidae
+		Endromidae
+		Mirinidae
+	;
+END;
+BEGIN TREES;
+	TRANSLATE
+		1	Campodeidae,
+		2	Projapygoidea,
+		3	Japygidae,
+		4	Parajapygidae,
+		5	Fujientomidae,
+		6	Eosentomidae,
+		7	Sinentomidae,
+		8	Hesperentomidae,
+		9	Acerentomidae,
+		10	Berberentomidae,
+		11	Neelidae,
+		12	Katiannidae,
+		13	Tomoceridae,
+		14	Entomobryidae,
+		15	Paronellidae,
+		16	Oncopoduridae,
+		17	Dicyrtomidae,
+		18	Bourletiellidae,
+		19	Sminthuridae,
+		20	Isotomidae,
+		21	Tullbergiidae,
+		22	Odontellidae,
+		23	Onychiuridae,
+		24	Poduridae,
+		25	Hypogastruridae,
+		26	Brachystomellidae,
+		27	Neanuridae,
+		28	Archaeognatha,
+		29	Lepidotrichidae,
+		30	Lepismatidae,
+		31	Nicoletiidae,
+		32	Leptophlebiidae,
+		33	Baetidae,
+		34	Leptohyphidae,
+		35	Teloganodidae,
+		36	Tricorythidae,
+		37	Potamanthidae,
+		38	Prosopistomatidae,
+		39	Ephemeridae,
+		40	Siphlonuridae,
+		41	Polymitarcyidae,
+		42	Behningiidae,
+		43	Palingeniidae,
+		44	Euthyplociidae,
+		45	Ichthybotidae,
+		46	Acanthametropodidae,
+		47	Neoephemeridae,
+		48	Coloburiscidae,
+		49	Oniscigastridae,
+		50	Baetiscidae,
+		51	Ameletopsidae,
+		52	Siphlaenigmatidae,
+		53	Metretopodidae,
+		54	Dipteromimidae,
+		55	Isonychiidae,
+		56	Rallidentidae,
+		57	Heptageniidae,
+		58	Nesameletidae,
+		59	Ameletidae,
+		60	Ametropodidae,
+		61	Ephemerellidae,
+		62	Caenidae,
+		63	Oligoneuriidae,
+		64	Petaluridae,
+		65	Neopetaliidae,
+		66	Epiophlebiidae,
+		67	Aeshnidae,
+		68	Austropetaliidae,
+		69	Chlorogomphidae,
+		70	Cordulegastridae,
+		71	Gomphidae,
+		72	Synthemistidae,
+		73	Corduliidae,
+		74	Libellulidae,
+		75	Macromiidae,
+		76	Hemiphlebiidae,
+		77	Synlestidae,
+		78	Chorismagrionidae,
+		79	Perilestidae,
+		80	Lestidae,
+		81	Calopterygidae,
+		82	Platystictidae,
+		83	Isostictidae,
+		84	Polythoridae,
+		85	Megapodagrionidae,
+		86	Amphyipterygidae,
+		87	Pseudolestidae,
+		88	Euphaeidae,
+		89	Chlorocyphidae,
+		90	Diphlebiidae,
+		91	Platycnemididae,
+		92	Coenagrionidae,
+		93	Protoneuridae,
+		94	Dicteriadidae,
+		95	Pseudostigmatidae,
+		96	Apachyidae,
+		97	Anisolabididae,
+		98	Pygidicranidae,
+		99	Labiduridae,
+		100	Labiidae,
+		101	Chelisochidae,
+		102	Forficulidae,
+		103	Notonemouridae,
+		104	Nemouridae,
+		105	Leuctridae,
+		106	Capniidae,
+		107	Taeniopterygidae,
+		108	Scopuridae,
+		109	Austroperlidae,
+		110	Gripopterygidae,
+		111	Diamphipnoidae,
+		112	Eustheniidae,
+		113	Peltoperlidae,
+		114	Pteronarcyidae,
+		115	Styloperlidae,
+		116	Perlidae,
+		117	Chloroperlidae,
+		118	Perlodidae,
+		119	Gryllidae,
+		120	Gryllotalpidae,
+		121	Myrmecophilidae,
+		122	Stenopelmatidae,
+		123	Anostostomatidae,
+		124	Gryllacrididae,
+		125	Rhaphidophoridae,
+		126	Prophalangopsidae,
+		127	Tettigoniidae,
+		128	Cylindrachetidae,
+		129	Rhipipterygidae,
+		130	Tridactylidae,
+		131	Tetrigidae,
+		132	Thericleidae,
+		133	Euschmidtiidae,
+		134	Eumastacidae,
+		135	Chorotypidae,
+		136	Episactidae,
+		137	Proscopiidae,
+		138	Pneumoridae,
+		139	Tanaoceridae,
+		140	Trigonopterygidae,
+		141	Xyronotidae,
+		142	Pyrgomorphidae,
+		143	Pamphagidae,
+		144	Lentulidae,
+		145	Acrididae,
+		146	Romaleidae,
+		147	Grylloblattidae,
+		148	Mantophasmatodea,
+		149	Teratembiidae,
+		150	Oligotomidae,
+		151	Australembiidae,
+		152	Anisembiidae,
+		153	Embiidae,
+		154	Clothodidae,
+		155	Notoligotomidae,
+		156	Timematidae,
+		157	Diapheromeridae,
+		158	Phasmatidae,
+		159	Pseudophasmatidae,
+		160	Agathemeridae,
+		161	Heteronemiidae,
+		162	Bacillidae,
+		163	Heteropterygidae,
+		164	Aschiphasmatidae,
+		165	Phylliidae,
+		166	Zoraptera,
+		167	Nocticolidae,
+		168	Corydiidae,
+		169	Cryptocercidae,
+		170	Blaberidae,
+		171	Ectobiidae,
+		172	Blattidae,
+		173	Kalotermitidae,
+		174	Hodotermitidae,
+		175	Termopsidae,
+		176	Mastotermitidae,
+		177	Rhinotermitidae,
+		178	Serritermitidae,
+		179	Termitidae,
+		180	Acanthopidae,
+		181	Mantoididae,
+		182	Liturgusidae,
+		183	Chaeteessidae,
+		184	Amorphoscelidae,
+		185	Tarachodidae,
+		186	Eremiaphilidae,
+		187	Toxoderidae,
+		188	Hymenopodidae,
+		189	Mantidae,
+		190	Sibyllidae,
+		191	Empusidae,
+		192	Metallyticidae,
+		193	Thespidae,
+		194	Iridopterygidae,
+		195	Paraoxypilidae,
+		196	Liposcelididae,
+		197	Pachytroctidae,
+		198	Ricinidae,
+		199	Boopidae,
+		200	Gyropidae,
+		201	Laemobothriidae,
+		202	Menoponidae,
+		203	Heptapsogasteridae,
+		204	Philopteridae,
+		205	Trichodectidae,
+		206	Haematomyzidae,
+		207	Pedicinidae,
+		208	Pediculidae,
+		209	Pthiridae,
+		210	Echinophthiriidae,
+		211	Polyplacidae,
+		212	Hoplopleuridae,
+		213	Linognathidae,
+		214	Prionoglarididae,
+		215	Psyllipsocidae,
+		216	Sphaeropsocidae,
+		217	Trogiidae,
+		218	Lepidopsocidae,
+		219	Psoquillidae,
+		220	Electrentomidae,
+		221	Compsocidae,
+		222	Musapsocidae,
+		223	Amphientomidae,
+		224	Troctopsocidae,
+		225	Archipsocidae,
+		226	Hemipsocidae,
+		227	Psilopsocidae,
+		228	Myopsocidae,
+		229	Psocidae,
+		230	Epipsocidae,
+		231	Calopsocidae,
+		232	Pseudocaeciliidae,
+		233	Philotarsidae,
+		234	Trichopsocidae,
+		235	Ectopsocidae,
+		236	Elipsocidae,
+		237	Mesopsocidae,
+		238	Lachesillidae,
+		239	Peripsocidae,
+		240	Asiopsocidae,
+		241	Amphipsocidae,
+		242	Caeciliusidae,
+		243	Dasydemellidae,
+		244	Stenopsocidae,
+		245	Aeolothripidae,
+		246	Thripidae,
+		247	Heterothripidae,
+		248	Phlaeothripidae,
+		249	Aleyrodoidea,
+		250	Psylloidea,
+		251	Coccoidea,
+		252	Aphidoidea,
+		253	Phylloxeroidea,
+		254	Myerslopiidae,
+		255	Cicadellidae,
+		256	Aetalionidae,
+		257	Membracidae,
+		258	Cicadidae,
+		259	Machaerotidae,
+		260	Cercopidae,
+		261	Aphrophoridae,
+		262	Clastopteridae,
+		263	Epipygidae,
+		264	Derbidae,
+		265	Flatidae,
+		266	Meenoplidae,
+		267	Cixiidae,
+		268	Delphacidae,
+		269	Achilidae,
+		270	Tropiduchidae,
+		271	Fulgoridae,
+		272	Dictyopharidae,
+		273	Tettigometridae,
+		274	Issidae,
+		275	Nogodinidae,
+		276	Eurybrachyidae,
+		277	Ricaniidae,
+		278	Lophopidae,
+		279	Achilixiidae,
+		280	Caliscelidae,
+		281	Peloridiidae,
+		282	Naucoridae,
+		283	Aphelocheiridae,
+		284	Notonectidae,
+		285	Belostomatidae,
+		286	Nepidae,
+		287	Gelastocoridae,
+		288	Ochteridae,
+		289	Corixidae,
+		290	Enicocephalidae,
+		291	Dipsocoridae,
+		292	Schizopteridae,
+		293	Hydrometridae,
+		294	Gerridae,
+		295	Veliidae,
+		296	Hermatobatidae,
+		297	Mesoveliidae,
+		298	Macroveliidae,
+		299	Hebridae,
+		300	Paraphrynoveliidae,
+		301	Pleidae,
+		302	Leptopodidae,
+		303	Saldidae,
+		304	Miridae,
+		305	Tingidae,
+		306	Thaumastocoridae,
+		307	Plokiophilidae,
+		308	Lyctocoridae,
+		309	Anthocoridae,
+		310	Cimicidae,
+		311	Joppeicidae,
+		312	Microphysidae,
+		313	Phymatidae,
+		314	Berytidae,
+		315	Reduviidae,
+		316	Nabidae,
+		317	Velocipedidae,
+		318	Aradidae,
+		319	Canopidae,
+		320	Cydnidae,
+		321	Dinidoridae,
+		322	Tessaratomidae,
+		323	Pentatomidae,
+		324	Plataspidae,
+		325	Phloeidae,
+		326	Lestoniidae,
+		327	Acanthosomatidae,
+		328	Scutelleridae,
+		329	Hyocephalidae,
+		330	Idiostolidae,
+		331	Alydidae,
+		332	Coreidae,
+		333	Rhopalidae,
+		334	Stenocephalidae,
+		335	Largidae,
+		336	Pyrrhocoridae,
+		337	Piesmatidae,
+		338	Lygaeidae,
+		339	Malcidae,
+		340	Colobathristidae,
+		341	Termitaphididae,
+		342	Xyelidae,
+		343	Blasticotomidae,
+		344	Pergidae,
+		345	Argidae,
+		346	Tenthredinidae,
+		347	Cimbicidae,
+		348	Diprionidae,
+		349	Megalodontesidae,
+		350	Pamphiliidae,
+		351	Xiphydriidae,
+		352	Cephidae,
+		353	Anaxyelidae,
+		354	Siricidae,
+		355	Orussidae,
+		356	Stephanidae,
+		357	Megalyridae,
+		358	Platygastridae,
+		359	Scelionidae,
+		360	Heloridae,
+		361	Maamingidae,
+		362	Mymarommatidae,
+		363	Diapriidae,
+		364	Monomachidae,
+		365	Proctotrupidae,
+		366	Vanhorniidae,
+		367	Pelecinidae,
+		368	Roproniidae,
+		369	Cynipidae,
+		370	Figitidae,
+		371	Ibaliidae,
+		372	Liopteridae,
+		373	Eucharitidae,
+		374	Encyrtidae,
+		375	Agaonidae,
+		376	Mymaridae,
+		377	Eulophidae,
+		378	Pteromalidae,
+		379	Torymidae,
+		380	Aphelinidae,
+		381	Perilampidae,
+		382	Rotoitidae,
+		383	Tetracampidae,
+		384	Trichogrammatidae,
+		385	Eupelmidae,
+		386	Chalcididae,
+		387	Eurytomidae,
+		388	Braconidae,
+		389	Trigonalidae,
+		390	Ichneumonidae,
+		391	Ceraphronidae,
+		392	Megaspilidae,
+		393	Gasteruptiidae,
+		394	Aulacidae,
+		395	Evaniidae,
+		396	Mutillidae,
+		397	Sierolomorphidae,
+		398	Sapygidae,
+		399	Pompilidae,
+		400	Scoliidae,
+		401	Ampulicidae,
+		402	Bradynobaenidae,
+		403	Formicidae,
+		404	Chrysididae,
+		405	Scolebythidae,
+		406	Bethylidae,
+		407	Plumariidae,
+		408	Crabronidae,
+		409	Tiphiidae,
+		410	Vespidae,
+		411	Sphecidae,
+		412	Andrenidae,
+		413	Halictidae,
+		414	Colletidae,
+		415	Stenotritidae,
+		416	Melittidae,
+		417	Apidae,
+		418	Megachilidae,
+		419	Inocelliidae,
+		420	Raphidiidae,
+		421	Corydalidae,
+		422	Sialidae,
+		423	Osmylidae,
+		424	Nevrorthidae,
+		425	Sisyridae,
+		426	Coniopterygidae,
+		427	Psychopsidae,
+		428	Berothidae,
+		429	Mantispidae,
+		430	Chrysopidae,
+		431	Hemerobiidae,
+		432	Ithonidae,
+		433	Polystoechotidae,
+		434	Nymphidae,
+		435	Nemopteridae,
+		436	Ascalaphidae,
+		437	Myrmeleontidae,
+		438	Strepsiptera,
+		439	Cupedidae,
+		440	Micromalthidae,
+		441	Ommatidae,
+		442	Hydroscaphidae,
+		443	Torridincolidae,
+		444	Lepiceridae,
+		445	Sphaeriusidae,
+		446	Gyrinidae,
+		447	Haliplidae,
+		448	Carabidae,
+		449	Trachypachidae,
+		450	Dytiscidae,
+		451	Noteridae,
+		452	Hygrobiidae,
+		453	Amphizoidae,
+		454	Aspidytidae,
+		455	Derodontidae,
+		456	Scirtidae,
+		457	Clambidae,
+		458	Eucinetidae,
+		459	Byrrhidae,
+		460	Chelonariidae,
+		461	Buprestidae,
+		462	Heteroceridae,
+		463	Limnichidae,
+		464	Dascillidae,
+		465	Rhipiceridae,
+		466	Elmidae,
+		467	Ptilodactylidae,
+		468	Callirhipidae,
+		469	Eulichadidae,
+		470	Psephenidae,
+		471	Dryopidae,
+		472	Lutrochidae,
+		473	Scydmaenidae,
+		474	Histeridae,
+		475	Sphaeritidae,
+		476	Omethidae,
+		477	Agyrtidae,
+		478	Leiodidae,
+		479	Eucnemidae,
+		480	Throscidae,
+		481	Cantharidae,
+		482	Drilidae,
+		483	Elateridae,
+		484	Phengodidae,
+		485	Omalisidae,
+		486	Lampyridae,
+		487	Lycidae,
+		488	Ptiliidae,
+		489	Artematopodidae,
+		490	Hydraenidae,
+		491	Hydrochidae,
+		492	Hydrophilidae,
+		493	Epimetopidae,
+		494	Spercheidae,
+		495	Georissidae,
+		496	Helophoridae,
+		497	Geotrupidae,
+		498	Scarabaeidae,
+		499	Passalidae,
+		500	Glaphyridae,
+		501	Ochodaeidae,
+		502	Lucanidae,
+		503	Pleocomidae,
+		504	Glaresidae,
+		505	Ceratocanthidae,
+		506	Hybosoridae,
+		507	Nosodendridae,
+		508	Bostrichidae,
+		509	Ptinidae,
+		510	Anobiidae,
+		511	Dermestidae,
+		512	Silphidae,
+		513	Staphylinidae,
+		514	Phloiophilidae,
+		515	Biphyllidae,
+		516	Byturidae,
+		517	Cleridae,
+		518	Trogossitidae,
+		519	Melyridae,
+		520	Mauroniscidae,
+		521	Prionoceridae,
+		522	Alexiidae,
+		523	Endomychidae,
+		524	Corylophidae,
+		525	Latridiidae,
+		526	Bothrideridae,
+		527	Cerylonidae,
+		528	Discolomatidae,
+		529	Coccinellidae,
+		530	Sphindidae,
+		531	Synchroidae,
+		532	Prostomidae,
+		533	Pythidae,
+		534	Pyrochroidae,
+		535	Tenebrionidae,
+		536	Cephaloidae,
+		537	Ciidae,
+		538	Trictenotomidae,
+		539	Scraptiidae,
+		540	Boridae,
+		541	Oedemeridae,
+		542	Aderidae,
+		543	Lymexylidae,
+		544	Salpingidae,
+		545	Anthicidae,
+		546	Meloidae,
+		547	Mordellidae,
+		548	Tetratomidae,
+		549	Zopheridae,
+		550	Melandryidae,
+		551	Mycetophagidae,
+		552	Perimylopidae,
+		553	Ripiphoridae,
+		554	Silvanidae,
+		555	Protocucujidae,
+		556	Nemonychidae,
+		557	Belidae,
+		558	Anthribidae,
+		559	Attelabidae,
+		560	Brachyceridae,
+		561	Curculionidae,
+		562	Brentidae,
+		563	Ithyceridae,
+		564	Nitidulidae,
+		565	Cucujidae,
+		566	Phloeostichidae,
+		567	Cerambycidae,
+		568	Chrysomelidae,
+		569	Orsodacnidae,
+		570	Helotidae,
+		571	Passandridae,
+		572	Erotylidae,
+		573	Languriidae,
+		574	Cryptophagidae,
+		575	Kateretidae,
+		576	Monotomidae,
+		577	Phalacridae,
+		578	Laemophloeidae,
+		579	Propalticidae,
+		580	Nannochoristidae,
+		581	Meropeidae,
+		582	Apteropanorpidae,
+		583	Choristidae,
+		584	Bittacidae,
+		585	Panorpidae,
+		586	Panorpodidae,
+		587	Boreidae,
+		588	Ctenophthalmidae,
+		589	Rhopalopsyllidae,
+		590	Chimaeropsyllidae,
+		591	Pulicidae,
+		592	Vermipsyllidae,
+		593	Ischnopsyllidae,
+		594	Ceratophyllidae,
+		595	Leptopsyllidae,
+		596	Macropsyllidae,
+		597	Stephanocircidae,
+		598	Hystrichopsyllidae,
+		599	Coptopsyllidae,
+		600	Lycopsyllidae,
+		601	Pygiopsyllidae,
+		602	Stivaliidae,
+		603	Deuterophlebiidae,
+		604	Tipulidae,
+		605	Trichoceridae,
+		606	Ptychopteridae,
+		607	Blephariceridae,
+		608	Psychodidae,
+		609	Tanyderidae,
+		610	Axymyiidae,
+		611	Dixidae,
+		612	Ceratopogonidae,
+		613	Chironomidae,
+		614	Simuliidae,
+		615	Thaumaleidae,
+		616	Culicidae,
+		617	Chaoboridae,
+		618	Corethrellidae,
+		619	Anisopodidae,
+		620	Canthyloscelidae,
+		621	Scatopsidae,
+		622	Pachyneuridae,
+		623	Bibionidae,
+		624	Hesperinidae,
+		625	Synneuridae,
+		626	Perissommatidae,
+		627	Diadocidiidae,
+		628	Mycetophilidae,
+		629	Keroplatidae,
+		630	Lygistorrhinidae,
+		631	Cecidomyiidae,
+		632	Pleciidae,
+		633	Sciaridae,
+		634	Nemestrinidae,
+		635	Vermileonidae,
+		636	Xylomyidae,
+		637	Acroceridae,
+		638	Stratiomyidae,
+		639	Rhagionidae,
+		640	Pelecorhynchidae,
+		641	Athericidae,
+		642	Tabanidae,
+		643	Austroleptidae,
+		644	Xylophagidae,
+		645	Apsilocephalidae,
+		646	Scenopinidae,
+		647	Therevidae,
+		648	Bombyliidae,
+		649	Mythicomyiidae,
+		650	Apioceridae,
+		651	Asilidae,
+		652	Mydidae,
+		653	Atelestidae,
+		654	Empididae,
+		655	Dolichopodidae,
+		656	Hybotidae,
+		657	Hilarimorphidae,
+		658	Lonchopteridae,
+		659	Platypezidae,
+		660	Phoridae,
+		661	Sciardoceridae,
+		662	Syrphidae,
+		663	Pipunculidae,
+		664	Anthomyzidae,
+		665	Sphaeroceridae,
+		666	Coelopidae,
+		667	Dryomyzidae,
+		668	Lauxaniidae,
+		669	Helcomyzidae,
+		670	Helosciomyzidae,
+		671	Sciomyzidae,
+		672	Conopidae,
+		673	Heterocheilidae,
+		674	Chyromyidae,
+		675	Sepsidae,
+		676	Piophilidae,
+		677	Lonchaeidae,
+		678	Pallopteridae,
+		679	Ulidiidae,
+		680	Milichiidae,
+		681	Richardiidae,
+		682	Acartophthalmidae,
+		683	Strongylophthalmyiidae,
+		684	Micropezidae,
+		685	Psilidae,
+		686	Tephritidae,
+		687	Pyrgotidae,
+		688	Braulidae,
+		689	Platystomatidae,
+		690	Opomyzidae,
+		691	Carnidae,
+		692	Odiniidae,
+		693	Marginidae,
+		694	Chloropidae,
+		695	Somatiidae,
+		696	Diopsidae,
+		697	Clusiidae,
+		698	Neurochaetidae,
+		699	Fergusoninidae,
+		700	Periscelididae,
+		701	Asteiidae,
+		702	Aulacigastridae,
+		703	Australimyzidae,
+		704	Xenasteiidae,
+		705	Drosophilidae,
+		706	Ephydridae,
+		707	Agromyzidae,
+		708	Glossinidae,
+		709	Streblidae,
+		710	Hippoboscidae,
+		711	Nycteribiidae,
+		712	Fanniidae,
+		713	Muscidae,
+		714	Anthomyiidae,
+		715	Scathophagidae,
+		716	Sarcophagidae,
+		717	Tachinidae,
+		718	Calliphoridae,
+		719	Oestridae,
+		720	Rhinophoridae,
+		721	Hydroptilidae,
+		722	Hydrobiosidae,
+		723	Hydropsychidae,
+		724	Glossosomatidae,
+		725	Rhyacophilidae,
+		726	Philopotamidae,
+		727	Stenopsychidae,
+		728	Ecnomidae,
+		729	Polycentropodidae,
+		730	Xiphocentronidae,
+		731	Dipseudopsidae,
+		732	Psychomyiidae,
+		733	Leptoceridae,
+		734	Atriplectididae,
+		735	Calamoceratidae,
+		736	Philorheithridae,
+		737	Chathamiidae,
+		738	Conoesucidae,
+		739	Helicopsychidae,
+		740	Sericostomatidae,
+		741	Tasimiidae,
+		742	Calocidae,
+		743	Helicophidae,
+		744	Hydrosalpingidae,
+		745	Anomalopsychidae,
+		746	Beraeidae,
+		747	Molannidae,
+		748	Odontoceridae,
+		749	Limnocentropodidae,
+		750	Brachycentridae,
+		751	Lepidostomatidae,
+		752	Phryganopsychidae,
+		753	Oeconesidae,
+		754	Kokiriidae,
+		755	Pisuliidae,
+		756	Phryganeidae,
+		757	Uenoidae,
+		758	Apataniidae,
+		759	Goeridae,
+		760	Limnephilidae,
+		761	Agathiphagidae,
+		762	Micropterigidae,
+		763	Heterobathmiidae,
+		764	Eriocraniidae,
+		765	Acanthopteroctetidae,
+		766	Neopseustidae,
+		767	Mnesarchaeidae,
+		768	Hepialidae,
+		769	Prototheoridae,
+		770	Nepticulidae,
+		771	Opostegidae,
+		772	Palaephatidae,
+		773	Tischeriidae,
+		774	Andesianidae,
+		775	Prodoxidae,
+		776	Incurvariidae,
+		777	Crinopterygidae,
+		778	Adelidae,
+		779	Heliozelidae,
+		780	Arrhenophanidae,
+		781	Eriocottidae,
+		782	Acrolophidae,
+		783	Tineidae,
+		784	Glyphidoceridae,
+		785	Roeslerstammiidae,
+		786	Argyresthiidae,
+		787	Yponomeutidae,
+		788	Bedelliidae,
+		789	Plutellidae,
+		790	Bucculatricidae,
+		791	Lyonetiidae,
+		792	Glyphipterigidae,
+		793	Ypsolophidae,
+		794	Psychidae,
+		795	Anomoeotidae,
+		796	Himantopteridae,
+		797	Somabrachyidae,
+		798	Heterogynidae,
+		799	Lacturidae,
+		800	Limacodidae,
+		801	Zygaenidae,
+		802	Dalceridae,
+		803	Aididae,
+		804	Megalopygidae,
+		805	Douglasiidae,
+		806	Immidae,
+		807	Tortricidae,
+		808	Thyrididae,
+		809	Gracillariidae,
+		810	Tineodidae,
+		811	Castniidae,
+		812	Brachodidae,
+		813	Sesiidae,
+		814	Choreutidae,
+		815	Urodidae,
+		816	Dudgeoneidae,
+		817	Epipyropidae,
+		818	Carposinidae,
+		819	Copromorphidae,
+		820	Momphidae,
+		821	Pterophoridae,
+		822	Cossidae,
+		823	Cyclotornidae,
+		824	Papilionidae,
+		825	Pieridae,
+		826	Hedylidae,
+		827	Hesperiidae,
+		828	Lycaenidae,
+		829	Nymphalidae,
+		830	Riodinidae,
+		831	Blastobasidae,
+		832	Gelechiidae,
+		833	Alucitidae,
+		834	Callidulidae,
+		835	Pterolonchidae,
+		836	Oecophoridae,
+		837	Xyloryctidae,
+		838	Amphisbatidae,
+		839	Deuterogoniidae,
+		840	Batrachedridae,
+		841	Agonoxenidae,
+		842	Coleophoridae,
+		843	Lecithoceridae,
+		844	Peleopodidae,
+		845	Autostichidae,
+		846	Deoclonidae,
+		847	Cosmopterigidae,
+		848	Elachistidae,
+		849	Crambidae,
+		850	Hyblaeidae,
+		851	Pyralidae,
+		852	Geometridae,
+		853	Lasiocampidae,
+		854	Drepanidae,
+		855	Mimallonidae,
+		856	Sematuridae,
+		857	Epicopeiidae,
+		858	Uraniidae,
+		859	Notodontidae,
+		860	Noctuidae,
+		861	Arctiidae,
+		862	Lymantriidae,
+		863	Cimeliidae,
+		864	Apatelodidae,
+		865	Eupterotidae,
+		866	Brahmaeidae,
+		867	Lemoniidae,
+		868	Bombycidae,
+		869	Anthelidae,
+		870	Carthaeidae,
+		871	Sphingidae,
+		872	Saturniidae,
+		873	Endromidae,
+		874	Mirinidae
+	;
+	TREE * UNTITLED = [&R] ((((1:278.8751933,(2:230.89176,(3:143.0138,4:143.0138):87.87796):47.98343333):162.0593717,(5:372.540118,(6:341.70821,(7:281.4890667,(8:180.214825,(9:119.7284,10:119.7284):60.486425):101.2742417):60.21914333):30.831908):68.394447):23.05305059,(11:336.5815059,((12:223.5957,13:223.5957):74.02062536,(((14:104.8834,15:104.8834):130.2834888,(16:217.740985,(17:160.57447,(18:103.746,19:103.746):56.82847):57.166515):17.42590375):32.4074025,(20:221.9295043,((21:179.819885,(22:147.613,23:147.613):32.206885):16.1167025,(24:143.42661,(25:105.996415,(26:56.52618,27:56.52618):49.470235):37.430195):52.5099775):25.99291679):45.64478696):30.04203411):38.96518058):127.4061097):14.10080521,(28:462.3179186,((29:296.3056,(30:171.0738,31:171.0738):125.2318):152.8914136,((((32:230.161305,(33:197.6505067,(34:136.526595,(35:99.28328,36:99.28328):37.243315):61.12391167):32.51079833):38.57903772,((37:177.2495,38:177.2495):52.49484942,(((39:77.1296,40:77.1296):79.195229,(41:122.856805,((42:80.13504,43:80.13504):20.01394,(44:65.16566,45:65.16566):34.98332):22.707825):33.468024):47.43363976,((46:107.2081,47:107.2081):72.85252253,((48:86.43776,49:86.43776):70.34600718,(50:149.9948819,(((51:70.59807,52:70.59807):47.97924,(53:82.961,(54:52.27244,55:52.27244):30.68856):35.61631):23.52388494,((56:106.37631,(57:70.68228,58:70.68228):35.69403):27.35959617,((59:83.73757,60:83.73757):40.19591333,(61:104.32932,(62:71.46849,63:71.46849):32.86083):19.60416333):9.802422833):8.365288771):7.893686947):6.788885294):23.27685535):23.69784623):25.98588066):38.9959933):104.5201898,((64:200.4177748,((65:172.6990193,(66:163.53416,(67:155.4626,68:155.4626):8.07156):9.164859333):16.14209802,((69:96.30255,70:96.30255):51.025964,(71:118.844405,(72:93.72266,(73:65.24584,(74:46.11783,75:46.11783):19.12801):28.47682):25.121745):28.484109):41.51260336):11.57665746):42.69064322,(76:160.8119117,((77:89.122085,(78:58.54477,79:58.54477):30.577315):56.71168839,(80:131.3937178,((81:90.40462,82:90.40462):30.9826375,((83:57.7858,84:57.7858):53.58374705,((85:75.84259,(86:46.69864,87:46.69864):29.14395):28.20115937,(88:88.61486929,((89:52.10535,90:52.10535):24.122609,(91:66.86532,((92:30.65556,93:30.65556):20.3018,(94:31.9046,95:31.9046):19.05276):15.90796):9.362639):12.38691029):15.42888009):7.32579767):10.01771045):10.00646033):14.44005555):14.97813833):82.29650633):130.1521145):68.34376798,(((((96:229.38617,(97:210.6822,98:210.6822):18.70397):15.71671,(99:204.8734267,(100:178.953625,(101:143.1265,102:143.1265):35.827125):25.91980167):40.22945333):111.5523786,(103:251.1745183,(104:229.6631768,((105:200.923085,(106:180.8568,107:180.8568):20.066285):10.63340364,(108:189.399626,(((109:70.01434,110:70.01434):44.998345,(111:62.08402,112:62.08402):52.928665):59.94973583,((113:103.9694,114:103.9694):50.7347875,(115:142.0717033,(116:127.63622,(117:79.91584,118:79.91584):47.72038):14.43548333):12.63248417):20.25823333):14.43720517):22.15686264):18.10668815):21.51134155):105.4807403):44.57514699,((((119:195.19139,(120:129.7351,121:129.7351):65.45629):40.45088583,((122:129.63701,(123:88.91178,124:88.91178):40.72523):31.263445,(125:118.868805,(126:77.82393,127:77.82393):41.044875):42.03165):74.74182083):73.23416282,((128:211.555095,(129:186.0031,130:186.0031):25.551995):59.52724542,((131:117.4836,132:117.4836):93.25396143,((133:128.41379,(134:94.63456,(135:63.327,136:63.327):31.30756):33.77923):36.4843235,(137:137.6494067,((138:71.80931,139:71.80931):54.63257214,((140:67.09281,141:67.09281):43.613993,(142:94.43520375,(143:76.367865,(144:56.83744,(145:43.17991,146:43.17991):13.65753):19.530425):18.06733875):16.27159925):15.73507914):11.20752452):27.24870683):45.83944793):60.34477899):37.79409824):78.47072481,(((147:220.4914,148:220.4914):86.67751765,((149:175.6166842,(150:147.967511,(151:125.24052,((152:77.54649,153:77.54649):26.89408,(154:80.06586,155:80.06586):24.37471):20.79995):22.726991):27.64917317):84.03163926,(156:221.5053856,(157:162.0569837,(158:130.74431,((159:79.27033,(160:50.52712,161:50.52712):28.74321):33.61443,(162:96.50495,(163:80.08607,(164:58.64119,165:58.64119):21.44488):16.41888):16.37981):17.85955):31.31267375):59.44840181):38.14293787):47.52059422):55.64522247,(166:340.5616702,((((167:131.4,168:131.4):62.95296667,(169:154.53051,(170:98.79025,171:98.79025):55.74026):39.82245667):36.40323358,(172:174.0661843,((173:100.38522,(174:57.26156,175:57.26156):43.12366):33.30667833,(176:106.55102,(177:65.74259,(178:49.51166,179:49.51166):16.23093):40.80843):27.14087833):40.37428595):56.69001596):76.47878013,((180:98.048,181:98.048):64.71068,(182:139.5201892,((183:95.56655,(184:74.90202,(185:55.93032,(186:38.32422,187:38.32422):17.6061):18.9717):20.66453):18.49743875,((188:68.82516,(189:47.85628,190:47.85628):20.96888):27.210598,((191:46.50981,192:46.50981):31.594225,(193:59.30639,(194:10.70343,195:10.70343):48.60296):18.797645):17.931723):18.02823075):25.45620048):23.23849077):144.4763004):33.32668979):22.25246994):24.53302336):13.88324213):29.61082693,(((((196:351.3934,197:351.3934):36.69993219,((198:283.471575,((199:245.8778,200:245.8778):15.85395,(201:214.9401,202:214.9401):46.79165):21.739825):81.68486818,((203:247.6727,204:247.6727):84.05028611,(205:307.2859956,(206:274.3426007,((207:187.50037,(208:81.73674,209:81.73674):105.76363):44.53728,(210:196.5376933,(211:157.401335,(212:102.9519,213:102.9519):54.449435):39.13635833):35.49995667):42.30495071):32.94339491):24.43699049):33.43345707):22.93688901):13.32834863,((214:261.879204,((215:163.6335,216:163.6335):53.027345,(217:165.006085,(218:88.9377,219:88.9377):76.068385):51.65476):45.218359):79.48264333,((220:235.5483838,(221:193.2051183,(222:166.93852,(223:123.1598,224:123.1598):43.77872):26.26659833):42.34326542):67.61298275,(225:261.3092837,(((226:98.54442,227:98.54442):60.65867,(228:123.3289,229:123.3289):35.87419):55.23671833,(230:197.7054768,(((231:66.98365,232:66.98365):68.121845,(233:97.90486,234:97.90486):37.200635):52.179802,((235:128.74332,(236:92.26469,237:92.26469):36.47863):38.98914833,((238:129.297,239:129.297):25.491537,(240:133.8145213,(241:113.692175,(242:93.11276,(243:57.48799,244:57.48799):35.62477):20.579415):20.12234625):20.97401575):12.94393133):19.55282867):10.42017979):16.73433155):46.86947535):41.85208282):38.20048083):60.05983348):15.18068856,(((245:192.2173,246:192.2173):94.421015,(247:234.1021,248:234.1021):52.536215):117.9728811,(((249:321.3974,250:321.3974):29.55691333,(251:286.442605,(252:87.13851,253:87.13851):199.304095):64.51170833):40.77385669,(((254:287.1722817,((255:170.671405,(256:127.2758,257:127.2758):43.395605):90.14828167,(258:224.858086,(259:162.3958075,(260:128.2812233,(261:101.97979,(262:69.14481,263:69.14481):32.83498):26.30143333):34.11458417):62.4622785):35.96160067):26.352595):57.31864154,(264:304.7508837,((265:182.2549,266:182.2549):111.0909871,((267:190.6426,268:190.6426):70.21614667,((269:176.3839,270:176.3839):45.857788,((271:154.23682,(272:96.17745,273:96.17745):58.05937):51.89820333,((274:88.13178,275:88.13178):100.079372,(276:157.417315,(277:141.72212,(278:108.660285,(279:81.15765,280:81.15765):27.502635):33.061835):15.695195):30.793837):17.92387133):16.10666467):38.61705867):32.48714048):11.40499661):39.74003946):21.67246673,(281:336.1533229,((((282:192.388655,(283:129.4199,284:129.4199):62.968755):93.4514625,((285:239.4364,286:239.4364):25.517265,(287:179.2143,288:179.2143):85.739365):20.8864525):18.72671375,(289:263.6768959,(290:250.26279,((291:160.0609,292:160.0609):67.81111875,((293:159.821755,(294:118.0078,295:118.0078):41.813955):34.119927,((296:122.3117,297:122.3117):39.21562833,(298:135.246205,(299:101.3662,300:101.3662):33.880005):26.28112333):32.41435367):33.93033675):22.39077125):13.41410591):40.88993534):17.33272539,((301:253.973195,(302:172.733,303:172.733):81.240195):51.11899046,((((304:140.7011,305:140.7011):84.61731,(306:204.6459,(307:177.03092,(308:147.922815,(309:125.2985,310:125.2985):22.624315):29.108105):27.61498):20.67251):29.79843786,(311:231.887785,(312:212.264706,(313:178.6018825,((314:95.246,315:95.246):56.982725,(316:103.2646,317:103.2646):48.964125):26.3731575):33.6628235):19.623079):23.22906286):37.08025978,(318:272.6347143,(((319:131.825,320:131.825):78.03546875,((321:123.5364,322:123.5364):65.22942167,((323:124.1235,324:124.1235):37.9237425,(325:141.8907167,(326:118.27751,(327:72.53056,328:72.53056):45.74695):23.61320667):20.15652583):26.71857917):21.09464708):51.99562956,((329:178.6455,330:178.6455):68.97378627,((331:222.775307,(332:213.9783,333:213.9783):8.797007):11.33559454,((334:150.530895,(335:104.7187,336:104.7187):45.812195):67.68099267,(337:185.3943762,(338:157.5470083,(339:134.162005,(340:94.7507,341:94.7507):39.411305):23.38500333):27.84736792):32.81751142):15.89901387):13.50838473):14.23681203):10.778616):19.56239333):12.89507782):16.80737119):14.25376626):30.01006703):25.56478009):12.88302607):11.99117328):10.19092259,((342:257.290084,((343:187.419109,(344:148.5929175,((345:76.68761,346:76.68761):40.830155,(347:70.70218,348:70.70218):46.815585):31.0751525):38.8261915):64.07693984,((349:186.488,350:186.488):60.17938527,(351:239.9396272,(352:235.9363926,((353:136.7405,354:136.7405):95.33329439,((355:147.1096,356:147.1096):80.23359815,(((357:177.37898,(358:110.3334,359:110.3334):67.04558):40.49216808,((360:176.231415,(361:121.9638,362:121.9638):54.267615):32.8927161,(((363:103.8914,364:103.8914):89.6513575,((365:107.6689,366:107.6689):73.40023,((367:158.8354,368:158.8354):10.4390675,((369:103.4603,370:103.4603):27.466965,(371:79.20717,372:79.20717):51.720095):38.3472025):11.7946625):12.4736275):9.560310667,((373:143.798315,(374:123.104585,(375:89.35121,376:89.35121):33.753375):20.69373):31.11842125,(((377:48.57657,378:48.57657):78.011825,(379:96.63939,(380:66.31041,381:66.31041):30.32898):29.949005):21.9440555,((382:83.41545,383:83.41545):36.83200625,(384:97.555195,(385:83.04234,(386:45.76513,387:45.76513):37.27721):14.512855):22.69226125):28.28499425):26.38428575):28.18633192):6.021062933):8.747016977):5.676468213,(((388:131.1363,389:131.1363):58.90993,(390:136.922185,(391:75.91769,392:75.91769):61.004495):53.124045):27.61777567,((393:149.683715,(394:110.2558,395:110.2558):39.427915):63.12468311,(((396:94.99117,397:94.99117):82.89445833,(398:149.28292,(399:122.8755,400:122.8755):26.40742):28.60270833):29.23742067,(((401:145.640035,(402:108.6693,403:108.6693):36.970735):34.75057208,(404:163.193825,(405:140.9128,(406:123.6116,407:123.6116):17.3012):22.281025):17.19678208):14.39108422,((408:158.421735,(409:116.3308,410:116.3308):42.090935):18.62657083,(411:154.19378,(412:130.6675942,(413:112.785717,((414:52.19141,415:52.19141):45.315235,(416:69.51568,(417:37.56132,418:37.56132):31.95436):27.990965):15.279072):17.88187717):23.52618583):22.85452583):17.73338547):12.3413577):5.685349109):4.855607564):5.883610617):3.795581855):4.730596245):3.86259817):4.003234611):6.7277581):4.828663564):5.794035197):132.4004589,((((419:124.8686,420:124.8686):175.4856291,((421:192.8427,422:192.8427):91.98958733,((423:207.115955,(424:156.9531,425:156.9531):50.162855):47.53514042,(426:235.3809841,((427:202.81739,(428:183.5994,429:183.5994):19.21799):17.41843458,((430:127.6574,431:127.6574):67.678595,((432:84.69994,433:84.69994):92.23922,(434:160.6867133,(435:146.11939,(436:130.5793,437:130.5793):15.54009):14.56732333):16.25244667):18.396835):24.89982958):15.14515951):19.27011133):30.18119192):15.52194178):33.81284024,(438:309.3164235,((((439:254.88929,(440:206.663,441:206.663):48.22629):28.03537208,(442:234.5676917,(443:181.33308,(444:164.3336,445:164.3336):16.99948):53.23461167):48.35697042):14.31812429,(446:270.1696774,(447:253.5336028,((448:232.4163,449:232.4163):12.543513,((450:107.5588,451:107.5588):65.889785,(452:125.414685,(453:87.75261,454:87.75261):37.662075):48.0339):71.511228):8.573789786):16.63607465):27.07310894):9.943341081,((455:203.2145,456:203.2145):96.90980141,((457:253.7533,458:253.7533):40.33053176,(((459:240.523825,(460:209.4839946,(((461:102.8125,462:102.8125):56.14903667,(463:115.042495,(464:71.98027,465:71.98027):43.062225):43.91904167):28.82628319,((466:85.2191,467:85.2191):64.962241,((468:100.6011,469:100.6011):33.57230167,(470:101.78738,(471:52.39571,472:52.39571):49.39167):32.38602167):16.00793933):37.60647886):21.69617473):31.03983042):23.20707955,((473:185.975605,(474:125.9222,475:125.9222):60.053405):53.45657042,((476:186.80528,(477:146.2905,478:146.2905):40.51478):36.24010389,(479:193.3074912,(480:173.1151071,(481:147.2107733,((482:90.13022,(483:60.55417,484:60.55417):29.57605):36.79431667,(485:107.163525,(486:81.23854,487:81.23854):25.924985):19.76101167):20.28623667):25.90433381):20.19238411):29.73789264):16.38679153):24.29872913):20.6767147,((((488:135.5084,(489:92.7507,490:92.7507):42.7577):90.66064,((491:139.2205,492:139.2205):57.5425825,(493:179.4318967,(494:164.924895,(495:150.8774,496:150.8774):14.047495):14.50700167):17.33118583):29.4059575):30.4009515,(497:233.2948961,(498:218.3962237,((499:186.616415,(500:160.143,501:160.143):26.473415):18.464047,((502:163.4271,503:163.4271):22.33675667,(504:142.29578,(505:114.0265,506:114.0265):28.26928):43.46807667):19.31660533):13.31576175):14.89867236):23.27509539):20.12826512,(507:270.4758082,((508:197.2801117,(509:173.13661,(510:123.0826,511:123.0826):50.05401):24.14350167):64.16435585,((512:235.7146,513:235.7146):19.68918276,((((514:132.448495,(515:80.52139,516:80.52139):51.927105):57.21958367,(517:169.7244025,(518:158.5186767,(519:109.01531,(520:75.31019,521:75.31019):33.70512):49.50336667):11.20572583):19.94367617):29.65087342,((522:147.9902867,(523:122.863925,(524:72.47367,525:72.47367):50.390255):25.12636167):41.27812933,((526:73.74978,527:73.74978):85.90519167,(528:127.340195,(529:89.22904,530:89.22904):38.111155):32.31477667):29.61344433):30.05053608):27.83176971,((531:206.5096085,((532:141.6389,533:141.6389):53.60576838,((534:160.3831283,(535:124.318375,(536:83.26865,537:83.26865):41.049725):36.06475333):20.0825368,((538:128.168825,(539:96.50505,(540:53.37528,541:53.37528):43.12977):31.663775):42.03739921,(((542:99.1496,543:99.1496):37.20524,(544:109.37,(545:82.07676,(546:53.33713,547:53.33713):28.73963):27.29324):26.98484):22.29908086,((548:100.4216,549:100.4216):44.7847032,(550:134.5942978,(551:127.756509,(552:118.962,(553:105.4068,554:105.4068):13.5552):8.794509):6.83778875):10.61200545):13.44761766):11.55230335):10.25944092):14.77900325):11.26494014):29.2149126,(555:225.8268119,((556:206.0817162,(557:196.1497265,(558:189.8070952,(559:183.3862827,(560:176.2082003,(561:168.8893035,(562:160.6049,563:160.6049):8.2844035):7.318896833):7.178082417):6.42081245):6.3426313):9.931989714):10.51419354,((564:125.56072,(565:82.78542,566:82.78542):42.7753):55.48808556,((567:115.248785,(568:89.73099,569:89.73099):25.517795):39.0164014,(570:129.3943238,((571:88.33051,(572:59.62073,573:59.62073):28.70978):31.81232667,((574:72.4098,575:72.4098):32.521545,(576:85.27828,(577:47.0283,(578:17.73237,579:17.73237):29.29593):38.24998):19.653065):15.21149167):9.251487111):24.87086262):26.78361916):35.54710419):9.230902187):9.897709189):11.42620066):8.253060969):6.040684757):9.031340694):6.222448414):7.70936263):9.676212512):6.040469646):7.061826044):2.130296021):24.85064589):27.47580799,((((580:225.85849,(581:201.649482,((582:97.89851,583:97.89851):80.43890333,(584:159.986735,(585:118.2338,586:118.2338):41.752935):18.35067833):23.31206867):24.209008):34.91505315,(587:206.3619912,((588:121.2878,589:121.2878):46.85815404,((590:50.1812,591:50.1812):97.30884886,((592:109.402095,(593:74.32145,(594:45.54406,595:45.54406):28.77739):35.080645):28.62768768,((596:80.97929,597:80.97929):39.922165,(598:102.6041,(599:87.4154,(600:60.1812,(601:42.27329,602:42.27329):17.90791):27.2342):15.1887):18.297355):17.12832768):9.460266185):20.65590517):38.21603713):54.41155198):56.04381485,(603:301.4784084,((604:163.5805,605:163.5805):131.5215309,((606:282.5419958,((607:261.574205,(608:247.3216,609:247.3216):14.252605):16.41706889,(610:264.722695,(611:239.9163829,((612:137.2763,613:137.2763):86.349798,((614:156.7186,615:156.7186):46.70255,(616:138.161515,(617:72.74826,618:72.74826):65.413255):65.259635):20.204948):16.29028486):24.80631214):13.26857889):4.550721861):7.109693886,(((619:195.08801,(620:123.3546,621:123.3546):71.73341):40.97575583,((622:163.71187,(623:108.3497,624:108.3497):55.36217):54.57807222,((625:193.1811983,(626:175.53699,(627:124.4685,628:124.4685):51.06849):17.64420833):9.866223917,((629:88.585,630:88.585):75.64408,(631:102.730485,(632:73.36238,633:73.36238):29.368105):61.498595):38.81834225):15.24251997):17.77382361):15.90974134,(634:234.9875288,((635:209.52781,((636:150.933985,(637:84.98792,638:84.98792):65.946065):40.62474375,(639:176.2608983,(640:158.89162,(641:145.9001,642:145.9001):12.99152):17.36927833):15.29783042):17.96908125):13.44623208,(((643:94.09991,644:94.09991):76.95506875,((645:99.23557,(646:57.81991,647:57.81991):41.41566):37.121108,((648:61.69911,649:61.69911):47.58162667,(650:81.423505,(651:49.79525,652:49.79525):31.628255):27.85723167):27.07594133):34.69830075):38.45857422,((653:145.707705,(654:99.5822,(655:68.08982,656:68.08982):31.49238):46.125505):44.98111273,(657:179.1757939,((658:135.92521,(659:95.93086,(660:51.77393,661:51.77393):44.15693):39.99435):32.22110182,(662:157.3623891,(663:152.4724783,(((664:69.69023,665:69.69023):48.15212375,(666:97.44922429,((667:49.35706,668:49.35706):29.893939,(669:66.993415,(670:54.16581,(671:42.13284,(672:25.8004,673:25.8004):16.33244):12.03297):12.827605):12.257584):18.19822529):20.39312946):30.21013954,(674:142.5150737,((675:125.3190196,(((676:65.11053,(677:37.66626,678:37.66626):27.44427):31.10438,(679:71.77758,(680:45.54901,681:45.54901):26.22857):24.43733):12.33350925,(682:94.23808914,((683:63.922385,(684:33.8142,685:33.8142):30.108185):22.28149783,(686:59.51188933,(687:43.563169,(688:34.37856,689:34.37856):9.184609):15.94872033):26.6919935):8.03420631):14.31033011):16.77060032):11.15278136,((690:102.311885,(691:54.73595,692:54.73595):47.575935):29.15063186,((693:107.8888914,((694:71.79667,695:71.79667):24.195682,(696:78.5185325,((697:43.27106,698:43.27106):18.406345,(699:40.23324,700:40.23324):21.444165):16.8411275):17.4738195):11.89653943):14.89081197,(((701:72.09459,702:72.09459):17.56409,(703:40.37926,704:40.37926):49.27942):22.83352112,((705:41.84801,706:41.84801):54.02895129,(707:76.96086138,((708:63.09932667,(709:51.000045,(710:25.81113,711:25.81113):25.188915):12.09928167):8.192434167,((712:40.7587,713:40.7587):23.52493786,((714:37.41323,715:37.41323):17.124487,((716:26.27688,717:26.27688):16.58549333,(718:31.338305,(719:14.95656,720:14.95656):16.381745):11.52406833):11.67534367):9.745920857):7.008122976):5.669100551):18.9160999):16.61523984):10.28750228):8.682813457):5.009284071):6.0432728):5.537419559):4.419984976):4.889910875):10.78392268):11.02948207):11.51302385):18.82473524):13.46048911):12.01348675):16.98597834):37.67818246):5.450341286):6.376377471):15.3389496):4.033299855,((721:276.2940103,((722:204.3145,723:204.3145):57.35126922,((724:231.6255125,(725:216.0006029,(726:197.9436033,(727:175.383298,((728:104.9697,729:104.9697):48.74422,(730:141.703715,(731:115.5664,732:115.5664):26.137315):12.010205):21.669378):22.56030533):18.05699952):15.62490964):20.31380647,((733:167.1428133,(734:133.13989,(735:89.13065,736:89.13065):44.00924):34.00292333):65.73658417,((737:174.0863133,((738:103.7831,739:103.7831):46.75383143,((740:87.75207,741:87.75207):39.664812,((742:63.33664,743:63.33664):34.950535,(744:84.90547,(745:44.82563,746:44.82563):40.07984):13.381705):29.129707):23.12004943):23.5493819):45.2841101,((747:138.1585,748:138.1585):63.66906,(749:190.1981055,(750:177.401717,((751:142.1431,752:142.1431):22.62461375,((753:111.0461,(754:78.0759,755:78.0759):32.9702):31.849436,(756:114.052595,(757:91.25014,(758:62.63854,(759:39.62969,760:39.62969):23.00885):28.6116):22.802455):28.842941):21.87217775):12.63400325):12.79638845):11.62945455):17.54286343):13.50897407):19.05992147):9.726450248):14.62824107):26.1179788,((761:241.7142,762:241.7142):27.38896413,(763:247.3000991,(764:233.5730991,(((765:113.3048,766:113.3048):67.41717333,(767:124.500675,(768:57.63035,769:57.63035):66.870325):56.22129833):42.25855002,((770:157.1189,771:157.1189):57.53798464,(((772:99.62003,773:99.62003):76.1253325,(774:149.432885,(775:110.7635,(776:83.08906,(777:63.17025,(778:46.43658,779:46.43658):16.73367):19.91881):27.67444):38.669385):26.3124775):25.31278882,(780:192.4043065,((781:138.006685,(782:83.32205,783:83.32205):54.684635):46.86712088,((784:153.2236933,(785:140.2142037,(((786:54.46971,787:54.46971):26.79835,(788:46.10993,789:46.10993):35.15813):38.5033075,((790:53.89531,791:53.89531):46.811765,(792:62.55272,793:62.55272):38.154355):19.0642925):20.44283625):13.00948958):26.20749903,(794:176.003412,(((795:73.925495,(796:60.05001,797:60.05001):13.875485):68.20449024,((798:84.29183,799:84.29183):38.586798,((800:53.34223,801:53.34223):52.72798667,(802:85.052395,(803:56.84953,804:56.84953):28.202865):21.01782167):16.80841133):19.25135724):25.12590249,((805:109.1951,806:109.1951):51.77462994,(((807:128.05538,(808:114.4273,(809:102.07,810:102.07):12.3573):13.62808):16.87147429,(811:122.3219933,((812:67.27715,813:67.27715):38.463905,(814:93.9652,(815:73.87021,(816:51.12299,817:51.12299):22.74722):20.09499):11.775855):16.58093833):22.60486095):10.65591959,((((818:57.15866,819:57.15866):54.72907,(820:70.0737,821:70.0737):41.81403):24.54587694,((822:78.60141,823:78.60141):40.46691607,(824:104.6641012,((825:77.84074,(826:58.80854,827:58.80854):19.0322):9.6170325,(828:61.97638,(829:40.2881,830:40.2881):21.68828):25.4813925):17.20632875):14.40422482):17.36528087):11.94207017,((831:126.4347101,(((832:76.768255,(833:50.61717,834:50.61717):26.151085):24.83183833,(835:81.9588,(836:57.69748,837:57.69748):24.26132):19.64129333):18.34879833,(838:106.0691165,(839:90.80912167,((840:55.45293,(841:38.74803,842:38.74803):16.7049):27.972325,((843:49.11383,844:49.11383):24.00393,((845:26.13282,846:26.13282):34.04034,(847:38.00475,848:38.00475):22.16841):12.9446):10.307495):7.383866667):15.25999483):13.87977517):6.485818422):14.998331,((849:90.05828,(850:58.87687,851:58.87687):31.18141):37.28780176,((852:49.01408,853:49.01408):67.42449645,((854:97.54011,((855:51.10605,856:51.10605):33.41124,((857:52.40588,858:52.40588):19.99293,(859:50.87755,(860:31.30283,(861:17.52423,862:17.52423):13.7786):19.57472):21.52126):12.11848):13.02282):10.31768167,((863:74.542185,(864:57.40837,(865:37.94661,(866:21.04963,867:21.04963):16.89698):19.46176):17.133815):18.229489,((868:62.88696,(869:39.20529,870:39.20529):23.68167):15.7546,(871:53.94644,(872:41.53192,(873:24.23592,874:24.23592):17.296):12.41452):24.69512):14.130114):15.08611767):8.580784786):10.90750531):14.08695932):6.942636026):7.207096764):5.386956066):6.286157787):8.747524284):3.427780352):5.44261352):7.530500631):8.653844806):13.59873331):8.323638721):10.59257576):13.72700001):21.80306501):33.30882495):18.43866877):40.7922195):28.04766558):37.10274903):4.047940566):10.76306798):7.592713128):13.12090495):15.7705022);
+END;

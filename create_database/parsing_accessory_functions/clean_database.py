@@ -1,3 +1,12 @@
+### clean_database.py
+# This code was developed by SH Church starting in Oct, 2016
+# The purpose is to clean up known parsing errors in the egg database automatically.
+# These include non numericals in numerical columns, non alphabet characters in names, etc.
+
+# This code is not ready for out of the box use for purposes outside
+# of the creation of the insect egg database.
+
+
 import argparse
 import re
 import pandas

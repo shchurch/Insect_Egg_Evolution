@@ -1,3 +1,12 @@
+### convert_database.py
+# This code was developed by SH Church starting in Oct, 2016
+# The purpose is to interactively double check entries in the database
+# It currently accepts typed egg IDs or bibtex IDs, repons a pdfs
+# and allows the user to update an entry.
+
+# This code is not ready for out of the box use for purposes outside
+# of the creation of the insect egg database.
+
 import argparse
 import re
 import pandas

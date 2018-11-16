@@ -1,3 +1,11 @@
+### convert_database.py
+# This code was developed by SH Church starting in Oct, 2016
+# The purpose is to convert a text file with a list of python dictionaries
+# to a csv file (tab delimited), or other formats (json, sql)
+
+# This code is not ready for out of the box use for purposes outside
+# of the creation of the insect egg database.
+
 import pandas
 import re
 import sys
@@ -105,11 +113,16 @@ if __name__=='__main__':
     with open(outfile_csv,'w') as of_csv:
 	   of_csv.write(csv)
 
+
+### ALTERNATIVE OUTPUT METHODS
+# JSON
+
     #jsn = pandas.DataFrame.to_json(dt)   
     #outfile_jsn = "egg_database_taxonomy.json"
     #with open(outfile_jsn,'w') as of_jsn:
         #of_jsn.write(jsn)
 
+# SQL
     #sql = pandas.DataFrame.to_sql(dt)   
     #outfile_sql = "egg_database_taxonomy.sql"
     #with open(outfile_sql,'w') as of_sql:

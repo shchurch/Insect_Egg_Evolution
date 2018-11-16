@@ -18,18 +18,6 @@ summary_fit_table <- fit_table %>% mutate(trait = row.names(.)) %>%
 row.names(summary_fit_table) <- row.names(fit_table)
 print(xtable(summary_fit_table),file="summary_fit_table_latex.txt")
 
-### OVARY SHIFTS
-
-ovary_shifts <- read.delim("analyze_data/ecology_table_ovary_type_shifts.csv") %>% 
-	rename("clade" = name, "taxonomic rank" = rank) %>% 
-	mutate("ovary type" = plyr::mapvalues(ovary,
-		c("TM","PM","P","Mstar"),
-		c("Telotrophic meroistic","Polytrophic meroistic","Panositic","Reduced polytrophic meroisitic"))) %>% 
-	select("clade","ovary type")
-
-### Edited this document to combine the shifts which correspond to Endopterygota
-print(xtable(ovary_shifts),file="ovary_shifts_latex.txt",include.rownames=F)
-
 ### ALL ALLOMETRY RESULTS
 load(paste(results_directory,"egg_analysis_allometry_workspace.Rdata",sep="/"))
 
@@ -69,7 +57,7 @@ summary_development <- rbind(round(allometry_vol_Da_hatch_table,2),
 		"slope" = paste(slope_min,slope_max,sep=" - "),
 		"sample size" = round(sample_size,0)) %>% 		
 	select("p-value","slope","intercept","sample size")
-row.names(summary_development) <- c("egg volume vs time to hatching","egg volume vs interval between pre-blastoderm mitoses","egg volume vs time to midcellularization")
+row.names(summary_development) <- c("egg volume vs duration of embryogenesis","egg volume vs interval between pre-blastoderm mitoses","egg volume vs time to cellularization")
 
 print(xtable(summary_development,digits=0),file="summary_development_latex.txt")
 
@@ -114,7 +102,6 @@ build_ouwie_dataset("internal")
 build_ouwie_dataset("parasitoid")
 build_ouwie_dataset("in_water")
 build_ouwie_dataset("combined_aquatic")
-build_ouwie_dataset("ovary_type")
 build_ouwie_dataset("wingless_phasmatodea")
 build_ouwie_dataset("migratory_lepidoptera")
 
@@ -251,7 +238,7 @@ rainback_development <- rbind(round(allometry_vol_Da_hatch_table,2),
 		"intercept" = paste(int_min,int_max,sep=" - "),
 		"slope" = paste(slope_min,slope_max,sep=" - "),
 		"sample size" = round(sample_size,0)) %>% 		
-	select("p-value","slope","intercept","sample size") %>% mutate(analysis = c("egg volume vs time to hatching","egg volume vs interval between pre-blastoderm mitoses","egg volume vs time to midcellularization"),clade = "Hexapoda")
+	select("p-value","slope","intercept","sample size") %>% mutate(analysis = c("egg volume vs duration of embryogenesis","egg volume vs interval between pre-blastoderm mitoses","egg volume vs time to cellularization"),clade = "Hexapoda")
 
 load(paste(results_directory,"rainford_backbone_egg_analysis_allometry_workspace.Rdata",sep="/"))
 
@@ -261,7 +248,7 @@ rainback_l_curv_w <- read_pgls_results(allometry_l_curv_w_table,allometry_group_
 
 summary_rainback <- rbind(rainback_development,rainback_l_w,rainback_l_asym_w,rainback_l_curv_w) %>% select(analysis,clade,"p-value",slope,"sample size")
 
-summary_misoback <- rbind(summary_development %>% mutate(analysis = c("egg volume vs time to hatching","egg volume vs interval between pre-blastoderm mitoses","egg volume vs time to midcellularization"),clade = "Hexapoda")
+summary_misoback <- rbind(summary_development %>% mutate(analysis = c("egg volume vs duration of embryogenesis","egg volume vs interval between pre-blastoderm mitoses","egg volume vs time to cellularization"),clade = "Hexapoda")
 ,summary_l_w,summary_l_asym_w,summary_l_curv_w) %>% select(analysis,clade,"p-value",slope,"sample size")
 
 combined_backbone_summary <- left_join(summary_rainback %>% rename("Rain. p-value" = "p-value", "Rain. slope" = "slope") %>% select(-"sample size"), summary_misoback %>% rename("Misof p-value" = "p-value", "Misof slope" = "slope") %>% select(-"sample size"), by = c("analysis", "clade"))
@@ -278,7 +265,7 @@ corblom_development <- rbind(round(allometry_vol_Da_hatch_table,2),
 		"intercept" = paste(int_min,int_max,sep=" - "),
 		"slope" = paste(slope_min,slope_max,sep=" - "),
 		"sample size" = round(sample_size,0)) %>% 		
-	select("p-value","slope","intercept","sample size") %>% mutate(analysis = c("egg volume vs time to hatching","egg volume vs interval between pre-blastoderm mitoses","egg volume vs time to midcellularization"),clade = "Hexapoda")
+	select("p-value","slope","intercept","sample size") %>% mutate(analysis = c("egg volume vs duration of embryogenesis","egg volume vs interval between pre-blastoderm mitoses","egg volume vs time to cellularization"),clade = "Hexapoda")
 
 load(paste(results_directory,"corBlomberg_egg_analysis_allometry_workspace.Rdata",sep="/"))
 
@@ -289,7 +276,7 @@ corblom_l_w_body <- read_pgls_results(allometry_l_w_body_table,allometry_group_l
 corblom_vol_body <- read_pgls_results(allometry_vol_body_table,allometry_group_vol_body_table,group_list) %>% mutate(clade = row.names(.),analysis = "egg volume vs cubic body length")
 
 summary_corblom <- rbind(corblom_development,corblom_l_w,corblom_l_asym_w,corblom_l_curv_w,corblom_l_w_body,corblom_vol_body) %>% select(analysis,clade,"p-value",slope,"sample size")
-summary_corbrow <- rbind(summary_development %>% mutate(analysis = c("egg volume vs time to hatching","egg volume vs interval between pre-blastoderm mitoses","egg volume vs time to midcellularization"),clade = "Hexapoda"),summary_l_w,summary_l_asym_w,summary_l_curv_w,summary_l_w_body,summary_vol_body) %>% select(analysis,clade,"p-value",slope,"sample size")
+summary_corbrow <- rbind(summary_development %>% mutate(analysis = c("egg volume vs duration of embryogenesis","egg volume vs interval between pre-blastoderm mitoses","egg volume vs time to cellularization"),clade = "Hexapoda"),summary_l_w,summary_l_asym_w,summary_l_curv_w,summary_l_w_body,summary_vol_body) %>% select(analysis,clade,"p-value",slope,"sample size")
 
 
 combined_corblom_summary <- left_join(summary_corblom %>% rename("Blom. p-value" = "p-value", "Blom. slope" = "slope") %>% select(-"sample size"), summary_corbrow %>% rename("Brown, p-value" = "p-value", "Brown. slope" = "slope") %>% select(-"sample size"), by = c("analysis","clade"))

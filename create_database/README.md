@@ -15,6 +15,10 @@ References were pulled from internet databases following an
 explicit criteria (manuscript in preparation, 2018). These 
 were stored as entries in a bibtex file.
 
+The references which, following parsing, had egg measurements which are in the egg database are stored in the main directory of this project, under `bibliography_egg_database.bib`
+
+The references which were collected and searched, but did not have egg measurements are in the file `examined_references_uncited.bib`.
+
 ### set_bibids.py ###
 
 Used to introduce new bibs to the database, verifying that IDs 

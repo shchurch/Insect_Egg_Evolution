@@ -1,0 +1,3465 @@
+#NEXUS
+[R-package APE, Tue May 22 10:01:12 2018]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX = 1726;
+	TAXLABELS
+		Occasjapyx
+		Lepidocampa
+		Campodea
+		Eosentomon
+		Baculentulus
+		Tomocerus
+		Sminthurinus
+		Heteromurus
+		Isotoma
+		Cryptopygus
+		Friesea
+		Anurida
+		Thraulus
+		Choroterpes
+		Habrophlebiodes
+		Paraleptophlebia
+		Habroleptoides
+		Traverhyphes
+		Tricorythodes
+		Leptohyphes
+		Derlethina
+		Callibaetis
+		Acentrella
+		Cloeon
+		Procloeon
+		Centroptilum
+		Nigrobaetis
+		Baetis
+		Prosopistoma
+		Potamanthus
+		Anthopotamus
+		Siphlonurus
+		Hexagenia
+		Ephemera
+		Tortopsis
+		Ephoron
+		Proboscidoplocia
+		Palingenia
+		Dolania
+		Behningia
+		Neoephemera
+		Isonychia
+		Dipteromimus
+		Caenis
+		Brachycercus
+		Oligoneuriella
+		Timpanoga
+		Serratella
+		Teloganopsis
+		Torleya
+		Ephemerella
+		Caudatella
+		Attenella
+		Penelomax
+		Tsalia
+		Matriella
+		Caurinella
+		Drunella
+		Eurylophella
+		Dannella
+		Siphloplecton
+		Ameletus
+		Ametropus
+		Pseudiron
+		Stenonema
+		Afronurus
+		Electrogena
+		Leucrocuta
+		Ecdyonurus
+		Cinygmula
+		Heptagenia
+		Epeorus
+		Rhithrogena
+		Baetisca
+		Sympecma
+		Rhipidolestes
+		Pyrrhosoma
+		Ischnura
+		Paracercion
+		Coenagrion
+		Calopteryx
+		Atrocalopteryx
+		Tanypteryx
+		Cordulegaster
+		Choristhemis
+		Eusynthemis
+		Synthemis
+		Pentathemis
+		Idionyx
+		Hesperocordulia
+		Cordulephya
+		Idomacromia
+		Procordulia
+		Hemicordulia
+		Tetragoneuria
+		Somatochlora
+		Cordulia
+		Oxygastra
+		Gomphomacromia
+		Nannophlebia
+		Brachythemis
+		Erythrodiplax
+		Plathemis
+		Perithemis
+		Celithemis
+		Orthetrum
+		Ladona
+		Nannophya
+		Sympetrum
+		Diplacodes
+		Uracis
+		Tholymis
+		Erythemis
+		Hagenius
+		Hemigomphus
+		Austrogomphus
+		Antipodogomphus
+		Ictinogomphus
+		Gomphus
+		Neopetalia
+		Epiophlebia
+		Anax
+		Aeshna
+		Euborellia
+		Forficula
+		Chelisoches
+		Nala
+		Tagalina
+		Notonemoura
+		Austrocercella
+		Austrocerca
+		Malenka
+		Amphinemura
+		Protonemura
+		Zapada
+		Nemoura
+		Perlomyia
+		Leuctra
+		Paraleuctra
+		Utacapnia
+		Capnia
+		Eucapnopsis
+		Taeniopteryx
+		Brachyptera
+		Doddsia
+		Taenionema
+		Pteronarcys
+		Pteronarcella
+		Isoperla
+		Cascadoperla
+		Megarcys
+		Isogenoides
+		Diura
+		Perlodes
+		Cultus
+		Kogotus
+		Pictetiella
+		Setvena
+		Skwala
+		Frisonia
+		Suwallia
+		Triznaka
+		Plumiperla
+		Haploperla
+		Sweltsa
+		Kathroperla
+		Chloroperla
+		Paraperla
+		Utaperla
+		Alloperla
+		Perla
+		Dinocras
+		Claassenia
+		Doroneuria
+		Acroneuria
+		Perlesta
+		Hesperoperla
+		Calineuria
+		Cosmioperla
+		Thaumatoperla
+		Eusthenia
+		Newmanoperla
+		Trinotoperla
+		Cardioperla
+		Riekoperla
+		Dinotoperla
+		Illiesoperla
+		Leptoperla
+		Eunotoperla
+		Austropentura
+		Acruroperla
+		Grylloblatta
+		Galloisiana
+		Mantophasma
+		Sclerophasma
+		Karoophasma
+		Aposthonia
+		Timema
+		Tectarchus
+		Pachymorpha
+		Micrarchus
+		Spinotectarchus
+		Paramenexenus
+		Neohirasea
+		Oxyartes
+		Phaenopharos
+		Orxines
+		Diesbachia
+		Asceles
+		Sipyloidea
+		Trachythorax
+		Rhamphosipyloidea
+		Lopaphus
+		Baculofractum
+		Gratidia
+		Diapheromera
+		Oncotophasma
+		Oreophoetes
+		Libethra
+		Dimorphodes
+		Medauroidea
+		Medaura
+		Baculum
+		Phenacephorus
+		Lonchodes
+		Neopromachus
+		Eurycantha
+		Leprocaulinus
+		Carausius
+		Haplopus
+		Macrophasma
+		Hermarchus
+		Argosarchus
+		Acanthoxyla
+		Clitarchus
+		Cotylosoma
+		Extatosoma
+		Anchiale
+		Megacrania
+		Ophicrania
+		Graeffea
+		Eurycnema
+		Tropidoderus
+		Phraortes
+		Phobaeticus
+		Bacillus
+		Phyllium
+		Chitoniscus
+		Sungaya
+		Aretaon
+		Haaniella
+		Heteropteryx
+		Epidares
+		Lamponius
+		Paraphasma
+		Peruphasma
+		Anisomorpha
+		Agathemera
+		Lamproblatta
+		Celatoblatta
+		Methana
+		Scabina
+		Melanozosteria
+		Neostylopyga
+		Blatta
+		Deropeltis
+		Periplaneta
+		Duchailluia
+		Zootermopsis
+		Incisitermes
+		Cryptotermes
+		Neotermes
+		Kalotermes
+		Mastotermes
+		Reticulitermes
+		Coptotermes
+		Angulitermes
+		Nasutitermes
+		Microcerotermes
+		Macrotermes
+		Odontotermes
+		Microtermes
+		Latindia
+		Therea
+		Eucorydia
+		Euthyrrhapha
+		Polyphaga
+		Arenivaga
+		Diploptera
+		Panchlora
+		Gromphadorhina
+		Rhyparobia
+		Nauphoeta
+		Epilampra
+		Phortioeca
+		Pycnoscelus
+		Eublaberus
+		Blaberus
+		Byrsotria
+		Archimandrita
+		Panesthia
+		Geoscapheus
+		Rhabdoblatta
+		Ectobius
+		Latiblattella
+		Anaplecta
+		Balta
+		Supella
+		Nyctibora
+		Loboptera
+		Blattella
+		Paratemnopteryx
+		Ischnoptera
+		Xestoblatta
+		Cryptocercus
+		Pseudovates
+		Stagmomantis
+		Tenodera
+		Hierodula
+		Theopropus
+		Brunneria
+		Zorotypus
+		Hemiandrus
+		Deinacrida
+		Motuweta
+		Dolichopoda
+		Diestrammena
+		Troglophilus
+		Platycleis
+		Metrioptera
+		Pachytrachis
+		Tettigonia
+		Bicolorana
+		Decticus
+		Pholidoptera
+		Pediodectes
+		Meconema
+		Leptophyes
+		Barbitistes
+		Phaneroptera
+		Odontura
+		Tylopsis
+		Conocephalus
+		Ruspolia
+		Orchelimum
+		Oecanthus
+		Teleogryllus
+		Gryllus
+		Gryllomorpha
+		Pteronemobius
+		Eunemobius
+		Trigonidium
+		Homoeoxipha
+		Allonemobius
+		Cylindraustralia
+		Tetrix
+		Paratettix
+		Phymateus
+		Pyrgomorpha
+		Chrotogonus
+		Atractomorpha
+		Haplotropis
+		Romalea
+		Heteropternis
+		Aulocara
+		Sphingonotus
+		Acrotylus
+		Oedaleus
+		Rhammatocerus
+		Xanthippus
+		Trimerotropis
+		Locusta
+		Acrida
+		Truxalis
+		Spathosternum
+		Oxya
+		Aiolopus
+		Omocestus
+		Stenobothrus
+		Mermiria
+		Euchorthippus
+		Oedipoda
+		Phlaeoba
+		Tristria
+		Ceracris
+		Prumna
+		Melanoplus
+		Bradynotes
+		Chortophaga
+		Anapodisma
+		Bryodemella
+		Bryodema
+		Chorthippus
+		Gomphocerus
+		Gomphocerippus
+		Dasyhippus
+		Eucoptacra
+		Syrbula
+		Dichromorpha
+		Nomadacris
+		Chondracris
+		Ornithacris
+		Schistocerca
+		Anacridium
+		Cyrtacanthacris
+		Circotettix
+		Gastrimargus
+		Oxycatantops
+		Calliptamus
+		Eyprepocnemis
+		Cataloipus
+		Heteracris
+		Hesperotettix
+		Catantops
+		Dactylotum
+		Thrips
+		Frankliniella
+		Haplothrips
+		Bactrothrips
+		Diaphorina
+		Cacopsylla
+		Trioza
+		Bactericera
+		Siphoninus
+		Bemisia
+		Rhopalosiphum
+		Acyrthosiphon
+		Sitobion
+		Schizaphis
+		Icerya
+		Drosicha
+		Diaspis
+		Pulvinaria
+		Ceroplastes
+		Hyalesthes
+		Haplaxius
+		Peregrinus
+		Muellerianella
+		Prokelisia
+		Delphacodes
+		Conomelus
+		Megamelus
+		Perkinsiella
+		Dicranotropis
+		Scolypopa
+		Ricania
+		Ommatissus
+		Bruchomorpha
+		Xenophyes
+		Hesperocorixa
+		Sigara
+		Tenagobia
+		Nannocoris
+		Hypselosoma
+		Ceratocombus
+		Mesovelia
+		Hebrus
+		Hydrometra
+		Microvelia
+		Gerris
+		Aquarius
+		Notonecta
+		Enithares
+		Ambrysus
+		Ochterus
+		Ranatra
+		Abedus
+		Belostoma
+		Diplonychus
+		Lethocerus
+		Micronecta
+		Plea
+		Saldula
+		Salda
+		Leptocorisa
+		Megalotomus
+		Riptortus
+		Rhopalus
+		Leptocoris
+		Stictopleurus
+		Harmostes
+		Liorhyssus
+		Corallocoris
+		Physomerus
+		Hygia
+		Anoplocnemis
+		Mictis
+		Notobitus
+		Catorhintha
+		Anisoscelis
+		Leptoglossus
+		Aulacosternum
+		Homoeocerus
+		Cletus
+		Clavigralla
+		Pachygrontha
+		Urostylis
+		Urochela
+		Pyrrhocoris
+		Dysdercus
+		Largus
+		Dicranocephalus
+		Piesma
+		Panaorus
+		Udeocoris
+		Dieuches
+		Remaudiereana
+		Paraeucosmetus
+		Paromius
+		Pseudopachybrachius
+		Sinorsillus
+		Nysius
+		Lygaeus
+		Tropidothorax
+		Oncopeltus
+		Spilostethus
+		Kleidocerys
+		Belonochilus
+		Geocoris
+		Cymus
+		Malcus
+		Phaenacantha
+		Heterogaster
+		Thaumastella
+		Elasmucha
+		Poecilocoris
+		Dichelops
+		Graphosoma
+		Loxa
+		Edessa
+		Thyanta
+		Chinavia
+		Brochymena
+		Erthesina
+		Dalpada
+		Eurydema
+		Pentatoma
+		Halyomorpha
+		Carbula
+		Podisus
+		Rhaphigaster
+		Piezodorus
+		Plautia
+		Mormidea
+		Oebalus
+		Euschistus
+		Megacopta
+		Coptosoma
+		Megymenum
+		Oxycarenus
+		Mezira
+		Aradus
+		Discocoris
+		Thaumastocoris
+		Baclozygum
+		Cimex
+		Xylocoris
+		Dufouriellus
+		Anthocoris
+		Orius
+		Campyloneura
+		Lygus
+		Neurocolpus
+		Notostira
+		Leptopterna
+		Capsus
+		Deraeocoris
+		Bryocoris
+		Zanchius
+		Pseudoloxops
+		Blepharidopterus
+		Plagiognathus
+		Tytthus
+		Pilophorus
+		Polyozus
+		Ausejanus
+		Campylomma
+		Chlamydatus
+		Atractotomus
+		Helopeltis
+		Felisacus
+		Coridromius
+		Dicyphus
+		Macrolophus
+		Phatnoma
+		Tingis
+		Corythucha
+		Stephanitis
+		Urentius
+		Dictyonota
+		Teleonemia
+		Eteoneus
+		Dulinius
+		Copium
+		Agramma
+		Dictyla
+		Loricula
+		Phymata
+		Cnizocoris
+		Prostemma
+		Arachnocoris
+		Himacerus
+		Nabis
+		Apiomerus
+		Polididus
+		Euagoras
+		Sinea
+		Endochus
+		Rhynocoris
+		Coranus
+		Rhaphidosoma
+		Vestula
+		Zelus
+		Nagusta
+		Isyndus
+		Sphedanolestes
+		Sycanus
+		Lophocephala
+		Macracanthopsis
+		Arilus
+		Rhodnius
+		Belminus
+		Triatoma
+		Linshcosteus
+		Peirates
+		Oncocephalus
+		Ectomocoris
+		Reduvius
+		Velitra
+		Cethera
+		Acanthaspis
+		Lisarda
+		Ectrichodia
+		Ectrychotes
+		Empicoris
+		Lachesilla
+		Archipsocopsis
+		Trogium
+		Lepinotus
+		Psyllipsocus
+		Dorypteryx
+		Columbicola
+		Brueelia
+		Pthirus
+		Pediculus
+		Haematopinus
+		Laemobothrion
+		Menopon
+		Menacanthus
+		Holomenopon
+		Trinoton
+		Liposcelis
+		Sialis
+		Corydalus
+		Osmylus
+		Sisyra
+		Conwentzia
+		Hemerobius
+		Nothochrysa
+		Chrysoperla
+		Pseudomallada
+		Chrysopa
+		Italochrysa
+		Polystoechotes
+		Ithone
+		Nymphes
+		Nemoptera
+		Lertha
+		Ascaloptynx
+		Nallachius
+		Dilar
+		Mantispa
+		Lomamyia
+		Psychopsis
+		Agulla
+		Stylops
+		Halictophagus
+		Priacma
+		Lepicerus
+		Sphaerius
+		Hydroscapha
+		Amphizoa
+		Hydroporus
+		Hydaticus
+		Acilius
+		Ilybius
+		Colymbetes
+		Dytiscus
+		Agabus
+		Notiophilus
+		Nebria
+		Leistus
+		Trechus
+		Ocys
+		Bembidion
+		Patrobus
+		Elaphrus
+		Pachyteles
+		Cylindera
+		Cicindela
+		Pheropsophus
+		Brachinus
+		Calathus
+		Abax
+		Chlaenius
+		Poecilus
+		Amara
+		Pterostichus
+		Synuchus
+		Laemostenus
+		Olisthopus
+		Agonum
+		Harpalus
+		Anisodactylus
+		Dicheirotrichus
+		Licinus
+		Loricera
+		Cychrus
+		Carabus
+		Laricobius
+		Frickius
+		Lucanus
+		Pleocoma
+		Chiloloba
+		Cetonia
+		Glycyphana
+		Phyllophaga
+		Holotrichia
+		Lepidiota
+		Melolontha
+		Blackbolbus
+		Schizonycha
+		Oryctes
+		Cyclocephala
+		Mimela
+		Popillia
+		Anomala
+		Adoretus
+		Trypoxylus
+		Maladera
+		Hoplia
+		Phaenonotum
+		Dactylosternum
+		Derallus
+		Berosus
+		Hydrophilus
+		Sperchopsis
+		Tropisternus
+		Helobata
+		Helochares
+		Anacaena
+		Enochrus
+		Georissus
+		Acrotrichis
+		Ataenius
+		Nicrophorus
+		Phosphuga
+		Dendroxena
+		Oiceoptoma
+		Calosilpha
+		Eusilpha
+		Chrysosilpha
+		Silpha
+		Thanatophilus
+		Necrodes
+		Diamesus
+		Anovia
+		Scymnus
+		Stethorus
+		Rhyzobius
+		Diomus
+		Epilachna
+		Poria
+		Hyperaspis
+		Sericoderus
+		Endomychus
+		Dastarcus
+		Aulonium
+		Hylecoetus
+		Lytta
+		Meloe
+		Epicauta
+		Inopeplus
+		Litargus
+		Pelecotoma
+		Tribolium
+		Pterohelaeus
+		Leiochrodes
+		Palorus
+		Eleodes
+		Tenebrio
+		Scaurus
+		Gonocephalum
+		Gnathocerus
+		Blaps
+		Latheticus
+		Morica
+		Pimelia
+		Ahasverus
+		Cathartus
+		Tenebroides
+		Languria
+		Helota
+		Cryptolestes
+		Cyllodes
+		Carpophilus
+		Euops
+		Phialodes
+		Paratrachelophorus
+		Phymatapoderus
+		Apoderus
+		Epirhynchites
+		Involvulus
+		Auletobius
+		Byctiscus
+		Deporaus
+		Echinocnemus
+		Metamasius
+		Rhynchophorus
+		Sitophilus
+		Sipalinus
+		Lamprosoma
+		Naupactus
+		Listronotus
+		Otiorhynchus
+		Cylydrorhinus
+		Sitona
+		Chaetoptelius
+		Xyloterinus
+		Hylurdrectonus
+		Anthonomus
+		Larinus
+		Lixus
+		Phyllobius
+		Heilipodus
+		Xyleborus
+		Dryocoetes
+		Cylindrocopturus
+		Pissodes
+		Hylobius
+		Ceutorhynchus
+		Conotrachelus
+		Apion
+		Exapion
+		Cylas
+		Stenocorus
+		Distenia
+		Spondylis
+		Rhagium
+		Prionoplus
+		Prionus
+		Phoracantha
+		Phymatodes
+		Plagionotus
+		Strangalia
+		Alosterna
+		Leptura
+		Saperda
+		Phytoecia
+		Oberea
+		Anoplophora
+		Leiopus
+		Agapanthia
+		Monochamus
+		Platycorynus
+		Colaspis
+		Lexiphanes
+		Cryptocephalus
+		Mylassa
+		Neochlamisus
+		Exema
+		Coptocephala
+		Anomoea
+		Labidostomis
+		Pachybrachis
+		Gonioctena
+		Pyrrhalta
+		Galerucella
+		Atrachya
+		Diabrotica
+		Ophrida
+		Alagoasa
+		Blepharida
+		Disonycha
+		Agasicles
+		Systena
+		Donacia
+		Microctenochira
+		Stator
+		Amblycerus
+		Callosobruchus
+		Acanthoscelides
+		Chrysomela
+		Araecerus
+		Vesperus
+		Aulacoscelis
+		Rhyzopertha
+		Lyctus
+		Gibbium
+		Ptinus
+		Mezium
+		Attagenus
+		Anthrenus
+		Trogoderma
+		Anthrenocerus
+		Dermestes
+		Stegobium
+		Lasioderma
+		Protaetia
+		Heterocerus
+		Agrilus
+		Schizopus
+		Psephenus
+		Lutrochus
+		Neocylloepus
+		Pelidnota
+		Cybocephalus
+		Zethopsus
+		Rhagophthalmus
+		Cebrio
+		Agriotes
+		Metapteron
+		Pyropyga
+		Pyrocoelia
+		Pyractomena
+		Lucidina
+		Photinus
+		Photuris
+		Luciola
+		Cyphonocerus
+		Curtos
+		Athemus
+		Pinodytes
+		Zearagytodes
+		Oxyporus
+		Stenus
+		Staphylinus
+		Ocypus
+		Tasgius
+		Ontholestes
+		Neobisnius
+		Philonthus
+		Gabrius
+		Quedius
+		Creophilus
+		Xanthopygus
+		Cephennium
+		Gyrohypnus
+		Tachyporus
+		Rugilus
+		Anotylus
+		Platystethus
+		Bledius
+		Aleochara
+		Megarthrus
+		Epierus
+		Panorpa
+		Neopanorpa
+		Bittacus
+		Epitedia
+		Ctenocephalides
+		Malacopsylla
+		Phthiropsylla
+		Myodopsylla
+		Sternopsylla
+		Orchopeas
+		Aetheca
+		Uropsylla
+		Conorhinopsylla
+		Craneopsylla
+		Tunga
+		Tipula
+		Nephrotoma
+		Coboldia
+		Ditomyia
+		Macrocera
+		Keroplatus
+		Orfelia
+		Mycomya
+		Phthinia
+		Mayetiola
+		Sciara
+		Lycoriella
+		Bradysia
+		Diadocidia
+		Speolepta
+		Monoclona
+		Boletina
+		Tabanus
+		Chrysops
+		Tongamya
+		Calotarsa
+		Machimus
+		Efferia
+		Damalis
+		Dioctria
+		Laphria
+		Choerades
+		Lamyra
+		Andrenosoma
+		Condylostylus
+		Pseudacteon
+		Megaselia
+		Lonchoptera
+		Rhingia
+		Platycheirus
+		Episyrphus
+		Sphaerophoria
+		Baccha
+		Meliscaeva
+		Syrphus
+		Meligramma
+		Eupeodes
+		Epistrophe
+		Chrysotoxum
+		Leucozona
+		Scaeva
+		Ischiodon
+		Melangyna
+		Dasysyrphus
+		Didea
+		Xanthogramma
+		Eumerus
+		Cheilosia
+		Pipizella
+		Pipiza
+		Sericomyia
+		Helophilus
+		Anasimyia
+		Melanostoma
+		Chalarus
+		Copromyza
+		Heterocheila
+		Suillia
+		Dryomyza
+		Spaniocelyphus
+		Physocephala
+		Sicus
+		Zodion
+		Tricholauxania
+		Meiosimyza
+		Aulogastromyia
+		Opomyza
+		Geomyza
+		Fergusonina
+		Sphyracephala
+		Diopsis
+		Diasemopsis
+		Lipara
+		Cryptochetum
+		Aulacigaster
+		Asteia
+		Coenia
+		Hydrellia
+		Ephydra
+		Myopa
+		Scaptodrosophila
+		Drosophila
+		Mycodrosophila
+		Hirtodrosophila
+		Lissocephala
+		Scaptomyza
+		Zygothrica
+		Microdrosophila
+		Conops
+		Phytobia
+		Liriomyza
+		Phyto
+		Glossina
+		Melophagus
+		Crataerina
+		Exorista
+		Winthemia
+		Pseudogonia
+		Gonia
+		Belvosia
+		Pales
+		Frontiniella
+		Sturmia
+		Eumea
+		Hyphantrophaga
+		Patelloa
+		Blepharipa
+		Leschenaultia
+		Rhinophora
+		Stevenia
+		Tricharaea
+		Sarcophaga
+		Melanophora
+		Paykullia
+		Dermatobia
+		Cuterebra
+		Gasterophilus
+		Oestromyia
+		Hypoderma
+		Lucilia
+		Aldrichina
+		Hypopygiopsis
+		Hemipyrellia
+		Calliphora
+		Cynomya
+		Auchmeromyia
+		Protophormia
+		Phormia
+		Chrysomya
+		Protocalliphora
+		Hemilucilia
+		Pollenia
+		Cochliomyia
+		Scathophaga
+		Cleigastra
+		Lasiomma
+		Chirosia
+		Delia
+		Fannia
+		Helina
+		Myospila
+		Mydaea
+		Hebecnema
+		Gymnodia
+		Muscina
+		Haematobia
+		Musca
+		Stomoxys
+		Morellia
+		Mesembrina
+		Polietes
+		Hydrotaea
+		Dalmannia
+		Anastrepha
+		Anticheta
+		Atrichomelina
+		Dicranosepsis
+		Lasionemopoda
+		Paratoxopoda
+		Meroplius
+		Nemopoda
+		Saltella
+		Themira
+		Ortalischema
+		Orygma
+		Stylogaster
+		Sepsis
+		Lonchaea
+		Rivellia
+		Compsobata
+		Chamaepsila
+		Rhagoletis
+		Bactrocera
+		Acartophthalmus
+		Psychoda
+		Clogmia
+		Nemopalpus
+		Lutzomyia
+		Bichromomyia
+		Nyssomyia
+		Psychodopygus
+		Psathyromyia
+		Phlebotomus
+		Sergentomyia
+		Smittia
+		Diamesa
+		Micropsectra
+		Chironomus
+		Simulium
+		Metacnephia
+		Stegopterna
+		Cnephia
+		Prosimulium
+		Gymnopais
+		Chaoborus
+		Mansonia
+		Aedes
+		Culex
+		Psorophora
+		Ochlerotatus
+		Toxorhynchites
+		Anopheles
+		Hydroptila
+		Orthotrichia
+		Oxyethira
+		Hydropsyche
+		Cheumatopsyche
+		Athripsodes
+		Leptocerus
+		Ceraclea
+		Neophylax
+		Limnephilus
+		Anabolia
+		Helicopsyche
+		Gumaga
+		Agarodes
+		Neomicropteryx
+		Micropterix
+		Eriocrania
+		Tischeria
+		Coptotriche
+		Nemophora
+		Ogmograptis
+		Phyllonorycter
+		Grapholita
+		Epiphyas
+		Dichelia
+		Choristoneura
+		Danaus
+		Melitaea
+		Strabena
+		Euploea
+		Tirumala
+		Heliconius
+		Laparus
+		Neruda
+		Acraea
+		Vanessa
+		Minois
+		Pararge
+		Melanitis
+		Polygonia
+		Neptis
+		Charaxes
+		Curetis
+		Crudaria
+		Lachnocnema
+		Baliochila
+		Alaena
+		Durbania
+		Axiocerses
+		Trimenia
+		Thestor
+		Leptotes
+		Pseudonacaduba
+		Pseudophilotes
+		Zizina
+		Zizeeria
+		Cyaniris
+		Celastrina
+		Japonica
+		Anthene
+		Nacaduba
+		Euchrysops
+		Lepidochrysops
+		Cacyreus
+		Phlyaria
+		Actizera
+		Philotiella
+		Euphilotes
+		Phengaris
+		Shijimiaeoides
+		Jamides
+		Lycaena
+		Kretania
+		Polyommatus
+		Aricia
+		Lysandra
+		Cupido
+		Agriades
+		Cyclargus
+		Hemiargus
+		Chilades
+		Pithecops
+		Iolana
+		Scolitantides
+		Glaucopsyche
+		Plebejus
+		Deudorix
+		Taraka
+		Erynnis
+		Tagiades
+		Eagris
+		Acleros
+		Parnara
+		Mylothris
+		Pieris
+		Anthocharis
+		Colotis
+		Leptosia
+		Pareronia
+		Pieriballia
+		Prioneris
+		Leptidea
+		Dismorphia
+		Pseudopieris
+		Nathalis
+		Colias
+		Eurema
+		Catocala
+		Pachliopta
+		Graphium
+		Atrophaneura
+		Parides
+		Papilio
+		Sericinus
+		Glyphodes
+		Chilo
+		Adscita
+		Corcyra
+		Amyelois
+		Galleria
+		Plodia
+		Lymantria
+		Zygaena
+		Helicoverpa
+		Plutella
+		Tineola
+		Spodoptera
+		Mythimna
+		Athetis
+		Prionoxystus
+		Heliothis
+		Bombyx
+		Saturnia
+		Actias
+		Samia
+		Antheraea
+		Darna
+		Monoleuca
+		Euclea
+		Tortricidia
+		Hyles
+		Callambulyx
+		Timandra
+		Arichanna
+		Geometra
+		Ectropis
+		Odonestis
+		Numenes
+		Sthenopis
+		Mnesarchaea
+		Runaria
+		Sterictiphora
+		Arge
+		Abia
+		Athalia
+		Hemitaxonus
+		Tenthredo
+		Loderus
+		Thrinax
+		Stromboceros
+		Strongylogaster
+		Nematus
+		Nematinus
+		Aneugmenus
+		Cladius
+		Dolerus
+		Neodiprion
+		Lagidina
+		Rhogogaster
+		Aglaostigma
+		Pachyprotasis
+		Macrophya
+		Eutomostethus
+		Ametastegia
+		Waldheimia
+		Siobla
+		Allantus
+		Empria
+		Taxonus
+		Pamphilius
+		Xiphydria
+		Janus
+		Hartigia
+		Cephus
+		Xeris
+		Tremex
+		Urocerus
+		Nasonia
+		Orussus
+		Gasteruption
+		Pristaulacus
+		Evania
+		Brachygaster
+		Timulla
+		Myrmosula
+		Myrmosa
+		Sapyga
+		Scolia
+		Campsomeris
+		Tachypompilus
+		Episyron
+		Batozonellus
+		Poecilopompilus
+		Pompilus
+		Arachnospila
+		Sphictostethus
+		Epipompilus
+		Priocnemis
+		Anoplius
+		Irenangelus
+		Cyphononyx
+		Macromeris
+		Auplopus
+		Stilbum
+		Chrysis
+		Cephalonomia
+		Laelius
+		Pristocera
+		Goniozus
+		Streblognathus
+		Neivamyrmex
+		Eciton
+		Gnamptogenys
+		Polyrhachis
+		Nylanderia
+		Paratrechina
+		Myrmelachista
+		Myrmica
+		Solenopsis
+		Monomorium
+		Cyphomyrmex
+		Messor
+		Tetramorium
+		Stigmatomma
+		Platythyrea
+		Plectroctena
+		Pachycondyla
+		Odontomachus
+		Linepithema
+		Camponotus
+		Lasius
+		Atta
+		Ampulex
+		Stizoides
+		Bembix
+		Trachypus
+		Philanthus
+		Tachysphex
+		Pison
+		Methoca
+		Tiphia
+		Myzinum
+		Eumenes
+		Katamenes
+		Ancistrocerus
+		Symmorphus
+		Vespa
+		Vespula
+		Polistes
+		Ropalidia
+		Polybia
+		Pseudomasaris
+		Euparagia
+		Anterhynchium
+		Liostenogaster
+		Eustenogaster
+		Parischnogaster
+		Anischnogaster
+		Ammophila
+		Chalybion
+		Sceliphron
+		Sphex
+		Chlorion
+		Isodontia
+		Melitturga
+		Perdita
+		Panurgus
+		Euherbstia
+		Ancylandrena
+		Andrena
+		Hylaeus
+		Colletes
+		Xeromelissa
+		Dufourea
+		Rophites
+		Conanthalictus
+		Sphecodosoma
+		Nomioides
+		Augochloropsis
+		Sphecodes
+		Lasioglossum
+		Homalictus
+		Seladonia
+		Halictus
+		Melitta
+		Macropis
+		Hesperapis
+		Chelostoma
+		Stelis
+		Euaspis
+		Megachile
+		Coelioxys
+		Lithurgus
+		Osmia
+		Ashmeadiella
+		Hoplitis
+		Trachusa
+		Dioxys
+		Pararhophites
+		Fidelia
+		Neofidelia
+		Epicharis
+		Euglossa
+		Eulaema
+		Exaerete
+		Bombus
+		Trigona
+		Tetragonisca
+		Plebeia
+		Nannotrigona
+		Duckeola
+		Scaptotrigona
+		Melipona
+		Hypotrigona
+		Meliponula
+		Axestotrigona
+		Geniotrigona
+		Centris
+		Apis
+		Ctenoplectra
+		Anthophora
+		Amegilla
+		Tetrapedia
+		Xylocopa
+		Ceratina
+		Braunsapis
+		Compsomelissa
+		Exoneura
+		Macrogalea
+		Melitoma
+		Paratetrapedia
+		Exomalopsis
+		Anthophorula
+		Ancyla
+		Tetralonia
+		Eucera
+		Svastra
+		Thygater
+		Coelioxoides
+		Zacosmia
+		Thyreus
+		Xeromelecta
+		Melecta
+		Epeoloides
+		Leiopodus
+		Melectoides
+		Isepeolus
+		Epiclopus
+		Mesocheira
+		Mesoplia
+		Ericrocis
+		Rhathymus
+		Townsendiella
+		Hexepeolus
+		Ammobatoides
+		Holcopasites
+		Triopasites
+		Brachynomada
+		Pasites
+		Sphecodopsis
+		Oreopasites
+		Ammobates
+		Nomada
+		Neopasites
+		Biastes
+		Caenoprosopis
+		Caenoprosopina
+		Triepeolus
+		Epeolus
+		Taeniogonalos
+		Pygostolus
+		Microctonus
+		Peristenus
+		Syntretus
+		Meteorus
+		Maxfischeria
+		Bracon
+		Rogas
+		Fopius
+		Opius
+		Heterospilus
+		Macrocentrus
+		Bassus
+		Chelonus
+		Ascogaster
+		Phanerotoma
+		Orgilus
+		Cardiochiles
+		Microplitis
+		Cotesia
+		Trioxys
+		Praon
+		Diaeretiella
+		Aphidius
+		Dendrocerus
+		Aphanogmus
+		Pimpla
+		Enicospilus
+		Metopius
+		Ophion
+		Hyposoter
+		Diadegma
+		Campoplex
+		Campoletis
+		Acroricnus
+		Megarhyssa
+		Netelia
+		Ateleute
+		Aphanistes
+		Xorides
+		Ischnoceros
+		Odontocolon
+		Platygaster
+		Fidiobia
+		Tiphodytes
+		Scelio
+		Eumicrosoma
+		Trissolcus
+		Telenomus
+		Gryon
+		Helorus
+		Proctotrupes
+		Diplolepis
+		Leptopilina
+		Kleidotoma
+		Ganaspis
+		Hexacola
+		Aganaspis
+		Parnips
+		Ibalia
+		Anacharis
+		Xyalaspis
+		Alloxysta
+		Isocolus
+		Aulacidea
+		Barbotinia
+		Cynips
+		Andricus
+		Synergus
+		Periclistus
+		Xestophanes
+		Synophromorpha
+		Diastrophus
+		Figites
+		Neralsia
+		Xyalophora
+		Callaspidia
+		Megastigmus
+		Monodontomerus
+		Podagrion
+		Torymus
+		Microdontomerus
+		Ditropinotus
+		Jambiya
+		Perilampus
+		Monacon
+		Chrysolampus
+		Euderus
+		Melittobia
+		Tetrastichus
+		Minotetrastichus
+		Aprostocetus
+		Chrysocharis
+		Entedon
+		Pediobius
+		Closterocerus
+		Elachertus
+		Euplectrus
+		Trichospilus
+		Pnigalio
+		Elasmus
+		Eulophus
+		Hemiptarsenus
+		Cirrospilus
+		Aphelinoidea
+		Trichogrammatoidea
+		Trichogramma
+		Brachyufens
+		Mesocomys
+		Eupelmus
+		Arachnophaga
+		Anastatus
+		Aphelinus
+		Aphytis
+		Marietta
+		Pteroptrix
+		Leucospis
+		Centrodora
+		Coccophagus
+		Aiolomorphus
+		Tetramesa
+		Bruchophagus
+		Eurytoma
+		Dirhinus
+		Brachymeria
+		Conura
+		Obeza
+		Lophyrocera
+		Kapala
+		Pseudochalcura
+		Pseudometagea
+		Stilbula
+		Eucharis
+		Orasema
+		Gollumiella
+		Cales
+		Anagyrus
+		Leptomastidea
+		Ageniaspis
+		Copidosoma
+		Copidosomopsis
+		Cheiloneurus
+		Comperiella
+		Acerophagus
+		Metaphycus
+		Basalys
+		Encarsia
+		Ormyrus
+		Asaphes
+		Spalangia
+		Mesopolobus
+		Ceratosolen
+		Eupristina
+		Pegoscapus
+		Diaziella
+		Sycoscapter
+		Pseudocatolaccus
+		Cyrtogaster
+		Pteromalus
+		Pachyneuron
+		Coelopisthia
+		Gonatocerus
+		Anaphes
+		Anagrus
+		Thermobia
+		Lepisma
+		Pedetontus
+		Petrobius
+	;
+END;
+BEGIN TREES;
+	TRANSLATE
+		1	Occasjapyx,
+		2	Lepidocampa,
+		3	Campodea,
+		4	Eosentomon,
+		5	Baculentulus,
+		6	Tomocerus,
+		7	Sminthurinus,
+		8	Heteromurus,
+		9	Isotoma,
+		10	Cryptopygus,
+		11	Friesea,
+		12	Anurida,
+		13	Thraulus,
+		14	Choroterpes,
+		15	Habrophlebiodes,
+		16	Paraleptophlebia,
+		17	Habroleptoides,
+		18	Traverhyphes,
+		19	Tricorythodes,
+		20	Leptohyphes,
+		21	Derlethina,
+		22	Callibaetis,
+		23	Acentrella,
+		24	Cloeon,
+		25	Procloeon,
+		26	Centroptilum,
+		27	Nigrobaetis,
+		28	Baetis,
+		29	Prosopistoma,
+		30	Potamanthus,
+		31	Anthopotamus,
+		32	Siphlonurus,
+		33	Hexagenia,
+		34	Ephemera,
+		35	Tortopsis,
+		36	Ephoron,
+		37	Proboscidoplocia,
+		38	Palingenia,
+		39	Dolania,
+		40	Behningia,
+		41	Neoephemera,
+		42	Isonychia,
+		43	Dipteromimus,
+		44	Caenis,
+		45	Brachycercus,
+		46	Oligoneuriella,
+		47	Timpanoga,
+		48	Serratella,
+		49	Teloganopsis,
+		50	Torleya,
+		51	Ephemerella,
+		52	Caudatella,
+		53	Attenella,
+		54	Penelomax,
+		55	Tsalia,
+		56	Matriella,
+		57	Caurinella,
+		58	Drunella,
+		59	Eurylophella,
+		60	Dannella,
+		61	Siphloplecton,
+		62	Ameletus,
+		63	Ametropus,
+		64	Pseudiron,
+		65	Stenonema,
+		66	Afronurus,
+		67	Electrogena,
+		68	Leucrocuta,
+		69	Ecdyonurus,
+		70	Cinygmula,
+		71	Heptagenia,
+		72	Epeorus,
+		73	Rhithrogena,
+		74	Baetisca,
+		75	Sympecma,
+		76	Rhipidolestes,
+		77	Pyrrhosoma,
+		78	Ischnura,
+		79	Paracercion,
+		80	Coenagrion,
+		81	Calopteryx,
+		82	Atrocalopteryx,
+		83	Tanypteryx,
+		84	Cordulegaster,
+		85	Choristhemis,
+		86	Eusynthemis,
+		87	Synthemis,
+		88	Pentathemis,
+		89	Idionyx,
+		90	Hesperocordulia,
+		91	Cordulephya,
+		92	Idomacromia,
+		93	Procordulia,
+		94	Hemicordulia,
+		95	Tetragoneuria,
+		96	Somatochlora,
+		97	Cordulia,
+		98	Oxygastra,
+		99	Gomphomacromia,
+		100	Nannophlebia,
+		101	Brachythemis,
+		102	Erythrodiplax,
+		103	Plathemis,
+		104	Perithemis,
+		105	Celithemis,
+		106	Orthetrum,
+		107	Ladona,
+		108	Nannophya,
+		109	Sympetrum,
+		110	Diplacodes,
+		111	Uracis,
+		112	Tholymis,
+		113	Erythemis,
+		114	Hagenius,
+		115	Hemigomphus,
+		116	Austrogomphus,
+		117	Antipodogomphus,
+		118	Ictinogomphus,
+		119	Gomphus,
+		120	Neopetalia,
+		121	Epiophlebia,
+		122	Anax,
+		123	Aeshna,
+		124	Euborellia,
+		125	Forficula,
+		126	Chelisoches,
+		127	Nala,
+		128	Tagalina,
+		129	Notonemoura,
+		130	Austrocercella,
+		131	Austrocerca,
+		132	Malenka,
+		133	Amphinemura,
+		134	Protonemura,
+		135	Zapada,
+		136	Nemoura,
+		137	Perlomyia,
+		138	Leuctra,
+		139	Paraleuctra,
+		140	Utacapnia,
+		141	Capnia,
+		142	Eucapnopsis,
+		143	Taeniopteryx,
+		144	Brachyptera,
+		145	Doddsia,
+		146	Taenionema,
+		147	Pteronarcys,
+		148	Pteronarcella,
+		149	Isoperla,
+		150	Cascadoperla,
+		151	Megarcys,
+		152	Isogenoides,
+		153	Diura,
+		154	Perlodes,
+		155	Cultus,
+		156	Kogotus,
+		157	Pictetiella,
+		158	Setvena,
+		159	Skwala,
+		160	Frisonia,
+		161	Suwallia,
+		162	Triznaka,
+		163	Plumiperla,
+		164	Haploperla,
+		165	Sweltsa,
+		166	Kathroperla,
+		167	Chloroperla,
+		168	Paraperla,
+		169	Utaperla,
+		170	Alloperla,
+		171	Perla,
+		172	Dinocras,
+		173	Claassenia,
+		174	Doroneuria,
+		175	Acroneuria,
+		176	Perlesta,
+		177	Hesperoperla,
+		178	Calineuria,
+		179	Cosmioperla,
+		180	Thaumatoperla,
+		181	Eusthenia,
+		182	Newmanoperla,
+		183	Trinotoperla,
+		184	Cardioperla,
+		185	Riekoperla,
+		186	Dinotoperla,
+		187	Illiesoperla,
+		188	Leptoperla,
+		189	Eunotoperla,
+		190	Austropentura,
+		191	Acruroperla,
+		192	Grylloblatta,
+		193	Galloisiana,
+		194	Mantophasma,
+		195	Sclerophasma,
+		196	Karoophasma,
+		197	Aposthonia,
+		198	Timema,
+		199	Tectarchus,
+		200	Pachymorpha,
+		201	Micrarchus,
+		202	Spinotectarchus,
+		203	Paramenexenus,
+		204	Neohirasea,
+		205	Oxyartes,
+		206	Phaenopharos,
+		207	Orxines,
+		208	Diesbachia,
+		209	Asceles,
+		210	Sipyloidea,
+		211	Trachythorax,
+		212	Rhamphosipyloidea,
+		213	Lopaphus,
+		214	Baculofractum,
+		215	Gratidia,
+		216	Diapheromera,
+		217	Oncotophasma,
+		218	Oreophoetes,
+		219	Libethra,
+		220	Dimorphodes,
+		221	Medauroidea,
+		222	Medaura,
+		223	Baculum,
+		224	Phenacephorus,
+		225	Lonchodes,
+		226	Neopromachus,
+		227	Eurycantha,
+		228	Leprocaulinus,
+		229	Carausius,
+		230	Haplopus,
+		231	Macrophasma,
+		232	Hermarchus,
+		233	Argosarchus,
+		234	Acanthoxyla,
+		235	Clitarchus,
+		236	Cotylosoma,
+		237	Extatosoma,
+		238	Anchiale,
+		239	Megacrania,
+		240	Ophicrania,
+		241	Graeffea,
+		242	Eurycnema,
+		243	Tropidoderus,
+		244	Phraortes,
+		245	Phobaeticus,
+		246	Bacillus,
+		247	Phyllium,
+		248	Chitoniscus,
+		249	Sungaya,
+		250	Aretaon,
+		251	Haaniella,
+		252	Heteropteryx,
+		253	Epidares,
+		254	Lamponius,
+		255	Paraphasma,
+		256	Peruphasma,
+		257	Anisomorpha,
+		258	Agathemera,
+		259	Lamproblatta,
+		260	Celatoblatta,
+		261	Methana,
+		262	Scabina,
+		263	Melanozosteria,
+		264	Neostylopyga,
+		265	Blatta,
+		266	Deropeltis,
+		267	Periplaneta,
+		268	Duchailluia,
+		269	Zootermopsis,
+		270	Incisitermes,
+		271	Cryptotermes,
+		272	Neotermes,
+		273	Kalotermes,
+		274	Mastotermes,
+		275	Reticulitermes,
+		276	Coptotermes,
+		277	Angulitermes,
+		278	Nasutitermes,
+		279	Microcerotermes,
+		280	Macrotermes,
+		281	Odontotermes,
+		282	Microtermes,
+		283	Latindia,
+		284	Therea,
+		285	Eucorydia,
+		286	Euthyrrhapha,
+		287	Polyphaga,
+		288	Arenivaga,
+		289	Diploptera,
+		290	Panchlora,
+		291	Gromphadorhina,
+		292	Rhyparobia,
+		293	Nauphoeta,
+		294	Epilampra,
+		295	Phortioeca,
+		296	Pycnoscelus,
+		297	Eublaberus,
+		298	Blaberus,
+		299	Byrsotria,
+		300	Archimandrita,
+		301	Panesthia,
+		302	Geoscapheus,
+		303	Rhabdoblatta,
+		304	Ectobius,
+		305	Latiblattella,
+		306	Anaplecta,
+		307	Balta,
+		308	Supella,
+		309	Nyctibora,
+		310	Loboptera,
+		311	Blattella,
+		312	Paratemnopteryx,
+		313	Ischnoptera,
+		314	Xestoblatta,
+		315	Cryptocercus,
+		316	Pseudovates,
+		317	Stagmomantis,
+		318	Tenodera,
+		319	Hierodula,
+		320	Theopropus,
+		321	Brunneria,
+		322	Zorotypus,
+		323	Hemiandrus,
+		324	Deinacrida,
+		325	Motuweta,
+		326	Dolichopoda,
+		327	Diestrammena,
+		328	Troglophilus,
+		329	Platycleis,
+		330	Metrioptera,
+		331	Pachytrachis,
+		332	Tettigonia,
+		333	Bicolorana,
+		334	Decticus,
+		335	Pholidoptera,
+		336	Pediodectes,
+		337	Meconema,
+		338	Leptophyes,
+		339	Barbitistes,
+		340	Phaneroptera,
+		341	Odontura,
+		342	Tylopsis,
+		343	Conocephalus,
+		344	Ruspolia,
+		345	Orchelimum,
+		346	Oecanthus,
+		347	Teleogryllus,
+		348	Gryllus,
+		349	Gryllomorpha,
+		350	Pteronemobius,
+		351	Eunemobius,
+		352	Trigonidium,
+		353	Homoeoxipha,
+		354	Allonemobius,
+		355	Cylindraustralia,
+		356	Tetrix,
+		357	Paratettix,
+		358	Phymateus,
+		359	Pyrgomorpha,
+		360	Chrotogonus,
+		361	Atractomorpha,
+		362	Haplotropis,
+		363	Romalea,
+		364	Heteropternis,
+		365	Aulocara,
+		366	Sphingonotus,
+		367	Acrotylus,
+		368	Oedaleus,
+		369	Rhammatocerus,
+		370	Xanthippus,
+		371	Trimerotropis,
+		372	Locusta,
+		373	Acrida,
+		374	Truxalis,
+		375	Spathosternum,
+		376	Oxya,
+		377	Aiolopus,
+		378	Omocestus,
+		379	Stenobothrus,
+		380	Mermiria,
+		381	Euchorthippus,
+		382	Oedipoda,
+		383	Phlaeoba,
+		384	Tristria,
+		385	Ceracris,
+		386	Prumna,
+		387	Melanoplus,
+		388	Bradynotes,
+		389	Chortophaga,
+		390	Anapodisma,
+		391	Bryodemella,
+		392	Bryodema,
+		393	Chorthippus,
+		394	Gomphocerus,
+		395	Gomphocerippus,
+		396	Dasyhippus,
+		397	Eucoptacra,
+		398	Syrbula,
+		399	Dichromorpha,
+		400	Nomadacris,
+		401	Chondracris,
+		402	Ornithacris,
+		403	Schistocerca,
+		404	Anacridium,
+		405	Cyrtacanthacris,
+		406	Circotettix,
+		407	Gastrimargus,
+		408	Oxycatantops,
+		409	Calliptamus,
+		410	Eyprepocnemis,
+		411	Cataloipus,
+		412	Heteracris,
+		413	Hesperotettix,
+		414	Catantops,
+		415	Dactylotum,
+		416	Thrips,
+		417	Frankliniella,
+		418	Haplothrips,
+		419	Bactrothrips,
+		420	Diaphorina,
+		421	Cacopsylla,
+		422	Trioza,
+		423	Bactericera,
+		424	Siphoninus,
+		425	Bemisia,
+		426	Rhopalosiphum,
+		427	Acyrthosiphon,
+		428	Sitobion,
+		429	Schizaphis,
+		430	Icerya,
+		431	Drosicha,
+		432	Diaspis,
+		433	Pulvinaria,
+		434	Ceroplastes,
+		435	Hyalesthes,
+		436	Haplaxius,
+		437	Peregrinus,
+		438	Muellerianella,
+		439	Prokelisia,
+		440	Delphacodes,
+		441	Conomelus,
+		442	Megamelus,
+		443	Perkinsiella,
+		444	Dicranotropis,
+		445	Scolypopa,
+		446	Ricania,
+		447	Ommatissus,
+		448	Bruchomorpha,
+		449	Xenophyes,
+		450	Hesperocorixa,
+		451	Sigara,
+		452	Tenagobia,
+		453	Nannocoris,
+		454	Hypselosoma,
+		455	Ceratocombus,
+		456	Mesovelia,
+		457	Hebrus,
+		458	Hydrometra,
+		459	Microvelia,
+		460	Gerris,
+		461	Aquarius,
+		462	Notonecta,
+		463	Enithares,
+		464	Ambrysus,
+		465	Ochterus,
+		466	Ranatra,
+		467	Abedus,
+		468	Belostoma,
+		469	Diplonychus,
+		470	Lethocerus,
+		471	Micronecta,
+		472	Plea,
+		473	Saldula,
+		474	Salda,
+		475	Leptocorisa,
+		476	Megalotomus,
+		477	Riptortus,
+		478	Rhopalus,
+		479	Leptocoris,
+		480	Stictopleurus,
+		481	Harmostes,
+		482	Liorhyssus,
+		483	Corallocoris,
+		484	Physomerus,
+		485	Hygia,
+		486	Anoplocnemis,
+		487	Mictis,
+		488	Notobitus,
+		489	Catorhintha,
+		490	Anisoscelis,
+		491	Leptoglossus,
+		492	Aulacosternum,
+		493	Homoeocerus,
+		494	Cletus,
+		495	Clavigralla,
+		496	Pachygrontha,
+		497	Urostylis,
+		498	Urochela,
+		499	Pyrrhocoris,
+		500	Dysdercus,
+		501	Largus,
+		502	Dicranocephalus,
+		503	Piesma,
+		504	Panaorus,
+		505	Udeocoris,
+		506	Dieuches,
+		507	Remaudiereana,
+		508	Paraeucosmetus,
+		509	Paromius,
+		510	Pseudopachybrachius,
+		511	Sinorsillus,
+		512	Nysius,
+		513	Lygaeus,
+		514	Tropidothorax,
+		515	Oncopeltus,
+		516	Spilostethus,
+		517	Kleidocerys,
+		518	Belonochilus,
+		519	Geocoris,
+		520	Cymus,
+		521	Malcus,
+		522	Phaenacantha,
+		523	Heterogaster,
+		524	Thaumastella,
+		525	Elasmucha,
+		526	Poecilocoris,
+		527	Dichelops,
+		528	Graphosoma,
+		529	Loxa,
+		530	Edessa,
+		531	Thyanta,
+		532	Chinavia,
+		533	Brochymena,
+		534	Erthesina,
+		535	Dalpada,
+		536	Eurydema,
+		537	Pentatoma,
+		538	Halyomorpha,
+		539	Carbula,
+		540	Podisus,
+		541	Rhaphigaster,
+		542	Piezodorus,
+		543	Plautia,
+		544	Mormidea,
+		545	Oebalus,
+		546	Euschistus,
+		547	Megacopta,
+		548	Coptosoma,
+		549	Megymenum,
+		550	Oxycarenus,
+		551	Mezira,
+		552	Aradus,
+		553	Discocoris,
+		554	Thaumastocoris,
+		555	Baclozygum,
+		556	Cimex,
+		557	Xylocoris,
+		558	Dufouriellus,
+		559	Anthocoris,
+		560	Orius,
+		561	Campyloneura,
+		562	Lygus,
+		563	Neurocolpus,
+		564	Notostira,
+		565	Leptopterna,
+		566	Capsus,
+		567	Deraeocoris,
+		568	Bryocoris,
+		569	Zanchius,
+		570	Pseudoloxops,
+		571	Blepharidopterus,
+		572	Plagiognathus,
+		573	Tytthus,
+		574	Pilophorus,
+		575	Polyozus,
+		576	Ausejanus,
+		577	Campylomma,
+		578	Chlamydatus,
+		579	Atractotomus,
+		580	Helopeltis,
+		581	Felisacus,
+		582	Coridromius,
+		583	Dicyphus,
+		584	Macrolophus,
+		585	Phatnoma,
+		586	Tingis,
+		587	Corythucha,
+		588	Stephanitis,
+		589	Urentius,
+		590	Dictyonota,
+		591	Teleonemia,
+		592	Eteoneus,
+		593	Dulinius,
+		594	Copium,
+		595	Agramma,
+		596	Dictyla,
+		597	Loricula,
+		598	Phymata,
+		599	Cnizocoris,
+		600	Prostemma,
+		601	Arachnocoris,
+		602	Himacerus,
+		603	Nabis,
+		604	Apiomerus,
+		605	Polididus,
+		606	Euagoras,
+		607	Sinea,
+		608	Endochus,
+		609	Rhynocoris,
+		610	Coranus,
+		611	Rhaphidosoma,
+		612	Vestula,
+		613	Zelus,
+		614	Nagusta,
+		615	Isyndus,
+		616	Sphedanolestes,
+		617	Sycanus,
+		618	Lophocephala,
+		619	Macracanthopsis,
+		620	Arilus,
+		621	Rhodnius,
+		622	Belminus,
+		623	Triatoma,
+		624	Linshcosteus,
+		625	Peirates,
+		626	Oncocephalus,
+		627	Ectomocoris,
+		628	Reduvius,
+		629	Velitra,
+		630	Cethera,
+		631	Acanthaspis,
+		632	Lisarda,
+		633	Ectrichodia,
+		634	Ectrychotes,
+		635	Empicoris,
+		636	Lachesilla,
+		637	Archipsocopsis,
+		638	Trogium,
+		639	Lepinotus,
+		640	Psyllipsocus,
+		641	Dorypteryx,
+		642	Columbicola,
+		643	Brueelia,
+		644	Pthirus,
+		645	Pediculus,
+		646	Haematopinus,
+		647	Laemobothrion,
+		648	Menopon,
+		649	Menacanthus,
+		650	Holomenopon,
+		651	Trinoton,
+		652	Liposcelis,
+		653	Sialis,
+		654	Corydalus,
+		655	Osmylus,
+		656	Sisyra,
+		657	Conwentzia,
+		658	Hemerobius,
+		659	Nothochrysa,
+		660	Chrysoperla,
+		661	Pseudomallada,
+		662	Chrysopa,
+		663	Italochrysa,
+		664	Polystoechotes,
+		665	Ithone,
+		666	Nymphes,
+		667	Nemoptera,
+		668	Lertha,
+		669	Ascaloptynx,
+		670	Nallachius,
+		671	Dilar,
+		672	Mantispa,
+		673	Lomamyia,
+		674	Psychopsis,
+		675	Agulla,
+		676	Stylops,
+		677	Halictophagus,
+		678	Priacma,
+		679	Lepicerus,
+		680	Sphaerius,
+		681	Hydroscapha,
+		682	Amphizoa,
+		683	Hydroporus,
+		684	Hydaticus,
+		685	Acilius,
+		686	Ilybius,
+		687	Colymbetes,
+		688	Dytiscus,
+		689	Agabus,
+		690	Notiophilus,
+		691	Nebria,
+		692	Leistus,
+		693	Trechus,
+		694	Ocys,
+		695	Bembidion,
+		696	Patrobus,
+		697	Elaphrus,
+		698	Pachyteles,
+		699	Cylindera,
+		700	Cicindela,
+		701	Pheropsophus,
+		702	Brachinus,
+		703	Calathus,
+		704	Abax,
+		705	Chlaenius,
+		706	Poecilus,
+		707	Amara,
+		708	Pterostichus,
+		709	Synuchus,
+		710	Laemostenus,
+		711	Olisthopus,
+		712	Agonum,
+		713	Harpalus,
+		714	Anisodactylus,
+		715	Dicheirotrichus,
+		716	Licinus,
+		717	Loricera,
+		718	Cychrus,
+		719	Carabus,
+		720	Laricobius,
+		721	Frickius,
+		722	Lucanus,
+		723	Pleocoma,
+		724	Chiloloba,
+		725	Cetonia,
+		726	Glycyphana,
+		727	Phyllophaga,
+		728	Holotrichia,
+		729	Lepidiota,
+		730	Melolontha,
+		731	Blackbolbus,
+		732	Schizonycha,
+		733	Oryctes,
+		734	Cyclocephala,
+		735	Mimela,
+		736	Popillia,
+		737	Anomala,
+		738	Adoretus,
+		739	Trypoxylus,
+		740	Maladera,
+		741	Hoplia,
+		742	Phaenonotum,
+		743	Dactylosternum,
+		744	Derallus,
+		745	Berosus,
+		746	Hydrophilus,
+		747	Sperchopsis,
+		748	Tropisternus,
+		749	Helobata,
+		750	Helochares,
+		751	Anacaena,
+		752	Enochrus,
+		753	Georissus,
+		754	Acrotrichis,
+		755	Ataenius,
+		756	Nicrophorus,
+		757	Phosphuga,
+		758	Dendroxena,
+		759	Oiceoptoma,
+		760	Calosilpha,
+		761	Eusilpha,
+		762	Chrysosilpha,
+		763	Silpha,
+		764	Thanatophilus,
+		765	Necrodes,
+		766	Diamesus,
+		767	Anovia,
+		768	Scymnus,
+		769	Stethorus,
+		770	Rhyzobius,
+		771	Diomus,
+		772	Epilachna,
+		773	Poria,
+		774	Hyperaspis,
+		775	Sericoderus,
+		776	Endomychus,
+		777	Dastarcus,
+		778	Aulonium,
+		779	Hylecoetus,
+		780	Lytta,
+		781	Meloe,
+		782	Epicauta,
+		783	Inopeplus,
+		784	Litargus,
+		785	Pelecotoma,
+		786	Tribolium,
+		787	Pterohelaeus,
+		788	Leiochrodes,
+		789	Palorus,
+		790	Eleodes,
+		791	Tenebrio,
+		792	Scaurus,
+		793	Gonocephalum,
+		794	Gnathocerus,
+		795	Blaps,
+		796	Latheticus,
+		797	Morica,
+		798	Pimelia,
+		799	Ahasverus,
+		800	Cathartus,
+		801	Tenebroides,
+		802	Languria,
+		803	Helota,
+		804	Cryptolestes,
+		805	Cyllodes,
+		806	Carpophilus,
+		807	Euops,
+		808	Phialodes,
+		809	Paratrachelophorus,
+		810	Phymatapoderus,
+		811	Apoderus,
+		812	Epirhynchites,
+		813	Involvulus,
+		814	Auletobius,
+		815	Byctiscus,
+		816	Deporaus,
+		817	Echinocnemus,
+		818	Metamasius,
+		819	Rhynchophorus,
+		820	Sitophilus,
+		821	Sipalinus,
+		822	Lamprosoma,
+		823	Naupactus,
+		824	Listronotus,
+		825	Otiorhynchus,
+		826	Cylydrorhinus,
+		827	Sitona,
+		828	Chaetoptelius,
+		829	Xyloterinus,
+		830	Hylurdrectonus,
+		831	Anthonomus,
+		832	Larinus,
+		833	Lixus,
+		834	Phyllobius,
+		835	Heilipodus,
+		836	Xyleborus,
+		837	Dryocoetes,
+		838	Cylindrocopturus,
+		839	Pissodes,
+		840	Hylobius,
+		841	Ceutorhynchus,
+		842	Conotrachelus,
+		843	Apion,
+		844	Exapion,
+		845	Cylas,
+		846	Stenocorus,
+		847	Distenia,
+		848	Spondylis,
+		849	Rhagium,
+		850	Prionoplus,
+		851	Prionus,
+		852	Phoracantha,
+		853	Phymatodes,
+		854	Plagionotus,
+		855	Strangalia,
+		856	Alosterna,
+		857	Leptura,
+		858	Saperda,
+		859	Phytoecia,
+		860	Oberea,
+		861	Anoplophora,
+		862	Leiopus,
+		863	Agapanthia,
+		864	Monochamus,
+		865	Platycorynus,
+		866	Colaspis,
+		867	Lexiphanes,
+		868	Cryptocephalus,
+		869	Mylassa,
+		870	Neochlamisus,
+		871	Exema,
+		872	Coptocephala,
+		873	Anomoea,
+		874	Labidostomis,
+		875	Pachybrachis,
+		876	Gonioctena,
+		877	Pyrrhalta,
+		878	Galerucella,
+		879	Atrachya,
+		880	Diabrotica,
+		881	Ophrida,
+		882	Alagoasa,
+		883	Blepharida,
+		884	Disonycha,
+		885	Agasicles,
+		886	Systena,
+		887	Donacia,
+		888	Microctenochira,
+		889	Stator,
+		890	Amblycerus,
+		891	Callosobruchus,
+		892	Acanthoscelides,
+		893	Chrysomela,
+		894	Araecerus,
+		895	Vesperus,
+		896	Aulacoscelis,
+		897	Rhyzopertha,
+		898	Lyctus,
+		899	Gibbium,
+		900	Ptinus,
+		901	Mezium,
+		902	Attagenus,
+		903	Anthrenus,
+		904	Trogoderma,
+		905	Anthrenocerus,
+		906	Dermestes,
+		907	Stegobium,
+		908	Lasioderma,
+		909	Protaetia,
+		910	Heterocerus,
+		911	Agrilus,
+		912	Schizopus,
+		913	Psephenus,
+		914	Lutrochus,
+		915	Neocylloepus,
+		916	Pelidnota,
+		917	Cybocephalus,
+		918	Zethopsus,
+		919	Rhagophthalmus,
+		920	Cebrio,
+		921	Agriotes,
+		922	Metapteron,
+		923	Pyropyga,
+		924	Pyrocoelia,
+		925	Pyractomena,
+		926	Lucidina,
+		927	Photinus,
+		928	Photuris,
+		929	Luciola,
+		930	Cyphonocerus,
+		931	Curtos,
+		932	Athemus,
+		933	Pinodytes,
+		934	Zearagytodes,
+		935	Oxyporus,
+		936	Stenus,
+		937	Staphylinus,
+		938	Ocypus,
+		939	Tasgius,
+		940	Ontholestes,
+		941	Neobisnius,
+		942	Philonthus,
+		943	Gabrius,
+		944	Quedius,
+		945	Creophilus,
+		946	Xanthopygus,
+		947	Cephennium,
+		948	Gyrohypnus,
+		949	Tachyporus,
+		950	Rugilus,
+		951	Anotylus,
+		952	Platystethus,
+		953	Bledius,
+		954	Aleochara,
+		955	Megarthrus,
+		956	Epierus,
+		957	Panorpa,
+		958	Neopanorpa,
+		959	Bittacus,
+		960	Epitedia,
+		961	Ctenocephalides,
+		962	Malacopsylla,
+		963	Phthiropsylla,
+		964	Myodopsylla,
+		965	Sternopsylla,
+		966	Orchopeas,
+		967	Aetheca,
+		968	Uropsylla,
+		969	Conorhinopsylla,
+		970	Craneopsylla,
+		971	Tunga,
+		972	Tipula,
+		973	Nephrotoma,
+		974	Coboldia,
+		975	Ditomyia,
+		976	Macrocera,
+		977	Keroplatus,
+		978	Orfelia,
+		979	Mycomya,
+		980	Phthinia,
+		981	Mayetiola,
+		982	Sciara,
+		983	Lycoriella,
+		984	Bradysia,
+		985	Diadocidia,
+		986	Speolepta,
+		987	Monoclona,
+		988	Boletina,
+		989	Tabanus,
+		990	Chrysops,
+		991	Tongamya,
+		992	Calotarsa,
+		993	Machimus,
+		994	Efferia,
+		995	Damalis,
+		996	Dioctria,
+		997	Laphria,
+		998	Choerades,
+		999	Lamyra,
+		1000	Andrenosoma,
+		1001	Condylostylus,
+		1002	Pseudacteon,
+		1003	Megaselia,
+		1004	Lonchoptera,
+		1005	Rhingia,
+		1006	Platycheirus,
+		1007	Episyrphus,
+		1008	Sphaerophoria,
+		1009	Baccha,
+		1010	Meliscaeva,
+		1011	Syrphus,
+		1012	Meligramma,
+		1013	Eupeodes,
+		1014	Epistrophe,
+		1015	Chrysotoxum,
+		1016	Leucozona,
+		1017	Scaeva,
+		1018	Ischiodon,
+		1019	Melangyna,
+		1020	Dasysyrphus,
+		1021	Didea,
+		1022	Xanthogramma,
+		1023	Eumerus,
+		1024	Cheilosia,
+		1025	Pipizella,
+		1026	Pipiza,
+		1027	Sericomyia,
+		1028	Helophilus,
+		1029	Anasimyia,
+		1030	Melanostoma,
+		1031	Chalarus,
+		1032	Copromyza,
+		1033	Heterocheila,
+		1034	Suillia,
+		1035	Dryomyza,
+		1036	Spaniocelyphus,
+		1037	Physocephala,
+		1038	Sicus,
+		1039	Zodion,
+		1040	Tricholauxania,
+		1041	Meiosimyza,
+		1042	Aulogastromyia,
+		1043	Opomyza,
+		1044	Geomyza,
+		1045	Fergusonina,
+		1046	Sphyracephala,
+		1047	Diopsis,
+		1048	Diasemopsis,
+		1049	Lipara,
+		1050	Cryptochetum,
+		1051	Aulacigaster,
+		1052	Asteia,
+		1053	Coenia,
+		1054	Hydrellia,
+		1055	Ephydra,
+		1056	Myopa,
+		1057	Scaptodrosophila,
+		1058	Drosophila,
+		1059	Mycodrosophila,
+		1060	Hirtodrosophila,
+		1061	Lissocephala,
+		1062	Scaptomyza,
+		1063	Zygothrica,
+		1064	Microdrosophila,
+		1065	Conops,
+		1066	Phytobia,
+		1067	Liriomyza,
+		1068	Phyto,
+		1069	Glossina,
+		1070	Melophagus,
+		1071	Crataerina,
+		1072	Exorista,
+		1073	Winthemia,
+		1074	Pseudogonia,
+		1075	Gonia,
+		1076	Belvosia,
+		1077	Pales,
+		1078	Frontiniella,
+		1079	Sturmia,
+		1080	Eumea,
+		1081	Hyphantrophaga,
+		1082	Patelloa,
+		1083	Blepharipa,
+		1084	Leschenaultia,
+		1085	Rhinophora,
+		1086	Stevenia,
+		1087	Tricharaea,
+		1088	Sarcophaga,
+		1089	Melanophora,
+		1090	Paykullia,
+		1091	Dermatobia,
+		1092	Cuterebra,
+		1093	Gasterophilus,
+		1094	Oestromyia,
+		1095	Hypoderma,
+		1096	Lucilia,
+		1097	Aldrichina,
+		1098	Hypopygiopsis,
+		1099	Hemipyrellia,
+		1100	Calliphora,
+		1101	Cynomya,
+		1102	Auchmeromyia,
+		1103	Protophormia,
+		1104	Phormia,
+		1105	Chrysomya,
+		1106	Protocalliphora,
+		1107	Hemilucilia,
+		1108	Pollenia,
+		1109	Cochliomyia,
+		1110	Scathophaga,
+		1111	Cleigastra,
+		1112	Lasiomma,
+		1113	Chirosia,
+		1114	Delia,
+		1115	Fannia,
+		1116	Helina,
+		1117	Myospila,
+		1118	Mydaea,
+		1119	Hebecnema,
+		1120	Gymnodia,
+		1121	Muscina,
+		1122	Haematobia,
+		1123	Musca,
+		1124	Stomoxys,
+		1125	Morellia,
+		1126	Mesembrina,
+		1127	Polietes,
+		1128	Hydrotaea,
+		1129	Dalmannia,
+		1130	Anastrepha,
+		1131	Anticheta,
+		1132	Atrichomelina,
+		1133	Dicranosepsis,
+		1134	Lasionemopoda,
+		1135	Paratoxopoda,
+		1136	Meroplius,
+		1137	Nemopoda,
+		1138	Saltella,
+		1139	Themira,
+		1140	Ortalischema,
+		1141	Orygma,
+		1142	Stylogaster,
+		1143	Sepsis,
+		1144	Lonchaea,
+		1145	Rivellia,
+		1146	Compsobata,
+		1147	Chamaepsila,
+		1148	Rhagoletis,
+		1149	Bactrocera,
+		1150	Acartophthalmus,
+		1151	Psychoda,
+		1152	Clogmia,
+		1153	Nemopalpus,
+		1154	Lutzomyia,
+		1155	Bichromomyia,
+		1156	Nyssomyia,
+		1157	Psychodopygus,
+		1158	Psathyromyia,
+		1159	Phlebotomus,
+		1160	Sergentomyia,
+		1161	Smittia,
+		1162	Diamesa,
+		1163	Micropsectra,
+		1164	Chironomus,
+		1165	Simulium,
+		1166	Metacnephia,
+		1167	Stegopterna,
+		1168	Cnephia,
+		1169	Prosimulium,
+		1170	Gymnopais,
+		1171	Chaoborus,
+		1172	Mansonia,
+		1173	Aedes,
+		1174	Culex,
+		1175	Psorophora,
+		1176	Ochlerotatus,
+		1177	Toxorhynchites,
+		1178	Anopheles,
+		1179	Hydroptila,
+		1180	Orthotrichia,
+		1181	Oxyethira,
+		1182	Hydropsyche,
+		1183	Cheumatopsyche,
+		1184	Athripsodes,
+		1185	Leptocerus,
+		1186	Ceraclea,
+		1187	Neophylax,
+		1188	Limnephilus,
+		1189	Anabolia,
+		1190	Helicopsyche,
+		1191	Gumaga,
+		1192	Agarodes,
+		1193	Neomicropteryx,
+		1194	Micropterix,
+		1195	Eriocrania,
+		1196	Tischeria,
+		1197	Coptotriche,
+		1198	Nemophora,
+		1199	Ogmograptis,
+		1200	Phyllonorycter,
+		1201	Grapholita,
+		1202	Epiphyas,
+		1203	Dichelia,
+		1204	Choristoneura,
+		1205	Danaus,
+		1206	Melitaea,
+		1207	Strabena,
+		1208	Euploea,
+		1209	Tirumala,
+		1210	Heliconius,
+		1211	Laparus,
+		1212	Neruda,
+		1213	Acraea,
+		1214	Vanessa,
+		1215	Minois,
+		1216	Pararge,
+		1217	Melanitis,
+		1218	Polygonia,
+		1219	Neptis,
+		1220	Charaxes,
+		1221	Curetis,
+		1222	Crudaria,
+		1223	Lachnocnema,
+		1224	Baliochila,
+		1225	Alaena,
+		1226	Durbania,
+		1227	Axiocerses,
+		1228	Trimenia,
+		1229	Thestor,
+		1230	Leptotes,
+		1231	Pseudonacaduba,
+		1232	Pseudophilotes,
+		1233	Zizina,
+		1234	Zizeeria,
+		1235	Cyaniris,
+		1236	Celastrina,
+		1237	Japonica,
+		1238	Anthene,
+		1239	Nacaduba,
+		1240	Euchrysops,
+		1241	Lepidochrysops,
+		1242	Cacyreus,
+		1243	Phlyaria,
+		1244	Actizera,
+		1245	Philotiella,
+		1246	Euphilotes,
+		1247	Phengaris,
+		1248	Shijimiaeoides,
+		1249	Jamides,
+		1250	Lycaena,
+		1251	Kretania,
+		1252	Polyommatus,
+		1253	Aricia,
+		1254	Lysandra,
+		1255	Cupido,
+		1256	Agriades,
+		1257	Cyclargus,
+		1258	Hemiargus,
+		1259	Chilades,
+		1260	Pithecops,
+		1261	Iolana,
+		1262	Scolitantides,
+		1263	Glaucopsyche,
+		1264	Plebejus,
+		1265	Deudorix,
+		1266	Taraka,
+		1267	Erynnis,
+		1268	Tagiades,
+		1269	Eagris,
+		1270	Acleros,
+		1271	Parnara,
+		1272	Mylothris,
+		1273	Pieris,
+		1274	Anthocharis,
+		1275	Colotis,
+		1276	Leptosia,
+		1277	Pareronia,
+		1278	Pieriballia,
+		1279	Prioneris,
+		1280	Leptidea,
+		1281	Dismorphia,
+		1282	Pseudopieris,
+		1283	Nathalis,
+		1284	Colias,
+		1285	Eurema,
+		1286	Catocala,
+		1287	Pachliopta,
+		1288	Graphium,
+		1289	Atrophaneura,
+		1290	Parides,
+		1291	Papilio,
+		1292	Sericinus,
+		1293	Glyphodes,
+		1294	Chilo,
+		1295	Adscita,
+		1296	Corcyra,
+		1297	Amyelois,
+		1298	Galleria,
+		1299	Plodia,
+		1300	Lymantria,
+		1301	Zygaena,
+		1302	Helicoverpa,
+		1303	Plutella,
+		1304	Tineola,
+		1305	Spodoptera,
+		1306	Mythimna,
+		1307	Athetis,
+		1308	Prionoxystus,
+		1309	Heliothis,
+		1310	Bombyx,
+		1311	Saturnia,
+		1312	Actias,
+		1313	Samia,
+		1314	Antheraea,
+		1315	Darna,
+		1316	Monoleuca,
+		1317	Euclea,
+		1318	Tortricidia,
+		1319	Hyles,
+		1320	Callambulyx,
+		1321	Timandra,
+		1322	Arichanna,
+		1323	Geometra,
+		1324	Ectropis,
+		1325	Odonestis,
+		1326	Numenes,
+		1327	Sthenopis,
+		1328	Mnesarchaea,
+		1329	Runaria,
+		1330	Sterictiphora,
+		1331	Arge,
+		1332	Abia,
+		1333	Athalia,
+		1334	Hemitaxonus,
+		1335	Tenthredo,
+		1336	Loderus,
+		1337	Thrinax,
+		1338	Stromboceros,
+		1339	Strongylogaster,
+		1340	Nematus,
+		1341	Nematinus,
+		1342	Aneugmenus,
+		1343	Cladius,
+		1344	Dolerus,
+		1345	Neodiprion,
+		1346	Lagidina,
+		1347	Rhogogaster,
+		1348	Aglaostigma,
+		1349	Pachyprotasis,
+		1350	Macrophya,
+		1351	Eutomostethus,
+		1352	Ametastegia,
+		1353	Waldheimia,
+		1354	Siobla,
+		1355	Allantus,
+		1356	Empria,
+		1357	Taxonus,
+		1358	Pamphilius,
+		1359	Xiphydria,
+		1360	Janus,
+		1361	Hartigia,
+		1362	Cephus,
+		1363	Xeris,
+		1364	Tremex,
+		1365	Urocerus,
+		1366	Nasonia,
+		1367	Orussus,
+		1368	Gasteruption,
+		1369	Pristaulacus,
+		1370	Evania,
+		1371	Brachygaster,
+		1372	Timulla,
+		1373	Myrmosula,
+		1374	Myrmosa,
+		1375	Sapyga,
+		1376	Scolia,
+		1377	Campsomeris,
+		1378	Tachypompilus,
+		1379	Episyron,
+		1380	Batozonellus,
+		1381	Poecilopompilus,
+		1382	Pompilus,
+		1383	Arachnospila,
+		1384	Sphictostethus,
+		1385	Epipompilus,
+		1386	Priocnemis,
+		1387	Anoplius,
+		1388	Irenangelus,
+		1389	Cyphononyx,
+		1390	Macromeris,
+		1391	Auplopus,
+		1392	Stilbum,
+		1393	Chrysis,
+		1394	Cephalonomia,
+		1395	Laelius,
+		1396	Pristocera,
+		1397	Goniozus,
+		1398	Streblognathus,
+		1399	Neivamyrmex,
+		1400	Eciton,
+		1401	Gnamptogenys,
+		1402	Polyrhachis,
+		1403	Nylanderia,
+		1404	Paratrechina,
+		1405	Myrmelachista,
+		1406	Myrmica,
+		1407	Solenopsis,
+		1408	Monomorium,
+		1409	Cyphomyrmex,
+		1410	Messor,
+		1411	Tetramorium,
+		1412	Stigmatomma,
+		1413	Platythyrea,
+		1414	Plectroctena,
+		1415	Pachycondyla,
+		1416	Odontomachus,
+		1417	Linepithema,
+		1418	Camponotus,
+		1419	Lasius,
+		1420	Atta,
+		1421	Ampulex,
+		1422	Stizoides,
+		1423	Bembix,
+		1424	Trachypus,
+		1425	Philanthus,
+		1426	Tachysphex,
+		1427	Pison,
+		1428	Methoca,
+		1429	Tiphia,
+		1430	Myzinum,
+		1431	Eumenes,
+		1432	Katamenes,
+		1433	Ancistrocerus,
+		1434	Symmorphus,
+		1435	Vespa,
+		1436	Vespula,
+		1437	Polistes,
+		1438	Ropalidia,
+		1439	Polybia,
+		1440	Pseudomasaris,
+		1441	Euparagia,
+		1442	Anterhynchium,
+		1443	Liostenogaster,
+		1444	Eustenogaster,
+		1445	Parischnogaster,
+		1446	Anischnogaster,
+		1447	Ammophila,
+		1448	Chalybion,
+		1449	Sceliphron,
+		1450	Sphex,
+		1451	Chlorion,
+		1452	Isodontia,
+		1453	Melitturga,
+		1454	Perdita,
+		1455	Panurgus,
+		1456	Euherbstia,
+		1457	Ancylandrena,
+		1458	Andrena,
+		1459	Hylaeus,
+		1460	Colletes,
+		1461	Xeromelissa,
+		1462	Dufourea,
+		1463	Rophites,
+		1464	Conanthalictus,
+		1465	Sphecodosoma,
+		1466	Nomioides,
+		1467	Augochloropsis,
+		1468	Sphecodes,
+		1469	Lasioglossum,
+		1470	Homalictus,
+		1471	Seladonia,
+		1472	Halictus,
+		1473	Melitta,
+		1474	Macropis,
+		1475	Hesperapis,
+		1476	Chelostoma,
+		1477	Stelis,
+		1478	Euaspis,
+		1479	Megachile,
+		1480	Coelioxys,
+		1481	Lithurgus,
+		1482	Osmia,
+		1483	Ashmeadiella,
+		1484	Hoplitis,
+		1485	Trachusa,
+		1486	Dioxys,
+		1487	Pararhophites,
+		1488	Fidelia,
+		1489	Neofidelia,
+		1490	Epicharis,
+		1491	Euglossa,
+		1492	Eulaema,
+		1493	Exaerete,
+		1494	Bombus,
+		1495	Trigona,
+		1496	Tetragonisca,
+		1497	Plebeia,
+		1498	Nannotrigona,
+		1499	Duckeola,
+		1500	Scaptotrigona,
+		1501	Melipona,
+		1502	Hypotrigona,
+		1503	Meliponula,
+		1504	Axestotrigona,
+		1505	Geniotrigona,
+		1506	Centris,
+		1507	Apis,
+		1508	Ctenoplectra,
+		1509	Anthophora,
+		1510	Amegilla,
+		1511	Tetrapedia,
+		1512	Xylocopa,
+		1513	Ceratina,
+		1514	Braunsapis,
+		1515	Compsomelissa,
+		1516	Exoneura,
+		1517	Macrogalea,
+		1518	Melitoma,
+		1519	Paratetrapedia,
+		1520	Exomalopsis,
+		1521	Anthophorula,
+		1522	Ancyla,
+		1523	Tetralonia,
+		1524	Eucera,
+		1525	Svastra,
+		1526	Thygater,
+		1527	Coelioxoides,
+		1528	Zacosmia,
+		1529	Thyreus,
+		1530	Xeromelecta,
+		1531	Melecta,
+		1532	Epeoloides,
+		1533	Leiopodus,
+		1534	Melectoides,
+		1535	Isepeolus,
+		1536	Epiclopus,
+		1537	Mesocheira,
+		1538	Mesoplia,
+		1539	Ericrocis,
+		1540	Rhathymus,
+		1541	Townsendiella,
+		1542	Hexepeolus,
+		1543	Ammobatoides,
+		1544	Holcopasites,
+		1545	Triopasites,
+		1546	Brachynomada,
+		1547	Pasites,
+		1548	Sphecodopsis,
+		1549	Oreopasites,
+		1550	Ammobates,
+		1551	Nomada,
+		1552	Neopasites,
+		1553	Biastes,
+		1554	Caenoprosopis,
+		1555	Caenoprosopina,
+		1556	Triepeolus,
+		1557	Epeolus,
+		1558	Taeniogonalos,
+		1559	Pygostolus,
+		1560	Microctonus,
+		1561	Peristenus,
+		1562	Syntretus,
+		1563	Meteorus,
+		1564	Maxfischeria,
+		1565	Bracon,
+		1566	Rogas,
+		1567	Fopius,
+		1568	Opius,
+		1569	Heterospilus,
+		1570	Macrocentrus,
+		1571	Bassus,
+		1572	Chelonus,
+		1573	Ascogaster,
+		1574	Phanerotoma,
+		1575	Orgilus,
+		1576	Cardiochiles,
+		1577	Microplitis,
+		1578	Cotesia,
+		1579	Trioxys,
+		1580	Praon,
+		1581	Diaeretiella,
+		1582	Aphidius,
+		1583	Dendrocerus,
+		1584	Aphanogmus,
+		1585	Pimpla,
+		1586	Enicospilus,
+		1587	Metopius,
+		1588	Ophion,
+		1589	Hyposoter,
+		1590	Diadegma,
+		1591	Campoplex,
+		1592	Campoletis,
+		1593	Acroricnus,
+		1594	Megarhyssa,
+		1595	Netelia,
+		1596	Ateleute,
+		1597	Aphanistes,
+		1598	Xorides,
+		1599	Ischnoceros,
+		1600	Odontocolon,
+		1601	Platygaster,
+		1602	Fidiobia,
+		1603	Tiphodytes,
+		1604	Scelio,
+		1605	Eumicrosoma,
+		1606	Trissolcus,
+		1607	Telenomus,
+		1608	Gryon,
+		1609	Helorus,
+		1610	Proctotrupes,
+		1611	Diplolepis,
+		1612	Leptopilina,
+		1613	Kleidotoma,
+		1614	Ganaspis,
+		1615	Hexacola,
+		1616	Aganaspis,
+		1617	Parnips,
+		1618	Ibalia,
+		1619	Anacharis,
+		1620	Xyalaspis,
+		1621	Alloxysta,
+		1622	Isocolus,
+		1623	Aulacidea,
+		1624	Barbotinia,
+		1625	Cynips,
+		1626	Andricus,
+		1627	Synergus,
+		1628	Periclistus,
+		1629	Xestophanes,
+		1630	Synophromorpha,
+		1631	Diastrophus,
+		1632	Figites,
+		1633	Neralsia,
+		1634	Xyalophora,
+		1635	Callaspidia,
+		1636	Megastigmus,
+		1637	Monodontomerus,
+		1638	Podagrion,
+		1639	Torymus,
+		1640	Microdontomerus,
+		1641	Ditropinotus,
+		1642	Jambiya,
+		1643	Perilampus,
+		1644	Monacon,
+		1645	Chrysolampus,
+		1646	Euderus,
+		1647	Melittobia,
+		1648	Tetrastichus,
+		1649	Minotetrastichus,
+		1650	Aprostocetus,
+		1651	Chrysocharis,
+		1652	Entedon,
+		1653	Pediobius,
+		1654	Closterocerus,
+		1655	Elachertus,
+		1656	Euplectrus,
+		1657	Trichospilus,
+		1658	Pnigalio,
+		1659	Elasmus,
+		1660	Eulophus,
+		1661	Hemiptarsenus,
+		1662	Cirrospilus,
+		1663	Aphelinoidea,
+		1664	Trichogrammatoidea,
+		1665	Trichogramma,
+		1666	Brachyufens,
+		1667	Mesocomys,
+		1668	Eupelmus,
+		1669	Arachnophaga,
+		1670	Anastatus,
+		1671	Aphelinus,
+		1672	Aphytis,
+		1673	Marietta,
+		1674	Pteroptrix,
+		1675	Leucospis,
+		1676	Centrodora,
+		1677	Coccophagus,
+		1678	Aiolomorphus,
+		1679	Tetramesa,
+		1680	Bruchophagus,
+		1681	Eurytoma,
+		1682	Dirhinus,
+		1683	Brachymeria,
+		1684	Conura,
+		1685	Obeza,
+		1686	Lophyrocera,
+		1687	Kapala,
+		1688	Pseudochalcura,
+		1689	Pseudometagea,
+		1690	Stilbula,
+		1691	Eucharis,
+		1692	Orasema,
+		1693	Gollumiella,
+		1694	Cales,
+		1695	Anagyrus,
+		1696	Leptomastidea,
+		1697	Ageniaspis,
+		1698	Copidosoma,
+		1699	Copidosomopsis,
+		1700	Cheiloneurus,
+		1701	Comperiella,
+		1702	Acerophagus,
+		1703	Metaphycus,
+		1704	Basalys,
+		1705	Encarsia,
+		1706	Ormyrus,
+		1707	Asaphes,
+		1708	Spalangia,
+		1709	Mesopolobus,
+		1710	Ceratosolen,
+		1711	Eupristina,
+		1712	Pegoscapus,
+		1713	Diaziella,
+		1714	Sycoscapter,
+		1715	Pseudocatolaccus,
+		1716	Cyrtogaster,
+		1717	Pteromalus,
+		1718	Pachyneuron,
+		1719	Coelopisthia,
+		1720	Gonatocerus,
+		1721	Anaphes,
+		1722	Anagrus,
+		1723	Thermobia,
+		1724	Lepisma,
+		1725	Pedetontus,
+		1726	Petrobius
+	;
+	TREE * UNTITLED = [&R] (((((((((((((((((((((((((((((((((((((1106:101.9227773,1107:101.9227773):83.07887366,(1108:180.1018542,1109:180.1018542):4.899796828):35.98100723,((1103:75.34389491,1104:75.34389491):66.51217775,1105:141.8560727):79.12658556):3.543918292,(((1098:69.63437881,1099:69.63437881):85.20130142,(1100:66.04398471,1101:66.04398471):88.79169553):37.04090796,1102:191.8765882):32.64998832):10.26796716,(1096:209.4373806,1097:209.4373806):25.35716303):3.240885043,((((1094:54.11768893,1095:54.11768893):145.6887497,1093:199.8064386):10.83775862,(1091:168.3735718,1092:168.3735718):42.27062538):20.98218544,(1089:174.872376,1090:174.872376):56.75400669):6.409046054):1.938671252,((((((((1081:155.5445341,1082:155.5445341):25.42294041,(1083:81.74309716,1084:81.74309716):99.22437731):7.563654473,1080:188.5311289):8.514138469,((1077:172.6056308,1078:172.6056308):14.16545057,1079:186.7710814):10.27418604):10.73096809,((1075:79.93760149,1076:79.93760149):34.65526195,1074:114.5928634):93.18337206):9.933386897,(1072:129.500596,1073:129.500596):88.20902636):7.799528559,(1085:190.6681145,1086:190.6681145):34.84103645):4.821977951,(1087:100.5708874,1088:100.5708874):129.7602415):9.642971056):8.934316954,(((1112:74.33253026,1113:74.33253026):93.6072745,1114:167.9398048):11.66547391,(1110:174.3088405,1111:174.3088405):5.296438138):69.30313825):3.495544236,((((((1126:118.5611933,1127:118.5611933):8.544616334,1125:127.1058096):60.43763757,1128:187.5434472):28.4294333,((1123:75.75111315,1124:75.75111315):67.58574252,1122:143.3368557):72.63602484):4.997822968,(((1116:163.0287959,1117:163.0287959):16.71703846,(1118:133.4391008,1119:133.4391008):46.30673354):23.15978809,(1120:190.2663811,1121:190.2663811):12.63924133):18.06508108):16.088308,1115:237.0590115):15.34494967):3.231653508,((((((1134:121.9981877,1135:121.9981877):40.45423886,1133:162.4524265):33.13494353,((1137:101.3645516,1138:101.3645516):74.91217004,1136:176.2767217):19.31064838):3.149790167,1139:198.7371602):28.281624,(1140:189.4599384,1141:189.4599384):37.55884584):8.777984611,((1129:204.6567236,1130:204.6567236):17.92425472,(1131:173.9590961,1132:173.9590961):48.62188219):13.21579053):19.83884581):8.30506455,((1068:138.0729515,1069:138.0729515):83.68512968,(1070:78.14272536,1071:78.14272536):143.6153558):42.18259801):0.7489621738,(1066:238.1374856,1067:238.1374856):26.55215577):2.172324506,((((((1058:145.5456602,1059:145.5456602):15.24703835,1060:160.7926985):33.79174609,1057:194.5844446):8.043781845,((1061:106.9731822,1062:106.9731822):33.8144575,(1063:74.32377789,1064:74.32377789):66.46386179):61.8405868):14.55107237,1065:217.1792989):21.70370241,(((1053:182.4244394,1054:182.4244394):48.19646194,1055:230.6209013):4.929552721,1056:235.5504541):3.332547201):27.97896462):3.128463305,(1051:216.2346403,1052:216.2346403):53.75578886):0.3059473657,((((1047:184.4227788,1048:184.4227788):42.21118809,1046:226.6339669):5.582155411,1045:232.2161223):20.63652849,(1049:147.0814081,1050:147.0814081):105.7712427):17.44372579):2.369524533,(1043:182.7864955,1044:182.7864955):89.87940564):3.066369284,((((1146:151.6209667,1147:151.6209667):63.47878398,1145:215.0997507):26.1911654,((1149:172.0426205,1150:172.0426205):56.13613249,1148:228.178753):13.11216308):24.70365327,((1142:149.1132982,1143:149.1132982):89.90992652,1144:239.0232247):26.97134467):9.737701022):4.392307777,((((((1034:133.1062776,1035:133.1062776):48.33023597,1036:181.4365136):23.45239172,((1038:109.8809504,1039:109.8809504):7.118766057,1037:116.9997164):87.88918887):12.83371785,((1041:83.44023858,1042:83.44023858):127.0004545,1040:210.4406931):7.281930028):23.51306326,1033:241.2356864):11.99776069,1032:253.2334471):26.89113106):0.3788789602,1031:280.5034571):0.5492095118,((((((((1017:114.8090555,1018:114.8090555):26.70724748,1016:141.516303):65.1545356,(1014:159.9738129,1015:159.9738129):46.69702569):22.8195399,(((1019:156.5554319,1020:156.5554319):10.88472672,1021:167.4401586):21.00913085,1022:188.4492895):41.04108904):2.940962074,((1012:181.788376,1013:181.788376):44.3402936,1011:226.1286696):6.302670955):14.80923388,(((1009:195.5228165,1010:195.5228165):18.80604648,1008:214.328863):19.47078452,1007:233.7996475):13.44092695):9.656983892,((((1023:158.4546946,1024:158.4546946):60.86243153,(1025:191.477708,1026:191.477708):27.83941807):19.69156821,((1028:59.30851669,1029:59.30851669):103.8609588,1027:163.1694755):75.83921881):10.29178397,1030:249.3004783):7.597080104):15.14442398,(1005:179.6345947,1006:179.6345947):92.40738766):9.010684264):0.9272744004,((1002:164.2820758,1003:164.2820758):75.24814406,1004:239.5302199):42.44972116):2.492374433,1001:284.4723155):1.328720363,((((((993:120.0520124,994:120.0520124):49.1208252,995:169.1728376):28.03026625,996:197.2031038):15.44094475,((997:164.0154205,998:164.0154205):19.02039475,(999:99.28300647,1000:99.28300647):83.75280878):29.60823332):36.93832407,992:249.5823726):11.87218214,991:261.4545548):24.34648104):3.210647059,(989:223.4256396,990:223.4256396):65.58604324):12.00079672,(((((((977:167.1122981,978:167.1122981):13.93638375,976:181.0486818):45.43534348,(979:201.5636971,980:201.5636971):24.92032822):17.40262126,(((982:116.4913179,983:116.4913179):74.24798243,984:190.7393004):31.45026937,981:222.1895698):21.6970768):22.14945106,(((986:188.887884,987:188.887884):14.87969586,988:203.7675798):54.71774895,985:258.4853288):7.550768808):14.51680685,975:280.5529045):4.459602914,974:285.0125074):15.99997223):0.9674649937,(((((((((1175:94.49628112,1176:94.49628112):69.27900372,1177:163.7752848):22.32549783,1174:186.1007827):19.3321595,1178:205.4329422):11.54290131,(1172:204.4905454,1173:204.4905454):12.48529807):21.26566312,1171:238.2415066):40.90401885,(((1167:160.9987146,1168:160.9987146):61.19459244,(1169:117.8518435,1170:117.8518435):104.3414635):28.1767983,(1165:164.5150053,1166:164.5150053):85.85509997):28.77542014):2.070216192,((1161:184.4116925,1162:184.4116925):26.6717654,(1163:176.1006242,1164:176.1006242):34.9828337):70.13228379):8.430960685,(((((((1155:143.093365,1156:143.093365):28.78974375,(1157:159.8963254,1158:159.8963254):11.98678335):21.2632591,1159:193.1463678):8.577310784,1154:201.7236786):37.06078944,1160:238.784468):13.10045617,1153:251.8849242):20.94479007,(1151:165.1020555,1152:165.1020555):107.7276588):16.81698808):12.33324226):1.898201851,(972:113.0600418,973:113.0600418):190.8181047):12.93873042,(((((((964:168.4668578,965:168.4668578):34.96243385,(966:179.770072,967:179.770072):23.65921969):27.40060992,(962:77.04906256,963:77.04906256):153.780839):8.026078718,((968:198.1338633,969:198.1338633):15.31010653,(970:147.1399853,971:147.1399853):66.30398454):25.41201044):3.165706871,961:242.0216872):8.275558407,960:250.2972456):10.47268951,((957:113.1319608,958:113.1319608):60.68734731,959:173.8193081):86.95062698):56.04694178):4.033914478,((((((((((((((((((((((1231:136.2517356,1232:136.2517356):22.26607554,1233:158.5178112):35.63549988,1230:194.153311):28.55327865,(((1234:137.2537758,1235:137.2537758):24.76555102,1236:162.0193268):38.34028512,1237:200.3596119):22.3469778):10.9584355,(1238:164.9931391,1239:164.9931391):68.67188606):6.425409105,((1240:172.5937685,1241:172.5937685):23.07460313,1242:195.6683716):44.42206268):19.24075313,(((((1245:153.6932255,1246:153.6932255):1.047713019,1247:154.7409385):15.34130761,1248:170.0822461):52.25938787,(1243:197.2961238,1244:197.2961238):25.04551018):6.995110802,1249:229.3367448):29.99444261):3.265891087,((((((1251:102.3792771,1252:102.3792771):81.62057471,1253:183.9998519):43.9200113,((1254:168.0714684,1255:168.0714684):34.62284707,1256:202.6943155):25.2255477):8.621975642,(1257:177.9738976,1258:177.9738976):58.56794123):13.81521844,((1260:187.0221134,1261:187.0221134):51.74195896,1259:238.7640723):11.59298491):4.350397514,1250:254.7074548):7.88962375):5.05214512,((1263:150.1439374,1264:150.1439374):70.15740604,1262:220.3013434):47.3478802):4.104459083,(((((1225:169.4010827,1226:169.4010827):23.98748751,1224:193.3885702):33.08571579,1223:226.474286):11.93278976,((1227:201.2171998,1228:201.2171998):17.94536113,1229:219.162561):19.24451477):25.73164118,(1221:125.4490199,1222:125.4490199):138.6896971):7.614965795):4.524344959,(1265:203.7450269,1266:203.7450269):72.53300081):1.587253998,((((((((1210:99.61383233,1211:99.61383233):29.1889074,1212:128.8027397):88.52399953,(1208:207.6352152,1209:207.6352152):9.691524011):12.30738635,1213:229.6341256):11.37979318,1207:241.0139188):17.94105518,(1205:236.8077026,1206:236.8077026):22.14727136):4.129357213,1214:263.0843312):10.47657122,((((1218:96.91713572,1219:96.91713572):88.03072875,1220:184.9478645):5.998238407,1217:190.9461029):34.55643549,(1215:217.3990117,1216:217.3990117):8.103526706):48.05836403):4.30437927):4.457441703,((((((1281:99.36786763,1282:99.36786763):43.18484614,1280:142.5527138):80.73090426,((1284:172.013205,1285:172.013205):33.57537423,1283:205.5885793):17.69503876):29.70622473,(((1278:155.0349263,1279:155.0349263):51.40393054,1277:206.4388568):41.7903179,(1275:226.9431857,1276:226.9431857):21.28598904):4.760668051):5.33437893,((1272:207.8674406,1273:207.8674406):20.52418372,1274:228.3916243):29.93259734):17.88119655,((((1268:122.1055115,1269:122.1055115):98.41771148,1270:220.523223):22.18888229,1271:242.7121053):16.51829328,1267:259.2303986):16.97501966):6.117305137):0.1318115501,((((1287:194.7784205,1288:194.7784205):7.781551325,(1289:172.6086441,1290:172.6086441):29.95132771):38.19363413,(1291:157.7157452,1292:157.7157452):83.03786079):33.88720723,1286:274.6408132):7.813721717):4.455028809,(((((((((1315:118.6329776,1316:118.6329776):37.2610173,1317:155.8939949):47.40765503,1318:203.3016499):11.32479416,(1319:62.23773536,1320:62.23773536):152.3887087):17.71216022,((1311:204.9777428,1312:204.9777428):6.778303579,(1313:90.8284093,1314:90.8284093):120.9276371):20.5825579):23.07244299,1310:255.4110473):10.13427605,(((((1306:137.4342463,1307:137.4342463):11.30538867,1305:148.739635):39.7921965,(1303:39.68415695,1304:39.68415695):148.8476745):35.98478593,((1300:147.3116761,1301:147.3116761):40.17994988,1302:187.491626):37.0249914):32.51880388,(1308:211.7278777,1309:211.7278777):45.30754355):8.509902075):3.616499824,((((1323:154.2842226,1324:154.2842226):4.447511227,1322:158.7317338):36.42560938,1321:195.1573432):11.75656327,(1325:160.2889223,1326:160.2889223):46.62498421):62.2479167):8.655175178,((((1297:119.3959743,1298:119.3959743):36.80766645,1299:156.2036408):76.75086111,1296:232.9545019):16.85094262,((1293:174.7100359,1294:174.7100359):35.63533115,1295:210.3453671):39.46007745):28.01155382):9.092565387):1.306406262,((((1203:76.81474375,1204:76.81474375):88.90625357,1202:165.7209973):12.0392746,1201:177.7602719):42.01102714,1200:219.7712991):68.44467093):0.4641575746,1199:288.6801276):1.246873413,((1196:136.6097842,1197:136.6097842):82.15972396,1198:218.7695081):71.15749283):1.337777808,(1327:187.2671483,1328:187.2671483):103.9976304):5.533200792,1195:296.7979796):2.924432999,(1193:243.3827387,1194:243.3827387):56.33967385):2.687603963,((((((1188:48.53972614,1189:48.53972614):156.9420315,1187:205.4817576):41.57523793,((1191:215.3699237,1192:215.3699237):13.76006008,1190:229.1299837):17.9270118):14.90290049,((1184:118.296321,1185:118.296321):83.23635636,1186:201.5326773):60.42721872):11.34081772,(1182:176.9422598,1183:176.9422598):96.35845391):12.19266942,((1180:224.9154392,1181:224.9154392):49.72221056,1179:274.6376497):10.85573344):16.91663337):18.44077481):40.79391032,(((((((((((((((((((((((881:84.02215218,882:84.02215218):74.56262116,883:158.5847733):3.959196028,(884:96.39184522,885:96.39184522):66.15212415):24.21721191,886:186.7611813):13.69647852,((877:39.88950387,878:39.88950387):124.2939914,(879:129.8971827,880:129.8971827):34.28631263):36.27416449):4.776040235,876:205.2337):30.03938447,((((889:151.1531043,890:151.1531043):16.26648094,(891:130.139422,892:130.139422):37.28016317):38.33853812,888:205.7581233):3.672190537,887:209.4303139):25.84277064):13.41374747,893:248.686832):2.178550272,((((((870:105.6943499,871:105.6943499):93.67132236,(872:148.7683425,873:148.7683425):50.59732983):2.495139165,874:201.8608115):6.896889483,((867:136.0131848,868:136.0131848):23.2557242,869:159.268909):49.488792):9.817398466,875:218.5750994):3.455604474,(865:183.4639345,866:183.4639345):38.56676939):28.83467835):15.49378484,((((((852:104.4273876,853:104.4273876):37.65358007,854:142.0809676):29.14838972,(850:134.7786386,851:134.7786386):36.45071872):37.57674069,((855:48.67503338,856:48.67503338):117.1735546,857:165.848588):42.95751009):34.61595357,(((848:104.3246826,849:104.3246826):67.34825337,847:171.672936):21.36599914,846:193.0389351):50.38311654):5.217482603,((((859:123.4358351,860:123.4358351):36.50928196,858:159.945117):53.41005182,861:213.3551688):3.667078423,((863:132.351511,864:132.351511):81.65183328,862:214.0033443):3.018902934):31.61728696):17.71963286):3.894023675,((895:169.8495051,896:169.8495051):30.54005575,894:200.3895608):69.86362992):6.465186628,(((((((((836:123.4245215,837:123.4245215):33.52999868,835:156.9545201):20.52117033,838:177.4756905):38.99943706,(((840:107.4240464,841:107.4240464):47.70133388,839:155.1253803):14.99539031,842:170.1207706):46.3543569):2.647426182,((((829:113.197752,830:113.197752):49.23459505,831:162.4323471):6.768098144,828:169.2004452):42.15635729,((832:185.3236973,833:185.3236973):16.99998315,834:202.3236804):9.033122126):7.765751194):17.46459762,(((822:117.7724571,823:117.7724571):54.19807059,(824:87.17246736,825:87.17246736):84.79806032):22.31352023,(826:152.7499262,827:152.7499262):41.53412173):42.30310343):6.186882345,((((818:136.6545293,819:136.6545293):34.28509301,820:170.9396223):1.849658346,817:172.7892806):30.92149507,821:203.7107757):39.06325796):10.44756529,((843:136.7827501,844:136.7827501):71.10289516,845:207.8856452):45.33595376):12.57833592,((((809:169.2931329,810:169.2931329):15.38694106,811:184.6800739):45.93641143,(807:196.247978,808:196.247978):34.36850739):12.06894222,((((814:157.1465023,815:157.1465023):3.99482744,813:161.1413297):30.69145989,812:191.8327896):24.32485435,816:216.1576439):26.52778367):23.11450729):10.9184425):3.540245994,(((799:150.573463,800:150.573463):55.03670901,(801:191.7198914,802:191.7198914):13.89028058):45.66725749,((803:140.2016227,804:140.2016227):83.09243931,(805:181.4443371,806:181.4443371):41.84972494):27.98336741):28.98119393):5.333070501,((((((((790:166.488083,791:166.488083):6.896885792,792:173.3849688):21.57577382,(793:177.6750639,794:177.6750639):17.28567875):4.793799587,(795:149.2992791,796:149.2992791):50.45526307):17.02009226,(788:184.0560127,789:184.0560127):32.71862173):15.09947796,787:231.8741124):17.87596656,(797:136.6047013,798:136.6047013):113.1453777):4.543594955,((((((780:126.4998138,781:126.4998138):31.81076124,782:158.3105751):14.8964164,779:173.2069915):17.99569034,((783:116.4591972,784:116.4591972):38.30206983,785:154.7612671):36.44141476):12.70569593,786:203.9083777):3.423139326,778:207.3315171):46.96215688):31.29801993):0.6300193893,(((((((773:131.5474433,774:131.5474433):51.7230929,772:183.2705362):20.24148511,(770:142.973133,771:142.973133):60.53888828):8.245093429,(768:181.5457583,769:181.5457583):30.21135644):25.42618365,767:237.1832984):19.63052696,(775:194.6895902,776:194.6895902):62.12423513):18.37527783,777:275.1891032):11.03261011):5.752444458,((((((760:134.6406288,761:134.6406288):31.0552938,(762:93.6986475,763:93.6986475):71.99727511):17.00123888,759:182.6971615):6.732617715,((765:110.9069493,766:110.9069493):28.56898245,764:139.4759317):49.95384748):8.908495134,(757:117.8575097,758:117.8575097):80.48076468):10.34598163,756:208.684256):83.28990176):1.957779724,(((((((904:120.5787105,905:120.5787105):18.92026161,903:139.4989721):58.4628807,902:197.9618529):15.80605733,906:213.7679102):14.23308156,(907:166.8112025,908:166.8112025):61.1897892):10.96353732,((900:112.1478342,901:112.1478342):88.36312313,899:200.5109573):38.45357173):23.66478976,(897:169.8572882,898:169.8572882):92.77203062):31.30261863):6.48760752,(((((((((((736:68.76302267,737:68.76302267):77.74830938,735:146.5113321):25.33773093,(733:97.08951703,734:97.08951703):74.75954595):16.59975624,(738:158.5334208,739:158.5334208):29.91539837):11.21418748,((730:95.38958892,731:95.38958892):31.61925654,732:127.0088455):72.65416123):4.838928253,729:204.5019349):15.3661267,(727:148.1400768,728:148.1400768):71.72798488):2.748031716,(740:189.4413651,741:189.4413651):33.17472829):6.597692559,((725:67.42103751,726:67.42103751):109.7105444,724:177.1315819):52.08220398):17.60977298,((722:174.4616012,723:174.4616012):28.55271815,721:203.0143193):43.80923958):44.03026093,(((((((744:135.1162813,745:135.1162813):46.95598449,746:182.0722658):17.9112225,(747:148.8208183,748:148.8208183):51.16267):41.49305484,((749:73.09016856,750:73.09016856):87.21387031,(751:141.2767354,752:141.2767354):19.02730348):81.17250427):10.53989688,(742:179.1821794,743:179.1821794):72.83426062):4.929075164,753:256.9455152):26.05146963,(754:203.7151926,755:203.7151926):79.28179218):7.856835024):9.565725137):0.2241150516,(((((((((((938:128.7975171,939:128.7975171):38.18757382,937:166.9850909):4.118222273,940:171.1033132):12.51413009,((942:139.5017043,943:139.5017043):23.9320125,941:163.4337168):20.18372653):19.24263873,((944:160.510492,945:160.510492):33.85097185,946:194.3614638):8.498618221):11.60524445,(947:187.1379649,948:187.1379649):27.32736157):20.7280235,(((933:159.5016561,934:159.5016561):35.35794696,935:194.8596031):5.373008486,936:200.2326116):34.96073841):4.239088777,(((((951:85.7459913,952:85.7459913):99.31388251,953:185.0598738):19.8420991,(949:131.2205526,950:131.2205526):73.68142035):4.832217754,954:209.7341907):20.97195365,955:230.7061443):8.726294449):18.81379326,956:258.246232):24.39148046,(((((((((923:81.65865354,924:81.65865354):51.70795193,925:133.3666055):31.77807216,926:165.1446776):10.60427646,(927:146.6326403,928:146.6326403):29.11631381):19.95146186,(929:141.6731927,930:141.6731927):54.02722324):11.74881929,931:207.4492352):14.33472507,922:221.7839603):5.529538518,((920:149.0343324,921:149.0343324):40.71942842,919:189.7537608):37.55973806):17.01663995,932:244.3301388):38.30757369):3.713762866,((((909:153.9855956,910:153.9855956):44.52601245,(911:147.8657421,912:147.8657421):50.64586596):22.84336967,((913:190.1386357,914:190.1386357):9.74825241,(915:170.4056366,916:170.4056366):29.48125152):21.46808964):36.21522774,(917:179.0810792,918:179.0810792):78.48912631):28.78126986):14.29218468):3.681190461,720:304.3248505):1.296106907,(((((((((((((704:87.56114157,705:87.56114157):18.05869109,706:105.6198327):50.10574201,707:155.7255747):19.00042466,703:174.7259993):34.25622468,((709:129.4584398,710:129.4584398):42.71562432,708:172.1740641):36.80815991):6.444525597,((((713:130.4524315,714:130.4524315):36.28134107,715:166.7337726):22.56526581,716:189.2990384):18.57932115,(711:133.2731279,712:133.2731279):74.6052317):7.548390032):13.05350192,(701:206.5224892,702:206.5224892):21.95776234):8.8283511,((699:136.0887692,700:136.0887692):52.81056225,698:188.8993315):48.40927117):13.25396524,717:250.5625679):12.48804413,((((694:136.7124613,695:136.7124613):23.03119744,693:159.7436588):46.1157841,(696:185.5899279,697:185.5899279):20.26951502):25.1906876,((691:92.1876003,692:92.1876003):122.9523994,690:215.1399997):15.91013072):32.00048153):11.28741693,(718:213.2474195,719:213.2474195):61.09060939):10.92990533,((((((687:161.8436509,688:161.8436509):21.35707397,686:183.2007249):15.18448919,(684:86.91000796,685:86.91000796):111.4752061):9.554019884,689:207.9392339):12.19944721,683:220.1386812):20.93921347,682:241.0778946):44.19003963):2.924223405,(((679:142.7817647,680:142.7817647):70.67762427,681:213.459389):22.56291349,678:236.0223025):52.16985517):17.42879973):3.699040108,(676:277.4318172,677:277.4318172):31.88818033):24.84777055,((((((((((((661:168.8124545,662:168.8124545):17.90814155,660:186.720596):13.24359062,659:199.9641867):18.5297643,663:218.493951):35.30095801,658:253.794909):3.476700782,((((667:15.65087064,668:15.65087064):190.1173271,669:205.7681977):27.36025311,666:233.1284509):13.96101285,(664:216.3212014,665:216.3212014):30.76826231):10.18214603):2.448132472,(670:157.9207755,671:157.9207755):101.7989667):6.930685949,((672:204.1498092,673:204.1498092):38.63702582,674:242.786835):23.8635932):9.133698711,657:275.7841269):2.814655902,(655:245.0806783,656:245.0806783):33.51810444):6.231265127,(653:268.0288183,654:268.0288183):16.80122956):15.52306236,675:300.3531103):33.81465778):27.47693361):28.04639888,((((((((((((((((((((((((((((1547:165.9900851,1548:165.9900851):27.99972158,(1549:125.3645425,1550:125.3645425):68.62526417):51.20187777,1551:245.1916844):6.923931515,(1552:66.5116574,1553:66.5116574):185.6039585):4.514763476,((1545:107.8343468,1546:107.8343468):16.96819232,1544:124.8025391):131.8278403):9.30343224,((1542:196.3315247,1543:196.3315247):35.65089097,1541:231.9824157):33.95139599):10.98159057,((1554:167.612985,1555:167.612985):80.12233398,(1556:117.6957744,1557:117.6957744):130.0395446):29.18008321):13.10631198,((((1536:190.0255776,1537:190.0255776):33.07334676,(1538:140.7961192,1539:140.7961192):82.30280522):49.54696891,1540:272.6458933):10.4067558,(((1534:132.2811988,1535:132.2811988):38.62540798,1533:170.9066068):42.67116508,1532:213.5777718):69.47487729):6.96906509):9.56871739,((((1530:184.4978399,1531:184.4978399):11.36320178,1529:195.8610417):35.93913331,1528:231.800175):52.7951441,1527:284.5953191):14.99511252):8.212140392,(((((((1514:68.77985105,1515:68.77985105):79.91400799,1516:148.693859):57.95654366,1517:206.6504027):35.69281854,1513:242.3432212):44.17276924,(1511:256.8124844,1512:256.8124844):29.70350603):4.350072484,((1509:157.8952704,1510:157.8952704):92.00783066,1508:249.903101):40.96296193):8.152846829,(((((1523:106.5035523,1524:106.5035523):94.26805008,(1525:117.9786267,1526:117.9786267):82.7929757):60.81013391,1522:261.5817363):9.683970645,(1520:97.65760418,1521:97.65760418):173.6081028):4.400722182,(1518:216.3283916,1519:216.3283916):59.33803755):23.35248065):8.783662202):2.619790443,((((((((((1497:50.04110883,1498:50.04110883):19.34744758,1496:69.38855641):52.10577988,1499:121.4943363):44.01272741,1500:165.5070637):29.96233076,1495:195.4693945):29.66366043,((((1503:44.30386043,1504:44.30386043):99.7821733,1502:144.0860337):54.74252867,1501:198.8285624):15.4372283,1505:214.2657907):10.86726418):10.44149266,(1506:212.1948767,1507:212.1948767):23.37967084):7.288613331,1494:242.8631609):27.77383383,((1492:128.3582083,1493:128.3582083):77.26434209,1491:205.6225503):65.01444438):23.82045517,1490:294.4574499):15.96491255):1.055991345,((((((((1479:107.6785281,1480:107.6785281):124.9714714,1481:232.6499995):3.073036942,(1477:132.7684931,1478:132.7684931):102.9545433):12.14512405,1476:247.8681605):1.752499721,(1482:204.2652046,1483:204.2652046):45.35545562):29.46132785,1484:279.0819881):5.362662345,((1486:192.7067574,1487:192.7067574):45.55821311,1485:238.2649705):46.17967992):4.447606288,(1488:133.0409017,1489:133.0409017):155.851355):22.5860971):8.610485638,((1473:243.5163272,1474:243.5163272):19.29103861,1475:262.8073659):57.28147357):4.751905441,((((((((1469:114.811131,1470:114.811131):55.42964826,1468:170.2407793):41.31809425,(1471:176.6493835,1472:176.6493835):34.90949005):10.0971298,1467:221.6560033):29.71869705,1466:251.3747004):3.627789822,1465:255.0024902):23.60525497,((1463:218.5077784,1464:218.5077784):28.25634676,1462:246.7641251):31.84362001):37.94099346,((1459:130.9327113,1460:130.9327113):161.3495908,1461:292.2823021):24.26643653):8.29200625):6.442887435,(((1454:118.1672264,1455:118.1672264):127.0381286,1453:245.205355):45.97568235,((1457:207.4519492,1458:207.4519492):20.77447502,1456:228.2264242):62.95461306):40.10259499):5.378801974,(((1448:208.6068863,1449:208.6068863):35.17279087,1447:243.7796772):72.50496518,((1450:228.629332,1451:228.629332):31.843736,1452:260.473068):55.81157434):20.3777919):1.281177249,((((((((1438:168.6261188,1439:168.6261188):55.99430382,1437:224.6204226):19.12211422,(1435:149.5313476,1436:149.5313476):94.21118925):25.03174348,((1431:84.83975926,1432:84.83975926):101.8131734,(1433:137.6008876,1434:137.6008876):49.05204513):82.12134761):11.10533263,((1440:151.9867971,1441:151.9867971):49.4313367,1442:201.4181338):78.46147913):3.088362235,((1443:147.3737676,1444:147.3737676):75.10899586,(1445:147.4596983,1446:147.4596983):75.02306515):60.48521169):34.07545315,((1428:137.7910196,1429:137.7910196):50.11247022,1430:187.9034898):129.1399385):19.53695593,(((1422:151.8251908,1423:151.8251908):60.53285412,(1424:164.3537474,1425:164.3537474):48.00429748):42.78238288,(1426:212.6958445,1427:212.6958445):42.44458324):81.43995647):1.363227288):15.36334998,(((((((((((((1415:89.33815551,1416:89.33815551):9.859047697,1414:99.19720321):112.5787414,1413:211.7759446):11.57649629,1412:223.3524409):5.165311067,((1418:111.6334509,1419:111.6334509):77.93160764,1417:189.5650586):38.95269343):11.1053848,1411:239.6231368):8.853388526,1420:248.4765253):21.99714375,((((1407:154.2844123,1408:154.2844123):59.11302883,1406:213.3974411):28.91561254,1409:242.3130536):14.27229789,1410:256.5853515):13.88831754):13.5293277,(((1402:216.760049,1403:216.760049):29.18708896,(1404:239.1847827,1405:239.1847827):6.762355251):21.41491963,1401:267.3620576):16.64093914):6.341779238,(1399:154.562361,1400:154.562361):135.782415):10.76020853,1398:301.1049845):24.33620331,1421:325.4411878):16.7197151,((((1395:194.1280915,1396:194.1280915):35.57048859,1394:229.69858):25.92363828,1397:255.6222183):40.15739456,(1392:244.70922,1393:244.70922):51.07039287):46.38129006):11.14605855):4.763409827,(((((((((1380:186.1134316,1381:186.1134316):13.63152273,1379:199.7449543):15.97944295,1378:215.7243973):34.09690159,(1382:173.01719,1383:173.01719):76.80410886):14.63518271,(((1385:172.0955271,1386:172.0955271):69.7458997,1384:241.8414268):8.165173566,(1387:150.7786985,1388:150.7786985):99.22790193):14.4498812):7.095477196,((1390:140.1877675,1391:140.1877675):81.3938669,1389:221.5816344):49.97032443):21.04837403,(1376:194.3755106,1377:194.3755106):98.2248222):10.54401128,1375:303.1443441):10.98508882,((1373:192.4449575,1374:192.4449575):29.80058299,1372:222.2455405):91.88389245):43.94093841):1.215705851,(((1370:188.9361789,1371:188.9361789):77.38917737,1369:266.3253563):18.01777096,1368:284.3431273):74.9429499):1.351338514,((((((((1576:52.46549835,1577:52.46549835):149.0652589,1578:201.5307572):60.39076982,1579:261.9215271):21.68589558,((1581:166.1971911,1582:166.1971911):46.42826453,1580:212.6254556):70.98196704):17.84704214,(((((1572:155.8987074,1573:155.8987074):39.00490583,1574:194.9036132):34.62750018,1575:229.5311134):6.36640051,1571:235.8975139):15.51961867,1570:251.4171326):50.03733223):11.97517137,((((((1560:151.8080989,1561:151.8080989):49.61012327,1559:201.4182222):15.23749784,1562:216.65572):6.431288709,1563:223.0870087):30.27221147,(1564:223.7697085,1565:223.7697085):29.58951169):44.99076422,(((1567:219.4816598,1568:219.4816598):23.98482409,1569:243.4664839):26.60551637,1566:270.0720003):28.27798415):15.07965173):3.079005278,1558:316.5086414):6.786274068,(((((((1598:142.6679707,1599:142.6679707):98.73003481,1597:241.3980055):4.10981183,1600:245.5078173):4.772156991,((1595:225.4003882,1596:225.4003882):13.94782792,1594:239.3482161):10.93175818):26.36010463,(1592:226.9619933,1593:226.9619933):49.67808566):16.48746251,((((1585:188.8961015,1586:188.8961015):37.79054807,1587:226.6866496):8.75649436,((1589:159.6176567,1590:159.6176567):18.87000168,1588:178.4876583):56.95548561):31.13125889,1591:266.5744028):26.55313862):5.924788826,(1583:208.1511824,1584:208.1511824):90.90114786):24.24258522):37.34250019):3.660074367,(((((((((((1651:182.5167185,1652:182.5167185):22.7529914,(1653:125.5520813,1654:125.5520813):79.71762861):56.62952511,((1648:168.4600332,1649:168.4600332):30.76363172,1650:199.2236649):62.67557006):11.59563148,(1646:191.4458509,1647:191.4458509):82.0490156):40.04090384,((((1658:189.0449774,1659:189.0449774):67.46855897,(1660:195.8546033,1661:195.8546033):60.65893298):23.48922096,((1656:209.4413219,1657:209.4413219):4.860682031,1655:214.3020039):65.70075338):25.1124568,1662:305.1152141):8.420556208):14.51517255,(((((1638:202.7864655,1639:202.7864655):18.34152779,1637:221.1279933):22.94540036,(1640:163.3772727,1641:163.3772727):80.6961209):30.58133523,1636:274.6547289):36.2078829,(((1643:210.5634898,1644:210.5634898):44.19762579,1645:254.7611156):37.178776,1642:291.9398916):18.92272019):17.18833109):5.211819588,((((((1667:115.5724371,1668:115.5724371):104.1319766,(1669:193.6887722,1670:193.6887722):26.01564151):6.810714853,(((1671:161.4243234,1672:161.4243234):25.96390627,1673:187.3882297):36.13335834,1674:223.521588):2.993540521):36.14121543,1675:262.6563439):48.23867453,(((((1680:173.710058,1681:173.710058):13.22801968,1679:186.9380777):16.90399378,1678:203.8420714):56.07724297,(1676:168.4485993,1677:168.4485993):91.47071507):35.17285423,((1682:234.9164191,1683:234.9164191):12.39487485,1684:247.311294):47.78087468):15.80284983):18.52519438,(((1664:117.2772953,1665:117.2772953):46.38656044,1666:163.6638558):107.8828778,1663:271.5467336):57.87347926):3.842549579):5.140050864,((((((((((1711:161.4968164,1712:161.4968164):53.43662739,1710:214.9334438):2.432221708,1713:217.3656655):17.69223829,1714:235.0579038):20.50002608,1709:255.5579299):7.920982268,((((1718:141.3832535,1719:141.3832535):16.56847305,1717:157.9517265):63.6797178,1716:221.6314443):17.46468481,1715:239.0961291):24.382783):9.160125152,((1707:174.2967208,1708:174.2967208):41.44619859,1706:215.7429194):56.89611793):28.47878472,((1720:236.9419793,1721:236.9419793):9.723320193,1722:246.6652995):54.45252248):16.28028016,((((((1697:174.123327,1698:174.123327):24.51043952,(1699:163.098381,1700:163.098381):35.53538548):23.97161917,1701:222.6053857):27.77412988,(1695:141.8342424,1696:141.8342424):108.5452732):21.98749743,(1702:215.3549817,1703:215.3549817):57.01203129):24.99492591,(1704:209.8870064,1705:209.8870064):87.47493245):20.03616328):1.926125765,(((((1685:84.01819562,1686:84.01819562):159.4800732,(1687:205.5474464,1688:205.5474464):37.95082241):1.163813684,((1690:153.8956613,1691:153.8956613):3.176604473,1689:157.0722657):87.58981679):19.60520942,(1692:234.176637,1693:234.176637):30.09065493):23.50044851,1694:287.7677405):31.55648747):19.07858539):8.159866154,(((((((((1625:114.2175843,1626:114.2175843):82.01727125,1624:196.2348556):27.50691994,(1622:213.1075811,1623:213.1075811):10.6341944):20.24955973,1627:243.9913353):7.776449794,(((1629:163.4498836,1630:163.4498836):38.84833276,1631:202.2982164):34.81275807,1628:237.1109744):14.65681063):23.21460787,(1620:236.7283902,1621:236.7283902):38.2540027):4.773752642,(((1632:104.7482436,1633:104.7482436):47.85930561,1634:152.6075492):105.8355127,1635:258.443062):21.31308359):27.60042157,((((((1615:143.4314456,1616:143.4314456):13.83610031,1614:157.2675459):67.66406215,1613:224.9316081):16.52060803,1612:241.4522161):21.90559472,((1618:150.2355315,1619:150.2355315):96.40625142,1617:246.6417829):16.71602791):27.9394412,1611:291.297252):16.05931512):11.25059154,1610:318.6071587):27.95552078):9.314350543,1609:355.87703):6.091745405,(((((1606:161.1982396,1607:161.1982396):53.81584235,1605:215.0140819):32.98052823,1608:247.9946101):24.82182736,(1603:170.8505337,1604:170.8505337):101.9659038):31.8811691,(1601:244.3762238,1602:244.3762238):60.32138283):57.27116881):2.328714651):1.476074884,1367:365.7735649):3.204552016,(((1364:162.81501,1365:162.81501):34.14620763,1363:196.9612177):66.79339974,1366:263.7546174):105.2234996):5.880283212,((1361:303.2593909,1362:303.2593909):17.86145329,1360:321.1208442):53.73755601):0.5850371983,1359:375.4434374):1.567612541,1358:377.0110499):2.734896492,((((((((((1347:80.01255131,1348:80.01255131):68.56902611,(1349:111.1830985,1350:111.1830985):37.39847887):11.49061204,1346:160.0721895):75.32094693,((1351:130.8044635,1352:130.8044635):89.88729285,1353:220.6917564):14.70138):9.967143594,((1354:87.57035209,1355:87.57035209):115.9271164,(1356:141.5092616,1357:141.5092616):61.98820686):41.86281153):10.3194769,((((1342:177.7939476,1343:177.7939476):28.24607044,(1344:194.8549073,1345:194.8549073):11.18511067):17.10884227,(1340:169.1872027,1341:169.1872027):53.96165757):2.132654941,(1338:193.5732549,1339:193.5732549):31.70826035):30.39824166):32.73051047,(((1335:122.4136653,1336:122.4136653):32.96229103,1334:155.3759563):22.35362968,1337:177.729586):110.6806814):17.88294112,(1332:228.1918987,1333:228.1918987):78.10130975):13.23938434,(1330:223.0985295,1331:223.0985295):96.43406329):39.59781939,1329:359.1304122):20.6155342):9.945154141):37.10196642,(((((((((((((((((((573:88.33389478,574:88.33389478):66.94243868,(575:138.4244288,576:138.4244288):16.85190464):53.8015587,572:209.0778922):71.81122657,((578:149.4222781,579:149.4222781):62.31050801,577:211.7327861):69.15633266):12.05232577,(((569:177.9472933,570:177.9472933):56.50093778,568:234.4482311):18.47754862,571:252.9257797):40.01566479):10.66592552,(((((564:56.96484881,565:56.96484881):138.4451725,566:195.4100213):5.863877703,(562:199.3209053,563:199.3209053):1.95299369):60.12134582,567:261.3952448):16.61587156,561:278.0111164):25.59625364):16.37297825,((580:250.9972416,581:250.9972416):7.048506126,(582:155.0347277,583:155.0347277):103.0110201):61.93460052):7.218735018,584:327.1990833):20.21817308,(((((((590:177.2514893,591:177.2514893):31.11942506,592:208.3709144):4.501146866,(593:196.7748363,594:196.7748363):16.09722492):21.27398969,589:234.1460509):1.915349059,(595:148.1252965,596:148.1252965):87.93610344):26.37017027,((586:165.1986307,587:165.1986307):23.49606438,588:188.6946951):73.73687515):35.68876767,585:298.1203379):49.29691843):6.394664296,(((((558:214.0727185,559:214.0727185):44.43467154,560:258.5073901):28.74652076,557:287.2539108):17.09380532,556:304.3477161):39.06707311,((554:220.9052154,555:220.9052154):109.0783345,553:329.9835498):13.43123943):10.39713141):1.025301324,(((((((((((((623:87.17039111,624:87.17039111):92.71884943,622:179.8892405):26.16212611,621:206.0513667):30.04799345,((626:120.5818412,627:120.5818412):99.15135502,625:219.7331962):16.36616391):11.33762736,628:247.4369875):5.149611279,620:252.5865988):5.066407035,(((617:100.0376183,618:100.0376183):84.35233577,619:184.389954):53.39414507,616:237.7840991):19.86890668):17.02275464,((((((606:166.0252498,607:166.0252498):32.24688756,608:198.2721374):15.37032106,(609:177.5949683,610:177.5949683):36.04749016):18.86322407,(611:165.0324312,612:165.0324312):67.47325126):12.78826934,((613:143.420868,614:143.420868):73.93651984,615:217.3573879):27.93656396):23.64109945,605:268.9350513):5.740709142):12.02552697,604:286.7012874):14.64218281,(((629:204.2539028,630:204.2539028):30.03229944,(631:232.3765544,632:232.3765544):1.909647791):31.99871233,((633:181.7302082,634:181.7302082):58.9417024,635:240.6719106):25.61300396):35.05855566):5.563595662,(((602:176.7368964,603:176.7368964):64.99042566,601:241.727322):56.58330333,600:298.3106254):8.596440517):3.226555598,(598:127.9590434,599:127.9590434):182.174578):22.66978434,597:332.8034058):22.03381618):9.014219333,(((((((((((((513:194.9617428,514:194.9617428):13.38205689,(515:159.4500941,516:159.4500941):48.8937056):17.51211201,(511:212.0472292,512:212.0472292):13.80868249):39.24216085,(517:242.4642381,518:242.4642381):22.63383452):11.26184693,(519:247.7324939,520:247.7324939):28.62742564):5.991556217,(521:258.4630836,522:258.4630836):23.88839213):11.10437952,(((((509:164.1829374,510:164.1829374):42.75427852,508:206.9372159):17.12044787,507:224.0576638):6.68929638,(505:191.3976573,506:191.3976573):39.34930286):31.87137626,504:262.6183364):30.83751884):16.12615316,503:309.5820084):7.964793847,523:317.5468023):8.733589315,(((((497:187.2096982,498:187.2096982):80.09536366,(499:161.936653,500:161.936653):105.3684089):8.926260145,501:276.231322):7.823722118,502:284.0550441):31.83559595,496:315.8906401):10.38975152):10.95728412,(((((((486:157.8486816,487:157.8486816):44.12041153,488:201.9690931):26.6306806,(484:159.9322514,485:159.9322514):68.66752239):34.90654875,(((489:93.51178631,490:93.51178631):107.2857032,491:200.7974895):61.08444721,492:261.8819367):1.624385799):35.9183301,((493:134.5514446,494:134.5514446):121.7156613,495:256.2671058):43.15754679):2.541309633,((((481:174.3626562,482:174.3626562):19.18941113,480:193.5520674):59.65196099,(478:99.1867841,479:99.1867841):154.0172442):11.8083142,483:265.0123425):36.95361969):4.812386364,((476:252.4371904,477:252.4371904):27.60716516,475:280.0443556):26.733993):30.4593271):12.69710915,(((((((((((537:196.0935971,538:196.0935971):25.80693427,(539:164.4450143,540:164.4450143):57.45551706):5.612068942,541:227.5126003):8.889075421,(542:15.89195067,543:15.89195067):220.5097251):18.83144533,((((533:165.5987605,534:165.5987605):18.54928843,535:184.1480489):10.1060877,536:194.2541366):38.47035893,532:232.7244955):22.50862556):14.24646646,((545:174.8368609,546:174.8368609):9.856451891,544:184.6933128):84.78627475):7.760379039,(((528:179.1161404,529:179.1161404):2.000394501,530:181.1165349):29.3039948,531:210.4205297):66.8194369):14.70595996,527:291.9459265):7.646791752,(547:289.7531759,548:289.7531759):9.839542411):9.348112607,((525:217.3372876,526:217.3372876):18.25325228,524:235.5905399):73.35029105):4.661811204,549:313.6026421):36.33214275):12.15193508,((551:252.8728833,552:252.8728833):30.96197338,550:283.8348567):78.25186325):1.76472139):6.362641094,(((473:252.604909,474:252.604909):16.55591317,472:269.1608221):40.21481135,471:309.3756335):60.83844893):7.817570602,(((((((460:181.7961519,461:181.7961519):35.11046905,459:216.9066209):32.38743037,458:249.2940513):59.96129771,(456:302.1483518,457:302.1483518):7.106997177):13.3679822,((453:201.8108596,454:201.8108596):82.02460467,455:283.8354643):38.7878669):9.915267448,((451:300.148686,452:300.148686):12.76368309,450:312.9123691):19.62622956):28.43672682,(((((467:100.1152674,468:100.1152674):85.24700729,(469:105.7207473,470:105.7207473):79.64152736):61.82801569,466:247.1902904):57.63477572,465:304.8250661):42.05355406,((462:125.7248219,463:125.7248219):111.8819233,464:237.6067452):109.271875):14.09670529):17.05632756):5.901788279,449:383.9334413):9.558310078,((((((((438:79.94356366,439:79.94356366):53.41471598,440:133.3582796):18.50322168,441:151.8615013):55.946295,442:207.8077963):24.44404148,437:232.2518378):22.54027955,(443:151.9214359,444:151.9214359):102.8706815):47.09461267,(435:240.3938928,436:240.3938928):61.49283723):4.153147582,(((445:140.2448494,446:140.2448494):96.81920087,447:237.0640502):23.98307505,448:261.0471253):44.9927523):87.45187377):7.984478985,(((((433:134.5087331,434:134.5087331):69.64259961,432:204.1513327):94.26394326,(430:267.0353138,431:267.0353138):31.37996212):35.91851385,(((428:240.2540529,429:240.2540529):17.0738301,427:257.327883):34.399859,426:291.727742):42.60604778):35.69202326,(((420:241.9262342,421:241.9262342):12.66301623,(422:134.1306739,423:134.1306739):120.4585766):43.73671856,(424:223.2918758,425:223.2918758):75.03409323):71.69984402):31.45041732):3.133710852,((416:210.023093,417:210.023093):110.2036691,(418:173.1325549,419:173.1325549):147.0942073):84.38317902):11.99059566,((((((644:245.1727531,645:245.1727531):47.66881893,646:292.841572):55.22404942,(642:172.2205797,643:172.2205797):175.8450417):8.767686473,((((648:131.4323818,649:131.4323818):92.65696083,650:224.0893427):67.80437637,651:291.893719):17.03102895,647:308.924748):47.90855992):3.399949691,652:360.2332576):28.32918935,(((638:237.386148,639:237.386148):48.29532702,(640:194.5883524,641:194.5883524):91.09312262):89.02118244,(636:268.26139,637:268.26139):106.4412674):13.85978951):28.03808993):10.19253009):4.050102697,(((((((((((((((234:119.3723323,235:119.3723323):50.9331728,233:170.3055051):22.82053116,((237:178.5409501,238:178.5409501):9.237246689,236:187.7781968):5.347839456):29.6402858,((((239:98.88707951,240:98.88707951):62.10015352,241:160.987233):3.552546842,242:164.5397799):30.61542116,(243:112.5693451,244:112.5693451):82.58585589):27.61112103):1.025393767,((231:194.8935453,232:194.8935453):20.11074235,230:215.0042876):8.787428195):12.03573889,245:235.8274547):11.04667898,((((224:180.5177949,225:180.5177949):19.70440611,(226:124.3793751,227:124.3793751):75.84282588):20.78614876,(228:194.1418259,229:194.1418259):26.86652383):17.51867333,(((221:163.8107949,222:163.8107949):45.95376812,223:209.764563):7.531806929,220:217.2963699):21.23065315):8.347110642):7.313664226,((((((251:127.1407212,252:127.1407212):25.93978249,253:153.0805037):26.71249365,(249:75.90839977,250:75.90839977):103.8845975):48.14419393,(247:167.8528357,248:167.8528357):60.08435555):17.12979662,246:245.0669879):7.2408681,((((255:113.4577226,256:113.4577226):50.27615793,257:163.7338805):33.04335524,254:196.7772358):41.81671099,258:238.5939468):13.71390921):1.879941958):1.514586851,(((((((207:120.441277,208:120.441277):56.06488027,(209:100.854063,210:100.854063):75.65209425):20.62078149,((212:129.4195996,213:129.4195996):14.49835957,211:143.9179592):53.20897959):24.64465294,(((205:92.80056449,206:92.80056449):25.75870554,204:118.55927):45.41210196,203:163.971372):57.80021972):16.03385313,214:237.8054448):7.600074129,(((218:128.0224356,219:128.0224356):88.34308574,217:216.3655214):5.069004668,(215:186.7275753,216:186.7275753):34.70695071):23.97099291):7.667604439,(((200:153.6611173,201:153.6611173):28.75916662,199:182.4202839):48.60019638,202:231.0204803):22.05264312):2.629261383):2.586507711,198:258.2888925):1.360250611,197:259.6491431):47.51988614,(((194:139.0388087,195:139.0388087):60.44406571,196:199.4828744):21.00710008,(192:203.8726835,193:203.8726835):16.61729106):86.67905474):55.64829924,((((((((((((298:62.22192582,299:62.22192582):84.81028555,297:147.0322114):37.23052935,300:184.2627407):89.73698199,((294:210.1443646,295:210.1443646):25.60354968,296:235.7479142):38.25180846):5.114886034,((301:229.4012942,302:229.4012942):10.90362799,303:240.3049222):38.80968655):3.16199906,((((292:143.0000187,293:143.0000187):44.79648714,291:187.7965059):52.61722406,290:240.4137299):27.18881139,289:267.6025413):14.67406648):9.00746646,(((((310:216.9190785,311:216.9190785):26.87031993,312:243.7893984):20.43733048,(313:220.480924,314:220.480924):43.74580484):4.475933778,(308:213.8811668,309:213.8811668):54.82149588):19.45995364,((304:247.1052205,305:247.1052205):32.79892546,(306:272.3152776,307:272.3152776):7.588868297):8.25847037):3.121457971):8.677464622,315:299.9615389):3.542936768,((((287:250.1054576,288:250.1054576):19.81588213,286:269.9213397):6.700523206,(284:264.2854469,285:264.2854469):12.33641607):6.694799688,283:283.3166626):20.18781304):2.944631757,(((((((278:50.75167391,279:50.75167391):118.8584723,277:169.6101462):75.07031936,((281:133.1372384,282:133.1372384):5.204992933,280:138.3422313):106.3382343):6.184256061,(275:205.7132739,276:205.7132739):45.15144773):33.63236627,274:284.4970879):5.947407525,(((270:219.0932832,271:219.0932832):52.04386864,(272:191.0742478,273:191.0742478):80.06290405):9.211870296,269:280.3490221):10.09547335):8.277269492,(((((264:74.46385894,265:74.46385894):108.0509886,266:182.5148475):51.22735886,(267:194.2705018,268:194.2705018):39.47170455):27.91344749,(((261:187.9453867,262:187.9453867):42.06008118,260:230.0054679):14.25170745,263:244.2571753):17.39847855):23.42755431,259:285.0832082):13.63855676):7.727342466):0.790909947,((((316:168.7760589,317:168.7760589):51.10123521,(318:208.8908253,319:208.8908253):10.98646887):53.43032689,320:273.307621):24.33647767,321:297.6440987):9.595918637):33.32417411,322:340.5641915):22.25313703):24.53282189,((((((((((((((((393:57.15276406,394:57.15276406):80.01699467,395:137.1697587):46.52457458,396:183.6943333):40.66020182,(391:178.2063697,392:178.2063697):46.14816539):30.00358967,((398:87.63371156,399:87.63371156):65.52423851,397:153.1579501):101.2001747):32.86753689,390:287.2256617):34.82444688,(((((401:175.5337313,402:175.5337313):61.23752079,403:236.7712521):23.73984886,(404:213.7177388,405:213.7177388):46.79336215):26.3644589,400:286.8755599):13.74465021,406:300.6202101):21.42989849):6.016513758,(((((378:221.5870503,379:221.5870503):18.2425491,(380:193.9937309,381:193.9937309):45.83586846):22.63944945,377:262.4690488):31.46093058,(((383:167.8565058,384:167.8565058):60.15691,385:228.0134158):36.98808143,382:265.0014972):28.92848223):8.743565635,(((386:153.5444314,387:153.5444314):47.31594154,388:200.860373):75.54173754,389:276.4021105):26.27143455):25.39307726):13.03003924,((((((364:136.8222042,365:136.8222042):49.64927593,366:186.4714802):53.18612585,367:239.657606):56.17608435,((368:85.54943585,369:85.54943585):110.2329082,(370:132.6664745,371:132.6664745):63.11586955):100.0513464):23.5639287,372:319.3976191):2.297593608,((373:244.1847019,374:244.1847019):44.28130236,(375:228.9777397,376:228.9777397):59.4882646):33.22920839):19.40144887):1.742573684,(((((410:172.2886577,411:172.2886577):14.63944945,412:186.9281071):39.16842905,(408:96.94538771,409:96.94538771):129.1511485):16.12449037,407:242.2210266):55.9989482,((413:197.339785,414:197.339785):23.50731233,415:220.8470974):77.37287739):44.61926047):3.326415665,363:346.1656509):5.249681437,362:351.4153323):11.13218228,(((358:162.9068686,359:162.9068686):86.65832595,360:249.5651945):71.55856657,361:321.1237611):41.42375351):2.851404278,(356:198.0213238,357:198.0213238):167.3775951):16.22106665,355:381.6199856):4.38255039,((((((((((332:121.0261466,333:121.0261466):88.33718249,334:209.3633291):9.227200016,(335:213.8115519,336:213.8115519):4.778977209):8.762257079,331:227.3527862):37.2004477,(329:200.2952963,330:200.2952963):64.25793761):33.43736637,(((337:229.7478354,338:229.7478354):3.620994228,(339:151.7666331,340:151.7666331):81.60219656):57.61416092,(341:260.6991546,342:260.6991546):30.28383603):7.007609673):30.91846034,((344:110.222396,345:110.222396):158.8121094,343:269.0345054):59.87455522):9.568145042,((326:284.583113,327:284.583113):38.97613101,328:323.559244):14.91796164):17.98413012,((323:222.7994534,324:222.7994534):58.63881792,325:281.4382713):75.02306449):23.75299547,((((353:26.55186639,354:26.55186639):156.0111748,352:182.5630411):90.5832829,(350:261.1884481,351:261.1884481):11.95787595):6.648957676,(((347:62.44966903,348:62.44966903):154.2979387,346:216.7476077):34.06358904,349:250.8111967):28.98408498):100.4190495):5.788204695):1.347614435):13.88410101,(((((((((((((153:210.9247751,154:210.9247751):32.10124864,152:243.0260238):28.22111132,((155:133.5189834,156:133.5189834):69.66224795,157:203.1812314):68.06590374):17.81888855,((149:221.0152681,150:221.0152681):35.41847858,151:256.4337467):32.63227695):22.98789371,((159:267.1346786,160:267.1346786):36.40950778,158:303.5441864):8.509730963):6.711975247,((((165:246.1715388,166:246.1715388):12.85536823,167:259.0269071):17.82839841,((168:172.0639319,169:172.0639319):59.29453735,170:231.3584693):45.49683623):15.18530649,(((162:211.7609626,163:211.7609626):35.58409278,164:247.3450554):28.16508351,161:275.5101389):16.53047311):26.72528063):9.311416854,((((174:227.5698741,175:227.5698741):62.19176829,173:289.7616424):9.740338855,((176:183.5580797,177:183.5580797):95.84398382,178:279.4020635):20.09991774):14.49119356,(171:290.9968098,172:290.9968098):22.99636499):14.08413466):6.033846161,(147:95.85777802,148:95.85777802):238.2533776):4.46693943,((((((186:196.803938,187:196.803938):31.99837899,(188:118.8805971,189:118.8805971):109.9217198):9.332549503,185:238.1348665):34.6550187,((182:145.516505,183:145.516505):51.35917802,184:196.875683):75.91420213):20.44263049,(190:237.994019,191:237.994019):55.23849671):21.37522997,((180:155.3848428,181:155.3848428):142.3535186,179:297.7383614):16.8693842):23.97034942):2.032104985,(((((143:198.6608198,144:198.6608198):55.21565817,145:253.8764779):14.72707178,146:268.6035497):20.41462485,((140:68.34076391,141:68.34076391):191.8081677,142:260.1489316):28.86924296):30.82151282,((137:236.1382041,138:236.1382041):73.02510544,139:309.1633096):10.6763778):20.77051266):2.999659367,((((133:140.0675687,134:140.0675687):118.4578545,135:258.5254232):14.34572449,132:272.8711477):13.74703253,136:286.6181803):56.99167914):1.353210404,((130:58.58977583,131:58.58977583):253.664516,129:312.2542918):32.70877798):11.69688955,((((125:241.4448154,126:241.4448154):43.2900085,124:284.7348239):36.27668599,127:321.0115099):21.4612497,128:342.4727596):14.18719977):44.57429203):29.60891827):10.7613948,(((((((((((((((((50:88.24263471,51:88.24263471):114.3388304,49:202.5814651):30.83036914,(52:146.5317503,53:146.5317503):86.88008398):17.55797492,48:250.9698092):30.00630229,(((55:166.1128685,56:166.1128685):64.10205759,54:230.214926):20.56876477,(57:222.5123192,58:222.5123192):28.27137164):30.19242066):8.152593749,47:289.1287052):10.56973705,(59:284.7879806,60:284.7879806):14.91046165):16.7224427,((44:129.0332782,45:129.0332782):97.49201097,46:226.5252892):89.89559581):11.86398425,((62:283.7439725,63:283.7439725):20.56928615,61:304.3132587):23.97161054):1.457201142,((((((66:230.6714025,67:230.6714025):16.76994658,(68:148.6086001,69:148.6086001):98.83274902):6.373836806,65:253.8151859):15.26280218,70:269.0779881):18.25218966,((71:176.5820158,72:176.5820158):98.6079182,73:275.1899339):12.14024383):9.771185578,64:297.1013634):32.640707):5.104087235,(42:244.3321562,43:244.3321562):90.51400141):3.289193053,74:338.1353506):9.168821408,41:347.3041721):4.462273857,(((((39:139.7727186,40:139.7727186):106.4554102,38:246.2281287):36.76230916,37:282.9904379):21.03706642,(35:290.6528545,36:290.6528545):13.37464977):25.57551819,((33:248.0903466,34:248.0903466):60.30076604,32:308.3911126):21.21190986):22.16342342):2.423623075,((30:240.7873192,31:240.7873192):53.06131416,29:293.8486333):60.34143567):14.62515796,(((((((24:200.9740268,25:200.9740268):21.9782325,26:222.9522593):44.10488042,23:267.0571397):5.041548149,22:272.0986879):19.66690453,(27:223.3682046,28:223.3682046):68.39738776):17.12858418,(((19:203.3926001,20:203.3926001):40.96606974,18:244.3586698):39.00017417,21:283.358844):25.53533262):42.62319138,(((14:219.8842283,15:219.8842283):17.35612285,13:237.2403512):43.48640139,(16:231.1124295,17:231.1124295):49.61432306):70.79061543):17.29785898):4.444838832,((((((((((((108:94.04664856,109:94.04664856):146.8297857,(110:191.7075329,111:191.7075329):49.1689014):4.206155553,(106:213.2972934,107:213.2972934):31.78529641):47.65742571,(112:231.3175097,113:231.3175097):61.42250579):5.706668571,((((101:224.2569488,102:224.2569488):1.133768629,100:225.3907175):31.69458924,103:257.0853067):14.12068758,(104:246.2509982,105:246.2509982):24.95499611):27.24068982):12.45911348,(((((88:195.2583214,89:195.2583214):33.65067194,(90:198.6667374,91:198.6667374):30.24225595):30.1667194,92:259.0757127):38.65479581,(((96:112.1274324,97:112.1274324):117.8778438,95:230.0052762):22.12832286,(93:214.9441924,94:214.9441924):37.18940665):45.59690948):9.511007113,(98:285.8525445,99:285.8525445):21.3889712):3.664281916):9.226533671,((85:272.2765684,86:272.2765684):12.1655358,87:284.4421042):35.69022706):6.504251526,((((114:178.6221406,115:178.6221406):68.56594464,116:247.1880852):20.03091054,(117:165.3883133,118:165.3883133):101.8306824):22.42692947,119:289.6459252):36.99065754):10.80661918,84:337.443202):2.268141742,(((122:224.7205358,123:224.7205358):12.77136749,121:237.4919033):76.4915759,120:313.9834792):25.72786447):13.56080283,83:353.2721465):9.302252572,((((((78:123.7393682,79:123.7393682):30.83358515,80:154.5729534):42.14534978,77:196.7183032):39.3040239,76:236.0223271):21.76688578,(81:185.0365783,82:185.0365783):72.75263456):18.47161988,75:276.2608327):86.31356639):10.68566667):68.34449868):7.59439577,(1723:385.5924881,1724:385.5924881):63.60647216):13.12045951,(1725:373.9695531,1726:373.9695531):88.34986661):15.76921444,(((((9:197.9488713,10:197.9488713):42.44022177,(11:196.9364562,12:196.9364562):43.45263692):46.28925972,8:286.6783528):95.65376096,(6:286.4211526,7:286.4211526):95.91096122):81.65445151,(((2:275.3959865,3:275.3959865):100.4971679,1:375.8931545):65.03699125,(4:282.3944257,5:282.3944257):158.53572):23.05641959):14.10206888):0;
+END;

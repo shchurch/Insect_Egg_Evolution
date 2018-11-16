@@ -1,0 +1,301 @@
+genus	species	uncorrected_genus	uncorrected_species	name	order	family	ID	time_to_hatch_days	time_to_hatch_hours	temp_to_hatch	dipause	int_btw_preblast_mitoses	time_to_midcellularization	temp_development	source	comment
+Abedus	indentatus	Abedus	indentatus	Abedus_indentatus	Hemiptera	Belostomatidae		17.2	412.8	20					maino2017effect	cited in maino2017effect as (Gillooly and Dodson 2000)
+Clavigralla	hystrix	Acanthomia	hystrix	Clavigralla_hystrix	Hemiptera	Coreidae	9946								Cobben1968	germband stage and beyond
+Acompocoris	pygmaeus	Acompocoris	pygmaeus	Acompocoris_pygmaeus	Hemiptera	Anthocoridae	9978								Cobben1968	germband stage and beyond
+Acrida	bicolor	Acrida	bicolor	Acrida_bicolor	Orthoptera	Acrididae		70	1680	25	y				kuccukekcsi1964contribution	no details of early embryogenesis
+Actias	luna	Actias	luna	Actias_luna	Lepidoptera	Saturniidae		7	168	28					maino2017effect	cited in maino2017effect as (Melvin 1928)
+Acyrthosiphon	pisum	Acyrthosiphon	pisum	Acyrthosiphon_pisum	Hemiptera	Aphididae	10664								chen2003developmental; Blackman1978	nanos in situs but no precise staging; in Blackman1978 focuses on oogenesis
+Aedes	aegypti	Aedes	aegypti	Aedes_aegypti	Diptera	Culicidae	10752						8	25	raminani1975early	for periplasm invasion, we took the midpoint of the process;
+Aedes	aegypti	Aedes	aegypti	Aedes_aegypti	Diptera	Culicidae		7.2	172.8	20					maino2017effect	cited in maino2017effect as (Gillooly and Dodson 2000)
+Ochlerotatus	sticticus	Aedes	sticticus	Ochlerotatus_sticticus	Diptera	Culicidae		8	192	20					maino2017effect	cited in maino2017effect as (Gillooly and Dodson 2000)
+Aedes	vexans	Aedes	vexans	Aedes_vexans	Diptera	Culicidae		5.9	141.6	20					maino2017effect	cited in maino2017effect as (Gillooly and Dodson 2000)
+Aenasius	maplei	Aenasius	maplei	Aenasius_maplei	Hymenoptera	Encyrtidae	4299								Maple1947	a few larval drawings
+Aeshna	juncea	Aeschna	juncea	Aeshna_juncea	Odonata	Aeshnidae		229	5496		y				ando1962comparative	the monograph focuses on a few other species, but provided temperature and time to hatchling; temperature is the midpoint of the range reported
+Aeshna	nigroflava	Aeschna	nigrofiava	Aeshna_nigroflava	Odonata	Aeshnidae	7081	225	5400		y				ando1962comparative	the monograph focuses on a few other species, but provided temperature and time to hatchling; temperature is the midpoint of the range reported
+Ageniaspis	fuscicollis	Ageniaspis	fuscicollis	Ageniaspis_fuscicollis	Hymenoptera	Encyrtidae	9098								Ivanova-Kasas1972; martin1914entwicklungsgeschichte	polyembryonic, making direct comparisons ambiguous
+Aglaostigma		Aglaostigma	occipitosa	Aglaostigma	Hymenoptera	Tenthredinidae	10807	12	288		n				ando1958embryology	
+Agmoblatta	thaxteri	Agmoblatta	thaxteri	Agmoblatta_thaxteri	Blattodea	Ectobiidae	7320								roth1968ovarioles	ovarioles diagrammed
+Aiolopus	thalassinus	Aiolopus	thalassinus	Aiolopus_thalassinus	Orthoptera	Acrididae		20	480	20	n				khalifa1957development	time to hatching taken as the midpoint of the described range; there are additional details on the rate of development and rate of hatching under various water and temperature conditions for this and a few other species
+Allonemobius	socius	Allonemobius	socius	Allonemobius_socius	Orthoptera	Gryllidae		15	360	29					maino2017effect	cited in maino2017effect as (Reynolds and Hand 2009)
+Alydus	calcaratus	Alydus	calcaratus	Alydus_calcaratus	Hemiptera	Alydidae	9950								Cobben1968	germband stage and beyond
+Amata	fortunei	Amata	fortunei	Amata_fortunei	Lepidoptera	Erebidae	10766			24	n	37.5	13	24	tanaka1985early	room temperature is taken to be 24°C; the anlage is taken to be the "ventral plate"; interval between mitoses is calculated as the mean of the first 8 cleavages
+Ammophila	campestris	Ammophila	campestris	Ammophila_campestris	Hymenoptera	Sphecidae	10813								baerends1949embryological	done
+Anagasta	kuhniella	Anagasta	kuhniella	Anagasta_kuhniella			10739	4.5	108	23.5	n	60		23.5	sehl1931furchung; busselmann1934bau	not in English; return to it if there is time
+Anagrus	breviphragma	Anagrus	breviphragma	Anagrus_breviphragma	Hymenoptera	Mymaridae	8837								Moratorio1995	some TL and SEM images, with rough hatching data
+Anagrus	delicatus	Anagrus	delicatus	Anagrus_delicatus	Hymenoptera	Mymaridae	8984								Cronin1990	larval sizes and rates
+Anagrus	incarnatus	Anagrus	incarnatus	Anagrus_incarnatus	Hymenoptera	Mymaridae	5587	1	24	25	n				Yeo1990	some TL micrographs; rough staging, maybe too rough to include
+Anaphes		Anaphes		Anaphes	Hymenoptera	Mymaridae	5671		12.5	23.9					Boivin1993	some TL micrographs and larval development
+Anasa	tristis	Anasa	tristis	Anasa_tristis	Hemiptera	Coreidae		7	168	28					maino2017effect	cited in maino2017effect as (Melvin 1928)
+Anax		Anax		Anax	Odonata	Aeshnidae		13	312	23.5	n				ando1962comparative	the monograph focuses on a few other species, but provided temperature and time to hatchling; temperature is the midpoint of the range reported
+Ancylolomia	japonica	Ancylolomia	japonica	Ancylolomia_japonica	Lepidoptera	Crambidae									tanaka1970embryonic	in Japanese; return to it if there's time
+Anicetus	annulatus	Anicetus	annulatas	Anicetus_annulatus	Hymenoptera	Encyrtidae	4301								Maple1947	a few larval drawings
+Anisolabis	maritima	Anisolabis	maritima	Anisolabis_maritima	Dermaptera	Anisolabididae	6497	13	312	28					ando1987relationship; fuse1983embryonic	in Japanese; get translated if needed
+Anommatocoris	minutissimus	Anommatocoris	minutissimus	Anommatocoris_minutissimus	Hemiptera	Tingidae	9982								Cobben1968	germband stage and beyond
+Anopheles	maculipennis	Anopheles	maculipennis	Anopheles_maculipennis	Diptera	Culicidae									ivanova1949embryonic	written in Russian; come back to it if needed
+Anopheles	quadrimaculatus	Anopholes	quadrimaculatus	Anopheles_quadrimaculatus	Diptera	Culicidae		3.8	91.2	20					maino2017effect	cited in maino2017effect as (Gillooly and Dodson 2000)
+Anoplocnemis		Anoplocnemis		Anoplocnemis	Hemiptera	Coreidae	9957								Cobben1968	germband stage and beyond
+Anotogaster		Anotogaster		Anotogaster	Odonata	Cordulegastridae		37.5	900		n				ando1962comparative	the monograph focuses on a few other species, but provided temperature and time to hatchling; temperature is the midpoint of the range reported
+Antheraea	pernyi	Antheraea	pernyi	Antheraea_pernyi	Lepidoptera	Saturniidae	10818								saito1934study; saito1937development	a lot of text descriptions, but missing temperature and times and numerical precision
+Anthocoris	nemorum	Anthocoris	nemorum	Anthocoris_nemorum	Hemiptera	Anthocoridae	9977								Cobben1968	germband stage and beyond
+Anthonomus	eugenii	Anthonomus	eugenii	Anthonomus_eugenii	Coleoptera	Curculionidae		2	48	27					maino2017effect	cited in maino2017effect as (Toapanta et al. 2005)
+Anthophora	urbana	Anthophora	urbana	Anthophora_urbana	Hymenoptera	Apidae	9019								Torchio1986a	hatching and larval development described but no precise times or termperatures
+Anticarsia	gemmatalis	Anticarsia	gemmatalis	Anticarsia_gemmatalis	Lepidoptera	Noctuidae			90	25	n				pansera1999characterization	we took the modal time to hatching
+Antigastra	catalaunalis	Antigastra	catalaunalis	Antigastra_catalaunalis	Lepidoptera	Crambidae		4.75	114	26					maino2017effect	cited in maino2017effect as (Singh 2010)
+Anurida	maritima	Anurida	maritima	Anurida_maritima	Collembola	Neanuridae									haget1964quelques; garaudy1969quelques; garaudy1969vesicules; garaudy1970observations	we have haget; missing others
+Apatania	fimbriata	Apatania	fimbriata	Apatania_fimbriata	Trichoptera	Apataniidae		13.4	321.6	20					maino2017effect	cited in maino2017effect as (Gillooly and Dodson 2000)
+Aphanus		Aphanus	rolandri	Aphanus	Hemiptera	Rhyparochromidae	9940								Cobben1968	germband stage and beyond
+Cecidomyiidi	aphidimyza	Aphidoletes	aphidimyza	Cecidomyiidi_aphidimyza	Diptera	Cecidomyiidae	6713		102	17					havelka2007embryogenesis	little detail at a cellular level
+Aphis	fabae	Aphis	fabae	Aphis_fabae	Hemiptera	Aphididae									behrendt1963eidiapause; Blackman1978	Blackman1978 focuses on oogenesis; other source has not been obtained
+Aphytis	chilensis	Aphytis	chilensis	Aphytis_chilensis	Hymenoptera	Aphelinidae	5720		72	28	n				Rosen1978	these parasitoid eggs are stalked, but the authors describe a physical border separating the stalk from the rest of the egg proper; some TL images and text description but little about the earliest events in embryogenesis
+Apis	mellifera	Apis	mellifera	Apis_mellifera	Hymenoptera	Apidae	10806	70 to 72 hours	71	35	n	37	18	35	schnetter1934morphologische; dupraw1967honeybee; fleig1986embryogenesis; nelson1915embryology	time to periplasm invagination from fleig1986embryogenesis; middle of cellularization taken as midpoint of blastoderm formation and completed cellularization in nelson1915entomology; preblastoderm mitosis interval was estimated from dupraw1967honeybee, with 10 divisions occuring over 6 hours
+Apis	mellifera	Apis	mellifera	Apis_mellifera	Hymenoptera	Apidae		3.3	79.2	35					maino2017effect	cited in maino2017effect as (Collins 2004)
+Anagyrus	californicus	Apoanagyrus	californicus	Anagyrus_californicus	Hymenoptera	Encyrtidae	4303								Maple1947	a few larval drawings
+Anagyrus		Apoanagyrus	sp	Anagyrus	Hymenoptera	Encyrtidae	4302								Maple1947	a few larval drawings
+Archipsocopsis	fernandi	Archipsocus	fernandi	Archipsocopsis_fernandi	Psocoptera	Archipsocidae	10598								Fernando1934	viviparous; female pronucleus is shown, but no orientation of the embryo is given; no temperature or times given
+Arenivaga	cerverae	Arenivaga	cerverae	Arenivaga_cerverae	Blattodea	Corydiidae	7312								roth1968ovarioles	ovarioles diagrammed
+Ariadne	merione	Ariadne	merione	Ariadne_merione	Lepidoptera	Nymphalidae		3.5	84	28					maino2017effect	cited in maino2017effect as (Atluri et al. 2010a)
+Asaphes	suspensus	Asaphes	suspensus	Asaphes_suspensus	Hymenoptera	Pteromalidae	9105								2008	some TL micrographs and larval development
+Libelloides	ramburi	Ascalaphus	ramburi	Libelloides_ramburi	Neuroptera	Ascalaphidae	10811	18	432	24	n			24	kamiya1985external	temperature is described as room temperature which we include as 24°C; time to hatching is reported to be invariant across a range of temperatures
+Coridius		Aspongopus		Coridius	Hemiptera	Dinidoridae	9963								Cobben1968	germband stage and beyond
+Athemus	suturellus	Athemus	suturellus	Athemus_suturellus	Coleoptera	Cantharidae	5250	10	240	24					FUJIWARA1987	room temperature is taken as 24°C
+Attaphila	fungicola	Attaphila	fungicola	Attaphila_fungicola	Blattodea	Ectobiidae	7315								roth1968ovarioles	ovarioles diagrammed
+Aulocara	elliotti	Aulocara	elliotti	Aulocara_elliotti	Orthoptera	Acrididae				25	y				van1966studies	no details of early embryogenesis or hatching in this source
+Austroicetes	cruciata	Austroicetes	cruciata	Austroicetes_cruciata	Orthoptera	Acrididae					y				steele1941some	detailed thumbnail drawings of many stages after the inital formation of appendage buds;
+Clonaria	libanica	Bacillus	libanicus	Clonaria_libanica	Phasmatodea	Diapheromeridae	7122								moscona1950blastokinesis	no details on early embryogenesis
+Baclozygum	depressum	Baclozygum	depressum	Baclozygum_depressum	Hemiptera	Thaumastocoridae	10001								Cobben1968	germband stage and beyond
+Bactrocera	dorsalis	Bactocera	dorsalis	Bactrocera_dorsalis	Diptera	Tephritidae	7368		48	25	n			25	suksuwan2017segmentation	the temperature for hatching is assumed to be the temperature for the rest of development; hard to say exactly when the periplasm is invaded but at the latest it is nucleus cycle 10
+Baculentulus	densus	Baculentulus	densus	Baculentulus_densus	Protura	Acerentomidae	7111								machida2006evidence	holoblastic cleavage; not enough fine scale timing to use
+Baetis	vernus	Baetis	vernus	Baetis_vernus	Ephemeroptera	Baetidae									bohle1969untersuchungen	not in English; return to it if there is time
+Banasa	dimiata	Banaza	dimidiata	Banasa_dimiata	Hemiptera	Pentatomidae	9337								Javahery1994	embryo orientation and external appearance
+Berytinus	signoreti	Berytinus	signoreti	Berytinus_signoreti	Hemiptera	Berytidae	9934								Cobben1968	germband stage and beyond
+Hylobittacus	apicalis	Bittacus	apicalis	Hylobittacus_apicalis	Mecoptera	Bittacidae	10759				y				setty1940biology	some description of early embryogenesis; drawings of germ band and beyond
+Bittacus	laevipes	Bittacus	laevipes	Bittacus_laevipes	Mecoptera	Bittacidae	10771	275	6600	24	y				suzuki1990embryology	very detailed anatomical descriptions, but not of embryogenesis
+Bittacus	marginatus	Bittacus	marginatus	Bittacus_marginatus	Mecoptera	Bittacidae		240	5760		y				ando1973old	text description of earliest events
+Bittacus	mastrillii	Bittacus	mastrillii	Bittacus_mastrillii	Mecoptera	Bittacidae	10731	245	5880		y				ando1973old	text description of earliest events
+Bittacus	nipponicus	Bittacus	nipponicus	Bittacus_nipponicus	Mecoptera	Bittacidae		290	6960		y				suzuki1990embryology	data from Ishi 1937, as cited in suzuki1990embryology; if the original source can be located, egg morphology could be included as well
+Bittacus	occidentis	Bittacus	occidentalis	Bittacus_occidentis	Mecoptera	Bittacidae	10763								setty1940biology	very detailed anatomical descriptions, but not of embryogenesis
+Bittacus	pilicornis	Bittacus	pilicornis	Bittacus_pilicornis	Mecoptera	Bittacidae	10742	29-78	1284		n				setty1940biology	this species is reported to have a very wide range in duration of embryogenesis; very detailed anatomical descriptions, but not of embryogenesis
+Bittacus	punctiger	Bittacus	punctiger	Bittacus_punctiger	Mecoptera	Bittacidae	10747	20-37	684		n				setty1940biology	this species is reported to have a very wide range in duration of embryogenesis; very detailed anatomical descriptions, but not of embryogenesis
+Bittacus	stigmaterus	Bittacus	stigmaterus	Bittacus_stigmaterus	Mecoptera	Bittacidae	10755	58	1392		n				setty1931biology	this species often diapauses, but here we include the duration of embryogenesis for a non-diapausing individual
+Bittacus	strigosus	Bittacus	strigosis	Bittacus_strigosus	Mecoptera	Bittacidae	10760				y				setty1940biology	very detailed anatomical descriptions, but not of embryogenesis
+Blaberus		Blabera	craniifer	Blaberus	Blattodea	Blaberidae									bulliere1969regeneration	this is about limb regeneration
+Blaberus	craniifer	Blaberus	craniifer	Blaberus_craniifer	Blattodea	Blaberidae	7338								roth1968ovarioles	ovarioles diagrammed
+Blaberus	discoidalis	Blaberus	discoidalis	Blaberus_discoidalis	Blattodea	Blaberidae	7339								roth1968ovarioles	ovarioles diagrammed
+Blattella	karnyi	Blatella	humbertiana	Blattella_karnyi	Blattodea	Ectobiidae	7334								roth1968ovarioles	ovarioles diagrammed
+Blattella	biligata	Blatella	unicolor	Blattella_biligata	Blattodea	Ectobiidae	7333								roth1968ovarioles	ovarioles diagrammed
+Blattella	germanica	Blatella	germanica	Blattella_germanica	Blattodea	Ectobiidae	10815						144		wheeler1889embryology	quite a few sources from the 1800s are mentioned in this book; they are not currently included in this dataset; the syncytial blastoderm is described as having clusters of nuclei
+Blattella	germanica	Blatella	germanica	Blattella_germanica	Blattodea	Ectobiidae	6705	24	576	25				25	giorgi1994structure; ross1966embryonic; ross1966notched; tanaka1973general; tanaka1976stages	Still missing ross1966embryonic and ross1966notched; so far have just used tanaka1976stages for developmental details
+Blissus	leucopterus	Blissus	leucopterus	Blissus_leucopterus	Hemiptera	Blissidae									choban1972meiosis	
+Sarcophaga	peregrina	Boettcherisca	peregrina	Sarcophaga_peregrina	Diptera	Sarcophagidae	2107		11.6	25	n				Majumder2013	photos of egg and all larval stages; embryogenesis seems very fast
+Bombyx	mori	Bombyx	mori	Bombyx_mori	Lepidoptera	Bombycidae	7075	10	240	25	n		12.5	25	miya1984early; miya1985determination; keino1982scanning; kawamura1978early; takesue1976studies; takesue1980blastoderm; takesue1985blastoderm; nagy1994morphogenesis; kobayashi1987structure	miya1984early is mostly TEM sections of cells and yolk but it does have some developmental landmarks, such as the initiation of syncytial divisions; nagy1994morphogenesis use "pnd" mutants which are non-diapausing, at 25°C; time to pronuclear fusion taken from kawamura1978early
+Bombyx	mori	Bombyx	mori	Bombyx_mori	Lepidoptera	Bombycidae		11	264	25.5					maino2017effect	cited in maino2017effect as (Hsueh and Tang 1944)
+Boreus	hyemalis	Boreus	hyemalis	Boreus_hyemalis	Mecoptera	Boreidae		21	504	21	n				suzuki1990embryology	data from Strubing 1950, as cited in suzuki1990embryology; if the original source can be located, egg morphology could be included as well
+Boreus		Boreus	notoperates	Boreus	Mecoptera	Boreidae	10743	24	576	20	n				suzuki1990embryology	data from Cooper 1974, as cited in suzuki1990embryology
+Boreus	westwoodi	Boreus	westwoodi	Boreus_westwoodi	Mecoptera	Boreidae	10730								suzuki1990embryology	few details of early embryogenesis or hatching in this source
+Bradysia	hygida	Bradysia	hygida	Bradysia_hygida	Diptera	Sciaridae		9	216	22	n				da2000feulgen	time to hatching taken as the midpoint of the described range; that range is estimated in an unusual way that probably introduces some error
+Bradysia	tritici	Bradysia	tritici	Bradysia_tritici	Diptera	Sciaridae	10817			22	n	23	6.5	22	perondini1986nuclear; butt1934embryology	took average of first 5 cycles to get nucleus cycle duration in perondini1986nuclear; butt1934embryology does not have temperature control and its description is more of an overview of the earliest events;
+Bruchidius		Bruchidius	obtectus	Bruchidius	Coleoptera	Chrysomelidae	10757	9	216	20	n	60	38	20	jung1966untersuchungenA	not in English; return to it if there is time; summarized results from anderson1972development4
+Bruchus		Bruchus	quadrimaculatus	Bruchus	Coleoptera	Chrysomelidae	10761	4	96	35	n	15	12	28.5	brauer1949localization; brauer1925studies; brauer1938modifications; brauer1936experiments	brauer1925studies has nice descriptions but few timings or numbers; primarily used brauer1936experiments for developmental times; cell number estimated from Figure 7 of brauer1925studies; this was used to estimate mitosis number;  zygotic nucleus position estimated from brauer1925studies Figure 1; references checked
+Bryocoris	pteridis	Bryocoris	pteridis	Bryocoris_pteridis	Hemiptera	Miridae	9988								Cobben1968	germband stage and beyond
+Byblia	ilithyia	Byblia	ilithyia	Byblia_ilithyia	Lepidoptera	Nymphalidae		3	72	28					maino2017effect	cited in maino2017effect as (Bhupathi Rayalu et al. 2011)
+Byrsotria	fumigata	Byrsotria	fumigata	Byrsotria_fumigata	Blattodea	Blaberidae	7336								roth1968ovarioles	ovarioles diagrammed
+Calandra		Calandra	oryzae	Calandra	Coleoptera	Curculionidae	10745	4	96	26	n	70	16	26	tiegs1938memoirs	At 110 minutes, there have been 3 syncytial mitoses. At 7.5 hours there are ~150 nuclei. We used this to estimate the interval between mitoses; Figure 3B was used to estimate cell number at cellularization; Figure 2A used to estimate zygotic nucleus starting position; references checked
+Calliphora	vicina	Calliphora	erythrocephala	Calliphora_vicina	Diptera	Calliphoridae	10788		22.5	22	n	19.29	3	22	van1971embryogenesis	time to hatching is calculated as the midpoint of the given range; interval between mitoses is calculated as average of first 7 cycles
+Calliphora	vicina	Calliphora	vicina	Calliphora_vicina	Diptera	Calliphoridae						10	3.25	20	lundquist1983nuclear; lundquist1979membrane	incubation conditions described in lundquist1979membrane; interval between mitoses is calculated as average of first 9 cycles
+Callosobruchus	analis	Callosobruchus	analis	Callosobruchus_analis	Coleoptera	Chrysomelidae		5	120	30					maino2017effect	cited in maino2017effect as (Raina 1970)
+Callosobruchus	maculatus	Callosobruchus	maculatus	Callosobruchus_maculatus	Coleoptera	Chrysomelidae	10746			30		37	12	30	van1982mitotic; miyamoto1982early; miyamoto1977dynamics	interval between mitoses is the mean of the first 8 cleavages; miyamoto1977dynamics goes into considerable depth
+Atrocalopteryx	atrata	Calopteryx	atrata	Atrocalopteryx_atrata	Odonata	Calopterygidae	7078	15	360	25.6	n			24	kozoposition; ando1962comparative	kozoposition mostly focuses on katatrepsis movements; ando1962comparative covers earlier embryogenesis
+Campoletis	sonorensis	Campoletis	sonorensis	Campoletis_sonorensis	Hymenoptera	Ichneumonidae	9010		42	27	n				Wilson1975	rough description of development
+Camptopus	lateralis	Camptopus	lateralis	Camptopus_lateralis	Hemiptera	Alydidae	9949								Cobben1968	germband stage and beyond
+Capnia	atra	Capnia	atra	Capnia_atra	Plecoptera	Capniidae		12	288	20					maino2017effect	cited in maino2017effect as (Gillooly and Dodson 2000)
+Capucina	patula	Capucina	patula	Capucina_patula	Blattodea	Blaberidae	7345								roth1968ovarioles	ovarioles diagrammed
+Carabus	ghilianii	Carabus	ghilianii	Carabus_ghilianii	Coleoptera	Carabidae	5240								Gilgado2011	mostly larval descriptions
+Carabus	insulicola	Carabus	insulicola	Carabus_insulicola	Coleoptera	Carabidae	5216	11	264	23	n				Kobayashi2013	description of overall embryogenesis with stages, but little description of the earliest events
+Caraphractus	cinctus	Caraphractus	cinctus	Caraphractus_cinctus	Hymenoptera	Mymaridae	4333								Jackson1961	few drawings plus larval growth
+Carausius	morosus	Carausius	morosus	Carausius_morosus	Phasmatodea	Phasmatidae	9059	85	2040	22	n			22	fournier1967echelle	not in English; return to it if there is time; is summarized in anderson1972development3
+Cariblatta	lutea	Cariblatta	lutea	Cariblatta_lutea	Blattodea	Ectobiidae	7318								roth1968ovarioles	ovarioles diagrammed
+Cariblatta	minima	Cariblatta	minima	Cariblatta_minima	Blattodea	Ectobiidae	7317								roth1968ovarioles	ovarioles diagrammed
+Carpocoris	pudicus	Carpocoris	pudicus	Carpocoris_pudicus	Hemiptera	Pentatomidae	9973								Cobben1968	germband stage and beyond
+Catorhintha		Catorhintha		Catorhintha	Hemiptera	Coreidae	9953								Cobben1968	germband stage and beyond
+Bactrothrips		Caudothrips	buffai	Bactrothrips	Thysanoptera	Phlaeothripidae									bournier1966lembryogenese	not in English; return to it if there is time
+Centrodora	scolypopae	Centrodora	scolylbopae	Centrodora_scolypopae	Hymenoptera	Aphelinidae	4713	9	216	20					Gerard1989	larval growth
+Bagnalliella	yuccae	Cephalothrips	yuccae	Bagnalliella_yuccae	Thysanoptera	Phlaeothripidae	7360								seifert1917embryological	no embryological details for the events we are focused on
+Ceratitus	capitata	Ceratitus	capitata	Ceratitus_capitata								22.5	8.5		callaini1987cleavage; stefani2002early	interval between mitoses was calculated as the mean of the first 8 cleavages
+Ceratocombus	coleoptratus	Ceratocombus	coleoptratus	Ceratocombus_coleoptratus	Hemiptera	Ceratocombidae	10032								Cobben1968	germband stage and beyond
+Ceratophysella		Ceratophysella		Ceratophysella	Collembola	Hypogastruridae									tamarelle1981formation	this paper is in French; return to it if needed
+Paracercion	sieboldii	Cercion	sieboldii	Paracercion_sieboldii	Odonata	Coenagrionidae	7079	17.5	420	29	n				kozoposition	mostly focuses on katatrepsis movements
+Ceriagrion		Ceriagrion		Ceriagrion	Odonata	Coenagrionidae		12	288	25.5	n				ando1962comparative	the monograph focuses on a few other species, but provided temperature and time to hatchling; temperature is the midpoint of the range reported
+Cethera	musiva	Cethera	musiva	Cethera_musiva	Hemiptera	Reduviidae	10006								Cobben1968	germband stage and beyond
+Chaetonyx	robustus	Chaetonyx	robustus	Chaetonyx_robustus	Coleoptera	Scarabaeidae	5239								GRADINAROV	description of larvae, but no precise times
+Diplatys	flavicollis	Chaetospania	borneensis	Diplatys_flavicollis	Dermaptera	Diplatyidae	7076								kovcarek2010case	brief documentation of viviparity
+Chalicodoma		Chalicodoma	muraria	Chalicodoma	Hymenoptera	Megachilidae	10819								carriere1897entwicklungsgeschichte	
+Chamaesphecia	schizoceriformis	Chamaesphecia	schizoceriformis	Chamaesphecia_schizoceriformis	Lepidoptera	Sesiidae		7.9	189.6	24.2					maino2017effect	cited in maino2017effect as (Karimpour and Fathipour 2007)
+Cheiloneurus	inimicus	Cheiloneurus	inimicus	Cheiloneurus_inimicus	Hymenoptera	Encyrtidae	4306								Maple1947	a few larval drawings
+Chelonus	inanitus	Chelonus	inanitus	Chelonus_inanitus	Hymenoptera	Braconidae	9020								Rechav1975	sections of larvae in the host
+Chesias	legatella	Chesias	legatella	Chesias_legatella	Lepidoptera	Geometridae	10772	175	4200		y				wall1973embryonic	development occured in an outdoor insectary to match wild conditions; sister species with strikingly different development; hatching is mean of several years of embryos
+Chesias	rufata	Chesias	rufata	Chesias_rufata	Lepidoptera	Geometridae	10751		240	20	n			20	wall1973embryonic	development occured in an outdoor insectary to match wild conditions; sister species with strikingly different development
+Chilo	auricilia	Chilo	aurcillia	Chilo_auricilia	Lepidoptera	Crambidae		5.35	128.4	26					maino2017effect	cited in maino2017effect as (Singh 2010)
+Chilo	infuscatellus	Chilo	infuscatellus	Chilo_infuscatellus	Lepidoptera	Crambidae		4.65	111.6	26					maino2017effect	cited in maino2017effect as (Singh 2010)
+Chilo	partellus	Chilo	partellus	Chilo_partellus	Lepidoptera	Crambidae		6.25	150	26					maino2017effect	cited in maino2017effect as (Singh 2010)
+Chilo		Chilo	suppresalis	Chilo	Lepidoptera	Crambidae	10778		150	25	n	30	5.75	25	okada1960embryonic	two numbers are listed for the count of nuclei reaching the periplasm so we took the earlier/smaller number; we interpret "blastoderm formation" to mean cellularization, as it is accompanied by a loss of affinity for dyes
+Chironomus	decorus	Chironomus	decorus	Chironomus_decorus	Diptera	Chironomidae		2	48	20					maino2017effect	cited in maino2017effect as (Gillooly and Dodson 2000)
+Chironomus	dorsalis	Chironomus	dorsalis	Chironomus_dorsalis	Diptera	Chironomidae									yajima1960studies	Does not describe unaltered development in detail
+Chironomus	plumosus	Chironomus	plumosus	Chironomus_plumosus	Diptera	Chironomidae		3.7	88.8	20					maino2017effect	cited in maino2017effect as (Gillooly and Dodson 2000)
+Chironomus	riparius	Chironomus	riparius	Chironomus_riparius	Diptera	Chironomidae		3	72	20					maino2017effect	cited in maino2017effect as (Penttinen and Holopainen 1995)
+Chlamydatus	evanescens	Chlamydatus	evanescens	Chlamydatus_evanescens	Hemiptera	Miridae	9984								Cobben1968	germband stage and beyond
+Chloroperla	tripunctata	Chloroperla	tripunctata	Chloroperla_tripunctata	Plecoptera	Chloroperlidae		63.9	1533.6	20					maino2017effect	cited in maino2017effect as (Gillooly and Dodson 2000)
+Chorisia	reducta	Chorisia	fulvotestacea	Chorisia_reducta	Blattodea	Ectobiidae	7332								roth1968ovarioles	ovarioles diagrammed
+Choristoneura	fumiferana	Choristoneura	fumiferana	Choristoneura_fumiferana	Lepidoptera	Tortricidae	9314		150	25		24		25	Stairs1960	interval between mitosis is calculated as the mean of the first 5 divisions; the shape and orientation of the germ band in this unusally shaped egg is a matter for further investigation;
+Chorosoma	schillingii	Chorosoma	shillingi	Chorosoma_schillingii	Hemiptera	Rhopalidae	9951								Cobben1968	germband stage and beyond
+Chortoicetes	terminifera	Chortoicetes	terminifera	Chortoicetes_terminifera	Orthoptera	Acrididae		20	480	28	n			28	wardhaugh1978description	this species can undergo diapause, but the results here are from non-diapausing eggs
+Chortophaga		Chortophaga	viridifasdata	Chortophaga	Orthoptera	Acrididae									stevens1965fine	this paper focuses on neuroblast development
+Chrysocharis	laricinellae	Chrysocharis	laricinellae	Chrysocharis_laricinellae	Hymenoptera	Eulophidae	3832		28	25.6	n				Quednau1966	few larval and pupal drawings
+Chrysocoris	purpureus	Chrysocoris	purpureus	Chrysocoris_purpureus	Hemiptera	Scutelleridae	10804	8	192		n				swaminathan1975embryogenesis	little detailed description
+Chrysodeixis	includens	Chrysodeixis	includens	Chrysodeixis_includens	Lepidoptera	Noctuidae			95	25	n				pansera1999characterization	we took the modal time to hatching
+Chrysopa	perla	Chrysopa	perla	Chrysopa_perla	Neuroptera	Chrysopidae	10777	9	216						bock1939bildung; tichomirowa1892historie	not in English; return to it if there is time
+Cheiloneurus	compressicornis	Chrysopophagus	compressicornis	Cheiloneurus_compressicornis	Hymenoptera	Encyrtidae	5867								Clancy1946	few drawings
+Cimex	lectularius	Cimex	lectularius	Cimex_lectularius	Hemiptera	Cimicidae	9979								Cobben1968	germband stage and beyond
+Cloeon	dipterum	Cloeon	dipterum	Cloeon_dipterum	Ephemeroptera	Baetidae									wolf1960karyologie	not in English; return to it if there is time
+Apoda	limacodes	Cochlidion	limacodes	Apoda_limacodes	Lepidoptera	Limacodidae	10774	9	216	22	n				christensen1953embryonic	flat, scale-like egg; development of the embryonic anlage is discussed in considerable detail, but temperatures vary for every individual that is described, so we are omitting specific embryonic stages at present
+Cochliomyia	hominivorax	Cocholiomyia	hominivorax	Cochliomyia_hominivorax	Diptera	Calliphoridae	10756				n	6	2.5	25	riemann1965development	number of nuclei invading periplasm was estimated by subtracting the estimated number of yolk nuclei from 256 – the total number of nuclei present at the time; references checked
+Coeloides	vancouverensis	Coeloides	brunneri	Coeloides_vancouverensis	Hymenoptera	Braconidae	10799		33	23.9	n	22.5	7	23.9	ryan1963contribution	the time until zygotic fusion is not included specifically; for the purposes of estimating the interval between mitoses we assumed that the first syncytial cleavage occured at the time of egg laying; interval is taken as the average over the first 8 cleavages
+Coelopa	frigida	Coelopa	frigida	Coelopa_frigida	Diptera	Coelopidae	10754		17.5	25	n	6.5	2.75	25	schwalm1973early; schwalm1971early	very short mitotic cycles; schwalm1973early updates some of the events described in schwalm1971early; we take the beginning of proctodeal invagination as as proxy for the beginning of anlage formation; location of zygotic nucleus is taken as the midpoint of its two daughters immediately after the first zygotic cleavage
+Coenagrion	puella	Coenagrion	puella	Coenagrion_puella	Odonata	Coenagrionidae		24.9	597.6	20					maino2017effect	cited in maino2017effect as (Gillooly and Dodson 2000)
+Colletes	validus	Colletes	validus	Colletes_validus	Hymenoptera	Colletidae	4715								Rajotte1979	few drawings
+Copera		Copera		Copera	Odonata	Platycnemididae		18.5	444	22	n				ando1962comparative	the monograph focuses on a few other species, but provided temperature and time to hatchling; temperature is the midpoint of the range reported
+Copidosoma	floridanum	Copidosoma	floridanum	Copidosoma_floridanum	Hymenoptera	Encyrtidae	4357		60	27	n	45		27	Baehrecke1990	mitotic cycle estimated from first 5 cycles; holoblastic cleavage
+Copidosoma	koehleri	Copidosoma	koehleri	Copidosoma_koehleri	Hymenoptera	Encyrtidae	6484			27					segoli2009developmental	polyembryonic parasitoid; there are two morphs that take different amounts of time to develop
+Copidosomopsis	tanytmemus	Copidosomopsis	tanytmemus	Copidosomopsis_tanytmemus	Hymenoptera	Encyrtidae	6488								cruz1986development	holoblastic cleavage and polyembryonic; due to the polyembryonic process, it is not clear how to measure age of an embryo; also there are two embryo types that emerge
+Coproica	vagans	Coproica	vagans	Coproica_vagans	Diptera	Sphaeroceridae	2144								Lachmann1998	oogenesis and sexual maturity
+Coranus		Coranus	aegyptius	Coranus	Hemiptera	Reduviidae	10014								Cobben1968	germband stage and beyond
+Corcyra	cephalonica	Corcyra	cephalonica	Corcyra_cephalonica	Lepidoptera	Pyralidae		6.5	156	26					maino2017effect	cited in maino2017effect as (Singh 2010)
+Coreus	marginatus	Coreus	marginatus	Coreus_marginatus	Hemiptera	Coreidae	9954								Cobben1968	germband stage and beyond
+Corydalus	cornutus	Corydalus	cornutus	Corydalus_cornutus	Megaloptera	Corydalidae		12.9	309.6	27					maino2017effect	cited in maino2017effect as (Brown and Fitzpatrick 1978)
+Platycorynus		Corynodes	pusis	Platycorynus	Coleoptera	Chrysomelidae	10797	19.5							paterson1935memoirs	no incubation temperature is given; midpoint of hatching range is used; nice text descriptions of development, but no specific times or numbers for the events we are focusing on
+Cosmopepla	bimaculata	Cosmopepla	bimaculata	Cosmopepla_bimaculata	Hemiptera	Pentatomidae	9338								Javahery1994	embryo orientation and external appearance
+Cotesia	congregata	Cotesia	congregata	Cotesia_congregata	Hymenoptera	Braconidae			55	25	n				beckage1994extraembryonic; beckage1987parasitism	rearing conditions described in beckage1987parasitism; early embryogenesis is not described
+Cotesia	vestalis	Cotesia	vestalis	Cotesia_vestalis	Hymenoptera	Braconidae	5652	2	48	25	n				Yu2008	some TL micrographs; rough staging, maybe too rough to include
+Crioceris	asparagi	Crioceris	asparagi	Crioceris_asparagi	Coleoptera	Chrysomelidae		8	192	22.5					maino2017effect	cited in maino2017effect as (Fink 1925)
+Crocothemis		Crocothemis		Crocothemis	Odonata	Libellulidae		9	216	25.5	n				ando1962comparative	the monograph focuses on a few other species, but provided temperature and time to hatchling; temperature is the midpoint of the range reported
+Cryptolestes	ferrugineus	Cryptolestes	ferrugineus	Cryptolestes_ferrugineus	Coleoptera	Laemophloeidae		3.5	84	30					maino2017effect	cited in maino2017effect as (Campbell and Sinha 1978)
+Cryptotermes	brevis	Cryptotermes	brevis	Cryptotermes_brevis	Blattodea	Kalotermitidae	7065	56	1344	27.5	n		96	27.5	kawanishi1975embryonic	temperature fluctuated but we use the mean temperature reported by the authors
+Ctenocephalides	felis	Ctenocephalides	felis	Ctenocephalides_felis	Siphonaptera	Pulicidae	10734	6	144	25	n			25	kessel1939embryology	missing timing and readily interpretable micrographs of the pertinent stages; done
+Culex	quinquefasciatus	Culex	fatigans	Culex_quinquefasciatus	Diptera	Culicidae	10736	1.5	36	25	n	15	5	25	davis1967comparative	done; references checked
+Culex	pipiens	Culex	pipiens	Culex_pipiens	Diptera	Culicidae									idris1960entwicklung	not in English; return to it if there is time
+Culex	tarsalis	Culex	tarsalis	Culex_tarsalis	Diptera	Culicidae			45.5	26.67	n				rosay1959gross	major developmental landmarks are described at three temperatures; we took the middle one
+Culiseta	inornata	Culiseta	inornata	Culiseta_inornata	Diptera	Culicidae	10765		96	20	n	24	11.5	20	harber1970early	interval between mitoses was calculated as the mean of the first 5 divisions
+Cyclophragma	leucosticta	Cyclophragma	leucosticta	Cyclophragma_leucosticta	Lepidoptera	Lasiocampidae		10	240	27					maino2017effect	cited in maino2017effect as (Mackey 1978)
+Cydia	pomonella	Cydia	pomonella	Cydia_pomonella	Lepidoptera	Tortricidae	10790		108	29	n	40	6	29	ruberson1987embryogenesis; cheetham1990pathological	interval between mitoses is calculated as the mean of the first three cleavages
+Cylindraustralia	kochii	Cylindraustralia	kochii	Cylindraustralia_kochii	Orthoptera	Cylindrachetidae	1235								Houston2007	a few instars with descriptions of hatching
+Cymatia	coleoptrata	Cymatia	coleoptrata	Cymatia_coleoptrata	Hemiptera	Corixidae	10018								Cobben1968	germband stage and beyond
+Cynaeus	angustus	Cynaeus	angustus	Cynaeus_angustus	Coleoptera	Tenebrionidae		4	96	30					maino2017effect	cited in maino2017effect as (White and Sinha 1987)
+Cyphomyrmex	transversus	Cyphomyrmex	transversus	Cyphomyrmex_transversus	Hymenoptera	Formicidae	5707								RamosLacau2008	some TL micrographs and larval development
+Apanteles	dryas	Dacnusa	dyas	Apanteles_dryas	Hymenoptera	Braconidae	9375								Guppy1987	larval descriptions, but no embryogenesis details
+Bactrocera	oleae	Dacus	oleae	Bactrocera_oleae	Diptera	Tephritidae	2105								Mouzaki1991; fytizas1973embryologie	Mouzaki1991 covers only oogenesis; fytizas1973embryologie covers early embryogenesis but it is in French
+Bactrocera	tryoni	Dacus	tryoni	Bactrocera_tryoni	Diptera	Tephritidae	10783	42 to 48 hours	45	25	n	15	6.75	25	anderson1962embryology; anderson1963embryology; anderson1964embryology	anderson1962embryology figure 1A used to estimate zygotic nucleus position; references checked
+Dalader	acuticosta	Dalader	acuticosta	Dalader_acuticosta	Hemiptera	Coreidae	9955								Cobben1968	germband stage and beyond
+Danaus	genutia	Danaus	genutia	Danaus_genutia	Lepidoptera	Nymphalidae		3	72	28					maino2017effect	cited in maino2017effect as (Atluri et al. 2010b)
+Decticus	verrucivorus	Decticus	verrucivorus	Decticus_verrucivorus	Orthoptera	Tettigoniidae									ingrisch1984embryonic	two diapauses; embryos developed in a five-phase temperature regime; image of germ band out of egg; no pre-cellularization description
+Deinacrida	fallai	Deinacrida	fallai	Deinacrida_fallai	Orthoptera	Anostostomatidae	1651	125	3000		y				Richards1973	nymphal development; development occurs outdoors
+Deinacrida	heteracantha	Deinacrida	heteracantha	Deinacrida_heteracantha	Orthoptera	Anostostomatidae	1650	125	3000		y				Richards1973	nymphal development; development occurs outdoors
+Dendroblatta	sobrina	Dendroblatta	sobrina	Dendroblatta_sobrina	Blattodea	Ectobiidae	7319								roth1968ovarioles	ovarioles diagrammed
+Dermestes	frischi	Dermestes	frischi	Dermestes_frischi	Coleoptera	Dermestidae	10809					30		22	kuthe1972autoradiographische; kuthe1966differenzierungszentrum	not in English; return to it if there is time; summarized results from anderson1972development4
+Dermestes	maculatus	Dermestes	maculatus	Dermestes_maculatus	Coleoptera	Dermestidae	10800				n		9	25	xiang2015dermestes; ede1964inherited	Cell number at cellularization estimated from xiang2015dermestes figure 1f and used to estimate total mitoses; figure 1a used for zygotic nucleus postion; ede1964inherited has more detail on later development; references checked
+Diabrotica	undecimpunctata	Diabrotica	undecimpunctata	Diabrotica_undecimpunctata	Coleoptera	Chrysomelidae	5209					52.5	11	24	Krysan1976	interval between mitoses was calculated as the mean of the first 8 cleavages;
+Spilosoma	virginica	Diacrisia	virginica	Spilosoma_virginica	Lepidoptera	Erebidae	10767	5.5	132						johannsen1929some	a few of text descriptions, but missing temperature and times and numerical precision
+Dianemobius	nigrofasciatus	Dianemobius	nigrofasciatus	Dianemobius_nigrofasciatus	Orthoptera	Gryllidae					n				tanigawa2009early	This species can undergo diapause, but this article describes the embryogenesis of a non-diapausing form; they collected too few timepoints to allow us to estimate the timing of events
+Diaparsis		Diaparsis		Diaparsis	Hymenoptera	Ichneumonidae	9012								Montgomery1975	overview images of embryos and larvae
+Diaphania	indica	Diaphania	indica	Diaphania_indica	Lepidoptera	Crambidae		4.12	98.88	26					maino2017effect	cited in maino2017effect as (Singh 2010)
+Diaprepocoris	zealandiae	Diaprepocoris	zealandiae	Diaprepocoris_zealandiae	Hemiptera	Corixidae	10017								Cobben1968	germband stage and beyond
+Diatraea	saccharalis	Diatraea	saccharalis	Diatraea_saccharalis	Lepidoptera	Crambidae	4965	7	168	25	n			25	Dossi2006	few details at a cellular level
+Dicyphus	pallicornis	Dicyphus	pallicornis	Dicyphus_pallicornis	Hemiptera	Miridae	9986								Cobben1968	germband stage and beyond
+Didymuria		Didymuria	cuilescens	Didymuria	Phasmatodea	Phasmatidae	6509	630	15120		y				bedford1970development	the embryo goes through at least one diapause; nice images of whole embryogenesis
+Dineutus	mellyi	Dineutus	mellyi	Dineutus_mellyi	Coleoptera	Gyrinidae	5212		300	22	n			22	Komatsu2012	no description of events before formation of the germ anlage
+Dinocras	cephalotes	Dinocras	cephalotes	Dinocras_cephalotes	Plecoptera	Perlidae		42.7	1024.8	20					maino2017effect	cited in maino2017effect as (Gillooly and Dodson 2000)
+Diplacodes	bipunctata	Diplacodes	bipunctata	Diplacodes_bipunctata	Odonata	Libellulidae		15	360	20					maino2017effect	cited in maino2017effect as (Gillooly and Dodson 2000)
+Diplacodes	haematodes	Diplacodes	haematodes	Diplacodes_haematodes	Odonata	Libellulidae		21	504	20					maino2017effect	cited in maino2017effect as (Gillooly and Dodson 2000)
+Diploptera	punctata	Diploptera	punctata	Diploptera_punctata	Blattodea	Blaberidae		63	1512	27				27	stay1973developmental	all the events described are from after the germ band has formed
+Diprion	pini	Diprion	pini	Diprion_pini	Hymenoptera	Diprionidae		14	336	20	n				martini2011embryonic	diapause could be prevented at this temperature; hard to see quite what is occuring in the sections of the earliest embryos; very broadly spaced collections
+Dipteromimus	flavipterus	Dipteromimus	flavipterus	Dipteromimus_flavipterus	Ephemeroptera	Dipteromimidae	7373								tojo2003description	no embryological details but there are a few sections
+Dociostaurus	maroccanus	Dociostaurus	maroccanus	Dociostaurus_maroccanus	Orthoptera	Acrididae									bodenheimer1951egg	This source focuses on events after the germ band has formed
+Leptinotarsa	decemlineata	Doryphora	decemlineata	Leptinotarsa_decemlineata	Coleoptera	Chrysomelidae									wheeler1889embryology	quite a few sources from the 1800s are mentioned in this book; they are not currently included in this dataset
+Drosophila	melanogaster	Drosophila	melanogaster	Drosophila_melanogaster	Diptera	Drosophilidae	10728	0.9166666667	22	25	n	10	2.5	25	sonnenblick1950early; ede1956cinematographic; foe1983studies; markow2009egg; hartenstein1985fate; zalokar1976division; campos1985embryonic	cell number at cellularization is midpoint of range in sonnenblick1950early; germ band formation is treated at the beginning of gastrulation; number of invading nuclei is estimated from foe1983studies, based on the number of yolk nuclei counted at cycle 11 after two rounds of yolk nucleus division have occured; position of zygote estimated from zalokar1976division drawing; pronuclear fusion estimated from campos1985embryonic
+Dysdercus	cingulatus	Dysdercus	cingulatus	Dysdercus_cingulatus	Hemiptera	Pyrrhocoridae			120	30	n			30	sharan1960provisional	rough overview of staging
+Dytiscus	alaskanus	Dytiscus	alaskanus	Dytiscus_alaskanus	Coleoptera	Dytiscidae		8.6	206.4	20					maino2017effect	cited in maino2017effect as (Gillooly and Dodson 2000)
+Earias	vittella	Earias	vittella	Earias_vittella	Lepidoptera	Nolidae		3	72	27					maino2017effect	cited in maino2017effect as (Srinivasaperumal et al. 1992)
+Ecdyonurus	venosus	Ecdyonurus	venosus	Ecdyonurus_venosus	Ephemeroptera	Heptageniidae		17	408	20					maino2017effect	cited in maino2017effect as (Gillooly and Dodson 2000)
+Ectobius	lapponicus	Ectobius	lapponicus	Ectobius_lapponicus	Blattodea	Ectobiidae	7316								roth1968ovarioles	ovarioles diagrammed
+Elachertus	scutellatus	Elachertus	scutellatus	Elachertus_scutellatus	Hymenoptera	Eulophidae	5620								MacDonald2004	does not describe embryogenesis in detail
+Elasmucha	grisea	Elasmucha	grisea	Elasmucha_grisea	Hemiptera	Acanthosomatidae	9960								Cobben1968	germband stage and beyond
+Elenchus	tenuicornis	Elenchus	tenuicornis	Elenchus_tenuicornis	Strepsiptera	Elenchidae	1873								Buning1998	some sections of oocytes and one of an embryo
+Embia		Embia	uhrichi	Embia	Embioptera	Embiidae		40	960						kershaw1914development	no temperature and few developmental details; no scale bars or sizes listed
+Polyocha	depressella	Emmalocera	depressella	Polyocha_depressella	Lepidoptera	Pyralidae		5.6	134.4	26					maino2017effect	cited in maino2017effect as (Singh 2010)
+Empicoris	culiciformis	Empicoris	culiciformis	Empicoris_culiciformis	Hemiptera	Reduviidae	10002								Cobben1968	germband stage and beyond
+Clypeorrhyncha	fabae	Empoasca	fabae	Clypeorrhyncha_fabae	Hemiptera	Cicadellidae	8990								Kirollos1971	development in a sterile medium
+Enallagma	ebrium	Enallagma	ebrium	Enallagma_ebrium	Odonata	Coenagrionidae		25.6	614.4	20					maino2017effect	cited in maino2017effect as (Gillooly and Dodson 2000)
+Enallagma	vernale	Enallagma	vernale	Enallagma_vernale	Odonata	Coenagrionidae		29.3	703.2	20					maino2017effect	cited in maino2017effect as (Gillooly and Dodson 2000)
+Encyrtus	fuliginosus	Encyrtus	fuliginosus	Encyrtus_fuliginosus	Hymenoptera	Encyrtidae	4310								Maple1947	a few larval drawings
+Endoclita	excrescens	Endoclita	excrescens	Endoclita_excrescens	Lepidoptera	Hepialidae	10764	175	4200		y		12		ando1976formation	very brief description of germ band formation
+Endoclita	sinensis	Endoclita	sinensis	Endoclita_sinensis	Lepidoptera	Hepialidae	7073								kobayashi1988phylogenetic	drawings at and beyond germ band stage
+Endoclyta	excrescens	Endoclyta	excrescens	Endoclyta_excrescens	Lepidoptera	Hepialidae	4937	175	4200	24	y		12		Ando1980; ando1976formation	incubation temperature for development not included
+Endoclyta		Endoclyta	signifer	Endoclyta	Lepidoptera	Hepialidae	4936		280	27.5	n	24	6	27.5	Ando1980	mitotic cycle is calculated as the mean of the first seven divisions; temperature is calculated as the mean of the given range; other many nice details are included, with comparisons to other species
+Entedon	costalis	Entedon	costalis	Entedon_costalis	Hymenoptera	Eulophidae	5736								Gumovsky1964	some TL micrographs and larval development
+Entedon	erythrinae	Entedon	erythrinae	Entedon_erythrinae	Hymenoptera	Eulophidae	5724								Gumovsky2011	some TL micrographs
+Eosentomon		Eosentomon		Eosentomon	Protura	Eosentomidae	6516								bernard1979egg	some TL micrographs
+Ephemera	strigata	Ephemera	strigata	Ephemera_strigata	Ephemeroptera	Ephemeridae									ando1956embryology	in Japanese; return to it if needed
+Ephemera	vulgata	Ephemera	vulgata	Ephemera_vulgata	Ephemeroptera	Ephemeridae		10-11	252	22.5	n			22.5	heymons1896grundzuge	got some info summarized in johannsen and butt; not in English; return to it if there is time
+Cadra	cautella	Ephestia	cautella	Cadra_cautella	Lepidoptera	Pyralidae		4	96	30					maino2017effect	cited in maino2017effect as (Sinha et al. 1986)
+Epilachna	varivestis	Epilachna	varivestis	Epilachna_varivestis	Coleoptera	Coccinellidae		5	120	26.7					maino2017effect	cited in maino2017effect as (Hammond 1984)
+Epiophlebia	superstes	Epiophlebia	superstes	Epiophlebia_superstes	Odonata	Epiophlebiidae	7080	30	720	18.6	n	405	72	18.6	kozoposition; ando1962comparative	interval between mitoses was calculated as the mean of the first 4 cleavages in ando1962comparative;
+Epiphyas	postvittana	Epiphyas	postvittana	Epiphyas_postvittana	Lepidoptera	Tortricidae	10781	7	168	28	n	25	14	28	reed1966embyonic; anderson1968morphological	done; references checked
+Epophthalmia		Epophthalmia		Epophthalmia	Odonata	Corduliidae		10	240	25.5	n				ando1962comparative	the monograph focuses on a few other species, but provided temperature and time to hatchling; temperature is the midpoint of the range reported
+Eriocrania		Eriocrania		Eriocrania	Lepidoptera	Eriocraniidae	7072		165	17.5	n	53.33	15	17.5	kobayashi1988phylogenetic; kobayashi1987early	took midpoint of temperature range in kobayashi1987early; interval between mitoses is estimated from first 9 cleavages, assuming that the first cleavage is rough coincident with egg laying
+Metaphycus	argyrocomus	Erythraphycus	argyrocomus	Metaphycus_argyrocomus	Hymenoptera	Encyrtidae	4312								Maple1947	a few larval drawings
+Eublaberus	posticus	Eublaberus	posticus	Eublaberus_posticus	Blattodea	Blaberidae	7337								roth1968ovarioles	ovarioles diagrammed
+Eucorydia	yasumatsui	Eucorydia	yasumatsui	Eucorydia_yasumatsui	Blattodea	Corydiidae	6703	64.1	1538.4	21	n	180	123	21	fujitaembryonic	took midpoint of temperature range; time of cellularization is taken as the end of "Stage 1"; germ band formation as the end of "Stage 2"
+Eudemis		Eudemis	naevana	Eudemis	Lepidoptera	Tortricidae	10780							20.6	huie1919xv	this is a flat egg, with brief description of how the germ band forms within it
+Eupelmus	tenuicornis	Eupelmus	tenuicornis	Eupelmus_tenuicornis	Hymenoptera	Eupelmidae	7372		28		n				tiwari1973eupelmus	overview of development without temperature or details for numbers
+Euryopa		Euryope	terminalis	Euryopa	Coleoptera	Phengodidae	10808	17	408		n				paterson1931part	Nice text descriptions and figures but no temperature, nucleus counts, or timings; references checked
+Eurytoma	aciculata	Eurytoma	aciculata	Eurytoma_aciculata	Hymenoptera	Eurytomidae	10722								ivanova1958biologija	not in English; return to it if there is time
+Eurytoma	amygdali	Eurytoma	amydgali	Eurytoma_amygdali	Hymenoptera	Eurytomidae	4356								Mouzaki1994	some eggshell and oogenesis sections
+Clypeorrhyncha	plebejus	Euscelis	plebejus	Clypeorrhyncha_plebejus	Hemiptera	Cicadellidae	10784	17	408	21	n				sander1959analyse	not in English; return to it if there is time
+Euschistus	servus	Euschistus	servus	Euschistus_servus	Hemiptera	Pentatomidae	9339								Javahery1994	embryo orientation and external appearance
+Euschistus	tristigmus	Euschistus	tristigrnus	Euschistus_tristigmus	Hemiptera	Pentatomidae	9340								Javahery1994	embryo orientation and external appearance
+Euthyplocia	hecuba	Euthyplocia	hecuba	Euthyplocia_hecuba	Ephemeroptera	Euthyplociidae		54.8	1315.2	20					maino2017effect	cited in maino2017effect as (Gillooly and Dodson 2000)
+Evania	appendigaster	Evania	appendigaster	Evania_appendigaster	Hymenoptera	Evaniidae	5598								Fox2012	some SEMs
+Eyprepocnemis	plorans	Eyprepocnemis	plorans	Eyprepocnemis_plorans	Orthoptera	Acrididae	10656								de1972prime	not in English; return to it if there is time
+Forficula	auricularia	Forficula	auricularia	Forficula_auricularia	Dermaptera	Forficulidae									heymons1895embryonalentwickelung	
+Galgupha	atra	Galgupha	atra	Galgupha_atra	Hemiptera	Thyreocoridae	9352								Javahery1994	embryo orientation and external appearance
+Galleria	mellonella	Galleria	mellonella	Galleria_mellonella	Lepidoptera	Pyralidae	10758	6	144	30	n		6	30	parente2009development	the images accompanying the text descriptions make it very hard to see any of the events that are described
+Galleria	mellonella	Galleria	mellonella	Galleria_mellonella	Lepidoptera	Pyralidae		9.3	223.2	28					maino2017effect	cited in maino2017effect as (Opoosun and Odebiyi 2009)
+Galloisiana	nipponensis	Galloisiana	nipponensis	Galloisiana_nipponensis	Grylloblattodea	Grylloblattidae	6496	150	3600		n		480		ando1987relationship; ando1982preliminary; nagashima1982life	in ando1982preliminary, development is described briefly and it is said that future work will describe the species in more detail but we were unable to find the subsequent study; although it seems like this species can undergo diapause, it doesn't appear that the staging table in ando1982preliminary is based on an individual that underwent diapause, even though embryogenesis is very slow; waiting for nagashima1982life
+Ganaspis	xanthopoda	Ganaspis	xanthopoda	Ganaspis_xanthopoda	Hymenoptera	Figitidae	3826		96	21	n	30		21	Melk1999	parasitoid of Drosophila melanogaster - could be a good system for study; interval between mitosis is estimated as the mean of first two divisions; small egg wtih relatively large nuclei
+Gastrophysa		Gastroidea	viridula	Gastrophysa	Coleoptera	Chrysomelidae									renner1970zucht	not in English; return to it if there is time
+Geocoris	dispar	Geocoris	dispar	Geocoris_dispar	Hemiptera	Lygaeidae	9941								Cobben1968	germband stage and beyond
+Gerris	odontogaster	Gerris	odontogaster	Gerris_odontogaster	Hemiptera	Gerridae	9930								Cobben1968	germband stage and beyond
+Aquarius	paludum	Gerris	paludum	Aquarius_paludum	Hemiptera	Gerridae	7121	12.5	300	20				20	mori1985abortive; mori1969normal	mostly focuses on the formation of the midgut; details for culturing waterstriders
+Aquarius	paludum	Gerris	paludum insularis	Aquarius_paludum	Hemiptera	Gerridae		17.8	427.2	20					maino2017effect	cited in maino2017effect as (Gillooly and Dodson 2000)
+Gerris	thoracicus	Gerris	thoracicus	Gerris_thoracicus	Hemiptera	Gerridae	9929								Cobben1968	germband stage and beyond
+Neotemnopteryx	fulva	Gislenia	australica	Neotemnopteryx_fulva	Blattodea	Ectobiidae	7328								roth1968ovarioles	ovarioles diagrammed
+Glocianus	punctiger	Glocianus	punctiger	Glocianus_punctiger	Coleoptera	Curculionidae	6467								Gumovsky1964	some TL micrographs and larval development
+Glossina	morsitans	Glossina	morsitans	Glossina_morsitans	Diptera	Glossinidae		4.5	108	25					maino2017effect	cited in maino2017effect as (Langley and Pimley 1975)
+Gonatocerus	ashmeadi	Gonatocerus	ashmeadi	Gonatocerus_ashmeadi	Hymenoptera	Mymaridae	8833								Irvin2009	oogenesis descriptions
+Goniozus		Goniozus	pakmanus	Goniozus	Hymenoptera	Bethylidae	4344								Gordh1986	descriptions and SEMs of larval development
+Teleogryllus	commodus	Gryllulus	commodus	Teleogryllus_commodus	Orthoptera	Gryllidae					y				brookes1952morphological	no details of early embryogenesis or hatching
+Gryllus	assimilis	Gryllus	assimilis	Gryllus_assimilis	Orthoptera	Gryllidae	7164	17	408	24.5					rakshpal1962morphogenesis	temperature is calculated as the midpoint of the given range; the embryonic anlage is described in the text, but the description of it is somewhat vague we are not including it
+Gryllus	bimaculatus	Gryllus	bimaculatus	Gryllus_bimaculatus	Orthoptera	Gryllidae	10814	13	312	28	n	60	15	28	sarashina2005location; donoughe2016embryonic; nakamura2010imaging	estimates of nucleus/cell number are also based on work in preparation by Donoughe, Hoffmann, et al
+Acheta	domesticus	Gryllus	domesticus	Acheta_domesticus	Orthoptera	Gryllidae	7117	30	720						kanellis1952anlagenplan; sauer1961ordnungsvorgange; mahr1960normale; vollmar1974verteilung; lauga1969table; schwalm1965zell	not in English; return to it if there is time
+Gryllus	pennsylvanicus	Gryllus	pennsylvanicus	Gryllus_pennsylvanicus	Orthoptera	Gryllidae		11	264	27					maino2017effect	cited in maino2017effect as (Rakshpal 1962b)
+Gryllus	veletis	Gryllus	veletis	Gryllus_veletis	Orthoptera	Gryllidae		13	312	27					maino2017effect	cited in maino2017effect as (Rakshpal 1962a)
+Gyropus		Gyropus		Gyropus	Phthiraptera	Gyropidae									scholzel1937embryologie	not in English; return to it if there is time
+Habrobracon	hebetor	Habrobracon	juglandis	Habrobracon_hebetor	Hymenoptera	Braconidae	10737		29	30	n	15	7.5	30	amy1961embryology; amy1975mitochondrial	in amy1961embryology pronucleus position was measured from Plate I, Figure 1; cell number estimated from Figure 4; speicher1931embryology might have more detail on the early movements if it is possible to get access to it; references checked
+Haematopinus	eurysternus	Haematopinus	eurysternus	Haematopinus_eurysternus	Phthiraptera	Haematopinidae									scholzel1937embryologie	not in English; return to it if there is time
+Halictoxenos	simplicis	Halictoxenos	simplicis	Halictoxenos_simplicis	Strepsiptera	Stylopidae	9103								Ivanova-Kasas1972	polyembryonic, making direct comparisons ambiguous
+Haploembia	solieri	Haploembia	solieri	Haploembia_solieri	Embioptera	Oligotomidae									stefani1959fenomeni; stefani1961formazione	not in English; return to it if there is time
+Haplothrips	verbasci	Haplothrips	verbasci	Haplothrips_verbasci	Thysanoptera	Phlaeothripidae	1875								Heming1979	timing is very difficult for this species, because development begins internally and the eggs are laid at variable points along the course of embryogenesis
+Hebrus	ruficeps	Hebrus	ruficeps	Hebrus_ruficeps	Hemiptera	Hebridae	9920								Cobben1968	germband stage and beyond
+Heliconius	erato	Heliconius	erato	Heliconius_erato	Lepidoptera	Nymphalidae			72	25	n		4	25	aymone2014embryogenesis	several sections and a few fluorescent whole mounts
+Helicopsyche	borealis	Helicopsyche	borealis	Helicopsyche_borealis	Trichoptera	Helicopsychidae	6421								Davis1965	description of the process of hatching
+Helicoverpa	zea	Heliothis	zea	Helicoverpa_zea	Lepidoptera	Noctuidae	10749		81	25	n	30	5.5	25	presser1957embryonic	done
+Hellula	undalis	Hellula	undalis	Hellula_undalis	Lepidoptera	Crambidae		3.25	78	26					maino2017effect	cited in maino2017effect as (Singh 2010)
+Hercinothrips	femoralis	Hercinothrips	femoralis	Hercinothrips_femoralis	Thysanoptera	Thripidae	10624								Moritz1995	no details on germ band formation, but blastokinesis is covered in detail
