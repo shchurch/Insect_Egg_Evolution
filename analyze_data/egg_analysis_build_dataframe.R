@@ -24,7 +24,8 @@ egg_database_filtered <- egg_database_raw %>% filter(
 ### Assemble the egg dataset used for analysis
 
 # this tower of piped commands creates the dataframe used for all subsequent analyses
-# this dataframe is called all_med, because it includes all entries, and uses the median of measurements
+# this dataframe is called egg database with duplicates, because it includes all entries including repeated descriptions (e.g. from a review of a subsequent publication)
+
 egg_database_w_duplicates <- egg_database_filtered %>% mutate(
             # X1 is the "length" measurement
             # we select the average length, if it is available
@@ -74,8 +75,10 @@ egg_database_w_duplicates <- egg_database_filtered %>% mutate(
             tribe = tax_tribe,
             genus = cg,
             species = cs,
-            # publication year
+            # publication details
             year = bib_year,
+            author = bib_author,
+            journal = bib_journal,
             # report on image (available, processed,etc)
             image = im_status,
             # measurements from image, if available
@@ -88,7 +91,6 @@ egg_database_w_duplicates <- egg_database_filtered %>% mutate(
             ) %>% mutate(
             # underscores added to names
             name = gsub(" ","_",tax_matched),
-            new_name = paste(genus,species,sep="_"),
             # calculating volume
             # if the volume was reported in the text, it is used
             # otherwise volume is calculated as a prolate ellipsoid
@@ -152,12 +154,14 @@ egg_database_w_duplicates <- egg_database_filtered %>% mutate(
             ) %>% filter(asym < quantile(na.omit(asym),0.999) | is.na(asym)
             # these commands select the relevant columns, all others will be set aside
             ) %>% select(
-                ID,bibtex,family,superfamily,subfamily,suborder,order,tribe,genus,species,
-                name,new_name,year,image,
+                ID,bibtex,author,journal,year,
+                family,superfamily,subfamily,suborder,order,tribe,genus,species,
+                name,image,
                 txtX1,txtX2,txtvol,txtar,txtel,logtxtar,logtxtX1,logtxtX2,logtxtvol,
                 imX1,imX2,logimX1,logimX2,imvol,imar,imel,logimar,asym,curv,sqasym,sqcurv,
                 X1,X2,X3,logX1,logX2,logX3,ar,el,vol,logar,logvol
             )
+
 
 ### this code removes entries which have the same reported
 ### volume for a taxon from two entries
@@ -203,6 +207,10 @@ egg_database <- egg_database_w_duplicates %>%
 # this is primarily used to color plots
 groups <- read.delim("analyze_data/groups_orders.txt",stringsAsFactors=F)
 egg_database$group <- mapvalues(egg_database$order,groups$order,groups$group,warn_missing=F)
+
+### Print the database
+#write.table(egg_database,file="formatted_egg_database.csv",row.names=F,sep="\t")
+#write.table(egg_database_raw %>% dplyr::select('ID','ab','al','av','aw','b','bib_address','bib_author','bib_booktitle','bib_journal','bib_number','bib_pages','bib_publisher','bib_pubstate','bib_school','bib_title','bib_volume','bib_year','cg','cs','db','dl','dv','dw','g','i','im_asym','im_curvature_deg','im_curvature_rad','im_length_1st_quart_mm','im_length_1st_quart_px','im_length_3rd_quart_mm','im_length_3rd_quart_px','im_length_curved','im_length_curved_px','im_length_straight','im_length_straight_px','im_magnification','im_mm_per_px','im_sb_length_mm','im_sb_length_px','im_status','im_width','im_width_px','mb','ml','mv','mw','pb','pl','pv','pw','s','subspecies','tax_cg_ncbi_id','tax_cg_ott_accepted_name','tax_cg_ott_id','tax_class','tax_cs_ncbi_id','tax_cs_ott_id','tax_family','tax_genus','tax_higher_source','tax_infraclass','tax_infraorder','tax_matched','tax_matched_id_in_source','tax_name_source','tax_order','tax_ott_version','tax_parvorder','tax_score','tax_section','tax_species.group','tax_species.subgroup','tax_subclass','tax_subfamily','tax_subgenus','tax_suborder','tax_subphylum','tax_subtribe','tax_superfamily','tax_superorder','tax_taxonomy_source','tax_tribe','xb','xl','xv','xw'),file="unformatted_egg_database.csv",row.names=F,sep="\t")
 
 # this sets the color dictionary for all future plots by group
 marker <- brewer.pal(n = 8, name = "Set1")
@@ -263,90 +271,6 @@ group_levels = c("Apterygota","Palaeoptera","Polyneoptera","Condylognatha","Psoc
 ### write.table(doubles,file="doubles.txt",sep="\t")
 
 
-### Assemble alternative datasets
-### egg_database_big <- egg_database_filtered %>% mutate(
-###             # length is maximum value from average + one deviation, range, single record, or measured image
-###             X1 = pmax(al + dl,xl,pl,im_length_straight,na.rm=T),
-###             # text width and breadth is maximum between average + one deviation, range, and single record
-###             txt_w = pmax(aw + dw,xw,pw,na.rm=T),
-###             txt_b = pmax(ab + db,xb,pb,na.rm=T),
-###             # width is maximum value between text width, text breadth, and image width
-###             txtX2 = pmax(txt_w,txt_b,na.rm=T),
-###             X2 = pmax(txtX2,im_width,na.rm=T),
-###             # breadth is smaller of the text width and text breadth, (if recorded)
-###             X3 = ifelse(!is.na(txt_b),
-###                 pmin(txt_b,txt_w,na.rm=T),
-###                 NA),
-###             # calculate volume as the maximum value, either including breadth (if recorded), without breadth, or from text volume record
-###             vol = pmax(((4/3) * pi * (X1/2) * (X2/2) * (X3/2)),
-###                     ((4/3) * pi * (X1/2) * (X2/2)^2),
-###                     av + dv, xv, pv,na.rm=T),
-###             # calculate image aspect ratio
-###             imar = ifelse(!is.na(im_length_straight),
-###                         im_length_straight / im_width,
-###                         im_length_straight_px / im_width_px),
-###             # aspect ratio is the larger of the text and image values 
-###             ar = pmax((X1 / X2),imar),
-###             # calculate ellipticity
-###             el = ar - 1,
-###             # transform the data
-###             logX1 = log10(X1),
-###             logX2 = log10(X2),
-###             logX3 = log10(X3),
-###             logvol = log10(vol),
-###             logar = log10(ar)
-###             # select only the variables that are subject to change in large egg dataset
-###             ) %>% select(
-###             ID,X1,X2,X3,vol,ar,el,logX1,logX2,logX3,logvol,logar)
-### 
-### egg_database_small <- egg_database_filtered %>% mutate(
-###             # length is minimum value from average + one deviation, range, single record, or measured image
-###             X1 = pmin(al - dl,ml,pl,im_length_straight,na.rm=T),
-###             # text width and breadth is minimum between average + one deviation, range, and single record
-###             txt_w = pmin(aw - dw,mw,pw,na.rm=T),
-###             txt_b = pmin(ab - db,mb,pb,na.rm=T),
-###             # text width is maximum value between text width, text breadth, and image width
-###             txtX2 = pmax(txt_w,txt_b,na.rm=T),
-###             # width is minimum value between text width, text breadth, and image width
-###             X2 = pmin(txtX2,im_width,na.rm=T),
-###             # breadth is smaller of the text width and text breadth, (if recorded)
-###             X3 = ifelse(!is.na(txt_b),
-###                 pmin(txt_b,txt_w,na.rm=T),
-###                 NA),
-###             # calculate volume as the minimum value, either including breadth (if recorded), without breadth, or from text volume record
-###             vol = pmin(((4/3) * pi * (X1/2) * (X2/2) * (X3/2)),
-###                     ((4/3) * pi * (X1/2) * (X2/2)^2),
-###                     av - dv, mv, pv,na.rm=T),
-###             # calculate image aspect ratio
-###             imar = ifelse(!is.na(im_length_straight),
-###                         im_length_straight / im_width,
-###                         im_length_straight_px / im_width_px),
-###             # aspect ratio is the smaller of the text and image values 
-###             ar = pmin((X1 / X2),imar),
-###             # calculate ellipticity
-###             el = ar - 1,
-###             # transform the data
-###             logX1 = log10(X1),
-###             logX2 = log10(X2),
-###             logX3 = log10(X3),
-###             logvol = log10(vol),
-###             logar = log10(ar)
-###             # select only the variables that are subject to change in small egg dataset
-###             ) %>% select(
-###             ID,X1,X2,X3,vol,ar,el,logX1,logX2,logX3,logvol,logar)
-
-### combined_datasets <- egg_database %>% rename(medX1 = X1, medX2 = X2, medvol = vol) %>%
-###                     select(ID,medX1,medX2,medvol) %>% na.omit() %>% 
-###                     left_join(egg_database_big,by="ID") %>% rename(bigX1 = X1, bigX2 = X2, bigvol = vol) %>% 
-###                     select(ID,medX1,medX2,medvol,bigX1,bigX2,bigvol) %>% 
-###                     left_join(egg_database_small,by="ID") %>% rename(smallX1 = X1, smallX2 = X2, smallvol = vol) %>% 
-###                     select(ID,medvol,smallvol,bigvol) %>% reshape::melt(id.vars="ID")
-### 
-### big_small_plot <- ggplot(combined_datasets,aes(x = factor(ID,levels = egg_database %>% arrange(vol) %>% pull(ID)), y = value, color = variable)) + geom_point(size=0.5,alpha=0.5) + scale_color_manual(values = c("dark grey", "blue", "red")) + theme(axis.text.x = element_blank()) + scale_y_log10() + xlab("database entries ranked by volume") + ylab("egg volume mm3")
-### 
-### pdf("big_small_plot.pdf",width=10,height=4)
-###     print(big_small_plot)
-### dev.off()
 
 
 

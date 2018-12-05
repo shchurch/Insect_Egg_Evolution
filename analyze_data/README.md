@@ -56,7 +56,7 @@ egg_analysis_clades_by_tips.R
 
 ### dependent files:
 
-*`egg_analysis_pgls_functions.R`
+* `egg_analysis_pgls_functions.R`
 
 
 ## Test relationship between development and eggs 
