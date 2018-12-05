@@ -44,8 +44,8 @@ egg_analysis_convert_stoddard.R
 
 
 `egg_analysis_allometry.R`
-* rerun after recoding corBlomberg in egg_analysis_pgls_functions.R
-* rerun after recoding Rainford trees in egg_analysis_read_trees.R
+* rerun after recoding `corBlomberg` in `egg_analysis_pgls_functions.R`
+* rerun after recoding Rainford trees in `egg_analysis_read_trees.R`
 
 ```
 egg_analysis_plot_allometry.R
@@ -56,14 +56,14 @@ egg_analysis_clades_by_tips.R
 
 ### dependent files:
 
-* `egg_analysis_pgls_functions.R`
+`egg_analysis_pgls_functions.R`
 
 
 ## Test relationship between development and eggs 
 
 `egg_analysis_developement.R`
-* rerun after recoding corBlomberg in egg_analysis_pgls_functions.R
-* rerun after recoding Rainford trees in egg_analysis_read_trees.R
+* rerun after recoding corBlomberg in `egg_analysis_pgls_functions.R`
+* rerun after recoding Rainford trees in `egg_analysis_read_trees.R`
 
 ### dependent files:
 
@@ -74,9 +74,9 @@ egg_analysis_clades_by_tips.R
 
 `egg_analysis_ouwie_ecology.R`
 * run 4x for aquatic, parasitoid, wingless, and migratory
-* rerun 2x parasitoid and aquatic after changing relaxed to strict  (some --> ancestral) in egg_analysis_eco_functions.R
-* rerun aquatic version after setting aquatic to combined aquatic + riparian in egg_analysis_aquatic.R
-* rerun parasitoid version after setting parasitoid to combined endo + ecto  in egg_analysis_parasitoid.R
+* rerun 2x parasitoid and aquatic after changing relaxed to strict  (`some` --> `ancestral`) in `egg_analysis_eco_functions.R`
+* rerun aquatic version after setting `aquatic` to `combined aquatic + riparian` in `egg_analysis_aquatic.R`
+* rerun parasitoid version after setting `parasitoid` to `combined endo + ecto`  in `egg_analysis_parasitoid.R`
 
 `egg_analysis_plot_ecology.R`
 

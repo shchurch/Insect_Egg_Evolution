@@ -10,7 +10,7 @@ _bioRxiv_ 471946; <https://doi.org/10.1101/471946>
 
 ### analyze_data/
 
-This directory contains all the R code and data tables required to reproduce the results in [manuscript in preparation]. 
+This directory contains all the R code and data tables required to reproduce the results in <https://doi.org/10.1101/471946>. 
 
 ### create_database/
 
