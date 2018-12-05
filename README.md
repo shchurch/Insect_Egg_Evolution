@@ -4,7 +4,7 @@ This repository contains all the code required to reproduce the results of two m
 Samuel H. Church, Seth Donoughe, Bruno A. S. de Medeiros, Cassandra G. Extavour
 _bioRxiv_ 471953; <https://doi.org/10.1101/471953>
 
-*Insect egg size and shape evolve with ecology, not developmental rate*
+**Insect egg size and shape evolve with ecology, not developmental rate**
 Samuel H. Church, Seth Donoughe, Bruno A. S. de Medeiros, Cassandra G. Extavour
 _bioRxiv_ 471946; <https://doi.org/10.1101/471946>
 
