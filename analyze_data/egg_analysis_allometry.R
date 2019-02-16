@@ -4,10 +4,25 @@
 
 source("analyze_data/egg_analysis_build_dataframe.R")
 source("analyze_data/egg_analysis_read_trees.R")
-source("analyze_data/egg_analysis_pgls_functions.R")
 library(phytools)
 
-# Set factor for resampling the body size dataframe, here no downsampling used
+analysis_name <- ""
+args = commandArgs(trailingOnly=TRUE)
+# This program takes two arguments
+# 1 - which backbone tree to use, 'misof' [default] or 'rainford'
+# 2 - which correlation matrix to use 'brownian' [default] or 'blomberg'
+if(args[1] == "rainford") {
+	genus_trees <- rainford_genus_trees
+	genus_mcc_tree <- rainford_genus_mcc_tree
+	analysis_name <- paste("rainford",analysis_name,sep="_")
+}
+if(args[2] == "blomberg") {
+	blom_flag <- TRUE
+	analysis_name <- paste("corBlomberg",analysis_name,sep="_")
+}
+source("analyze_data/egg_analysis_pgls_functions.R")
+
+# Set factor for resampling the body size dataframe
 downsample_factor <- 0.5
 fam_count_threshold <- 1
 
@@ -20,26 +35,26 @@ group_list <- c("Hymenoptera","Condylognatha","Antliophora","Neuropteroidea","Am
 run_all_allometry_pgls <- function(tree){
 	### PGLS length vs width
 	length_width <- egg_database %>% select(genus,logX1,logX2,group) %>% rename(rank = genus, trait1 = logX1, trait2= logX2)
-	allometry_pgls_length_width <- run_all_taxa_and_by_group_pgls(length_width,tree,"length_width")
+	allometry_pgls_length_width <- run_all_taxa_and_by_group_pgls(length_width,tree,paste(analysis_name,"length_width",sep=""),group_list)
 
 	### PGLS length vs asymmetry, width = independent
 	length_asym_width <- egg_database %>% select(genus,logX1,sqasym,logX2,group) %>% rename(rank = genus, trait1 = logX1, trait2= sqasym, indep = logX2)
-	allometry_pgls_length_asym_width <- run_all_taxa_and_by_group_resid_pgls(length_asym_width,tree,"length_asym_width")
+	allometry_pgls_length_asym_width <- run_all_taxa_and_by_group_resid_pgls(length_asym_width,tree,paste(analysis_name,"length_asym_width",sep=""),group_list)
 
 	### PGLS length vs curvature, width = independent
 	length_curv_width <- egg_database %>% select(genus,logX1,sqcurv,logX2,group) %>% rename(rank = genus, trait1 = logX1, trait2= sqcurv, indep = logX2)
-	allometry_pgls_length_curv_width <- run_all_taxa_and_by_group_resid_pgls(length_curv_width,tree,"length_curv_width")
+	allometry_pgls_length_curv_width <- run_all_taxa_and_by_group_resid_pgls(length_curv_width,tree,paste(analysis_name,"length_curv_width",sep=""),group_list)
 
 	### build body size dataset
 	source("analyze_data/egg_analysis_body_size.R")
 
 	### PGLS egg size vs body size
 	vol_body <- egg_database_family_body %>% select(family,logvol,logbodyvol,group) %>% rename(rank = family, trait1 = logbodyvol, trait2= logvol)
-	allometry_pgls_vol_body <- run_all_taxa_and_by_group_pgls(vol_body,fam_tree,"vol_body")
+	allometry_pgls_vol_body <- run_all_taxa_and_by_group_pgls(vol_body,fam_tree,paste(analysis_name,"vol_body",sep=""),group_list)
 
 	### PGLS length vs width, body size = independent
 	length_width_body <- egg_database_family_body %>% select(family,logX1,logX2,logbody,group) %>% rename(rank = family, trait1 = logX1, trait2= logX2, indep = logbody)
-	allometry_pgls_length_width_body <- run_all_taxa_and_by_group_resid_pgls(length_width_body,fam_tree,"length_width_body")
+	allometry_pgls_length_width_body <- run_all_taxa_and_by_group_resid_pgls(length_width_body,fam_tree,paste(analysis_name,"length_width_body",sep=""),group_list)
 
 	return(list(allometry_pgls_length_width,allometry_pgls_length_asym_width,allometry_pgls_length_curv_width,allometry_pgls_vol_body,allometry_pgls_length_width_body))
 }
@@ -111,7 +126,7 @@ slope_l_w_plot <- ggplot(slope_dist_l_w,aes(x = factor(L1,levels=group_levels), 
 	stat_summary(geom = "crossbar", width=0.65, lwd = 0.7, fatten=0, color="white", fun.data = function(x){ return(c(y=median(x), ymin=median(x), ymax=median(x))) }) + 	
 	theme(legend.position="none",axis.text.x = element_blank()) + ylab("slope") + xlab("clade") + ylim(c(0.5,1.0))
 
-pdf("l_w_allometry_slope_plot.pdf",height=3.5,width=7)
+pdf(paste(analysis_name,"l_w_allometry_slope_plot.pdf",sep=""),height=3.5,width=7)
 print(slope_l_w_plot)
 dev.off()
 
@@ -130,7 +145,7 @@ slope_vol_body_vol_plot <- ggplot(slope_dist_vol_body_vol,aes(x = factor(L1,leve
 	stat_summary(geom = "crossbar", width=0.65, lwd = 0.7, fatten=0, color="white", fun.data = function(x){ return(c(y=median(x), ymin=median(x), ymax=median(x))) }) + 	
 	theme(legend.position="none",axis.text.x = element_blank()) + ylab("slope") + xlab("clade") + ylim(c(0.2,1.0))
 
-pdf("vol_body_vol_allometry_slope_plot.pdf",height=3.5,width=7)
+pdf(paste(analysis_name,"vol_body_vol_allometry_slope_plot.pdf",sep=""),height=3.5,width=7)
 print(slope_vol_body_vol_plot)
 dev.off()
 
@@ -149,12 +164,12 @@ slope_l_w_body_plot <- ggplot(slope_dist_l_w_body,aes(x = factor(L1,levels=group
 	stat_summary(geom = "crossbar", width=0.65, lwd = 0.7, fatten=0, color="white", fun.data = function(x){ return(c(y=median(x), ymin=median(x), ymax=median(x))) }) + 	
 	theme(legend.position="none",axis.text.x = element_blank()) + ylab("slope") + xlab("clade") + ylim(c(0.6,1.0))
 
-pdf("l_w_body_allometry_slope_plot.pdf",height=4,width=7)
+pdf(paste(analysis_name,"l_w_body_allometry_slope_plot.pdf",sep=""),height=4,width=7)
 print(slope_l_w_body_plot)
 dev.off()
 
 ### Print the results
-sink("allometry_tables.txt")
+sink(paste(analysis_name,"allometry_tables.txt",sep=""))
 cat("Across all insects\n")
 cat("length_width")
 print(allometry_l_w_table)
@@ -181,6 +196,6 @@ for(i in seq(1:length(group_list))) {
 	print(allometry_group_l_w_body_table[[i]])
 }
 
-save.image(file="egg_analysis_allometry_workspace.RData")
+save.image(file=paste("egg_analysis_",analysis_name,"allometry_workspace.RData",sep=""))
 
 

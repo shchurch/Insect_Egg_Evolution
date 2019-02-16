@@ -44,14 +44,23 @@ egg_analysis_convert_stoddard.R
 
 
 `egg_analysis_allometry.R`
-* rerun after recoding `corBlomberg` in `egg_analysis_pgls_functions.R`
-* rerun after recoding Rainford trees in `egg_analysis_read_trees.R`
+```
+Rscript --no-restore analyze_data/egg_analysis_allometry.R misof brownian 
+Rscript --no-restore analyze_data/egg_analysis_allometry.R rainford brownian 
+Rscript --no-restore analyze_data/egg_analysis_allometry.R misof blomberg 
+```
 
 ```
 egg_analysis_plot_allometry.R
-egg_analysis_simulate_allometry_data.R
-egg_analysis_simulate_body.R
 egg_analysis_clades_by_tips.R
+
+egg_analysis_simulate_allometry_data.R
+Rscript --no-restore analyze_data/egg_analysis_simulate_allometry_data.R 1 
+Rscript --no-restore analyze_data/egg_analysis_simulate_allometry_data.R 0
+
+egg_analysis_simulate_body.R
+Rscript --no-restore analyze_data/egg_analysis_simulate_body.R 1 
+Rscript --no-restore analyze_data/egg_analysis_simulate_body.R 0
 ```
 
 ### dependent files:
@@ -62,26 +71,33 @@ egg_analysis_clades_by_tips.R
 ## Test relationship between development and eggs 
 
 `egg_analysis_developement.R`
-* rerun after recoding corBlomberg in `egg_analysis_pgls_functions.R`
-* rerun after recoding Rainford trees in `egg_analysis_read_trees.R`
+
 
 ### dependent files:
 
 `development.csv`
 
+```
+Rscript --no-restore analyze_data/egg_analysis_development.R misof brownian 
+Rscript --no-restore analyze_data/egg_analysis_development.R rainford brownian 
+Rscript --no-restore analyze_data/egg_analysis_development.R misof blomberg 
+```
 
 ## Test relationship between ecology and eggs 
 
 `egg_analysis_ouwie_ecology.R`
-* run 4x for aquatic, parasitoid, wingless, and migratory
-* rerun 2x parasitoid and aquatic after changing relaxed to strict  (`some` --> `ancestral`) in `egg_analysis_eco_functions.R`
-* rerun aquatic version after setting `aquatic` to `combined aquatic + riparian` in `egg_analysis_aquatic.R`
-* rerun parasitoid version after setting `parasitoid` to `combined endo + ecto`  in `egg_analysis_parasitoid.R`
+
+See scripts below
+
 
 `egg_analysis_plot_ecology.R`
 
 `egg_analysis_separate_ecoallometry.R`
-* run 2x for aquatic and parasitoid
+
+```
+Rscript --no-restore analyze_data/egg_analysis_separate_ecoallometry.R internal
+Rscript --no-restore analyze_data/egg_analysis_separate_ecoallometry.R aquatic
+```
 
 ### dependent files:
 
@@ -115,6 +131,99 @@ egg_analysis_database_statistics.R
 
 `taxon_count.csv` _(estimated number of taxa in insect clades, from OTT)_
 
+
+### Extended OU model comparison scripts
+#### Model comparison, internal oviposition, Misof posterior distribution
+```
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "relaxed" ${SLURM_ARRAY_TASK_ID} "observed" "internal" "vol" 
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "relaxed" ${SLURM_ARRAY_TASK_ID} "observed" "internal" "ar" 
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "relaxed" ${SLURM_ARRAY_TASK_ID} "observed" "internal" "asym" 
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "relaxed" ${SLURM_ARRAY_TASK_ID} "observed" "internal" "curv" 
+```
+
+#### Model comparison, aquatic oviposition, Misof posterior distribution
+```
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "relaxed" ${SLURM_ARRAY_TASK_ID} "observed" "aquatic" "vol"
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "relaxed" ${SLURM_ARRAY_TASK_ID} "observed" "aquatic" "ar"
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "relaxed" ${SLURM_ARRAY_TASK_ID} "observed" "aquatic" "asym"
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "relaxed" ${SLURM_ARRAY_TASK_ID} "observed" "aquatic" "curv"
+```
+
+#### Model comparison, migratory Lepidoptera, Misof posterior distribution
+```
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "relaxed" ${SLURM_ARRAY_TASK_ID} "observed" "migratory_Lepidoptera" "vol"
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "relaxed" ${SLURM_ARRAY_TASK_ID} "observed" "migratory_Lepidoptera" "ar"
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "relaxed" ${SLURM_ARRAY_TASK_ID} "observed" "migratory_Lepidoptera" "asym"
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "relaxed" ${SLURM_ARRAY_TASK_ID} "observed" "migratory_Lepidoptera" "curv"
+```
+
+#### Model comparison, wingless Phasmatodea, Misof posterior distribution
+```
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "relaxed" ${SLURM_ARRAY_TASK_ID} "observed" "wingless_Phasmatodea" "vol"
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "relaxed" ${SLURM_ARRAY_TASK_ID} "observed" "wingless_Phasmatodea" "ar"
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "relaxed" ${SLURM_ARRAY_TASK_ID} "observed" "wingless_Phasmatodea" "asym"
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "relaxed" ${SLURM_ARRAY_TASK_ID} "observed" "wingless_Phasmatodea" "curv"
+```
+
+#### OU model bootstrap
+```
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "relaxed" ${SLURM_ARRAY_TASK_ID} "simulated" "internal" "vol"
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "relaxed" ${SLURM_ARRAY_TASK_ID} "simulated" "internal" "asym"
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "relaxed" ${SLURM_ARRAY_TASK_ID} "simulated" "aquatic" "vol"
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "relaxed" ${SLURM_ARRAY_TASK_ID} "simulated" "aquatic" "ar"
+```
+
+#### OU model sensitivity to ecological definition 
+```
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "relaxed" "mcc" "observed" "parasitoid" "vol"
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "relaxed" "mcc" "observed" "parasitoid" "ar"
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "relaxed" "mcc" "observed" "parasitoid" "asym"
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "relaxed" "mcc" "observed" "parasitoid" "curv"
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "relaxed" "mcc" "observed" "combined_aquatic" "vol"
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "relaxed" "mcc" "observed" "combined_aquatic" "ar"
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "relaxed" "mcc" "observed" "combined_aquatic" "asym"
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "relaxed" "mcc" "observed" "combined_aquatic" "curv"
+```
+
+#### OU model sensitivity to ecological classification method 
+```
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "strict" "mcc" "observed" "internal" "vol"
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "strict" "mcc" "observed" "internal" "ar"
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "strict" "mcc" "observed" "internal" "asym"
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "strict" "mcc" "observed" "internal" "curv"
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "strict" "mcc" "observed" "aquatic" "vol"
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "strict" "mcc" "observed" "aquatic" "ar"
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "strict" "mcc" "observed" "aquatic" "asym"
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "strict" "mcc" "observed" "aquatic" "curv"
+```
+
+#### Model comparison, Rainford backbone MCC tree
+```
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "relaxed" "mcc_Rainford" "observed" "internal" "vol"
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "relaxed" "mcc_Rainford" "observed" "internal" "ar" 
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "relaxed" "mcc_Rainford" "observed" "internal" "asym"
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "relaxed" "mcc_Rainford" "observed" "internal" "curv"
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "relaxed" "mcc_Rainford" "observed" "aquatic" "vol" 
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "relaxed" "mcc_Rainford" "observed" "aquatic" "ar"
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "relaxed" "mcc_Rainford" "observed" "aquatic" "asym"
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "relaxed" "mcc_Rainford" "observed" "aquatic" "curv"
+```
+
+#### Model comparison, Rainford backbone MCC tree
+```
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "relaxed" "mcc" "observed" "internal" "vol"
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "relaxed" "mcc" "observed" "internal" "ar" 
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "relaxed" "mcc" "observed" "internal" "asym"
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "relaxed" "mcc" "observed" "internal" "curv"
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "relaxed" "mcc" "observed" "aquatic" "vol" 
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "relaxed" "mcc" "observed" "aquatic" "ar"
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "relaxed" "mcc" "observed" "aquatic" "asym"
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "relaxed" "mcc" "observed" "aquatic" "curv"
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "relaxed" "mcc" "observed" "three_state" "vol"
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "relaxed" "mcc" "observed" "three_state" "ar" 
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "relaxed" "mcc" "observed" "three_state" "asym"
+Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "relaxed" "mcc" "observed" "three_state" "curv"
+```
 
 # General session info 
 

@@ -11,10 +11,10 @@ library(phytools)
 
 ### Simulate data with Phylolm
 
-# Set the slope of regression between length and width for simulation
-slope <- 1.0
-#slope <- 0.66
-#slope <- 0
+# The slope of regression between length and width for simulation is set by an argument
+args = commandArgs(trailingOnly=TRUE)
+slope <- as.numeric(args[1])
+
 # Pick a tree for model fitting (PGLS will be run over posterior distribution)
 tree <- genus_mcc_tree
 
@@ -63,7 +63,7 @@ run_all_allometry_pgls <- function(tree){
 
 	# Run a PGLS on simulated length vs width
 	length_width <- egg_database_sim %>% select(genus,simlogX1,simlogX2,group) %>% rename(rank = genus, trait1 = simlogX1, trait2= simlogX2)
-	allometry_pgls_length_width <- run_all_taxa_and_by_group_pgls(length_width,tree,"sim_length_width")
+	allometry_pgls_length_width <- run_all_taxa_and_by_group_pgls(length_width,tree,"sim_length_width",group_list)
 
 	return(list(allometry_pgls_length_width))
 }

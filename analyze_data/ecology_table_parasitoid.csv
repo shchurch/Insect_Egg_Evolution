@@ -86,7 +86,7 @@ TRUE	Lucilia	Lucilia	genus	Diptera	TRUE	FALSE	FALSE	eggleton1992insect	all endop
 TRUE	Macrocentrinae	Macrocentrinae	subfamily	Hymenoptera	TRUE	TRUE	FALSE	gauld1988evolutionary				other subfamily in egg database - assuming status based on taxonomic position	
 TRUE	Maxfischeriinae	Maxfischeriinae	subfamily	Hymenoptera	TRUE	TRUE	FALSE	gauld1988evolutionary				other subfamily in egg database - assuming status based on taxonomic position	
 FALSE	Megalyroidea	Megalyroidea	superfamily	Hymenoptera	TRUE	FALSE	FALSE	pennacchio2006evolution			all ectoparasitic		
-TRUE	Megaselia 	Megaselia	genus	Diptera	SOME	SOME	FALSE	eggleton1992insect	all endoparasitic - eggs laid externally				
+TRUE	Megaselia 	Megaselia	genus	Diptera	TRUE	FALSE	FALSE	eggleton1992insect	all endoparasitic - eggs laid externally				
 TRUE	Megastigminae	Megastigminae	subfamily	Hymenoptera	SOME	FALSE	FALSE	noyes2003universal					few ectoparasitic
 TRUE	Megastigmus	Megastigmus	genus	Hymenoptera	FALSE	FALSE	FALSE	noyes2003universal					all phytophagous
 TRUE	Mesochorinae	Mesochorinae	subfamily	Hymenoptera	TRUE	TRUE	FALSE	gauld1988evolutionary				endoparasitic	

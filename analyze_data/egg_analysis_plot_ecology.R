@@ -1,9 +1,15 @@
 ### Created by SHC May 2018
+source("analyze_data/egg_analysis_build_dataframe.R")
+source("analyze_data/egg_analysis_read_trees.R")
 
 ### This code plots a comparison between egg features based on oviposition ecology
+analysis_name <- "plotting_ecology"
+class_flag <- "relaxed"
 
+ecology_arg <- "internal"
 source("analyze_data/egg_analysis_parasitoid.R")
 plotting_data1 <- egg_eco_data %>% filter(!(group %in% c("Apterygota","Psocodea")))
+ecology_arg <- "aquatic"
 source("analyze_data/egg_analysis_aquatic.R")
 
 ### Set up data and plot parameters

@@ -13,10 +13,10 @@ source("analyze_data/egg_analysis_geiger_functions.R")
 tree <- genus_mcc_tree
 
 ### Select a continuous trait to analyze
-#trait_of_interest <- "logvol"
+trait_of_interest <- "logvol"
 #trait_of_interest <- "logar"
 #trait_of_interest <- "sqasym"
-trait_of_interest <- "sqcurv"
+#trait_of_interest <- "sqcurv"
 
 ### name the analysis
 name <- paste("asr_rate",trait_of_interest,sep="_")
@@ -49,11 +49,11 @@ write.tree(bmm,file="bamm_tree.tre")
 #### bamm -c bamm.config
 
 ### Read in the BAMM results and plot the shifts on the tree
-# tree <- read.tree(file="bamm_tree.tre")
-# edata <- getEventData(tree, eventdata = paste("bamm_event_data.txt",sep=""), burnin=0.1, type="trait")
-# pdf(file=paste(name,"_ratesplot.pdf",sep=""),width=16,height=16)
-# plot.bammdata(edata,lwd=2,legend=T,labels=T,cex=0.2,logcolor=T,breaksmethod="jenks",pal=c("#0D0887", "#CC4678", "#F0F921"))
-# dev.off()
+tree <- read.tree(file="bamm_tree.tre")
+edata <- getEventData(tree, eventdata = paste("bamm_event_data.txt",sep=""), burnin=0.1, type="trait")
+pdf(file=paste(name,"_ratesplot.pdf",sep=""),width=16,height=16)
+	plot.bammdata(edata,lwd=2,legend=T,labels=T,cex=0.2,logcolor=T,breaksmethod="jenks",pal=c("#0D0887", "#CC4678", "#F0F921"))
+dev.off()
 
 ### CONTINUOUS TRAIT ASR
 

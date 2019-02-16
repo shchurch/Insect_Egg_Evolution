@@ -62,6 +62,6 @@ full_ord$rank <- full_ord$order
 egg_database_family_body <- rbind(egg_database_family_body,full_ord)
 
 ### add in groups
-egg_database_family_body$group <- mapvalues(egg_database_family_body$order,groups$order,groups$group,warn_missing=F)
+egg_database_family_body$group <- plyr::mapvalues(egg_database_family_body$order,groups$order,groups$group,warn_missing=F)
 
 

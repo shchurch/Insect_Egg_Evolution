@@ -7,31 +7,31 @@ library(phangorn)
 library(phytools)
 library(dplyr)
 
-### Read in distribution of ultrametric trees
-### Select the backbone - Misof or Rainford
+## Read in distribution of ultrametric trees
+## Select the backbone - Misof or Rainford
 genus_trees <- read.nexus("phylogeny/final_trees/misof_posterior_ultrametric.nxs")
-#genus_trees <- read.nexus("phylogeny/final_trees/rainford_posterior_ultrametric.nxs")
+rainford_genus_trees <- read.nexus("phylogeny/final_trees/rainford_posterior_ultrametric.nxs")
 
 ### Read in the mcc tree
 genus_mcc_tree <- read.nexus("phylogeny/final_trees/misof_mcc_ultrametric.nxs")
-#genus_mcc_tree <- read.nexus("phylogeny/final_trees/rainford_mcc_ultrametric.nxs")
+rainford_genus_mcc_tree <- read.nexus("phylogeny/final_trees/rainford_mcc_ultrametric.nxs")
 
-### Read the family level tree from the Rainford publication
+## Read the family level tree from the Rainford publication
 fam_tree <- read.nexus("phylogeny/final_trees/rainford_family_ultrametric.nxs")
 
-### Plot morphospace covered by tree
-###fam_morphospace_plot <- ggplot(egg_database,aes(x = logar, y = logvol)) + geom_point(color = "dark grey",alpha=0.5,stroke=0,size=1) + geom_point(data = egg_database %>% filter(family %in% fam_tree$tip.label),color = "blue",alpha=0.5,stroke=0,size=1)
-###pdf(file="fam_morphospace_plot.pdf",width=4,height=4)
-###	print(fam_morphospace_plot)
-###dev.off()
+## Plot morphospace covered by tree
+##fam_morphospace_plot <- ggplot(egg_database,aes(x = logar, y = logvol)) + geom_point(color = "dark grey",alpha=0.5,stroke=0,size=1) + geom_point(data = egg_database %>% filter(family %in% fam_tree$tip.label),color = "blue",alpha=0.5,stroke=0,size=1)
+##pdf(file="fam_morphospace_plot.pdf",width=4,height=4)
+##	print(fam_morphospace_plot)
+##dev.off()
 
-###genus_morphospace_plot <- ggplot(egg_database,aes(x = logar, y = logvol)) + geom_point(color = "dark grey",alpha=0.5,stroke=0,size=1) + geom_point(data = egg_database %>% filter(genus %in% genus_mcc_tree$tip.label),color = "red",alpha=0.5,stroke=0,size=1)
-###pdf(file="genus_morphospace_plot.pdf",width=4,height=4)
-###	print(genus_morphospace_plot)
-###dev.off()
+##genus_morphospace_plot <- ggplot(egg_database,aes(x = logar, y = logvol)) + geom_point(color = "dark grey",alpha=0.5,stroke=0,size=1) + geom_point(data = egg_database %>% filter(genus %in% genus_mcc_tree$tip.label),color = "red",alpha=0.5,stroke=0,size=1)
+##pdf(file="genus_morphospace_plot.pdf",width=4,height=4)
+##	print(genus_morphospace_plot)
+##dev.off()
 
-### Break the tips into discrete monophyletic clades
-### determined by number of tips
+## Break the tips into discrete monophyletic clades
+## determined by number of tips
 
 # get node numbers
 edges <- unique(genus_mcc_tree$edge[,1])
@@ -58,12 +58,12 @@ sets_tips <- sets_node_tips %>% filter(value %in% tips) %>%
 	arrange(match(tip,genus_mcc_tree$tip.label[genus_mcc_tree$edge[which(genus_mcc_tree$edge[,2] %in% tips),2]]))
 
 # add sets to egg database
-egg_database$set <- factor(mapvalues(egg_database$genus,sets_tips$tip,sets_tips$L1,warn_missing=F),levels=unique(sets_tips$L1))
+egg_database$set <- factor(plyr::mapvalues(egg_database$genus,sets_tips$tip,sets_tips$L1,warn_missing=F),levels=unique(sets_tips$L1))
 
 ### These commands were used once to clean up and format the trees
 
 ### MISOF BACKBONE
-#	### read the distribution of genus level trees from our phylogenetic analysis
+### read the distribution of genus level trees from our phylogenetic analysis
 #	genus_trees <- read.nexus("phylogeny/final_trees/misof_100_posterior.trees")
 #	### ladderize them for easy visualization
 #	genus_trees <- lapply(genus_trees,ladderize)
@@ -91,10 +91,10 @@ egg_database$set <- factor(mapvalues(egg_database$genus,sets_tips$tip,sets_tips$
 #	}
 #	### write ultrametric trees
 #	write.nexus(file="phylogeny/final_trees/rainford_posterior_ultrametric.nxs",genus_trees)
-#
+
 #	### MISOF MCC
 #	### read the distribution of genus level trees from our phylogenetic analysis
-#	genus_mcc_tree <- read.nexus("phylogeny/final_trees/misof_mcc.tre")
+#	genus_mcc_tree <- read.nexus("phylogeny/final_trees/misof_mcc.tree")
 #	### ladderize them for easy visualization
 #	genus_mcc_tree <- ladderize(genus_mcc_tree)
 #	### sub out the spaces in tip labels
@@ -103,10 +103,10 @@ egg_database$set <- factor(mapvalues(egg_database$genus,sets_tips$tip,sets_tips$
 #	genus_mcc_tree<-nnls.tree(cophenetic(genus_mcc_tree),genus_mcc_tree,rooted=TRUE)
 #	### write ultrametric trees
 #	write.nexus(file="phylogeny/final_trees/misof_mcc_ultrametric.nxs",genus_mcc_tree)
-#	
+#
 #	### RAINFORD MCC
 #	### read the distribution of genus level trees from our phylogenetic analysis
-#	genus_mcc_tree <- read.nexus("phylogeny/final_trees/rainford_mcc.tre")
+#	genus_mcc_tree <- read.nexus("phylogeny/final_trees/rainford_mcc.tree")
 #	### ladderize them for easy visualization
 #	genus_mcc_tree <- ladderize(genus_mcc_tree)
 #	### sub out the spaces in tip labels
@@ -115,7 +115,7 @@ egg_database$set <- factor(mapvalues(egg_database$genus,sets_tips$tip,sets_tips$
 #	genus_mcc_tree<-nnls.tree(cophenetic(genus_mcc_tree),genus_mcc_tree,rooted=TRUE)
 #	### write ultrametric trees
 #	write.nexus(file="phylogeny/final_trees/rainford_mcc_ultrametric.nxs",genus_mcc_tree)
-#
+#	
 #	### RAINFORD FAMILY TREE
 #	fam_trees <- read.nexus("phylogeny/final_trees/rainford_family_tree.nxs")
 #	fam_tree <- fam_trees[[2]]

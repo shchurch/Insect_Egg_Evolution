@@ -2,8 +2,8 @@
 
 ### These commands can be used to ancestrally reconstruct shifts in aquatic habit
 
-source("analyze_data/egg_analysis_build_dataframe.R")
-source("analyze_data/egg_analysis_read_trees.R")
+#source("analyze_data/egg_analysis_build_dataframe.R")
+#source("analyze_data/egg_analysis_read_trees.R")
 source("analyze_data/egg_analysis_eco_functions.R")
 
 ### Read in the ecological table
@@ -11,22 +11,32 @@ ecology_table <- read.delim("analyze_data/ecology_table_parasitoid.csv",header=T
 eco_data <- data.frame(name = ecology_table$name, rank = ecology_table$rank)
 default_regime <- "ancestral"
 
-eco_data$ecology <- ecology_table$internal
-analysis_name <- "ecology_asr_internal"
+# read in arguments from the OUwie analysis wrapper
+# 3 = testing 'parasitoid', 'internal'
 
-# Uncomment these to use parasitoid, rather than internal oviposition
-#eco_data$ecology <- ecology_table$parasitoid
-#analysis_name <- "ecology_asr_parasitoid"
+if(ecology_arg == "internal") {
+	eco_data$ecology <- ecology_table$internal
+	analysis_name <- paste(analysis_name,"internal",sep="_")
 
+} else if(ecology_arg == "parasitoid"){
+	eco_data$ecology <- ecology_table$parasitoid
+	analysis_name <- paste(analysis_name,"parasitoid",sep="_")
+
+} else {
+	warning("incorrect ecology argument")
+	quit(status=1)
+}
+
+### Choose colors
+eco_cols <- c("dark gray","#c55c15")
 
 ### Set up the egg + ecology dataframe
 # Randomly order the rows
 egg_eco_data <- egg_database[sample(nrow(egg_database)),]
 egg_eco_data$eco_regime <- rep(default_regime,nrow(egg_eco_data))
 
-### Select a tree
+### Select a taxonomic_level
 egg_eco_data$rank <- egg_eco_data$genus
-tree <- genus_mcc_tree
 
 ### Update database by ecology table
 ### Proceed from largest taxonomic category to smallest

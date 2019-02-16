@@ -39,6 +39,77 @@ morpho_volume_aspect_ratio <- ggplot(egg_database,aes(x = ar, y = vol,color = gr
 	theme(legend.position="none") + 
 	scale_color_manual(values = mrk) 
 
+# Pairwise plots by subgroup
+submrk <-  c("#D454E2","#2056CE","#2E9B00","#22CED5","#BE0000","#E87425","#878787","#3A175F","#F2C406","#000000")
+
+subgroup1 <- egg_database %>% 
+	filter(group == "Apterygota") %>% 
+	mutate(group = order) %>% 
+	filter(group != "")
+
+subgroup2 <- egg_database %>% 
+	filter(group == "Palaeoptera") %>% 
+	mutate(group = ifelse(order == "Ephemeroptera",
+		"Ephemeroptera",suborder)) %>% 
+	filter(group != "")
+
+subgroup3 <- egg_database %>% 
+	filter(group == "Polyneoptera") %>% 
+	mutate(group = order) %>% 
+	filter(group != "")
+
+subgroup4 <- egg_database %>% 
+	filter(group == "Condylognatha") %>% 
+	mutate(group = suborder) %>% mutate(group = 
+	ifelse(superfamily %in% c("Cercopoidea","Fulgoroidea","Membracoidea"),
+	"Auchenorryncha",ifelse(order == "Thysanoptera",
+		order,suborder))) %>% 
+	filter(group != "") 
+
+subgroup5 <- egg_database %>% 
+	filter(group == "Hymenoptera") %>% 
+	mutate(group = ifelse(
+		superfamily %in% c("Tenthredinoidea", "Siricoidea", "Cephoidea", "Xiphidrioidea", 
+		"Xyeloidea", "Orussoidea","Pamphilioidea","Xiphydrioidea"),
+			"Symphyta",ifelse(
+			superfamily %in% c("Ceraphronoidea","Chalcidoidea","Cynipoidea","Evanioidea",
+			"Ichneumonoidea","Platygastroidea","Proctotrupoidea","Trigonaloidea"),
+				"Parasitica","Aculeata"))) %>% 
+	filter(group != "")
+
+subgroup6 <- egg_database %>% 
+	filter(group == "Neuropteroidea") %>% 
+	mutate(group = ifelse(order == "Coleoptera",
+		suborder,order)) %>% 
+	filter(group != "")
+
+subgroup7 <- egg_database %>% 
+	filter(group == "Amphiesmenoptera") %>% 
+	mutate(group = ifelse(order == "Trichoptera",
+		order,ifelse(superfamily %in% c("Papilionoidea","Bombycoidea","Noctuoidea"),
+			superfamily,"other moths"))) %>% 
+	filter(group != "")
+
+subgroup8 <- egg_database %>% 
+	filter(group == "Antliophora") %>% 
+	mutate(group = ifelse(order == "Diptera",
+		suborder,order)) %>% 
+	filter(group != "")
+
+plot_subgroup <- function(subgroup) {
+	subgroup_levels <- subgroup %>% group_by(group) %>% summarize(count = n()) %>% arrange(desc(count)) %>% pull(group)
+	names(submrk) <- subgroup_levels
+	sg1 <- ggplot(subgroup,aes(x = ar, y = vol,color = group)) + 
+		geom_hline(yintercept = 10^-2,linetype = "dashed",color = "dark gray",size=1) + 
+		geom_vline(xintercept = 2,linetype = "dashed",color = "dark gray",size=1) + 
+		geom_point(size=2.25,alpha = 0.75,pch=16) +	
+		scale_x_log10(breaks = ar_breaks) + 
+		scale_y_log10(breaks = vol_breaks,expand=c(0,0.2)) +
+		scale_color_manual(values = submrk) + 
+		theme(legend.position = "none")
+	return(sg1)
+}
+
 # Build theoretical morphospace plots
 
 morpho_aspect_ratio_asymmetry_untransformed <- ggplot(egg_database,aes(x = ar, y = asym,color = group)) + 
@@ -80,7 +151,53 @@ morpho_aspect_ratio_asymmetry_birds_untransformed <- ggplot(egg_database,aes(x =
 	geom_polygon(data = ar_asym_hulls %>% filter(group == "Aves"),alpha=0.5,size=1) + 
 	scale_fill_manual(values = mrk)
 
+
 # Print morphospaces
+pdf(file="subgroup1.pdf",width=6,height=6,useDingbats =F)
+print(plot_subgroup(subgroup1))
+dev.off()
+pdf(file="subgroup2.pdf",width=6,height=6,useDingbats =F)
+print(plot_subgroup(subgroup2))
+dev.off()
+pdf(file="subgroup3.pdf",width=6,height=6,useDingbats =F)
+print(plot_subgroup(subgroup3))
+dev.off()
+pdf(file="subgroup4.pdf",width=6,height=6,useDingbats =F)
+print(plot_subgroup(subgroup4))
+dev.off()
+pdf(file="subgroup5.pdf",width=6,height=6,useDingbats =F)
+print(plot_subgroup(subgroup5))
+dev.off()
+pdf(file="subgroup6.pdf",width=6,height=6,useDingbats =F)
+print(plot_subgroup(subgroup6))
+dev.off()
+pdf(file="subgroup7.pdf",width=6,height=6,useDingbats =F)
+print(plot_subgroup(subgroup7))
+dev.off()
+pdf(file="subgroup8.pdf",width=6,height=6,useDingbats =F)
+print(plot_subgroup(subgroup8))
+dev.off()
+
+sink(file="subgroup_legends.txt")
+cat("\nApterygota subgroups\n")
+print(subgroup1 %>% group_by(group) %>% summarize(count = n()) %>% arrange(desc(count)) %>% pull(group))
+cat("\nPalaeoptera subgroups\n")
+print(subgroup2 %>% group_by(group) %>% summarize(count = n()) %>% arrange(desc(count)) %>% pull(group))
+cat("\nPolyneoptera subgroups\n")
+print(subgroup3 %>% group_by(group) %>% summarize(count = n()) %>% arrange(desc(count)) %>% pull(group))
+cat("\nCondylognatha subgroups\n")
+print(subgroup4 %>% group_by(group) %>% summarize(count = n()) %>% arrange(desc(count)) %>% pull(group))
+cat("\nHymenoptera subgroups\n")
+print(subgroup5 %>% group_by(group) %>% summarize(count = n()) %>% arrange(desc(count)) %>% pull(group))
+cat("\nNeuropteroidea subgroups\n")
+print(subgroup6 %>% group_by(group) %>% summarize(count = n()) %>% arrange(desc(count)) %>% pull(group))
+cat("\nAmphiesmenoptera subgroups\n")
+print(subgroup7 %>% group_by(group) %>% summarize(count = n()) %>% arrange(desc(count)) %>% pull(group))
+cat("\nAntliophora subgroups\n")
+print(subgroup8 %>% group_by(group) %>% summarize(count = n()) %>% arrange(desc(count)) %>% pull(group))
+sink()
+
+
 pdf(file="polyembryonic.pdf",width=6,height=6,useDingbats =F)
 print(polyembryonic_plot)
 dev.off()

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nex:nexml
+    version="0.9"
+    xsi:schemaLocation="http://www.nexml.org/2009 ../xsd/nexml.xsd"
+    xmlns:dendropy="http://packages.python.org/DendroPy/"
+    xmlns="http://www.nexml.org/2009"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xmlns:nex="http://www.nexml.org/2009"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+>
+    <otus id="d0">
+        <otu id="d1" label="Archaeognatha" />
+        <otu id="d2" label="Mantophasmatodea" />
+        <otu id="d3" label="Zoraptera" />
+        <otu id="d4" label="Mantodea" />
+        <otu id="d5" label="Strepsiptera" />
+        <otu id="d6" label="Diplura" />
+        <otu id="d7" label="Protura" />
+        <otu id="d8" label="Collembola" />
+        <otu id="d9" label="Zygentoma" />
+        <otu id="d10" label="Ephemeroptera" />
+        <otu id="d11" label="Odonata" />
+        <otu id="d12" label="Dermaptera" />
+        <otu id="d13" label="Plecoptera" />
+        <otu id="d14" label="Orthoptera" />
+        <otu id="d15" label="Grylloblattodea" />
+        <otu id="d16" label="Embioptera" />
+        <otu id="d17" label="Phasmatodea" />
+        <otu id="d18" label="Dictyoptera" />
+        <otu id="d19" label="Psocodea" />
+        <otu id="d20" label="Thysanoptera" />
+        <otu id="d21" label="Hemiptera" />
+        <otu id="d22" label="Hymenoptera" />
+        <otu id="d23" label="Raphidioptera" />
+        <otu id="d24" label="Megaloptera" />
+        <otu id="d25" label="Neuroptera" />
+        <otu id="d26" label="Coleoptera" />
+        <otu id="d27" label="Mecoptera" />
+        <otu id="d28" label="Siphonaptera" />
+        <otu id="d29" label="Diptera" />
+        <otu id="d30" label="Trichoptera" />
+        <otu id="d31" label="Lepidoptera" />
+    </otus>
+    <trees id="d32" otus="d0">
+        <tree id="d33" label="Dated_Tree" xsi:type="nex:FloatTree">
+            <meta xsi:type="nex:LiteralMeta" property="dendropy:source" content="rainford" id="d34" />
+            <node id="d35" root="true" />
+            <node id="d36" />
+            <node id="d37" />
+            <node id="d38" otu="d6" />
+            <node id="d39" otu="d7" />
+            <node id="d40" otu="d8" />
+            <node id="d41" />
+            <node id="d42" otu="d1" />
+            <node id="d43" />
+            <node id="d44" otu="d9" />
+            <node id="d45" />
+            <node id="d46" />
+            <node id="d47" otu="d10" />
+            <node id="d48" otu="d11" />
+            <node id="d49" />
+            <node id="d50" />
+            <node id="d51" />
+            <node id="d52" otu="d12" />
+            <node id="d53" otu="d13" />
+            <node id="d54" />
+            <node id="d55" otu="d14" />
+            <node id="d56" />
+            <node id="d57" />
+            <node id="d58" />
+            <node id="d59" otu="d15" />
+            <node id="d60" otu="d2" />
+            <node id="d61" />
+            <node id="d62" otu="d16" />
+            <node id="d63" otu="d17" />
+            <node id="d64" />
+            <node id="d65" otu="d3" />
+            <node id="d66" />
+            <node id="d67" otu="d18" />
+            <node id="d68" otu="d4" />
+            <node id="d69" />
+            <node id="d70" />
+            <node id="d71" otu="d19" />
+            <node id="d72" />
+            <node id="d73" otu="d20" />
+            <node id="d74" otu="d21" />
+            <node id="d75" />
+            <node id="d76" otu="d22" />
+            <node id="d77" />
+            <node id="d78" />
+            <node id="d79" />
+            <node id="d80" otu="d23" />
+            <node id="d81" />
+            <node id="d82" otu="d24" />
+            <node id="d83" otu="d25" />
+            <node id="d84" />
+            <node id="d85" otu="d5" />
+            <node id="d86" otu="d26" />
+            <node id="d87" />
+            <node id="d88" />
+            <node id="d89" />
+            <node id="d90" otu="d27" />
+            <node id="d91" otu="d28" />
+            <node id="d92" otu="d29" />
+            <node id="d93" />
+            <node id="d94" otu="d30" />
+            <node id="d95" otu="d31" />
+            <rootedge id="d96" target="d35" />
+            <edge id="d97" source="d35" target="d36" length="14.10081" />
+            <edge id="d98" source="d36" target="d37" length="23.05306" />
+            <edge id="d99" source="d37" target="d38" length="162.0594" />
+            <edge id="d100" source="d37" target="d39" length="99.22633" />
+            <edge id="d101" source="d36" target="d40" length="166.37129" />
+            <edge id="d102" source="d35" target="d41" length="15.77048" />
+            <edge id="d103" source="d41" target="d42" length="462.3179" />
+            <edge id="d104" source="d41" target="d43" length="13.12091" />
+            <edge id="d105" source="d43" target="d44" length="449.197" />
+            <edge id="d106" source="d43" target="d45" length="7.59272" />
+            <edge id="d107" source="d45" target="d46" length="68.34376" />
+            <edge id="d108" source="d46" target="d47" length="104.5202" />
+            <edge id="d109" source="d46" target="d48" length="130.1521" />
+            <edge id="d110" source="d45" target="d49" length="10.76307" />
+            <edge id="d111" source="d49" target="d50" length="29.61081" />
+            <edge id="d112" source="d50" target="d51" length="44.57514" />
+            <edge id="d113" source="d51" target="d52" length="111.5524" />
+            <edge id="d114" source="d51" target="d53" length="105.4807" />
+            <edge id="d115" source="d50" target="d54" length="13.88326" />
+            <edge id="d116" source="d54" target="d55" length="78.47073" />
+            <edge id="d117" source="d54" target="d56" length="24.53302" />
+            <edge id="d118" source="d56" target="d57" length="55.64524" />
+            <edge id="d119" source="d57" target="d58" length="86.67753" />
+            <edge id="d120" source="d58" target="d59" length="220.4914" />
+            <edge id="d121" source="d58" target="d60" length="220.4914" />
+            <edge id="d122" source="d57" target="d61" length="47.52058" />
+            <edge id="d123" source="d61" target="d62" length="259.64829" />
+            <edge id="d124" source="d61" target="d63" length="38.14296" />
+            <edge id="d125" source="d56" target="d64" length="22.25249" />
+            <edge id="d126" source="d64" target="d65" length="340.5617" />
+            <edge id="d127" source="d64" target="d66" length="33.32666" />
+            <edge id="d128" source="d66" target="d67" length="76.47878" />
+            <edge id="d129" source="d66" target="d68" length="307.23498" />
+            <edge id="d130" source="d49" target="d69" length="4.047947" />
+            <edge id="d131" source="d69" target="d70" length="10.19092" />
+            <edge id="d132" source="d70" target="d71" length="15.18069" />
+            <edge id="d133" source="d70" target="d72" length="11.99119" />
+            <edge id="d134" source="d72" target="d73" length="117.9729" />
+            <edge id="d135" source="d72" target="d74" length="38.44779" />
+            <edge id="d136" source="d69" target="d75" length="37.10277" />
+            <edge id="d137" source="d75" target="d76" length="138.194516" />
+            <edge id="d138" source="d75" target="d77" length="28.04764" />
+            <edge id="d139" source="d77" target="d78" length="27.47581" />
+            <edge id="d140" source="d78" target="d79" length="33.81282" />
+            <edge id="d141" source="d79" target="d80" length="300.3542" />
+            <edge id="d142" source="d79" target="d81" length="15.52195" />
+            <edge id="d143" source="d81" target="d82" length="91.98956" />
+            <edge id="d144" source="d81" target="d83" length="30.18121" />
+            <edge id="d145" source="d78" target="d84" length="24.85062" />
+            <edge id="d146" source="d84" target="d85" length="309.3164" />
+            <edge id="d147" source="d84" target="d86" length="2.130319" />
+            <edge id="d148" source="d77" target="d87" length="40.79222" />
+            <edge id="d149" source="d87" target="d88" length="4.03331" />
+            <edge id="d150" source="d88" target="d89" length="56.04382" />
+            <edge id="d151" source="d89" target="d90" length="100.7868" />
+            <edge id="d152" source="d89" target="d91" length="92.62759" />
+            <edge id="d153" source="d88" target="d92" length="21.715296" />
+            <edge id="d154" source="d87" target="d93" length="18.43866" />
+            <edge id="d155" source="d93" target="d94" length="26.11797" />
+            <edge id="d156" source="d93" target="d95" length="33.30882" />
+        </tree>
+    </trees>
+</nex:nexml>

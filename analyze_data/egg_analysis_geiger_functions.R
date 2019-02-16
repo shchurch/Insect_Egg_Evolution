@@ -33,3 +33,13 @@ fit_model <- function(data,tree,model) {
 	return(fit)
 }
 
+
+fit_discrete_model <- function(data,tree,model) {
+	ms_trim <- drop.tip(tree,setdiff(tree$tip.label,names(data)))
+	ms_trim <- multi2di(ms_trim)
+	
+	fit <- fitDiscrete(ms_trim,data,model=model)
+
+	return(fit)
+}
+

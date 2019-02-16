@@ -9,14 +9,25 @@ library(phytools)
 library(corHMM)
 library(RColorBrewer)
 
-### Select ecology regime of interest in this script, then source
-#source("analyze_data/egg_analysis_parasitoid.R")
-source("analyze_data/egg_analysis_aquatic.R")
+args = commandArgs(trailingOnly=TRUE)
+analysis_name <- "ecoallometry"
+ecology_arg <- args[1]
+class_flag <- "relaxed"
+### This analysis takes 1 argument
+# 1 = 'internal' or 'aquatic' ecology
 
-### select colors
-#eco_cols <- c("dark gray","#c55c15")
-eco_cols <- c("dark gray","#2056CE")
+if(ecology_arg == "internal"){
+	source("analyze_data/egg_analysis_parasitoid.R")
+	eco_cols <- c("dark gray","#c55c15")
+} else if (ecology_arg == "aquatic"){
+	source("analyze_data/egg_analysis_aquatic.R")
+	eco_cols <- c("dark gray","#2056CE")
+} else {
+	warning("incorrect ecology argument")
+	quit(status=1)
+} 
 
+### Select tree
 tree <- genus_mcc_tree
 
 ### Select trait of interest
@@ -35,10 +46,10 @@ pp_pruned <- drop.tip(tree,setdiff(tree$tip.label,reg$species))
 pp <- rayDISC(pp_pruned,as.data.frame(reg[,c(1,2)]),model="ER",node.states="marginal")
 
 ### Plot the ecology ASR on the phylogeny
-branch_cols <- c(as.integer(mapvalues(pp$phy$tip.label,reg$species,reg$discrete)),pp$phy$node.label)
+branch_cols <- c(as.integer(plyr::mapvalues(pp$phy$tip.label,reg$species,reg$discrete)),pp$phy$node.label)
 
 pdf(file = paste(analysis_name,".pdf",sep=""),height=12,width=4)
-	plot(pp$phy,show.tip.label=F,edge.col=mapvalues(branch_cols[pp$phy$edge[,2]],seq(1:length(eco_cols)),c(eco_cols[-1],"dark gray"))) 
+	plot(pp$phy,show.tip.label=F,edge.col=plyr::mapvalues(branch_cols[pp$phy$edge[,2]],seq(1:length(eco_cols)),c(eco_cols[-1],"dark gray"))) 
 	add.scale.bar()
 dev.off()
 
@@ -46,7 +57,7 @@ dev.off()
 edges <- pp$phy$edge
 
 # create a list of tip states
-tip_states <- as.integer(mapvalues(pp$phy$tip.label,reg$species,reg$discrete))
+tip_states <- as.integer(plyr::mapvalues(pp$phy$tip.label,reg$species,reg$discrete))
 # create a list of node states
 node_states <- pp$phy$node.label
 # combined list, ordered according to node numbers
@@ -84,7 +95,7 @@ for (i in (1:length(shift_descendants))) {
 
 # create a new eco regime data frame with separate regimes per shift
 new_reg <- data.frame(species = pp$phy$tip.label,shift_regimes = new_states[seq(1,length(pp$phy$tip.label))]) %>% arrange(species)
-# new_reg <- left_join(reg,new_reg,by="species") %>% mutate(phy_group = mapvalues(species,egg_database$genus,egg_database$group,warn_missing=F),group_shift_regimes = paste(phy_group,shift_regimes,sep="_"))
+# new_reg <- left_join(reg,new_reg,by="species") %>% mutate(phy_group = plyr::mapvalues(species,egg_database$genus,egg_database$group,warn_missing=F),group_shift_regimes = paste(phy_group,shift_regimes,sep="_"))
 new_reg <- left_join(reg,new_reg,by="species") %>% mutate(group_shift_regimes = shift_regimes)
 
 # create a new phylogeny with shift regimes as node labels
@@ -180,7 +191,7 @@ groups_regimes <- sapply(seq(length(groups_l_w)),function(x) {new_reg %>% filter
 
 names(slope_dist_l_w) <- groups_regimes
 slope_dist_l_w <- reshape::melt(slope_dist_l_w)
-slope_dist_l_w$ecology <- mapvalues(slope_dist_l_w$L1,groups_regimes,groups_ecology)
+slope_dist_l_w$ecology <- plyr::mapvalues(slope_dist_l_w$L1,groups_regimes,groups_ecology)
 
 slope_l_w_plot <- ggplot(slope_dist_l_w,aes(x = L1, y = value, color = ecology, fill = ecology)) + 
 	geom_abline(intercept=1.0,slope=0,linetype=2) + 

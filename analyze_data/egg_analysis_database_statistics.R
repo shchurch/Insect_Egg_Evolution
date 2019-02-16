@@ -185,7 +185,7 @@ sigfigs <- nchar(pl_char)
 sigfigs[bigger_than_10] <- sigfigs[bigger_than_10] - 1
 
 # translate the nubmer of significant figures into units
-units <- mapvalues(sigfigs,c(1,2,3,4,5,6,7),c(1,0.1,0.01,0.001,0.0001,0.00001,0.000001))
+units <- plyr::mapvalues(sigfigs,c(1,2,3,4,5,6,7),c(1,0.1,0.01,0.001,0.0001,0.00001,0.000001))
 # correct those larger than 1
 units[bigger_than_10] <- units[bigger_than_10] * 0.1
 # divide the observed length by the number of units used to measure

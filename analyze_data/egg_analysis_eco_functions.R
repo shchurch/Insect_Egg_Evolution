@@ -16,10 +16,15 @@ update_regimes_TF <- function(eco_rank,egg_names){
 	if(length(which(egg_names %in% eco_false)) > 0){
 		egg_eco_data[which(egg_names %in% eco_false),]$eco_regime <- "ancestral"
 	}
-	#### CURRENTLY SETS SOME TO TRUE
-	if(length(which(egg_names %in% eco_some)) > 0){
-		egg_eco_data[which(egg_names %in% eco_some),]$eco_regime <- "derived"
-		#egg_eco_data[which(egg_names %in% eco_some),]$eco_regime <- "ancestral"
+	# use either strict or relaxed classification method
+	if(class_flag == "strict"){
+		if(length(which(egg_names %in% eco_some)) > 0){
+			egg_eco_data[which(egg_names %in% eco_some),]$eco_regime <- "ancestral"
+		}
+	} else {
+		if(length(which(egg_names %in% eco_some)) > 0){
+			egg_eco_data[which(egg_names %in% eco_some),]$eco_regime <- "derived"
+		}
 	}
 
 	return(egg_eco_data)

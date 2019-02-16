@@ -2,8 +2,8 @@
 
 ### These commands can be used to ancestrally reconstruct shifts in migratory lepidoptera
 
-source("analyze_data/egg_analysis_build_dataframe.R")
-source("analyze_data/egg_analysis_read_trees.R")
+#source("analyze_data/egg_analysis_build_dataframe.R")
+#source("analyze_data/egg_analysis_read_trees.R")
 source("analyze_data/egg_analysis_eco_functions.R")
 
 ### Read in the wingless phasmatodea table
@@ -12,17 +12,19 @@ eco_regimes <- c("nonmigratory","migratory")
 eco_data <- data.frame(name = ecology_table$name, rank = ecology_table$rank)
 eco_data$ecology <- ecology_table$migratory
 default_regime <- "ancestral"
-analysis_name <- "ecology_asr_migratory_Lepidoptera"
+analysis_name <- paste(analysis_name,"migratory_Lepidoptera",sep="_")
 egg_database <- egg_database %>% filter(order == "Lepidoptera")
+
+### Choose colors
+eco_cols <- c("dark gray","#2056CE")
 
 ### Set up the egg + ecology dataframe
 # Randomly order the rows
 egg_eco_data <- egg_database[sample(nrow(egg_database)),]
 egg_eco_data$eco_regime <- rep(default_regime,nrow(egg_eco_data))
 
-### Select a tree
+### Select a taxonomic level
 egg_eco_data$rank <- egg_eco_data$genus
-tree <- genus_mcc_tree
 
 ### Update database by ecology table
 ### Proceed from largest taxonomic category to smallest

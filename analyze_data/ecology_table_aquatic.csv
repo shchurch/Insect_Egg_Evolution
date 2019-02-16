@@ -1,295 +1,295 @@
-in_egg_database	name	rank	order	semiaquatic_riparian	in_water	combined	references	handbook_of_zoology_vol_1_3	williams1992aquatic	wichard2002biological	jach1998annotated	JohannsenOAOskarAugustus1934Ad	additional_notes										
-FALSE	Achenium	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-TRUE	Acilius	genus	Coleoptera	TRUE	FALSE	TRUE	2010CBV2, 2014CbV3, 2016Cbm	eggs laid outside water															
-FALSE	Actenicerus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Actidium	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Actinopteryx	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Actocharina_leptotyphloides	species	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Actocharis_readingii	species	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-TRUE	Acylophorus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Adrastus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Aepopsis	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Aepus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-TRUE	Aeshnidae	family	Odonata	FALSE	FALSE	FALSE	wichard2002biological			eggs laid in aquatic plants													
-TRUE	Agabus	genus	Coleoptera	FALSE	TRUE	TRUE	jackson1958egg, 2010CBV2, 2014CbV3, 2016Cbm	few outside water					eggs laid underwater on leaves										
-TRUE	Agonum	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-TRUE	Aleochara	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Alianta_incana	species	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Alianta_nigella	species	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Aloconota	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Amblopusa	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-TRUE	Amphizoidae	family	Coleoptera	FALSE	TRUE	TRUE	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	eggs laid under water			true water beetles												
-TRUE	Annulipalpia	suborder	Trichoptera	FALSE	TRUE	TRUE	wichard2002biological			eggs laid in water													
-FALSE	Anotylus_maritimus	species	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Anthicidae	family	Coleoptera	SOME	FALSE	SOME	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	only reported as terrestrial			some riparian												
-FALSE	Aphaenops	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Aphanotrigonum_darlingtoniae	species	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic (pitcher plants)											
-FALSE	Aphelocheiridae	family	Hemiptera	FALSE	TRUE	TRUE	wichard2002biological			fully aquatic													
-TRUE	Aphodiinae	subfamily	Coleoptera	SOME	FALSE	SOME	jach1998annotated				riparian		some										
-FALSE	Aphrosylus	genus	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic											
-FALSE	Apimela	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Argyra	genus	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic											
-FALSE	Arpedium_quadrum	species	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-TRUE	Atanygnathus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-TRUE	Atanygnathus_terminalis	species	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Athericidae	family	Diptera	SOME	FALSE	SOME	wichard2002biological			mostly terrestrial													
-FALSE	Atherix	genus	Diptera	FALSE	FALSE	FALSE	JohannsenOAOskarAugustus1934Ad					overhanging water											
-FALSE	Atheta	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Bagous	genus	Coleoptera	FALSE	FALSE	FALSE	jach1998annotated				phytophilous												
-TRUE	Belostomatidae	family	Hemiptera	FALSE	TRUE	TRUE	williams1992aquatic, wichard2002biological		listed in table of aquatic insects	fully aquatic													
-TRUE	Bembidion	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Beris	genus	Diptera	FALSE	FALSE	FALSE	JohannsenOAOskarAugustus1934Ad					aquatic											
-FALSE	Betarmon	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-TRUE	Bledius	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Blepharhymenus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-TRUE	Blephariceridae	family	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic											
-FALSE	Blethisa	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Bolitobius_formosus	species	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Brachydeutera	genus	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic											
-FALSE	Brachyusa_concolor	species	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Brundinia	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Bryothinusa	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Cafius	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Calodera	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Canacidae	family	Diptera	FALSE	TRUE	TRUE	wichard2002biological			fully aquatic													
-FALSE	Carabus_clathratus	species	Coleoptera	FALSE	FALSE	FALSE	jach1998annotated				facultative water beetle												
-FALSE	Carabus_menetriesi	species	Coleoptera	FALSE	FALSE	FALSE	jach1998annotated				facultative water beetle												
-FALSE	Carpelimus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Cephalochetus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Ceratopogonidae	family	Diptera	SOME	FALSE	SOME	1976Mi, wichard2002biological			mostly aquatic			breed in sandy muddy areas										
-FALSE	Chalcosyrphus	subfamily	Diptera	TRUE	FALSE	TRUE	JohannsenOAOskarAugustus1934Ad					riparian											
-TRUE	Chaoboridae	family	Diptera	FALSE	TRUE	TRUE	wichard2002biological			fully aquatic													
-FALSE	Chilosinae	subfamily	Diptera	TRUE	FALSE	TRUE	JohannsenOAOskarAugustus1934Ad					riparian											
-TRUE	Chironomidae	family	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic											
-TRUE	Chrysomelinae	subfamily	Coleoptera	FALSE	FALSE	FALSE	jach1998annotated				phytophilous		some										
-TRUE	Chrysops	genus	Diptera	FALSE	FALSE	FALSE	JohannsenOAOskarAugustus1934Ad					overhanging water											
-FALSE	Cicindela_anchoralis	species	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Clinocera	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Clivina	genus	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic											
-FALSE	Coelopidae	family	Diptera	TRUE	FALSE	TRUE	mccafferty1983aquatic, williams1992aquatic		listed in table of aquatic insects				riparian										
-TRUE	Cordulegastridae	family	Odonata	TRUE	FALSE	TRUE	williams1992aquatic, wichard2002biological		listed in table of aquatic insects	eggs laid in stream soil													
-TRUE	Corduliidae	family	Odonata	SOME	SOME	TRUE	wichard2002biological			eggs laid in or near water													
-TRUE	Corixidae	family	Hemiptera	FALSE	TRUE	TRUE	williams1992aquatic, wichard2002biological		listed in table of aquatic insects	fully aquatic													
-TRUE	Culicidae	family	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic (gelatinous masses)											
-FALSE	Dacrila_fallax	species	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Deinopsis_erosa	species	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Deleaster	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Deubelia_picina	species	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Deuterophlebiidae	family	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic											
-FALSE	Dianous	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Diaulota	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Dicranthus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				phytophilous												
-FALSE	Diglotta	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Dixidae	family	Diptera	FALSE	TRUE	TRUE	wichard2002biological			fully aquatic													
-FALSE	Dochmonota_clancula	species	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Donaciinae	subfamily	Coleoptera	FALSE	FALSE	FALSE	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	associated with aquatic plants			phytophilous												
-FALSE	Drasterius	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Dryopidae	family	Coleoptera	FALSE	FALSE	FALSE	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	few aquatic (not in our dataset), riparian, most terrestrial			true water beetles (larvae not aquatic)												
-TRUE	Dynastinae	subfamily	Coleoptera	FALSE	FALSE	FALSE	jach1998annotated				facultative water beetle												
-FALSE	Dysanabatium	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Dyschirius	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-TRUE	Dytiscidae	family	Coleoptera	FALSE	TRUE	TRUE	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	eggs aquatic (with few exceptions), endophytic eggs laid in Laccophilinae, Ilybius, Hydrovatus, Dytiscinae, few sepecies with eggs outside of water (Acillus and a few Agabus).			true water beetles (few terrestrial)												
-TRUE	Dytiscinae	tribe	Coleoptera	FALSE	FALSE	FALSE	2010CBV2, 2014CbV3, 2016Cbm	eggs laid in water plants															
-TRUE	Elaphrus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-TRUE	Elmidae	family	Coleoptera	FALSE	TRUE	TRUE	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	eggs laid in water on wood or stones			true water beetles												
-FALSE	Enallagium	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Epantius	genus	Coleoptera	SOME	FALSE	SOME	jach1998annotated				riparian		some										
-TRUE	Ephemeroptera	order	Ephemeroptera	FALSE	TRUE	TRUE	csiro1991insects						in water										
-TRUE	Ephydra	genus	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic											
-FALSE	Epimetopidae	family	Coleoptera	SOME	SOME	SOME	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	adults carry egg cases terrestrially, riparian			true water beetles												
-TRUE	Erichsonius	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Erirhinus	genus	Coleoptera	FALSE	FALSE	FALSE	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	eggs laid in stems of aquatic plants			phytophilous												
-TRUE	Eristalinae	subfamily	Diptera	TRUE	FALSE	TRUE	JohannsenOAOskarAugustus1934Ad					riparian											
-FALSE	Euadmontia_pergandei	species	Diptera	FALSE	FALSE	FALSE	JohannsenOAOskarAugustus1934Ad					parasitic											
-FALSE	Euaesthetus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Eubrychius	genus	Coleoptera	FALSE	FALSE	FALSE	jach1998annotated				phytophilous												
-FALSE	Eulichadidae	family	Coleoptera	FALSE	TRUE	TRUE	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	larvae are aquatic			false water beetles												
-FALSE	Euparyphus	genus	Diptera	FALSE	FALSE	FALSE	JohannsenOAOskarAugustus1934Ad					overhanging water											
-TRUE	Gabrius	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Gabronthus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-TRUE	Galerucinae	subfamily	Coleoptera	FALSE	FALSE	FALSE	jach1998annotated				phytophilous		some										
-FALSE	Gauropterus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Gelastocoridae	family	Hemiptera	FALSE	TRUE	TRUE	williams1992aquatic, wichard2002biological		listed in table of aquatic insects	fully aquatic													
-FALSE	Geodromicus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-TRUE	Georissidae	family	Coleoptera	TRUE	FALSE	TRUE	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	riparian, egg laid in cases			riparian												
-TRUE	Gerridae	family	Hemiptera	FALSE	TRUE	TRUE	choe1997evolution, williams1992aquatic, wichard2002biological		listed in table of aquatic insects	semiaquatic			eggs glued to underside of floating objects										
-FALSE	Ginglymia_acrirostris	species	Diptera	FALSE	FALSE	FALSE	JohannsenOAOskarAugustus1934Ad					parasitic											
-FALSE	Gnoriste_apicalis	species	Diptera	TRUE	FALSE	TRUE	JohannsenOAOskarAugustus1934Ad					near water											
-FALSE	Gnypeta	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-TRUE	Gomphidae	family	Odonata	SOME	SOME	TRUE	wichard2002biological			eggs laid in or near water													
-FALSE	Grypus	genus	Coleoptera	FALSE	FALSE	FALSE	jach1998annotated				phytophilous												
-TRUE	Gyrinidae	family	Coleoptera	FALSE	TRUE	TRUE	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	eggs laid on submerged objects			true water beetles												
-FALSE	Hadropinus_fossor	species	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Haematopota	genus	Diptera	FALSE	FALSE	FALSE	JohannsenOAOskarAugustus1934Ad					overhanging water											
-FALSE	Haliplidae	family	Coleoptera	FALSE	TRUE	TRUE	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	some eggs laid in aquatic plants, others on stems			true water beetles												
-FALSE	Halmopota	genus	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic											
-FALSE	Halobrecta	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-TRUE	Hebridae	family	Hemiptera	FALSE	FALSE	FALSE	choe1997evolution, williams1992aquatic, wichard2002biological		listed in table of aquatic insects	semiaquatic			eggs inserted into plants (Hebrus, in our dataset)										
-FALSE	Helophoridae	family	Coleoptera	FALSE	SOME	SOME	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	floating egg cases			true water beetles (few terrestrial)												
-TRUE	Helotrephidae	family	Hemiptera	FALSE	TRUE	TRUE	choe1997evolution, williams1992aquatic		listed in table of aquatic insects				eggs glued to submerged plants										
-FALSE	Hemerodromia	genus	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic											
-TRUE	Heteroceridae	family	Coleoptera	TRUE	FALSE	TRUE	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	adults and eggs in wet tunnels near water			riparian												
-FALSE	Holorusia	genus	Diptera	FALSE	TRUE	TRUE	young2004insecta						aquatic										
-FALSE	Hydraenidae	family	Coleoptera	FALSE	SOME	SOME	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	most aquatic, eggs laid in water, some terrestrial (Edaphaobates, Meropathus, Ochtheosus)			true water beetles (larvae not aquatic)												
-TRUE	Hydrellia	genus	Diptera	FALSE	FALSE	FALSE	JohannsenOAOskarAugustus1934Ad					phytophilous											
-FALSE	Hydrochidae	family	Coleoptera	FALSE	TRUE	TRUE	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	adults and larvae aquatic, eggs in cases			true water beetles												
-TRUE	Hydrometridae	family	Hemiptera	FALSE	FALSE	FALSE	choe1997evolution, williams1992aquatic, wichard2002biological		listed in table of aquatic insects	semiaquatic			egg laid on elevated stalks of aquatic plants										
-FALSE	Hydromyza	genus	Diptera	FALSE	FALSE	FALSE	JohannsenOAOskarAugustus1934Ad					phytophilous											
-TRUE	Hydrophilidae	family	Coleoptera	FALSE	TRUE	TRUE	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	semiaquatic and riparian, few terrestrial (only in Sphaeridiinae), egg laid in cases			true water beetles												
-FALSE	Hydrophorus	genus	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic											
-TRUE	Hydroscaphidae	family	Coleoptera	FALSE	TRUE	TRUE	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	adults and larvae aquatic			true water beetles												
-FALSE	Hydrosmecta	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Hydrovatus	genus	Coleoptera	FALSE	FALSE	FALSE	2010CBV2, 2014CbV3, 2016Cbm	eggs laid in water plants															
-FALSE	Hygrobiidae	family	Coleoptera	FALSE	TRUE	TRUE	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	fully aquatic larvae and adults, eggs laid on surface of submerged plants			true water beetles												
-FALSE	Hygrogeus_aemulus	species	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Hygronoma_dimidiata	species	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Hygropetrophila_grandis	species	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Hypnoidus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Hypocaccus	genus	Coleoptera	SOME	FALSE	SOME	jach1998annotated				riparian		some										
-FALSE	Hyrdophorus	genus	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic											
-FALSE	Icaris	genus	Coleoptera	FALSE	FALSE	FALSE	jach1998annotated				phytophilous												
-TRUE	Ilybius	genus	Coleoptera	FALSE	FALSE	FALSE	2010CBV2, 2014CbV3, 2016Cbm	eggs laid in water plants															
-TRUE	Integripalpia	suborder	Trichoptera	FALSE	FALSE	FALSE	wichard2002biological			overhanging water													
-FALSE	Ischnopoda	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Itonida	genus	Diptera	FALSE	FALSE	FALSE	JohannsenOAOskarAugustus1934Ad					phytophilous											
-FALSE	Laccophilinae	subfamily	Coleoptera	FALSE	FALSE	FALSE	2010CBV2, 2014CbV3, 2016Cbm	eggs laid in water plants															
-FALSE	Lasioptera	genus	Diptera	FALSE	FALSE	FALSE	JohannsenOAOskarAugustus1934Ad					phytophilous											
-FALSE	Lathrobium	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Lebiomorpha_miliaris	species	Coleoptera	FALSE	FALSE	FALSE	jach1998annotated				facultative water beetle												
-FALSE	Lemnaphila	genus	Diptera	FALSE	FALSE	FALSE	JohannsenOAOskarAugustus1934Ad					phytophilous											
-TRUE	Lepiceridae	family	Coleoptera	TRUE	FALSE	TRUE	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	Adults and larvae near aquatic habitats			true water beetles												
-FALSE	Leptobium	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Leptotarsus	genus	Diptera	SOME	SOME	TRUE	young2004insecta						aquatic or semiaquatic										
-FALSE	Lesteva	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-TRUE	Libellulidae	family	Odonata	SOME	SOME	TRUE	wichard2002biological			eggs laid in or near water													
-FALSE	Limnichidae	family	Coleoptera	SOME	FALSE	SOME	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	most riparian, some fully terrestrial (Platypelochares, Tricholimnichus, Limnichomorphus, Paralimnichus)			riparian (some terrestrial)												
-FALSE	Limnophora	genus	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic											
-FALSE	Liparocephalus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Liparocephalus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Lispe	genus	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic											
-FALSE	Lissorhoptrus	genus	Coleoptera	FALSE	FALSE	FALSE	jach1998annotated				phytophilous												
-FALSE	Liusus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-TRUE	Loricera	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-TRUE	Luciola_cruciata	species	Coleoptera	FALSE	TRUE	TRUE	jach1998annotated				false water beetles												
-TRUE	Luciola_ficta	species	Coleoptera	FALSE	TRUE	TRUE	jach1998annotated				false water beetles												
-TRUE	Lutrochidae	family	Coleoptera	FALSE	TRUE	TRUE	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	adults and larvae aquatic			true water beetles												
-TRUE	Macroveliidae	family	Hemiptera	FALSE	FALSE	FALSE	Cobben1968, williams1992aquatic, wichard2002biological		listed in table of aquatic insects	semiaquatic			land habitats (Oravelia present in dataset)										
-FALSE	Manda_mandibularis	species	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-TRUE	Megaloptera	order	Megaloptera	FALSE	FALSE	FALSE	williams1992aquatic, wichard2002biological		listed in table of aquatic insects	overhanging water													
-TRUE	Megaselia	genus	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic											
-FALSE	Megistocera	genus	Diptera	FALSE	TRUE	TRUE	young2004insecta						aquatic										
-FALSE	Melanochelia	genus	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic											
-TRUE	Melyridae	family	Coleoptera	FALSE	FALSE	FALSE	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	all terrestrial except Endeodes (not in the egg dataset) intertidal			some riparian												
-FALSE	Meruidae	family	Coleoptera	FALSE	TRUE	TRUE	2010CBV2, 2014CbV3, 2016Cbm	adults found in flowing water, semiaqautic															
-TRUE	Mesoveliidae	family	Hemiptera	FALSE	FALSE	FALSE	choe1997evolution, williams1992aquatic, wichard2002biological		listed in table of aquatic insects	semiaquatic			eggs inserted into stems										
-FALSE	Micralymma	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Monotomidae	family	Coleoptera	FALSE	FALSE	FALSE	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	not aquatic			some adult facultative												
-FALSE	Mydaeina	genus	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic											
-FALSE	Myrmecopora	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Nanophyes	genus	Coleoptera	FALSE	FALSE	FALSE	jach1998annotated				phytophilous												
-TRUE	Naucoridae	family	Hemiptera	FALSE	TRUE	TRUE	sites1993voltinism, williams1992aquatic		listed in table of aquatic insects				fully aquatic										
-TRUE	Nebria	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Negastrius	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Nemotelus	genus	Diptera	TRUE	FALSE	TRUE	JohannsenOAOskarAugustus1934Ad					riparian											
-TRUE	Neobisnius	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-TRUE	Neolasioptera	genus	Diptera	FALSE	FALSE	FALSE	JohannsenOAOskarAugustus1934Ad					phytophilous											
-FALSE	Neopachylopus	genus	Coleoptera	SOME	FALSE	SOME	jach1998annotated				riparian		some										
-FALSE	Neophytobius	genus	Coleoptera	FALSE	FALSE	FALSE	jach1998annotated				phytophilous												
-TRUE	Nepidae	family	Hemiptera	FALSE	FALSE	FALSE	williams1992aquatic, wichard2002biological		listed in table of aquatic insects	eggs laid in aquatic plants													
-FALSE	Notaris	genus	Coleoptera	FALSE	FALSE	FALSE	jach1998annotated				phytophilous												
-FALSE	Noteridae	family	Coleoptera	FALSE	FALSE	FALSE	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	larvae and adults aquatic, eggs laid in cells of aquatic plants			true water beetles												
-FALSE	Nothomyia	genus	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic											
-TRUE	Notonectidae	family	Hemiptera	FALSE	TRUE	TRUE	williams1992aquatic, wichard2002biological		listed in table of aquatic insects	fully aquatic													
-FALSE	Nymphomyiidae	family	Diptera	FALSE	TRUE	TRUE	wichard2002biological			fully aquatic													
-FALSE	Ocalea	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-TRUE	Ochteridae	family	Hemiptera	FALSE	TRUE	TRUE	williams1992aquatic, wichard2002biological		listed in table of aquatic insects	fully aquatic													
-FALSE	Ochthephilum_fracticorne	species	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Ochthephilus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Ochthera	genus	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic											
-FALSE	Ocyusa_maura	species	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Odacantha	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Odontomyia	genus	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic											
-FALSE	Oedoparena	genus	Diptera	FALSE	FALSE	FALSE	merritt1996introduction, wichard2002biological			mostly terrestrial			parasitic on barnacles										
-FALSE	Oedostethus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Olophrum	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Omalium	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Oodes	genus	Coleoptera	FALSE	FALSE	FALSE	jach1998annotated				facultative water beetle												
-FALSE	Orthidus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-TRUE	Osmylidae	family	Neuroptera	FALSE	FALSE	FALSE	williams1992aquatic, wichard2002biological		listed in table of aquatic insects	overhanging water													
-FALSE	Oxycera	genus	Diptera	FALSE	FALSE	FALSE	JohannsenOAOskarAugustus1934Ad					phytophilous											
-FALSE	Paederus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Paracardiophorus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Paralimna	genus	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic											
-FALSE	Parocyusa	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Pelecorhynchidae	family	Diptera	FALSE	SOME	SOME	wichard2002biological			mostly aquatic													
-FALSE	Pelenomus	genus	Coleoptera	FALSE	FALSE	FALSE	jach1998annotated				phytophilous												
-FALSE	Perrisia	genus	Diptera	FALSE	FALSE	FALSE	JohannsenOAOskarAugustus1934Ad					phytophilous											
-TRUE	Philonthus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Phucobius_simulator	species	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Phycosecidae	family	Coleoptera	TRUE	FALSE	TRUE	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	Adults and larvae near aquatic habitats			riparian												
-FALSE	Phytosus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Planeustomus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Platyprosopus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Platypsyllinae	subfamily	Coleoptera	FALSE	FALSE	FALSE	jach1998annotated				parasitic												
-TRUE	Platystethus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-TRUE	Plecoptera	order	Plecoptera	FALSE	TRUE	TRUE	williams1992aquatic, wichard2002biological		in water	eggs laid in water													
-TRUE	Pleidae	family	Hemiptera	FALSE	TRUE	TRUE	williams1992aquatic, wichard2002biological		listed in table of aquatic insects	fully aquatic													
-FALSE	Protoplasa_fitchii	species	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic											
-TRUE	Psephenidae	family	Coleoptera	FALSE	TRUE	TRUE	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	false water beetles - larvae aquatic, egg laidion under water			false water beetles												
-FALSE	Pseudobium	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Psilopa	genus	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic											
-TRUE	Psychodidae	family	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic (gelatinous masses)											
-FALSE	Ptenidium	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Ptilodactylidae	family	Coleoptera	SOME	SOME	TRUE	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	almost all semiaquatic, riparian, and aquatic (except Ptilodactyla, not in the egg dataset)			some false water beetles												
-FALSE	Ptychopteridae	family	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic											
-FALSE	Quedius_boopoides	species	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Quedius_riparius	species	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Quedius_simplicifrons	species	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Rhabdophaga	genus	Diptera	FALSE	FALSE	FALSE	JohannsenOAOskarAugustus1934Ad					phytophilous											
-FALSE	Rhinoncus	genus	Coleoptera	FALSE	FALSE	FALSE	jach1998annotated				phytophilous												
-FALSE	Roederiodes	genus	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic											
-TRUE	Saldidae	family	Hemiptera	TRUE	FALSE	TRUE	stock1976biology, williams1992aquatic		listed in table of aquatic insects				riparian										
-FALSE	Salpingidae	family	Coleoptera	SOME	FALSE	SOME	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	most terrestrial, Aegialites intertidal, Antarctidomous intertidal (not in the egg dataset) 			some riparian												
-FALSE	Sarracenia	genus	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic (pitcher plants)											
-FALSE	Sartallus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Scaria_macfarlanei	species	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic (pitcher plants)											
-TRUE	Scatella	genus	Diptera	TRUE	FALSE	TRUE	JohannsenOAOskarAugustus1934Ad					near water											
-FALSE	Scatopse_atrata	species	Diptera	TRUE	FALSE	TRUE	JohannsenOAOskarAugustus1934Ad					near water											
-FALSE	Schistoglossa	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-TRUE	Sciomyzidae	family	Diptera	FALSE	FALSE	FALSE	merritt1996introduction, wichard2002biological, JohannsenOAOskarAugustus1934Ad			mostly terrestrial		phytophilous (tetanoceridae)	parasitic on snails										
-FALSE	Scirtidae	family	Coleoptera	TRUE	FALSE	TRUE	2010CBV2, 2014CbV3, 2016Cbm, williams1992aquatic, jach1998annotated	adults live on plants near water, larvae aquatic	listed in table of aquatic insects		false water beetles												
-FALSE	Scopaeus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Scopaeus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Scymbalium	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Sericomyinae	subfamily	Diptera	TRUE	FALSE	TRUE	JohannsenOAOskarAugustus1934Ad					riparian											
-FALSE	Setacera	genus	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic											
-TRUE	Simuliidae	family	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic											
-TRUE	Sisyridae	family	Neuroptera	FALSE	FALSE	FALSE	williams1992aquatic, wichard2002biological		listed in table of aquatic insects	overhanging water													
-FALSE	Spercheidae	family	Coleoptera	FALSE	TRUE	TRUE	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	adults and larvae aquatic, eggs in cases			true water beetles												
-TRUE	Sphaeriusidae	family	Coleoptera	SOME	FALSE	SOME	2010CBV2, 2014CbV3, 2016Cbm, williams1992aquatic, jach1998annotated	riparian, few terrestrial	listed in table of aquatic insects		riparian												
-TRUE	Sphaeroceridae	family	Diptera	TRUE	FALSE	TRUE	merritt1996introduction, williams1992aquatic		listed in table of aquatic insects				eggs laid on decaying seaweed on beaches										
-FALSE	Sphargeris	genus	Coleoptera	SOME	FALSE	SOME	jach1998annotated				riparian		some										
-TRUE	Sphyracephala_brevicornis	species	Diptera	TRUE	FALSE	TRUE	JohannsenOAOskarAugustus1934Ad					near water											
-FALSE	Spicipalpia	suborder	Trichoptera	FALSE	TRUE	TRUE	williams1992aquatic, wichard2002biological		listed in table of aquatic insects	eggs laid in water													
-FALSE	Stenopelmus	genus	Coleoptera	FALSE	FALSE	FALSE	jach1998annotated				phytophilous												
-TRUE	Stenus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Stratiomys	genus	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic											
-TRUE	Tabanus	genus	Diptera	FALSE	FALSE	FALSE	JohannsenOAOskarAugustus1934Ad					overhanging water											
-FALSE	Tachyporus_transversalis	species	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Tachys	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Tachyusa	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Tanyderidae	family	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic											
-FALSE	Tanysphyrus	genus	Coleoptera	FALSE	FALSE	FALSE	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	some semi-aquatic to aquatic			phytophilous												
-FALSE	Thalassotrechus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Thaumaleidae	family	Diptera	TRUE	FALSE	TRUE	JohannsenOAOskarAugustus1934Ad					near water											
-FALSE	Thecodiplosis	genus	Diptera	FALSE	FALSE	FALSE	JohannsenOAOskarAugustus1934Ad					phytophilous											
-TRUE	Themira	genus	Diptera	TRUE	FALSE	TRUE	mclaughlin1990aquatic, williams1992aquatic		listed in table of aquatic insects				near water										
-FALSE	Thinobius	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Thurania	genus	Diptera	FALSE	FALSE	FALSE	JohannsenOAOskarAugustus1934Ad					phytophilous											
-TRUE	Tipula	genus	Diptera	SOME	SOME	TRUE	coulson1962biology						eggs laid in soil										
-FALSE	Tomoglossa	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-FALSE	Torridincolidae	family	Coleoptera	TRUE	TRUE	TRUE	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	all phases of life aquatic			true water beetles												
-TRUE	Veliidae	family	Hemiptera	TRUE	FALSE	TRUE	ditrich2009effective, wichard2002biological			semiaquatic			near water, glued to floating debris or rocks										
-FALSE	Wilhelmina_nepenthicola	species	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic (pitcher plants)											
-FALSE	Zorochros	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian												
-TRUE	Zygoptera	suborder	Odonata	FALSE	FALSE	FALSE	wichard2002biological			eggs laid in aquatic plants													
+in_egg_database	name	rank	order	semiaquatic_riparian	in_water	combined	references	handbook_of_zoology_vol_1_3	williams1992aquatic	wichard2002biological	jach1998annotated	JohannsenOAOskarAugustus1934Ad	additional_notes
+FALSE	Achenium	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+TRUE	Acilius	genus	Coleoptera	TRUE	FALSE	TRUE	2010CBV2, 2014CbV3, 2016Cbm	eggs laid outside water
+FALSE	Actenicerus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Actidium	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Actinopteryx	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Actocharina_leptotyphloides	species	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Actocharis_readingii	species	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+TRUE	Acylophorus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Adrastus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Aepopsis	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Aepus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+TRUE	Aeshnidae	family	Odonata	FALSE	FALSE	FALSE	wichard2002biological			eggs laid in aquatic plants
+TRUE	Agabus	genus	Coleoptera	FALSE	TRUE	TRUE	jackson1958egg, 2010CBV2, 2014CbV3, 2016Cbm	few outside water					eggs laid underwater on leaves
+TRUE	Agonum	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+TRUE	Aleochara	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Alianta_incana	species	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Alianta_nigella	species	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Aloconota	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Amblopusa	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+TRUE	Amphizoidae	family	Coleoptera	FALSE	TRUE	TRUE	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	eggs laid under water			true water beetles
+TRUE	Annulipalpia	suborder	Trichoptera	FALSE	TRUE	TRUE	wichard2002biological			eggs laid in water
+FALSE	Anotylus_maritimus	species	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Anthicidae	family	Coleoptera	SOME	FALSE	SOME	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	only reported as terrestrial			some riparian
+FALSE	Aphaenops	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Aphanotrigonum_darlingtoniae	species	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic (pitcher plants)
+FALSE	Aphelocheiridae	family	Hemiptera	FALSE	TRUE	TRUE	wichard2002biological			fully aquatic
+TRUE	Aphodiinae	subfamily	Coleoptera	SOME	FALSE	SOME	jach1998annotated				riparian		some
+FALSE	Aphrosylus	genus	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic
+FALSE	Apimela	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Argyra	genus	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic
+FALSE	Arpedium_quadrum	species	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+TRUE	Atanygnathus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+TRUE	Atanygnathus_terminalis	species	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Athericidae	family	Diptera	SOME	FALSE	SOME	wichard2002biological			mostly terrestrial
+FALSE	Atherix	genus	Diptera	FALSE	FALSE	FALSE	JohannsenOAOskarAugustus1934Ad					overhanging water
+FALSE	Atheta	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Bagous	genus	Coleoptera	FALSE	FALSE	FALSE	jach1998annotated				phytophilous
+TRUE	Belostomatidae	family	Hemiptera	FALSE	TRUE	TRUE	williams1992aquatic, wichard2002biological		listed in table of aquatic insects	fully aquatic
+TRUE	Bembidion	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Beris	genus	Diptera	FALSE	FALSE	FALSE	JohannsenOAOskarAugustus1934Ad					aquatic
+FALSE	Betarmon	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+TRUE	Bledius	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Blepharhymenus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+TRUE	Blephariceridae	family	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic
+FALSE	Blethisa	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Bolitobius_formosus	species	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Brachydeutera	genus	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic
+FALSE	Brachyusa_concolor	species	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Brundinia	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Bryothinusa	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Cafius	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Calodera	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Canacidae	family	Diptera	FALSE	TRUE	TRUE	wichard2002biological			fully aquatic
+FALSE	Carabus_clathratus	species	Coleoptera	FALSE	FALSE	FALSE	jach1998annotated				facultative water beetle
+FALSE	Carabus_menetriesi	species	Coleoptera	FALSE	FALSE	FALSE	jach1998annotated				facultative water beetle
+FALSE	Carpelimus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Cephalochetus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Ceratopogonidae	family	Diptera	SOME	FALSE	SOME	1976Mi, wichard2002biological			mostly aquatic			breed in sandy muddy areas
+FALSE	Chalcosyrphus	subfamily	Diptera	TRUE	FALSE	TRUE	JohannsenOAOskarAugustus1934Ad					riparian
+TRUE	Chaoboridae	family	Diptera	FALSE	TRUE	TRUE	wichard2002biological			fully aquatic
+FALSE	Chilosinae	subfamily	Diptera	TRUE	FALSE	TRUE	JohannsenOAOskarAugustus1934Ad					riparian
+TRUE	Chironomidae	family	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic
+TRUE	Chrysomelinae	subfamily	Coleoptera	FALSE	FALSE	FALSE	jach1998annotated				phytophilous		some
+TRUE	Chrysops	genus	Diptera	FALSE	FALSE	FALSE	JohannsenOAOskarAugustus1934Ad					overhanging water
+FALSE	Cicindela_anchoralis	species	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Clinocera	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Clivina	genus	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic
+FALSE	Coelopidae	family	Diptera	TRUE	FALSE	TRUE	mccafferty1983aquatic, williams1992aquatic		listed in table of aquatic insects				riparian
+TRUE	Cordulegastridae	family	Odonata	TRUE	FALSE	TRUE	williams1992aquatic, wichard2002biological		listed in table of aquatic insects	eggs laid in stream soil
+TRUE	Corduliidae	family	Odonata	SOME	SOME	TRUE	wichard2002biological			eggs laid in or near water
+TRUE	Corixidae	family	Hemiptera	FALSE	TRUE	TRUE	williams1992aquatic, wichard2002biological		listed in table of aquatic insects	fully aquatic
+TRUE	Culicidae	family	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic (gelatinous masses)
+FALSE	Dacrila_fallax	species	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Deinopsis_erosa	species	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Deleaster	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Deubelia_picina	species	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Deuterophlebiidae	family	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic
+FALSE	Dianous	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Diaulota	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Dicranthus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				phytophilous
+FALSE	Diglotta	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Dixidae	family	Diptera	FALSE	TRUE	TRUE	wichard2002biological			fully aquatic
+FALSE	Dochmonota_clancula	species	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Donaciinae	subfamily	Coleoptera	FALSE	FALSE	FALSE	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	associated with aquatic plants			phytophilous
+FALSE	Drasterius	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Dryopidae	family	Coleoptera	FALSE	FALSE	FALSE	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	few aquatic (not in our dataset), riparian, most terrestrial			true water beetles (larvae not aquatic)
+TRUE	Dynastinae	subfamily	Coleoptera	FALSE	FALSE	FALSE	jach1998annotated				facultative water beetle
+FALSE	Dysanabatium	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Dyschirius	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+TRUE	Dytiscidae	family	Coleoptera	FALSE	TRUE	TRUE	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	eggs aquatic (with few exceptions), endophytic eggs laid in Laccophilinae, Ilybius, Hydrovatus, Dytiscinae, few sepecies with eggs outside of water (Acillus and a few Agabus).			true water beetles (few terrestrial)
+TRUE	Dytiscinae	tribe	Coleoptera	FALSE	FALSE	FALSE	2010CBV2, 2014CbV3, 2016Cbm	eggs laid in water plants
+TRUE	Elaphrus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+TRUE	Elmidae	family	Coleoptera	FALSE	TRUE	TRUE	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	eggs laid in water on wood or stones			true water beetles
+FALSE	Enallagium	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Epantius	genus	Coleoptera	SOME	FALSE	SOME	jach1998annotated				riparian		some
+TRUE	Ephemeroptera	order	Ephemeroptera	FALSE	TRUE	TRUE	csiro1991insects						in water
+TRUE	Ephydra	genus	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic
+FALSE	Epimetopidae	family	Coleoptera	SOME	SOME	SOME	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	adults carry egg cases terrestrially, riparian			true water beetles
+TRUE	Erichsonius	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Erirhinus	genus	Coleoptera	FALSE	FALSE	FALSE	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	eggs laid in stems of aquatic plants			phytophilous
+TRUE	Eristalinae	subfamily	Diptera	TRUE	FALSE	TRUE	JohannsenOAOskarAugustus1934Ad					riparian
+FALSE	Euadmontia_pergandei	species	Diptera	FALSE	FALSE	FALSE	JohannsenOAOskarAugustus1934Ad					parasitic
+FALSE	Euaesthetus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Eubrychius	genus	Coleoptera	FALSE	FALSE	FALSE	jach1998annotated				phytophilous
+FALSE	Eulichadidae	family	Coleoptera	FALSE	TRUE	TRUE	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	larvae are aquatic			false water beetles
+FALSE	Euparyphus	genus	Diptera	FALSE	FALSE	FALSE	JohannsenOAOskarAugustus1934Ad					overhanging water
+TRUE	Gabrius	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Gabronthus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+TRUE	Galerucinae	subfamily	Coleoptera	FALSE	FALSE	FALSE	jach1998annotated				phytophilous		some
+FALSE	Gauropterus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Gelastocoridae	family	Hemiptera	FALSE	TRUE	TRUE	williams1992aquatic, wichard2002biological		listed in table of aquatic insects	fully aquatic
+FALSE	Geodromicus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+TRUE	Georissidae	family	Coleoptera	TRUE	FALSE	TRUE	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	riparian, egg laid in cases			riparian
+TRUE	Gerridae	family	Hemiptera	FALSE	TRUE	TRUE	choe1997evolution, williams1992aquatic, wichard2002biological		listed in table of aquatic insects	semiaquatic			eggs glued to underside of floating objects
+FALSE	Ginglymia_acrirostris	species	Diptera	FALSE	FALSE	FALSE	JohannsenOAOskarAugustus1934Ad					parasitic
+FALSE	Gnoriste_apicalis	species	Diptera	TRUE	FALSE	TRUE	JohannsenOAOskarAugustus1934Ad					near water
+FALSE	Gnypeta	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+TRUE	Gomphidae	family	Odonata	SOME	SOME	TRUE	wichard2002biological			eggs laid in or near water
+FALSE	Grypus	genus	Coleoptera	FALSE	FALSE	FALSE	jach1998annotated				phytophilous
+TRUE	Gyrinidae	family	Coleoptera	FALSE	TRUE	TRUE	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	eggs laid on submerged objects			true water beetles
+FALSE	Hadropinus_fossor	species	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Haematopota	genus	Diptera	FALSE	FALSE	FALSE	JohannsenOAOskarAugustus1934Ad					overhanging water
+FALSE	Haliplidae	family	Coleoptera	FALSE	TRUE	TRUE	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	some eggs laid in aquatic plants, others on stems			true water beetles
+FALSE	Halmopota	genus	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic
+FALSE	Halobrecta	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+TRUE	Hebridae	family	Hemiptera	FALSE	FALSE	FALSE	choe1997evolution, williams1992aquatic, wichard2002biological		listed in table of aquatic insects	semiaquatic			eggs inserted into plants (Hebrus, in our dataset)
+FALSE	Helophoridae	family	Coleoptera	FALSE	SOME	SOME	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	floating egg cases			true water beetles (few terrestrial)
+TRUE	Helotrephidae	family	Hemiptera	FALSE	TRUE	TRUE	choe1997evolution, williams1992aquatic		listed in table of aquatic insects				eggs glued to submerged plants
+FALSE	Hemerodromia	genus	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic
+TRUE	Heteroceridae	family	Coleoptera	TRUE	FALSE	TRUE	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	adults and eggs in wet tunnels near water			riparian
+FALSE	Holorusia	genus	Diptera	FALSE	TRUE	TRUE	young2004insecta						aquatic
+FALSE	Hydraenidae	family	Coleoptera	FALSE	SOME	SOME	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	most aquatic, eggs laid in water, some terrestrial (Edaphaobates, Meropathus, Ochtheosus)			true water beetles (larvae not aquatic)
+TRUE	Hydrellia	genus	Diptera	FALSE	FALSE	FALSE	JohannsenOAOskarAugustus1934Ad					phytophilous
+FALSE	Hydrochidae	family	Coleoptera	FALSE	TRUE	TRUE	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	adults and larvae aquatic, eggs in cases			true water beetles
+TRUE	Hydrometridae	family	Hemiptera	FALSE	FALSE	FALSE	choe1997evolution, williams1992aquatic, wichard2002biological		listed in table of aquatic insects	semiaquatic			egg laid on elevated stalks of aquatic plants
+FALSE	Hydromyza	genus	Diptera	FALSE	FALSE	FALSE	JohannsenOAOskarAugustus1934Ad					phytophilous
+TRUE	Hydrophilidae	family	Coleoptera	FALSE	TRUE	TRUE	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	semiaquatic and riparian, few terrestrial (only in Sphaeridiinae), egg laid in cases			true water beetles
+FALSE	Hydrophorus	genus	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic
+TRUE	Hydroscaphidae	family	Coleoptera	FALSE	TRUE	TRUE	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	adults and larvae aquatic			true water beetles
+FALSE	Hydrosmecta	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Hydrovatus	genus	Coleoptera	FALSE	FALSE	FALSE	2010CBV2, 2014CbV3, 2016Cbm	eggs laid in water plants
+FALSE	Hygrobiidae	family	Coleoptera	FALSE	TRUE	TRUE	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	fully aquatic larvae and adults, eggs laid on surface of submerged plants			true water beetles
+FALSE	Hygrogeus_aemulus	species	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Hygronoma_dimidiata	species	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Hygropetrophila_grandis	species	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Hypnoidus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Hypocaccus	genus	Coleoptera	SOME	FALSE	SOME	jach1998annotated				riparian		some
+FALSE	Hyrdophorus	genus	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic
+FALSE	Icaris	genus	Coleoptera	FALSE	FALSE	FALSE	jach1998annotated				phytophilous
+TRUE	Ilybius	genus	Coleoptera	FALSE	FALSE	FALSE	2010CBV2, 2014CbV3, 2016Cbm	eggs laid in water plants
+TRUE	Integripalpia	suborder	Trichoptera	FALSE	FALSE	FALSE	wichard2002biological			overhanging water
+FALSE	Ischnopoda	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Itonida	genus	Diptera	FALSE	FALSE	FALSE	JohannsenOAOskarAugustus1934Ad					phytophilous
+FALSE	Laccophilinae	subfamily	Coleoptera	FALSE	FALSE	FALSE	2010CBV2, 2014CbV3, 2016Cbm	eggs laid in water plants
+FALSE	Lasioptera	genus	Diptera	FALSE	FALSE	FALSE	JohannsenOAOskarAugustus1934Ad					phytophilous
+FALSE	Lathrobium	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Lebiomorpha_miliaris	species	Coleoptera	FALSE	FALSE	FALSE	jach1998annotated				facultative water beetle
+FALSE	Lemnaphila	genus	Diptera	FALSE	FALSE	FALSE	JohannsenOAOskarAugustus1934Ad					phytophilous
+TRUE	Lepiceridae	family	Coleoptera	TRUE	FALSE	TRUE	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	Adults and larvae near aquatic habitats			true water beetles
+FALSE	Leptobium	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Leptotarsus	genus	Diptera	SOME	SOME	TRUE	young2004insecta						aquatic or semiaquatic
+FALSE	Lesteva	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+TRUE	Libellulidae	family	Odonata	SOME	SOME	TRUE	wichard2002biological			eggs laid in or near water
+FALSE	Limnichidae	family	Coleoptera	SOME	FALSE	SOME	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	most riparian, some fully terrestrial (Platypelochares, Tricholimnichus, Limnichomorphus, Paralimnichus)			riparian (some terrestrial)
+FALSE	Limnophora	genus	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic
+FALSE	Liparocephalus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Liparocephalus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Lispe	genus	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic
+FALSE	Lissorhoptrus	genus	Coleoptera	FALSE	FALSE	FALSE	jach1998annotated				phytophilous
+FALSE	Liusus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+TRUE	Loricera	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+TRUE	Luciola_cruciata	species	Coleoptera	FALSE	TRUE	TRUE	jach1998annotated				false water beetles
+TRUE	Luciola_ficta	species	Coleoptera	FALSE	TRUE	TRUE	jach1998annotated				false water beetles
+TRUE	Lutrochidae	family	Coleoptera	FALSE	TRUE	TRUE	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	adults and larvae aquatic			true water beetles
+TRUE	Macroveliidae	family	Hemiptera	FALSE	FALSE	FALSE	Cobben1968, williams1992aquatic, wichard2002biological		listed in table of aquatic insects	semiaquatic			land habitats (Oravelia present in dataset)
+FALSE	Manda_mandibularis	species	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+TRUE	Megaloptera	order	Megaloptera	FALSE	FALSE	FALSE	williams1992aquatic, wichard2002biological		listed in table of aquatic insects	overhanging water
+TRUE	Megaselia	genus	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic
+FALSE	Megistocera	genus	Diptera	FALSE	TRUE	TRUE	young2004insecta						aquatic
+FALSE	Melanochelia	genus	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic
+TRUE	Melyridae	family	Coleoptera	FALSE	FALSE	FALSE	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	all terrestrial except Endeodes (not in the egg dataset) intertidal			some riparian
+FALSE	Meruidae	family	Coleoptera	FALSE	TRUE	TRUE	2010CBV2, 2014CbV3, 2016Cbm	adults found in flowing water, semiaqautic
+TRUE	Mesoveliidae	family	Hemiptera	FALSE	FALSE	FALSE	choe1997evolution, williams1992aquatic, wichard2002biological		listed in table of aquatic insects	semiaquatic			eggs inserted into stems
+FALSE	Micralymma	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Monotomidae	family	Coleoptera	FALSE	FALSE	FALSE	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	not aquatic			some adult facultative
+FALSE	Mydaeina	genus	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic
+FALSE	Myrmecopora	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Nanophyes	genus	Coleoptera	FALSE	FALSE	FALSE	jach1998annotated				phytophilous
+TRUE	Naucoridae	family	Hemiptera	FALSE	TRUE	TRUE	sites1993voltinism, williams1992aquatic		listed in table of aquatic insects				fully aquatic
+TRUE	Nebria	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Negastrius	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Nemotelus	genus	Diptera	TRUE	FALSE	TRUE	JohannsenOAOskarAugustus1934Ad					riparian
+TRUE	Neobisnius	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+TRUE	Neolasioptera	genus	Diptera	FALSE	FALSE	FALSE	JohannsenOAOskarAugustus1934Ad					phytophilous
+FALSE	Neopachylopus	genus	Coleoptera	SOME	FALSE	SOME	jach1998annotated				riparian		some
+FALSE	Neophytobius	genus	Coleoptera	FALSE	FALSE	FALSE	jach1998annotated				phytophilous
+TRUE	Nepidae	family	Hemiptera	FALSE	FALSE	FALSE	williams1992aquatic, wichard2002biological		listed in table of aquatic insects	eggs laid in aquatic plants
+FALSE	Notaris	genus	Coleoptera	FALSE	FALSE	FALSE	jach1998annotated				phytophilous
+FALSE	Noteridae	family	Coleoptera	FALSE	FALSE	FALSE	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	larvae and adults aquatic, eggs laid in cells of aquatic plants			true water beetles
+FALSE	Nothomyia	genus	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic
+TRUE	Notonectidae	family	Hemiptera	FALSE	TRUE	TRUE	williams1992aquatic, wichard2002biological		listed in table of aquatic insects	fully aquatic
+FALSE	Nymphomyiidae	family	Diptera	FALSE	TRUE	TRUE	wichard2002biological			fully aquatic
+FALSE	Ocalea	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+TRUE	Ochteridae	family	Hemiptera	FALSE	TRUE	TRUE	williams1992aquatic, wichard2002biological		listed in table of aquatic insects	fully aquatic
+FALSE	Ochthephilum_fracticorne	species	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Ochthephilus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Ochthera	genus	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic
+FALSE	Ocyusa_maura	species	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Odacantha	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Odontomyia	genus	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic
+FALSE	Oedoparena	genus	Diptera	FALSE	FALSE	FALSE	merritt1996introduction, wichard2002biological			mostly terrestrial			parasitic on barnacles
+FALSE	Oedostethus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Olophrum	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Omalium	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Oodes	genus	Coleoptera	FALSE	FALSE	FALSE	jach1998annotated				facultative water beetle
+FALSE	Orthidus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+TRUE	Osmylidae	family	Neuroptera	FALSE	FALSE	FALSE	williams1992aquatic, wichard2002biological		listed in table of aquatic insects	overhanging water
+FALSE	Oxycera	genus	Diptera	FALSE	FALSE	FALSE	JohannsenOAOskarAugustus1934Ad					phytophilous
+FALSE	Paederus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Paracardiophorus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Paralimna	genus	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic
+FALSE	Parocyusa	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Pelecorhynchidae	family	Diptera	FALSE	SOME	SOME	wichard2002biological			mostly aquatic
+FALSE	Pelenomus	genus	Coleoptera	FALSE	FALSE	FALSE	jach1998annotated				phytophilous
+FALSE	Perrisia	genus	Diptera	FALSE	FALSE	FALSE	JohannsenOAOskarAugustus1934Ad					phytophilous
+TRUE	Philonthus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Phucobius_simulator	species	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Phycosecidae	family	Coleoptera	TRUE	FALSE	TRUE	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	Adults and larvae near aquatic habitats			riparian
+FALSE	Phytosus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Planeustomus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Platyprosopus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Platypsyllinae	subfamily	Coleoptera	FALSE	FALSE	FALSE	jach1998annotated				parasitic
+TRUE	Platystethus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+TRUE	Plecoptera	order	Plecoptera	FALSE	TRUE	TRUE	williams1992aquatic, wichard2002biological		in water	eggs laid in water
+TRUE	Pleidae	family	Hemiptera	FALSE	TRUE	TRUE	williams1992aquatic, wichard2002biological		listed in table of aquatic insects	fully aquatic
+FALSE	Protoplasa_fitchii	species	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic
+TRUE	Psephenidae	family	Coleoptera	FALSE	TRUE	TRUE	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	false water beetles - larvae aquatic, egg laidion under water			false water beetles
+FALSE	Pseudobium	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Psilopa	genus	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic
+TRUE	Psychodidae	family	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic (gelatinous masses)
+FALSE	Ptenidium	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Ptilodactylidae	family	Coleoptera	SOME	SOME	TRUE	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	almost all semiaquatic, riparian, and aquatic (except Ptilodactyla, not in the egg dataset)			some false water beetles
+FALSE	Ptychopteridae	family	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic
+FALSE	Quedius_boopoides	species	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Quedius_riparius	species	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Quedius_simplicifrons	species	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Rhabdophaga	genus	Diptera	FALSE	FALSE	FALSE	JohannsenOAOskarAugustus1934Ad					phytophilous
+FALSE	Rhinoncus	genus	Coleoptera	FALSE	FALSE	FALSE	jach1998annotated				phytophilous
+FALSE	Roederiodes	genus	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic
+TRUE	Saldidae	family	Hemiptera	TRUE	FALSE	TRUE	stock1976biology, williams1992aquatic		listed in table of aquatic insects				riparian
+FALSE	Salpingidae	family	Coleoptera	SOME	FALSE	SOME	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	most terrestrial, Aegialites intertidal, Antarctidomous intertidal (not in the egg dataset) 			some riparian
+FALSE	Sarracenia	genus	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic (pitcher plants)
+FALSE	Sartallus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Scaria_macfarlanei	species	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic (pitcher plants)
+TRUE	Scatella	genus	Diptera	TRUE	FALSE	TRUE	JohannsenOAOskarAugustus1934Ad					near water
+FALSE	Scatopse_atrata	species	Diptera	TRUE	FALSE	TRUE	JohannsenOAOskarAugustus1934Ad					near water
+FALSE	Schistoglossa	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+TRUE	Sciomyzidae	family	Diptera	FALSE	FALSE	FALSE	merritt1996introduction, wichard2002biological, JohannsenOAOskarAugustus1934Ad			mostly terrestrial		phytophilous (tetanoceridae)	parasitic on snails
+FALSE	Scirtidae	family	Coleoptera	TRUE	FALSE	TRUE	2010CBV2, 2014CbV3, 2016Cbm, williams1992aquatic, jach1998annotated	adults live on plants near water, larvae aquatic	listed in table of aquatic insects		false water beetles
+FALSE	Scopaeus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Scopaeus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Scymbalium	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Sericomyinae	subfamily	Diptera	TRUE	FALSE	TRUE	JohannsenOAOskarAugustus1934Ad					riparian
+FALSE	Setacera	genus	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic
+TRUE	Simuliidae	family	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic
+TRUE	Sisyridae	family	Neuroptera	FALSE	FALSE	FALSE	williams1992aquatic, wichard2002biological		listed in table of aquatic insects	overhanging water
+FALSE	Spercheidae	family	Coleoptera	FALSE	TRUE	TRUE	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	adults and larvae aquatic, eggs in cases			true water beetles
+TRUE	Sphaeriusidae	family	Coleoptera	SOME	FALSE	SOME	2010CBV2, 2014CbV3, 2016Cbm, williams1992aquatic, jach1998annotated	riparian, few terrestrial	listed in table of aquatic insects		riparian
+TRUE	Sphaeroceridae	family	Diptera	TRUE	FALSE	TRUE	merritt1996introduction, williams1992aquatic		listed in table of aquatic insects				eggs laid on decaying seaweed on beaches
+FALSE	Sphargeris	genus	Coleoptera	SOME	FALSE	SOME	jach1998annotated				riparian		some
+TRUE	Sphyracephala_brevicornis	species	Diptera	TRUE	FALSE	TRUE	JohannsenOAOskarAugustus1934Ad					near water
+FALSE	Spicipalpia	suborder	Trichoptera	FALSE	TRUE	TRUE	williams1992aquatic, wichard2002biological		listed in table of aquatic insects	eggs laid in water
+FALSE	Stenopelmus	genus	Coleoptera	FALSE	FALSE	FALSE	jach1998annotated				phytophilous
+TRUE	Stenus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Stratiomys	genus	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic
+TRUE	Tabanus	genus	Diptera	FALSE	FALSE	FALSE	JohannsenOAOskarAugustus1934Ad					overhanging water
+FALSE	Tachyporus_transversalis	species	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Tachys	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Tachyusa	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Tanyderidae	family	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic
+FALSE	Tanysphyrus	genus	Coleoptera	FALSE	FALSE	FALSE	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	some semi-aquatic to aquatic			phytophilous
+FALSE	Thalassotrechus	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Thaumaleidae	family	Diptera	TRUE	FALSE	TRUE	JohannsenOAOskarAugustus1934Ad					near water
+FALSE	Thecodiplosis	genus	Diptera	FALSE	FALSE	FALSE	JohannsenOAOskarAugustus1934Ad					phytophilous
+TRUE	Themira	genus	Diptera	TRUE	FALSE	TRUE	mclaughlin1990aquatic, williams1992aquatic		listed in table of aquatic insects				near water
+FALSE	Thinobius	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Thurania	genus	Diptera	FALSE	FALSE	FALSE	JohannsenOAOskarAugustus1934Ad					phytophilous
+TRUE	Tipula	genus	Diptera	SOME	SOME	TRUE	coulson1962biology						eggs laid in soil
+FALSE	Tomoglossa	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+FALSE	Torridincolidae	family	Coleoptera	TRUE	TRUE	TRUE	2010CBV2, 2014CbV3, 2016Cbm, jach1998annotated	all phases of life aquatic			true water beetles
+TRUE	Veliidae	family	Hemiptera	TRUE	FALSE	TRUE	ditrich2009effective, wichard2002biological			semiaquatic			near water, glued to floating debris or rocks
+FALSE	Wilhelmina_nepenthicola	species	Diptera	FALSE	TRUE	TRUE	JohannsenOAOskarAugustus1934Ad					aquatic (pitcher plants)
+FALSE	Zorochros	genus	Coleoptera	TRUE	FALSE	TRUE	jach1998annotated				riparian
+TRUE	Zygoptera	suborder	Odonata	FALSE	FALSE	FALSE	wichard2002biological			eggs laid in aquatic plants

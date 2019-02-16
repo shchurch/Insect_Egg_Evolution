@@ -3,7 +3,6 @@
 ### This code analyzes the results of the image parsing sensitivity test
 
 library(RColorBrewer)
-library(plyr)
 library(dplyr)
 library(ggplot2)
 library(gridExtra)

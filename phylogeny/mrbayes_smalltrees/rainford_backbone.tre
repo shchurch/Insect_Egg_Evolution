@@ -1,0 +1,43 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=31;
+    TAXLABELS
+        Archaeognatha
+        Mantophasmatodea
+        Zoraptera
+        Mantodea
+        Strepsiptera
+        Diplura
+        Protura
+        Collembola
+        Zygentoma
+        Ephemeroptera
+        Odonata
+        Dermaptera
+        Plecoptera
+        Orthoptera
+        Grylloblattodea
+        Embioptera
+        Phasmatodea
+        Dictyoptera
+        Psocodea
+        Thysanoptera
+        Hemiptera
+        Hymenoptera
+        Raphidioptera
+        Megaloptera
+        Neuroptera
+        Coleoptera
+        Mecoptera
+        Siphonaptera
+        Diptera
+        Trichoptera
+        Lepidoptera
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Dated_Tree' = [&R] [&source=rainford](((Diplura:162.0594,Protura:99.22633):23.05306,Collembola:166.37129):14.10081,(Archaeognatha:462.3179,(Zygentoma:449.197,((Ephemeroptera:104.5202,Odonata:130.1521):68.34376,(((Dermaptera:111.5524,Plecoptera:105.4807):44.57514,(Orthoptera:78.47073,(((Grylloblattodea:220.4914,Mantophasmatodea:220.4914):86.67753,(Embioptera:259.64829,Phasmatodea:38.14296):47.52058):55.64524,(Zoraptera:340.5617,(Dictyoptera:76.47878,Mantodea:307.23498):33.32666):22.25249):24.53302):13.88326):29.61081,((Psocodea:15.18069,(Thysanoptera:117.9729,Hemiptera:38.44779):11.99119):10.19092,(Hymenoptera:138.194516,(((Raphidioptera:300.3542,(Megaloptera:91.98956,Neuroptera:30.18121):15.52195):33.81282,(Strepsiptera:309.3164,Coleoptera:2.130319):24.85062):27.47581,(((Mecoptera:100.7868,Siphonaptera:92.62759):56.04382,Diptera:21.715296):4.03331,(Trichoptera:26.11797,Lepidoptera:33.30882):18.43866):40.79222):28.04764):37.10277):4.047947):10.76307):7.59272):13.12091):15.77048);
+END;
+

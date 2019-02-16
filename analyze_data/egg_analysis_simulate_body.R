@@ -15,10 +15,11 @@ library(phytools)
 
 ### Simulate data with Phylolm
 
-# Set the slope of regression between length and width for simulation
-slope <- 1.0
-#slope <- 0.66
-#slope <- 0
+# The slope of regression between length and width for simulation is set by an argument
+args = commandArgs(trailingOnly=TRUE)
+slope <- as.numeric(args[1])
+
+# Use the family level tree
 tree <- fam_tree
 
 # Fit an evolutionary model to the data
@@ -65,7 +66,7 @@ run_body_allometry_pgls <- function(tree){
 
 	# Run a PGLS on simulated body size vs egg size
 	bodyvol_vol <- egg_database_family_body_sim %>% select(family,simlogbodyvol,simlogvol,group) %>% rename(rank = family, trait1 = simlogbodyvol, trait2= simlogvol)
-	allometry_pgls_bodyvol_vol <- run_all_taxa_and_by_group_pgls(bodyvol_vol,tree,"sim_bodyvol_vol")
+	allometry_pgls_bodyvol_vol <- run_all_taxa_and_by_group_pgls(bodyvol_vol,tree,"sim_bodyvol_vol",group_list)
 
 	return(list(allometry_pgls_bodyvol_vol))
 }

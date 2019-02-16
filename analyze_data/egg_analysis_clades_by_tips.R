@@ -48,7 +48,7 @@ sets_tips <- sets_node_tips %>% filter(value %in% tips) %>%
 	mutate(tip = genus_mcc_tree$tip.label[value]) %>% 
 	arrange(match(tip,genus_mcc_tree$tip.label[genus_mcc_tree$edge[which(genus_mcc_tree$edge[,2] %in% tips),2]]))
 # add sets to egg database
-egg_database$set <- factor(mapvalues(egg_database$genus,sets_tips$tip,sets_tips$L1,warn_missing=F),levels=unique(sets_tips$L1))
+egg_database$set <- factor(plyr::mapvalues(egg_database$genus,sets_tips$tip,sets_tips$L1,warn_missing=F),levels=unique(sets_tips$L1))
 
 # determine the groups for subgroup analyses
 group_list <- egg_database %>% select(genus,logX1,logX2,set) %>% na.omit() %>% filter(!(is.na(set))) %>% distinct(set,genus) %>% group_by(set) %>% summarise(n = n()) %>% filter(n > minimum_threshold) %>% pull(set)
@@ -57,7 +57,7 @@ group_list <- egg_database %>% select(genus,logX1,logX2,set) %>% na.omit() %>% f
 run_all_allometry_pgls <- function(tree){
 	### PGLS length vs width
 	length_width <- egg_database %>% select(genus,logX1,logX2,set) %>% rename(rank = genus, trait1 = logX1, trait2= logX2, group = set)
-	allometry_pgls_length_width <- run_all_taxa_and_by_group_pgls(length_width,tree,"length_width")
+	allometry_pgls_length_width <- run_all_taxa_and_by_group_pgls(length_width,tree,"length_width",group_list)
 
 	return(list(allometry_pgls_length_width))
 }
@@ -104,7 +104,7 @@ slope_dist_l_w <- lapply(seq(length(group_list)),get_slope_distribution,pgls=1)
 sets_groups <- egg_database %>% filter(set %in% group_list) %>% distinct(set,group)
 names(slope_dist_l_w) <- group_list
 slope_dist_l_w <- reshape::melt(slope_dist_l_w)
-slope_dist_l_w$group <- mapvalues(slope_dist_l_w$L1,sets_groups$set,sets_groups$group)
+slope_dist_l_w$group <- plyr::mapvalues(slope_dist_l_w$L1,sets_groups$set,sets_groups$group)
 
 slope_l_w_plot <- ggplot(slope_dist_l_w,aes(x = rev(L1), y = value, color = group, fill = group)) + 
 	geom_abline(intercept=1.0,slope=0,linetype=2) + 
@@ -121,8 +121,8 @@ dev.off()
 ### Create a phylogeny with a single representative per set
 single_tips <- egg_database %>% filter(genus %in% genus_mcc_tree$tip.label) %>% filter(set %in% group_list) %>% group_by(set) %>% slice(1L) %>% pull(genus)
 reduced_tree <- drop.tip(genus_mcc_tree,setdiff(genus_mcc_tree$tip.label,single_tips))
-reduced_tips <- mapvalues(reduced_tree$tip.label,sets_tips$tip,sets_tips$L1,warn_missing=F)
-reduced_tree$tip.label <- paste(reduced_tips,mapvalues(reduced_tree$tip.label,egg_database$genus,egg_database$order,warn_missing=F),sep="_")
+reduced_tips <- plyr::mapvalues(reduced_tree$tip.label,sets_tips$tip,sets_tips$L1,warn_missing=F)
+reduced_tree$tip.label <- paste(reduced_tips,plyr::mapvalues(reduced_tree$tip.label,egg_database$genus,egg_database$order,warn_missing=F),sep="_")
 
 pdf(file="set_phylogeny.pdf")
 plot(reduced_tree)
@@ -142,4 +142,7 @@ names(sets_genus_names) <- group_list
 sink(file="sets_genus_names.txt")
 print(sets_genus_names)
 sink()
+
+save.image(file="egg_analysis_clades_by_tips_workspace.RData")
+
 

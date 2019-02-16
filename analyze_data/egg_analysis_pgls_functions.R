@@ -10,10 +10,13 @@ pgls.trees <- function(data,tree,form){
   pruned <- drop.tip(tree,setdiff(tree$tip.label,rownames(data)))
   # The dataset is trimmed to include only those in the tree
   red_dat <- data[!rownames(data) %in% setdiff(rownames(data),pruned$tip.label),]
-  # build a corBlomberg (ACDC / EB model) correlation structure
-  #lm_str <- corBlomberg(value=1.3,phy=pruned,fixed=T)
-  # build a Brownian Motion correlation struction
-  lm_str <- corBrownian(phy=pruned)
+  if(exists("blom_flag")) {
+    # build a corBlomberg (ACDC / EB model) correlation structure  
+    lm_str <- corBlomberg(value=1.3,phy=pruned,fixed=T)
+  } else {
+    # build a Brownian Motion correlation struction
+    lm_str <- corBrownian(phy=pruned)
+  }
   # run regression with model
   outskis <- gls(as.formula(form),correlation = lm_str,data = red_dat,method="ML")
   #outskis <- lm(form,dat)
@@ -80,7 +83,7 @@ build_resid_pgls <- function(data,tree) {
 
 ### This function sets up and runs a pgls on all taxa and across predetermined groups
 ### It expects a dataframe with rank, trait1, and trait2
-run_all_taxa_and_by_group_pgls <- function(data,tree,name){
+run_all_taxa_and_by_group_pgls <- function(data,tree,name,group_list){
   # Build the pgls dataset across all taxa
   all_dat <- build_pgls(data,tree)
   # Run pgls across all taxa
@@ -95,14 +98,14 @@ run_all_taxa_and_by_group_pgls <- function(data,tree,name){
   by_group_pgls_out <- lapply(by_group_dat,pgls.trees,tree = tree,form = "trait2 ~ trait1")
 
   # Add group names to results
-  all_dat$group <- mapvalues(all_dat$rank,data$rank,data$group,warn_missing=F)
+  all_dat$group <- plyr::mapvalues(all_dat$rank,data$rank,data$group,warn_missing=F)
 
   return(list(all_pgls_out,by_group_pgls_out))
 }
 
-### This function sets up and runs a residual pgls on all taxa and across 7 groups
+### This function sets up and runs a residual pgls on all taxa and across predetermined groups
 ### It expects a dataframe with rank, trait1, and trait2
-run_all_taxa_and_by_group_resid_pgls <- function(data,tree,name){
+run_all_taxa_and_by_group_resid_pgls <- function(data,tree,name,group_list){
   # Build the pgls residual dataset across all taxa
   all_dat <- build_resid_pgls(data,tree)
   # Runt the pgls residual across all taxa
@@ -117,7 +120,7 @@ run_all_taxa_and_by_group_resid_pgls <- function(data,tree,name){
   by_group_pgls_out <- lapply(by_group_dat,pgls.trees,tree = tree,form = "trait2 ~ trait1")
 
   # Add group names to results
-  all_dat$group <- mapvalues(all_dat$rank,data$rank,data$group,warn_missing=F)
+  all_dat$group <- plyr::mapvalues(all_dat$rank,data$rank,data$group,warn_missing=F)
 
   return(list(all_pgls_out,by_group_pgls_out))
 }
@@ -162,11 +165,11 @@ run_plotting_pgls <- function(data,tree,name){
   by_group_pgls_out <- lapply(by_group_dat,pgls.trees,tree = tree,form = "trait2 ~ trait1")
 
   # Add group names to results
-  all_dat$group <- mapvalues(all_dat$rank,data$rank,data$group,warn_missing=F)
+  all_dat$group <- plyr::mapvalues(all_dat$rank,data$rank,data$group,warn_missing=F)
 
   # Plot results
   pdf(paste(name,".pdf",sep=""),width=6,height=6,useDingbats=F)
-    g1 <- ggplot(all_dat,aes(x = trait1, y = trait2, color = group)) + geom_point() + scale_color_manual(values = mrk) + theme(legend.position = "none") + coord_fixed()
+    g1 <- ggplot(all_dat,aes(x = trait1, y = trait2, color = group)) + geom_point() + scale_color_manual(values = mrk) + theme(legend.position = "none") #+ coord_fixed()
     g1 <- g1 + geom_abline(slope = 1,intercept = all_pgls_out$coefficients[1],size=1, linetype=2)
     #g1 <- g1 + geom_abline(slope = all_pgls_out$coefficients[2],intercept = all_pgls_out$coefficients[1],size=2)
     g1 <- g1 + geom_abline(slope = by_group_pgls_out[[1]]$coefficients[2],intercept = by_group_pgls_out[[1]]$coefficients[1],color = mrk[group_list[1]])
@@ -197,7 +200,7 @@ run_plotting_resid_pgls <- function(data,tree,name){
   by_group_pgls_out <- lapply(by_group_dat,pgls.trees,tree = tree,form = "trait2 ~ trait1")
 
   # Add group names to results
-  all_dat$group <- mapvalues(all_dat$rank,data$rank,data$group,warn_missing=F)
+  all_dat$group <- plyr::mapvalues(all_dat$rank,data$rank,data$group,warn_missing=F)
 
   # Plot the results
   pdf(paste(name,".pdf",sep=""),width=6,height=6,useDingbats=F)
