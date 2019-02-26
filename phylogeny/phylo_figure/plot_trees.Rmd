@@ -1,5 +1,6 @@
 ---
 title: "Figures with phylogenies"
+author: Bruno de Medeiros
 output:
   html_document:
     df_print: paged
@@ -15,7 +16,8 @@ library(phylotate)
 library(reticulate)
 library(gridExtra)
 library(scales)
-library(dplyr)
+library(tidyverse)
+use_condaenv('py27')
 import('dendropy')
 ```
 
@@ -60,17 +62,22 @@ Rainford backbone tree cannot be read directly by R (possibly because we were sl
 ```{python}
 import dendropy
 
-rainford = dendropy.Tree.get(path='./rainford_backbone.tre', schema='nexus')
+rainford = dendropy.Tree.get(path='./rainford_backbone.tre', schema='nexus',rooting="default-rooted")
 
 rainford_all = dendropy.Tree.get(path='./rainford_mcc.tree', schema='nexus')
 rainford_all.calc_node_ages(ultrametricity_precision=1e-02)
 
 tree_age = rainford_all.seed_node.age
 
+print tree_age
+
 rainford.calc_node_root_distances()
 for leaf in rainford.leaf_node_iter():
-     new_BL = tree_age - leaf.parent_node.root_distance
+     new_BL = tree_age - leaf.parent_node.root_distance 
      leaf.edge.length = new_BL
+     print str(leaf) + ' ' + str(new_BL)
+     
+rainford.ladderize(ascending=True)
      
 rainford.write(path='./rainford_backbone_ultrametric.tre', schema='nexus')
 ```
@@ -81,11 +88,9 @@ Let's read trees now (we will do some rotations in rainford backbone so it plots
 misof_backbone = phylotate::read_annotated(file = 'misof_backbone.tre')
 rainford_backbone = phylotate::read_annotated(file = 'rainford_backbone_ultrametric.tre')
 
-tips_to_rotate = list(c('Phasmatodea','Mantodea'),
-                      c('Siphonaptera','Mecoptera'),
+tips_to_rotate = list(c('Siphonaptera','Mecoptera'),
                       c('Megaloptera','Neuroptera'),
                       c('Coleoptera','Strepsiptera'),
-                      c('Coleoptera','Neuroptera'),
                       c('Phasmatodea','Grylloblattodea'),
                       c('Grylloblattodea','Mantophasmatodea'),
                       c('Mantodea','Dictyoptera'))
@@ -99,25 +104,30 @@ for (tips in tips_to_rotate){
 Let's now use ggtree to plot them:
 
 ```{r}
-trees = list('Misof' = as.treedata(misof_backbone),
-             'Rainford' = as.treedata(rainford_backbone))
+trees = list('Misof' = misof_backbone %>% reorder('cladewise') %>% as.treedata,
+             'Rainford' = rainford_backbone %>% reorder('cladewise') %>% as.treedata)
 
-
-tree_plots = lapply(trees,function(tree){
-  ggtree(tree,ladderize = F) %>%  groupOTU(tax2orders) +
+tree_plots = list()
+tree_plots[[1]] = ggtree(trees[[1]], ladderize = T) %>%  groupOTU(tax2orders) +
     aes(color=group) +
     theme_tree2() +
     geom_tiplab(aes(x=x+10)) +
-    scale_color_manual(values = mrk) 
-})
+    scale_color_manual(values = mrk)
+
+tree_plots[[2]] = ggtree(trees[[2]], ladderize = F) %>%  groupOTU(tax2orders) +
+    aes(color=group) +
+    theme_tree2() +
+    geom_tiplab(aes(x=x+10)) +
+    scale_color_manual(values = mrk)
+
 
 tree_plots = lapply(tree_plots, revts)
 
-tree_plots = lapply(tree_plots, function(x)x + scale_x_continuous(labels=function(x){-x}, breaks=c(0,-100,-200,-300,-400,-500),limits = c(-500,450)))
+tree_plots = lapply(tree_plots, function(x)x + scale_y_reverse() + scale_x_continuous(labels=function(x){-x}, breaks=c(0,-100,-200,-300,-400,-500),limits = c(-500,450)))
 
 p = grid.arrange(tree_plots[[1]],tree_plots[[2]],nrow=1)
 print(p)
-ggsave(filename = 'backbones.pdf',plot = p, device = pdf,width = 6.5,height=4.5,useDingbats=F)
+ggsave(filename = 'backbones.pdf',plot = p, device = 'pdf',width = 6.5,height=4.5,useDingbats=F)
 
 ```
 
@@ -127,8 +137,10 @@ Now we will plot the inferred MCC trees. We will first read trees (they were alr
 
 ```{r}
 misof_mcc = phylotate::read_annotated(file = 'misof_mcc.tree') 
+misof_mcc$tip.label = str_replace(misof_mcc$tip.label, '_.+','')
 
 rainford_mcc = phylotate::read_annotated(file = 'rainford_mcc.tree')
+rainford_mcc$tip.label = str_replace(rainford_mcc$tip.label, '_.+','')
 ```
 
 Now we will make lists to assign tips to clades:
@@ -152,7 +164,7 @@ trees = list('Misof' = as.treedata(misof_mcc),
 
 
 tree_plots = lapply(trees,function(tree){
-  ggtree(tree,ladderize = T, size=0.1) %>%  groupOTU(tax2genera) +
+  ggtree(tree,ladderize = T, size=0.1) %>% groupOTU(tax2genera) +
     aes(color=group) +
     theme_tree2() +
     geom_segment2(aes(x = x,
@@ -171,7 +183,7 @@ tree_plots = lapply(tree_plots, function(x)x + scale_x_continuous(labels=functio
 
 p = grid.arrange(tree_plots[[1]],tree_plots[[2]],nrow=1)
 print(p)
-ggsave(filename = 'mcc.pdf',plot = p, device = pdf,width = 6.5,height=9,useDingbats=F)
+ggsave(filename = 'mcc.pdf',plot = p, device = 'pdf',width = 6.5,height=9,useDingbats=F)
 ```
 
 Now the same, but in round tree format:
@@ -199,80 +211,5 @@ tree_plots = lapply(trees,function(tree){
 
 p = grid.arrange(tree_plots[[1]],tree_plots[[2]],nrow=1)
 print(p)
-ggsave(filename = 'mcc_circular.pdf',plot = p, device = pdf,width = 6.5,height=4,useDingbats=F)
+ggsave(filename = 'mcc_circular.pdf',plot = p, device = 'pdf',width = 6.5,height=4,useDingbats=F)
 ```
-
-# Posterior distribution of trees
-Now we will plot our posterior distribution of trees. Let's first read them:
-
-```{r}
-misof_posterior = read.nexus(file = 'misof_100_posterior.trees')
-
-rainford_posterior = read.nexus(file = 'rainford_100_posterior.trees') 
-```
-
-Now let's plot all posterior trees, in slanted format
-
-```{r}
-tree_plots = lapply(list(misof_posterior[1:50], rainford_posterior[1:50]),function(trees){
-  p = ggtree(trees[[1]],
-             ladderize = T, 
-             open.angle = 3, 
-             size = 0.1,
-             layout='slanted',
-             alpha=0.07) %>%  groupOTU(tax2genera) +
-    aes(color=group) +
-    theme_tree() +
-    scale_color_manual(values = mrk) 
-  
-  for (i in 2:length(trees)){
-    
-    p = p + geom_tree(aes(color=group), 
-                      size = 0.1, 
-                      alpha=0.1,
-                      layout='slanted',
-                      data=(ggtree(trees[[i]])%>%groupOTU(tax2genera))$data 
-                      )
-  }
-  return(p + scale_y_reverse())
-})
-
-p = grid.arrange(tree_plots[[1]],tree_plots[[2]],nrow=1)
-print(p)
-ggsave(filename = 'posterior_slanted.pdf',plot = p, device = pdf,width = 6.5,height=9,useDingbats=F)
-
-```
-
-Let's plot them again, in rectangular format
-
-```{r}
-tree_plots = lapply(list(misof_posterior, rainford_posterior),function(trees){
-  p = ggtree(trees[[1]],
-             ladderize = T, 
-             open.angle = 3, 
-             size = 0.07,
-             layout='rectangular',
-             alpha=0.1) %>%  groupOTU(tax2genera) +
-    aes(color=group) +
-    theme_tree() +
-    scale_color_manual(values = mrk) 
-  
-  for (i in 2:length(trees)){
-    
-    p = p + geom_tree(aes(color=group), 
-                      size = 0.1, 
-                      alpha=0.1,
-                      layout='rectangular',
-                      data=(ggtree(trees[[i]])%>%groupOTU(tax2genera))$data 
-                      )
-  }
-  return(p + scale_y_reverse())
-})
-
-p = grid.arrange(tree_plots[[1]],tree_plots[[2]],nrow=1)
-print(p)
-ggsave(filename = 'posterior_rectangular.pdf',plot = p, device = pdf,width = 6.5,height=9,useDingbats=F)
-
-```
-
-
