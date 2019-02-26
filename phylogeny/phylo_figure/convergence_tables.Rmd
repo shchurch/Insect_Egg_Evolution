@@ -1,0 +1,66 @@
+---
+title: "Convergence tables"
+output: html_notebook
+author: Bruno de Medeiros
+---
+
+
+Here we will join two convergence statistics (standard deviation of split frequencies and ESS values) in a single table and format it as a latex table.
+
+The two statistics were separately calculated using python and R scripts and are saved as csv now.
+
+Let's start by loading libraries
+
+```{r}
+library(tidyverse)
+library(xtable)
+library(scales)
+```
+
+Now let's load both files:
+
+Table with ESS values:
+```{r}
+ESS = readr::read_csv('../final_trees/convergence_table.csv')
+ESS
+```
+
+Table with Standard deviation of split frequencies:
+```{r}
+SPLIT = readr::read_csv('../final_trees/stdev_split_freqs.csv')
+SPLIT
+```
+
+Now let's merge both tables and rename columns:
+```{r}
+conv = SPLIT %>%
+  select(-X1) %>%
+  left_join(ESS) %>%
+  arrange(backbone, order) %>%
+  transmute(backbone = backbone, 
+         Order = order, 
+         `Post-burn-in samples` = scales::number(post_burnin_samples, big.mark=''),
+         `ESS (likelihood)` = scales::number(ESS_likelihood, big.mark=''),
+         `ESS (prior)` = scales::number(ESS_prior, big.mark=''),
+         `Standard deviation of split frequencies` = scales::number(stdev, accuracy=0.00001))
+
+conv
+  
+```
+
+Finally, let's print each one as a latex table. Misof first:
+```{r}
+conv %>%
+  filter(backbone == 'misof') %>%
+  select(-backbone) %>%
+  xtable
+```
+
+Now Rainford:
+
+```{r}
+conv %>%
+  filter(backbone == 'misof') %>%
+  select(-backbone) %>%
+  xtable
+```

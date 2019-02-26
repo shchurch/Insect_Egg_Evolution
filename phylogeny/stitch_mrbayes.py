@@ -19,7 +19,37 @@ def brlen2time(tree):
     
     return tree
     
-def read_trees(tree_path,tree_indices,taxa):
+
+#This function finds the tree indexes that have to be read:
+def count_trees(tree_path, burnin, n_per_treefile):
+    tree_file = tree_path
+    ntrees = 0
+    if '.gz' in tree_file:
+        infile = gzip.open(tree_file, 'rb')
+    else:
+        infile = open(tree_file,'r')
+        
+    first_tree = 0
+    for i, line in enumerate(infile):
+        if 'tree gen' in line:
+            ntrees += 1
+            if not first_tree: first_tree = i
+        
+    infile.close()
+                
+    n_burnin = int(ceil(float(ntrees) * burnin))
+    step_size = max([len(range(n_burnin+1,ntrees))/n_per_treefile,1])
+    tree_idx = range(n_burnin,ntrees,step_size)[-n_per_treefile:]
+    
+        
+    return tree_idx
+
+
+#This function reads trees based on predefined indexes and a taxon namespace
+def read_trees(tree_path,nfiles,taxa):
+    
+    tree_indices = count_trees(tree_path, burnin=0.1, n_per_treefile=10000/nfiles)
+    
     print 'Reading ' + str(len(tree_indices)) + ' posterior trees from ' + tree_path + '.'
     
     #to speed up tree reading, we will first work with strings and then read trees
@@ -54,37 +84,18 @@ def read_trees(tree_path,tree_indices,taxa):
 
 #function updates taxon names in rainford according to open tree of life, and returns None for non-monophyletic groups
 #monophyly is assumed if a node exists in open tree of life
-def get_mcc_and_posterior_order(tree_paths, focal_order, taxdata, burnin=0.25, nmax = 10000):
-    #it takes too long and too much memory to read all trees in memory.
-    #Instead, we first count the number of trees and then read only those needed
-    tree_file = tree_paths[0]
-    ntrees = 0
-    if '.gz' in tree_file:
-        infile = gzip.open(tree_file, 'rb')
-    else:
-        infile = open(tree_file,'r')
-        
-    first_tree = 0
-    for i, line in enumerate(infile):
-        if 'tree gen' in line:
-            ntrees += 1
-            if not first_tree: first_tree = i
-        
-    infile.close()
-                
-    n_burnin = int(ceil(float(ntrees) * burnin))
-    n_per_treefile = int(ceil(float(nmax) / len(tree_paths)))
-    step_size = max([len(range(n_burnin+1,ntrees))/n_per_treefile,1])
-    tree_idx = range(n_burnin,ntrees,step_size)[-n_per_treefile:]
-    
+def get_mcc_and_posterior_order(tree_paths, focal_order, taxdata, burnin=0.1, nmax = 10000):
+    #let's first create the taxon namespace
     if '.gz' in tree_paths[0]:
         handle = gzip.open(tree_paths[0],'rb')
     else:
         handle = open(tree_paths[0],'rb')
+    
     temp_tree = dendropy.Tree.get(file = handle, schema='nexus', preserve_underscores=True)
     handle.close()
-    
     taxa = temp_tree.taxon_namespace
+        
+    
     
     #Now that we have the tree indexes and a taxon name space, let's load all trees
     
@@ -93,7 +104,8 @@ def get_mcc_and_posterior_order(tree_paths, focal_order, taxdata, burnin=0.25, n
     #all_post_trees = Parallel(n_jobs=min(threads,len(tree_paths)),backend = 'threading', verbose=50) \
     #                         (delayed(read_trees)(tree_path,tree_idx,taxa) for tree_path in tree_paths)
     #Using a regular loop instead
-    all_post_trees = [read_trees(tree_path,tree_idx,taxa) for tree_path in tree_paths]
+    
+    all_post_trees = [read_trees(tree_path,len(tree_paths),taxa) for tree_path in tree_paths]
     
     
     post_trees = dendropy.TreeList()
@@ -161,7 +173,7 @@ def get_subtree(order, small_trees, align_data, backbone_tree):
         mcc_and_posterior = get_mcc_and_posterior_order(tree_paths = small_trees[order],
                                                         focal_order = order,
                                                         taxdata = align_data,
-                                                        burnin = 0.5,
+                                                        burnin = 0.1,
                                                         nmax = 10000)
                                                         
     return {order:mcc_and_posterior}

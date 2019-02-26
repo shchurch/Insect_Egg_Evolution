@@ -40,4 +40,10 @@ This folder contains the following sub folders:
 
 7. **mrbayes_smalltrees/get_mrbayes_trees_4runs.sh** bash script that runs mrbayes on Odyssey cluster and automatically resumes if run stops due to timeout. Before resuming, it checks parameter and tree files for errors and deletes the last samples of MCMC if needed.
 
-8. **6_stitch_mrbayes.sh** gets small trees from folder **mrbayes_smalltrees** and grafts them onto the appropriate backbone by using **stitch_mrbayes.py**
+8. Mrbayes `*.p` files were downloaded from the cluster and manually checked. In the case of Diptera, some of the runs apparently got stuck in regions of lower likelihood, so we removed these from further analyses. Symlinks to files for all trees retained were made in folder named **treelinks_misof**, **treelinks_rainford**, **plinks_misof** and **plinks_rainford** 
+
+8. **6_stitch_mrbayes.sh** gets small trees from folders **treelinks_** and grafts them onto the appropriate backbone by using **stitch_mrbayes.py**
+
+9. Convergence statistics (ESS and standard deviation of split frequencies) are calculated using scripts **get_split_freqs.py** and **get_convergence_table.R**, wrapped in slurm scripts **7_get_convergence_tables.sh** and **8_get_split_freqs.sh**
+
+10. Figures are plotted and final convergence tables assembled using R scripts in folder **phylo_figure**
