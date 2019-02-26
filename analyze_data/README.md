@@ -34,9 +34,9 @@ egg_analysis_convert_stoddard.R
 
 `family_body_sizes.csv` _(list of max and min body size for insect families, from Rainford et al. 2014)_
 
-`stoddard.csv` _(avian egg size and shape data downloaded from Stoddard et al. 2014)_
+`stoddard.tsv` _(avian egg size and shape data downloaded from Stoddard et al. 2014)_
 
-`polyembryonic.csv` _(list of insect taxa described as polyembryonic with references)_
+`polyembryonic.tsv` _(list of insect taxa described as polyembryonic with references)_
 
 `bamm.config` _(configuration file to be updated with fitted parameters for bamm analyses)_
 
@@ -75,7 +75,7 @@ Rscript --no-restore analyze_data/egg_analysis_simulate_body.R 0
 
 ### dependent files:
 
-`development.csv`
+`development.tsv`
 
 ```
 Rscript --no-restore analyze_data/egg_analysis_development.R misof brownian 
@@ -224,7 +224,6 @@ Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "relaxed" "mcc" "
 Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "relaxed" "mcc" "observed" "three_state" "asym"
 Rscript --no-restore analyze_data/egg_analysis_ouwie_ecology.R "relaxed" "mcc" "observed" "three_state" "curv"
 ```
-
 # General session info 
 
 ```

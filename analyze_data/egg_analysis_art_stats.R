@@ -10,7 +10,7 @@ library(xtable)
 theme_set(theme_classic(base_size=18))
 
 # Read in the results of the reclicking assay
-art_egg_database_raw <- read.delim("analyze_data/art_eggs_database.csv",stringsAsFactors=T)
+art_egg_database_raw <- read.delim("analyze_data/art_eggs_database.tsv",stringsAsFactors=T)
 
 # Filter out hte results in which aspect ratio was equal to or below 1 with curvature
 # Axiomatically curvature cannot be deteceted in a sphere

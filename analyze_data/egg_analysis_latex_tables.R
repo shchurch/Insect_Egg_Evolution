@@ -76,18 +76,17 @@ sink()
 ## genome size
 load(paste(results_directory,"egg_analysis_genome_size_egg_size_workspace.Rdata",sep="/"))
 
-summary_genome_vol <- read_pgls_results(genome_vol_table,genome_vol_group_table,group_list) %>% mutate(clade = row.names(.),analysis = "genome c-value vs egg volume")
-summary_genome_vol_genus <- read_pgls_results(genome_vol_genus_table,genome_vol_genus_group_table,group_list) %>% mutate(clade = row.names(.),analysis = "genome c-value vs egg volume")
+summary_genome_vol <- read_pgls_results(genome_vol_table,genome_vol_group_table,group_list) %>% mutate(clade = row.names(.))
+summary_genome_vol_genus <- read_pgls_results(genome_vol_genus_table,genome_vol_genus_group_table,group_list) %>% mutate(clade = row.names(.))
 summary_genome_vol_no_Polyneoptera <- genome_vol_no_Polyneoptera_table %>% mutate("p-value" = paste(pval_min,pval_max,sep=" - "),
 		"intercept" = paste(int_min,int_max,sep=" - "),
 		"slope" = paste(slope_min,slope_max,sep=" - "),
 		"sample size" = round(sample_size,0),
-		"clade" = "Hexapoda, w/o Polyneoptera",
-		"analysis" = "genome c-value vs egg volume") %>% 		
-		select("p-value","slope","intercept","sample size","clade","analysis")
+		"clade" = "Hexapoda, w/o Polyneoptera") %>% 		
+		select("p-value","slope","intercept","sample size","clade")
 summary_genome_size <- rbind(rbind(summary_genome_vol,summary_genome_vol_genus[1,] %>% mutate(clade = "Hexapoda, by genus")),summary_genome_vol_no_Polyneoptera)
 
-print(xtable(summary_genome_size,digits=0),file="summary_genome_size.txt")
+print(xtable(summary_genome_size,digits=0),include.rownames=F,file="summary_genome_size_latex.txt")
 
 ### BODY SIZE ALLOMETRY
 load(paste(results_directory,"egg_analysis_allometry_workspace.Rdata",sep="/"))
@@ -228,6 +227,7 @@ rainback_l_asym_w <- read_pgls_results(allometry_l_asym_w_table,allometry_group_
 rainback_l_curv_w <- read_pgls_results(allometry_l_curv_w_table,allometry_group_l_curv_w_table,group_list) %>% mutate(clade = row.names(.),analysis = "egg length vs angle of curvature, residuals to egg width")
 
 load(paste(results_directory,"egg_analysis_rainford_genome_size_egg_size_workspace.Rdata",sep="/"))
+
 rainback_genome_vol	<- genome_vol_table %>% mutate("p-value" = paste(pval_min,pval_max,sep=" - "),
 		"intercept" = paste(int_min,int_max,sep=" - "),
 		"slope" = paste(slope_min,slope_max,sep=" - "),
@@ -276,8 +276,6 @@ corblom_l_curv_w <- read_pgls_results(allometry_l_curv_w_table,allometry_group_l
 corblom_l_w_body <- read_pgls_results(allometry_l_w_body_table,allometry_group_l_w_body_table,group_list) %>% mutate(clade = row.names(.),analysis = "egg length vs width, residuals to body size")
 corblom_vol_body <- read_pgls_results(allometry_vol_body_table,allometry_group_vol_body_table,group_list) %>% mutate(clade = row.names(.),analysis = "egg volume vs cubic body length")
 
-summary_corblom <- rbind(corblom_development,corblom_l_w,corblom_l_asym_w,corblom_l_curv_w,corblom_l_w_body,corblom_vol_body) %>% select(analysis,clade,"p-value",slope,"sample size")
-
 load(paste(results_directory,"egg_analysis_corBlomberg_genome_size_egg_size_workspace.Rdata",sep="/"))
 
 corblom_genome_vol	<- genome_vol_table %>% mutate("p-value" = paste(pval_min,pval_max,sep=" - "),
@@ -285,8 +283,10 @@ corblom_genome_vol	<- genome_vol_table %>% mutate("p-value" = paste(pval_min,pva
 		"slope" = paste(slope_min,slope_max,sep=" - "),
 		"sample size" = round(sample_size,0),
 		"clade" = "Hexapoda",
-		"analysis" = "c-value vs egg volume") %>% 		
+		"analysis" = "genome c-value vs egg volume") %>% 		
 		select("p-value","slope","intercept","sample size","clade","analysis")
+
+summary_corblom <- rbind(corblom_development,corblom_genome_vol,corblom_l_w,corblom_l_asym_w,corblom_l_curv_w,corblom_l_w_body,corblom_vol_body) %>% select(analysis,clade,"p-value",slope,"sample size")
 
 summary_corbrow <- rbind(summary_development %>% 
 	mutate(analysis = c("egg volume vs duration of embryogenesis",
@@ -297,7 +297,12 @@ summary_corbrow <- rbind(summary_development %>%
 	summary_l_w,summary_l_asym_w,summary_l_curv_w,summary_l_w_body,summary_vol_body) %>% 
 	select(analysis,clade,"p-value",slope,"sample size")
 
-combined_corblom_summary <- left_join(summary_corblom %>% rename("Blom. p-value" = "p-value", "Blom. slope" = "slope") %>% select(-"sample size"), summary_corbrow %>% rename("Brown, p-value" = "p-value", "Brown. slope" = "slope") %>% select(-"sample size"), by = c("analysis","clade"))
+combined_corblom_summary <- left_join(summary_corblom %>% 
+		rename("Blom. p-value" = "p-value", "Blom. slope" = "slope") %>% 
+		select(-"sample size"),
+	summary_corbrow %>% 
+		rename("Brown, p-value" = "p-value", "Brown. slope" = "slope") %>% 
+		select(-"sample size"), by = c("analysis","clade"))
 
 print(xtable(combined_corblom_summary,digits=0),include.rownames=F,file="summary_corblom_latex.txt")
 
@@ -317,10 +322,10 @@ make_ouwie_table <- function(eco_state) {
 }
 
 trait_names <- c("volume","aspect ratio","asymmetry","angle of curvature") 
-print(xtable(make_ouwie_table("internal"),digits=c(0,0,2,2,2)),file="ouwie_internal_latex.txt")
-print(xtable(make_ouwie_table("in_water"),digits=c(0,0,2,2,2)),file="ouwie_in_water_latex.txt")
-print(xtable(make_ouwie_table("migratory_Lepidoptera"),digits=c(0,0,2,2,2)),file="ouwie_migratory_Lepidoptera_latex.txt")
-print(xtable(make_ouwie_table("wingless_Phasmatodea"),digits=c(0,0,2,2,2)),file="ouwie_wingless_Phasmatodea_latex.txt")
+print(xtable(make_ouwie_table("internal"),digits=c(0,0,2,2,2)),file="ouwie_internal_latex.txt",include.rownames=F)
+print(xtable(make_ouwie_table("in_water"),digits=c(0,0,2,2,2)),file="ouwie_in_water_latex.txt",include.rownames=F)
+print(xtable(make_ouwie_table("migratory_Lepidoptera"),digits=c(0,0,2,2,2)),file="ouwie_migratory_Lepidoptera_latex.txt",include.rownames=F)
+print(xtable(make_ouwie_table("wingless_Phasmatodea"),digits=c(0,0,2,2,2)),file="ouwie_wingless_Phasmatodea_latex.txt",include.rownames=F)
 		
 summary_ouwie_simulated_results <- rbind(simulated_internal_results %>% mutate(ecology = "internal"),
 									simulated_in_water_results %>% mutate(ecology = "in water")) %>% 
@@ -334,9 +339,13 @@ summary_ouwie_simulated_results <- rbind(simulated_internal_results %>% mutate(e
 						"p-value, OUM vs BM1" = BM1_boot_pval,
 						"p-value, OUM vs OU1" = OU1_boot_pval)		
 
-print(xtable(summary_ouwie_simulated_results,digits=c(0,0,2,2,2,2,2,2,2)),file="ouwie_simulated_latex.txt")
+print(xtable(summary_ouwie_simulated_results,digits=c(0,0,2,2,2,2,2,2,2)),file="ouwie_simulated_latex.txt",include.rownames=F)
 		
-mcc_analysis_names <- c("internal oviposition, volume",
+summary_ouwie_mcc_results <- tibble("Misof\ backbone, MCC" = misof_mcc_results$OUM_best,
+	"Rainford\ backbone, MCC" = rainford_mcc_results$OUM_best,
+	"strict\ classification\ method" = strict_results$OUM_best,
+	"broader\ ecological\ definitions" = eco_definition_results$OUM_best)
+row.names(summary_ouwie_mcc_results) <- c("internal oviposition, volume",
 	"aquatic oviposition, volume",
 	"internal oviposition, aspect ratio",
 	"aquatic oviposition, aspect ratio",
@@ -344,11 +353,6 @@ mcc_analysis_names <- c("internal oviposition, volume",
 	"aquatic oviposition, asymmetry",
 	"internal oviposition, angle of curvature",
 	"aquatic oviposition, angle of curvature")
-summary_ouwie_mcc_results <- tibble("analysis" = mcc_analysis_names,
-	"Misof\ backbone, MCC" = misof_mcc_results$OUM_best,
-	"Rainford\ backbone, MCC" = rainford_mcc_results$OUM_best,
-	"strict\ classification\ method" = strict_results$OUM_best,
-	"broader\ ecological\ definitions" = eco_definition_results$OUM_best)
 print(xtable(summary_ouwie_mcc_results),file="ouwie_mcc_latex.txt")
 
 

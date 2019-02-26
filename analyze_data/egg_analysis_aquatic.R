@@ -7,7 +7,7 @@
 source("analyze_data/egg_analysis_eco_functions.R")
 
 ### Read in the ecological table
-ecology_table <- read.delim("analyze_data/ecology_table_aquatic.csv",header=T,stringsAsFactors=F)
+ecology_table <- read.delim("analyze_data/ecology_table_aquatic.tsv",header=T,stringsAsFactors=F)
 eco_data <- data.frame(name = ecology_table$name, rank = ecology_table$rank)
 default_regime <- "ancestral"
 

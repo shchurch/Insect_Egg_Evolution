@@ -15,7 +15,7 @@ curv_breaks <- deg2rad(c(0.0,7.2,28.8,64.8,115.2,180.0))
 curv_breaks_untransformed <- deg2rad(c(0,50,100,150,200))
 
 # Plot polyembryony on morphospace
-polyembryonic <- read.delim("analyze_data/polyembryonic_taxa.csv",header=T,stringsAsFactors=F)
+polyembryonic <- read.delim("analyze_data/polyembryonic_taxa.tsv",header=T,stringsAsFactors=F)
 
 # set default to monoembryonic
 egg_database$polyembryonic <- "monoembryonic"
@@ -26,6 +26,18 @@ egg_database[which(egg_database$name %in% polyembryonic$name),]$polyembryonic <-
 polyembryonic_plot <- ggplot(egg_database,aes(x = ar, y = vol,color = polyembryonic)) + 
 	geom_point(color = "dark grey",alpha=0.9,pch=16) + 
 	geom_point(data = egg_database %>% filter(!(polyembryonic == "monoembryonic"))) + 
+	scale_x_log10(breaks = ar_breaks) + 
+	scale_y_log10(breaks = vol_breaks,expand=c(0,0.2)) +
+	scale_color_manual(values = c("#2056CE","#c55c15")) + 
+	theme(legend.position = "none")
+
+# Plot ootheca on morphospace
+source("analyze_data/egg_analysis_ootheca.R")
+egg_eco_data <- egg_eco_data %>% mutate(ootheca = ifelse(eco_regime == "ancestral","no ootheca","ootheca"))
+
+ootheca_plot <- ggplot(egg_eco_data,aes(x = ar, y = vol,color = ootheca)) + 
+	geom_point(color = "dark grey",alpha=0.9,pch=16) + 
+	geom_point(data = egg_eco_data %>% filter(!(ootheca == "no ootheca"))) + 
 	scale_x_log10(breaks = ar_breaks) + 
 	scale_y_log10(breaks = vol_breaks,expand=c(0,0.2)) +
 	scale_color_manual(values = c("#2056CE","#c55c15")) + 
@@ -139,8 +151,8 @@ morpho_asymmetry_curvature_untransformed <- ggplot(egg_database,aes(x = asym, y 
 # Build morphospaces comparing insect and avian data
 insect_bird_asym_ar <- insect_bird_egg_data %>% select(group,sqasym,logar,asym,ar) %>% na.omit()
 # build a geometric hull showing the space occupied by the avian egg data
-ar_asym_hulls <- ddply(insect_bird_asym_ar, "group", function(df) df[chull(df$asym, df$ar), ])
-ar_vol_hulls <- ddply(egg_database %>% select(logvol,logar,group) %>% na.omit(), "group", function(df) df[chull(df$logvol, df$logar), ])
+ar_asym_hulls <- plyr::ddply(insect_bird_asym_ar, "group", function(df) df[chull(df$asym, df$ar), ])
+ar_vol_hulls <- plyr::ddply(egg_database %>% select(logvol,logar,group) %>% na.omit(), "group", function(df) df[chull(df$logvol, df$logar), ])
 
 morpho_aspect_ratio_asymmetry_birds_untransformed <- ggplot(egg_database,aes(x = asym, y = ar,color = group,fill = group)) + 
 	geom_point(alpha = 0.9,pch=16) + 
@@ -200,6 +212,10 @@ sink()
 
 pdf(file="polyembryonic.pdf",width=6,height=6,useDingbats =F)
 print(polyembryonic_plot)
+dev.off()
+
+pdf(file="ootheca.pdf",width=6,height=6,useDingbats =F)
+print(ootheca_plot)
 dev.off()
 
 pdf(file="morpho_aspect_ratio_asymmetry.pdf",width=6,height=6,useDingbats =F)

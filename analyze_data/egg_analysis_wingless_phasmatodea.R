@@ -7,7 +7,7 @@
 source("analyze_data/egg_analysis_eco_functions.R")
 
 ### Read in the wingless phasmatodea table
-ecology_table <- read.delim("analyze_data/ecology_table_wingless_phasmatodea.csv",header=T,stringsAsFactors=F)
+ecology_table <- read.delim("analyze_data/ecology_table_wingless_phasmatodea.tsv",header=T,stringsAsFactors=F)
 eco_regimes <- c("NA","winged","wingless","partial_wing")
 eco_data <- data.frame(name = ecology_table$name, rank = ecology_table$rank)
 eco_data$ecology <- ecology_table$ecology

@@ -23,7 +23,7 @@ if(args[2] == "blomberg") {
 source("analyze_data/egg_analysis_pgls_functions.R")
 
 ### Read in the developmental tables
-development <- read.delim("analyze_data/development.csv",header=T,stringsAsFactors= F)
+development <- read.delim("analyze_data/development.tsv",header=T,stringsAsFactors= F)
 
 ### Set up the developmental parameters
 development <- development %>% 
@@ -106,7 +106,11 @@ run_egg_dev_pgls <- function(tree) {
 	dat_vol_Da_time_midcellularization <- combine_dev_egg_datasets(egg_vol,dev_Da_time_midcellularization) %>% rename(rank = genus) %>% build_pgls(tree = tree)
 	vol_Da_time_midcellularization <- pgls.trees(dat_vol_Da_time_midcellularization,genus_mcc_tree,"trait2 ~ trait1")
 
-	return(list(vol_Da_hatch_pgls_out,vol_Da_int_btw_preblast_mitoses,vol_Da_time_midcellularization))
+	egg_vol_no_Palaeoptera <- egg_database %>% mutate(trait1 = logvol) %>% filter(group != "Palaeoptera")
+	dat_vol_Da_hatch_no_Palaeoptera <- combine_dev_egg_datasets(egg_vol_no_Palaeoptera,dev_hatch) %>% rename(rank = genus) %>% build_pgls(tree = tree)
+	dat_vol_Da_hatch_no_Palaeoptera <- pgls.trees(dat_vol_Da_hatch_no_Palaeoptera,genus_mcc_tree,"trait2 ~ trait1")
+
+	return(list(vol_Da_hatch_pgls_out,vol_Da_int_btw_preblast_mitoses,vol_Da_time_midcellularization,		dat_vol_Da_hatch_no_Palaeoptera))
 }
 
 dev_allometry_distribution_raw <- lapply(genus_trees,run_egg_dev_pgls)
@@ -129,6 +133,7 @@ get_allometry_all_taxa_table <- function(pgls) {
 allometry_vol_Da_hatch_table <- get_allometry_all_taxa_table(1)
 allometry_vol_Da_int_btw_preblast_mitoses_table <- get_allometry_all_taxa_table(2)
 allometry_vol_Da_time_midcellularization <- get_allometry_all_taxa_table(3)
+dat_vol_Da_hatch_no_Palaeoptera_table <- get_allometry_all_taxa_table(4)
 
 ### Print the results
 sink(paste(analysis_name,"development_tables.txt",sep=""))
@@ -139,6 +144,8 @@ cat("volume_interval_btw_preblast_mitoses")
 print(allometry_vol_Da_int_btw_preblast_mitoses_table)
 cat("volume_time_midcellularization")
 print(allometry_vol_Da_time_midcellularization)
+cat("volume_time_to_hatching_without_Palaeoptera")
+print(dat_vol_Da_hatch_no_Palaeoptera_table)
 sink()
 
 save.image(file=paste("egg_analysis_",analysis_name,"development_workspace.RData",sep=""))
@@ -156,6 +163,16 @@ dat_vol_Da_hatch_plot <- ggplot(dat_vol_Da_hatch,aes(x = trait1, y = trait2, col
 
 pdf(paste(analysis_name,"dat_vol_Da_hatch.pdf",sep=""),width=4,height=4,useDingbats=F)
 print(dat_vol_Da_hatch_plot)
+dev.off()
+
+# compare egg volume and time to hatching - temperature corrected - removing Palaeoptera
+dat_vol_Da_hatch_plot_no_Palaeoptera <- ggplot(dat_vol_Da_hatch %>% filter(group != "Palaeoptera"),aes(x = trait1, y = trait2, color = group)) + 
+						geom_point() + 
+						scale_color_manual(values = mrk) + 
+						theme(legend.position = "none")
+
+pdf(paste(analysis_name,"dat_vol_Da_hatch_without_Palaeoptera.pdf",sep=""),width=4,height=4,useDingbats=F)
+print(dat_vol_Da_hatch_plot_no_Palaeoptera)
 dev.off()
 
 # compare egg volume and time to hatching with no phylogenetic correction

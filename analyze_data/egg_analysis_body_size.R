@@ -4,7 +4,7 @@
 ### Body size data for insect families is taken from the Rainford publication
 
 ### get family data from Rainford paper
-family_body_size <- read.delim("analyze_data/family_body_sizes.csv",stringsAsFactors = F)
+family_body_size <- read.delim("analyze_data/family_body_sizes.tsv",stringsAsFactors = F)
 
 # randomize the order of the egg database
 egg_database_body_size <- egg_database[sample(nrow(egg_database)),]

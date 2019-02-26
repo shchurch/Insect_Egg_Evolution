@@ -54,4 +54,4 @@ bird_egg_data <- stoddard_supplement %>%
 bird_egg_data$group <- "Aves"
 
 # Combine the avian and insect databases
-insect_bird_egg_data <- rbind.fill(bird_egg_data, egg_database)
+insect_bird_egg_data <- plyr::rbind.fill(bird_egg_data, egg_database)

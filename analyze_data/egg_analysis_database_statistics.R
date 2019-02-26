@@ -15,7 +15,7 @@ total_entries <- nrow(egg_database_raw)
 
 unique_bibs <- egg_database_raw %>% filter(!(duplicated(b)))
 all_bibs <- data.frame("bib_ID" = unique_bibs$b,"journal" = unique_bibs$bib_journal,"author" = unique_bibs$bib_author,"year" = unique_bibs$bib_year,"title" = unique_bibs$bib_title)
-#write.table(all_bibs,file="all_references_in_database.csv",sep="\t",row.names=F)
+#write.table(all_bibs,file="all_references_in_database.tsv",sep="\t",row.names=F)
 
 #############################
 ### BIBLIOGRAPHIC STATISTICS
@@ -174,7 +174,7 @@ bigger_than_10 <- which(egg_database_raw$pl > 10)
 smaller_than_10 <- which(egg_database_raw$pl < 10)
 
 # read in the data preserving trailing 0s
-data_char <- read.csv("egg_database.csv",sep="\t",colClasses = "character")
+data_char <- read.csv("egg_database.tsv",sep="\t",colClasses = "character")
 # select just lengths
 pl_char <- data_char$pl
 # remove decimals

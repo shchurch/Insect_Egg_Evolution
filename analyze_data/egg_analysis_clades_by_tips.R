@@ -133,7 +133,7 @@ set_fam <- egg_database %>% filter(set %in% group_list) %>% distinct(set,family)
 other_fams <- egg_database %>% filter(!(set %in% group_list)) %>% filter(genus %in% genus_mcc_tree$tip.label) %>% distinct(set,family)
 set_fam$unique_to_set <- !(set_fam$family %in% other_fams$family)
 
-write.table(set_fam,file="sets_and_family_list.csv",sep="\t")
+write.table(set_fam,file="sets_and_family_list.tsv",sep="\t")
 
 ### Create a list of genera within each set
 sets_genus_names <- sapply(seq(length(allometry_distribution_raw[[1]][[1]][[2]])),function(x) {names(allometry_distribution_raw[[1]][[1]][[2]][[x]]$fitted)})
