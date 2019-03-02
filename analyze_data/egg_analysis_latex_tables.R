@@ -332,14 +332,13 @@ summary_ouwie_simulated_results <- rbind(simulated_internal_results %>% mutate(e
 					mutate(trait = c("volume","volume","asymmetry","asymmetry",
 									"volume","volume","aspect ratio","aspect ratio"),
 							data = rep(c("observed","simulated"),4)) %>% 
-					select(ecology,trait,data,OUM_best_freq,avg_BM1_OUM_delta,BM1_boot_pval,avg_OU1_OUM_delta,OU1_boot_pval) %>% 
+					select(ecology,trait,data,OUM_best_freq,BM1_boot_pval,OU1_boot_pval,joint_pval) %>% 
 					rename("freq. OUM best fit" = OUM_best_freq,
-						"ave. \\Delta AICc, OUM vs BM1" = avg_BM1_OUM_delta,
-						"ave. \\Delta AICc, OUM vs OU1" = avg_OU1_OUM_delta,
-						"p-value, OUM vs BM1" = BM1_boot_pval,
-						"p-value, OUM vs OU1" = OU1_boot_pval)		
+						"p-value, BM1" = BM1_boot_pval,
+						"p-value, OU1" = OU1_boot_pval,
+						"joint p-value" = joint_pval)		
 
-print(xtable(summary_ouwie_simulated_results,digits=c(0,0,2,2,2,2,2,2,2)),file="ouwie_simulated_latex.txt",include.rownames=F)
+print(xtable(summary_ouwie_simulated_results,digits=c(0,0,2,2,2,2)),file="ouwie_simulated_latex.txt",include.rownames=F)
 		
 summary_ouwie_mcc_results <- tibble("Misof\ backbone, MCC" = misof_mcc_results$OUM_best,
 	"Rainford\ backbone, MCC" = rainford_mcc_results$OUM_best,

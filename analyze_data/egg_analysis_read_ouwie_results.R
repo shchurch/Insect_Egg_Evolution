@@ -91,10 +91,17 @@ get_simulated_results <- function(trait,class,data,eco,tree) {
 
 	count_delta_aicc <- lapply(aicc,function(x) {table(unlist(lapply(x,get_count_aicc)))['TRUE']})
 
+	joint_pval <- data.frame(ou1_delta = unlist(ou1_delta[[4]]),
+						bm1_delta = unlist(bm1_delta[[4]]),
+						min_bm1 = min_bm1_delta[[3]], 
+						min_ou1 = min_ou1_delta[[3]]) %>% 
+				mutate(ou1_true = ifelse(ou1_delta > min_ou1,'TRUE','FALSE'),
+					bm1_true = ifelse(bm1_delta > min_bm1,'TRUE','FALSE'),
+					both_true = ifelse(bm1_true == 'TRUE' & ou1_true == 'TRUE','TRUE','FALSE')) %>% select(both_true) %>% length()
+
+
 	results <- data.frame(analysis = apply(analysis_names_df,1,paste,collapse="_"),
-			OUM_best_count = unlist(count_delta_aicc),
-			avg_BM1_OUM_delta = unlist(avg_bm1_delta),
-			avg_OU1_OUM_delta = unlist(avg_ou1_delta)) %>% 
+			OUM_best_count = unlist(count_delta_aicc)) %>% 
 			mutate(OUM_best_count = ifelse(!is.na(OUM_best_count),OUM_best_count,0),
 				OUM_best_freq = (OUM_best_count / 100),
 				BM1_boot_pval = c(NA,
@@ -104,7 +111,25 @@ get_simulated_results <- function(trait,class,data,eco,tree) {
 				OU1_boot_pval = c(NA,
 					length(which(unlist(ou1_delta[[2]]) > min_ou1_delta[[1]])) / 100,
 					NA,
-					length(which(unlist(ou1_delta[[4]]) > min_ou1_delta[[3]])) / 100))
+					length(which(unlist(ou1_delta[[4]]) > min_ou1_delta[[3]])) / 100),
+				joint_pval = c(NA,
+					(data.frame(ou1_delta = unlist(ou1_delta[[2]]),
+						bm1_delta = unlist(bm1_delta[[2]]),
+						min_bm1 = min_bm1_delta[[1]], 
+						min_ou1 = min_ou1_delta[[1]]) %>% 
+					mutate(ou1_true = ifelse(ou1_delta > min_ou1,'TRUE','FALSE'),
+						bm1_true = ifelse(bm1_delta > min_bm1,'TRUE','FALSE'),
+						both_true = ifelse(bm1_true == 'TRUE' & ou1_true == 'TRUE','TRUE','FALSE')) %>% 
+					select(both_true) %>% length()) / 100,
+					NA,
+					(data.frame(ou1_delta = unlist(ou1_delta[[4]]),
+							bm1_delta = unlist(bm1_delta[[4]]),
+							min_bm1 = min_bm1_delta[[3]], 
+							min_ou1 = min_ou1_delta[[3]]) %>% 
+					mutate(ou1_true = ifelse(ou1_delta > min_ou1,'TRUE','FALSE'),
+						bm1_true = ifelse(bm1_delta > min_bm1,'TRUE','FALSE'),
+						both_true = ifelse(bm1_true == 'TRUE' & ou1_true == 'TRUE','TRUE','FALSE')) %>% 
+					select(both_true) %>% length()) / 100))
 	return(results)
 }
 
