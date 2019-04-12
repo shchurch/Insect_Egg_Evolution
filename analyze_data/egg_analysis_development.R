@@ -31,9 +31,9 @@ development <- development %>%
 		mutate(Tm_hatch = temp_to_hatch + 273.15,
 		Tm_development = temp_development + 273.15,
 		int_btw_preblast_mitoses_hrs = int_btw_preblast_mitoses / 60,
-		Da_int_btw_preblast_mitoses = (int_btw_preblast_mitoses_hrs) / exp((8000/293.15)-(8000/Tm_development)),
-		Da_midcellularization = (time_to_midcellularization) / exp((8000/293.15)-(8000/Tm_development)),
-		Da_hatch = (time_to_hatch_hours) / exp((8000/293.15)-(8000/Tm_hatch)),
+		Da_int_btw_preblast_mitoses = (int_btw_preblast_mitoses_hrs) / exp(-8000 * ((1/293.15)-(1/Tm_development))),
+		Da_midcellularization = (time_to_midcellularization) / exp(-8000 * ((1/293.15)-(1/Tm_development))),
+		Da_hatch = (time_to_hatch_hours) / exp(-8000 * ((1/293.15)-(1/Tm_hatch))),
 		# log transform the values
 		logDa_int_btw_preblast_mitoses = log10(Da_int_btw_preblast_mitoses),
 		logDa_midcellularization = log10(Da_midcellularization),

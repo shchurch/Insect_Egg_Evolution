@@ -228,7 +228,7 @@ rainback_l_curv_w <- read_pgls_results(allometry_l_curv_w_table,allometry_group_
 
 load(paste(results_directory,"egg_analysis_rainford_genome_size_egg_size_workspace.Rdata",sep="/"))
 
-rainback_genome_vol	<- genome_vol_table %>% mutate("p-value" = paste(pval_min,pval_max,sep=" - "),
+rainback_genome_vol	<- round(genome_vol_table,2) %>% mutate("p-value" = paste(pval_min,pval_max,sep=" - "),
 		"intercept" = paste(int_min,int_max,sep=" - "),
 		"slope" = paste(slope_min,slope_max,sep=" - "),
 		"sample size" = round(sample_size,0),
@@ -243,7 +243,7 @@ summary_misoback <- rbind(summary_development %>%
 			"egg volume vs interval between pre-blastoderm mitoses",
 			"egg volume vs time to cellularization"),
 				clade = "Hexapoda"),
-	summary_genome_vol %>% filter(clade == "Hexapoda"),
+	summary_genome_vol %>% filter(clade == "Hexapoda") %>% mutate(analysis = "genome c-value vs egg volume"),
 	summary_l_w,summary_l_asym_w,summary_l_curv_w) %>% 
 		select(analysis,clade,"p-value",slope,"sample size")
 
@@ -251,8 +251,7 @@ combined_backbone_summary <- left_join(summary_rainback %>%
 		rename("Rain. p-value" = "p-value", "Rain. slope" = "slope") %>% 
 		select(-"sample size"), 
 	summary_misoback %>% 
-		rename("Misof p-value" = "p-value", "Misof slope" = "slope") %>% 
-		select(-"sample size"), by = c("analysis", "clade"))
+		rename("Misof p-value" = "p-value", "Misof slope" = "slope"), by = c("analysis", "clade"))
 
 print(xtable(combined_backbone_summary,digits=0),include.rownames=F,file="summary_rainford_backbone_latex.txt")
 
@@ -278,7 +277,7 @@ corblom_vol_body <- read_pgls_results(allometry_vol_body_table,allometry_group_v
 
 load(paste(results_directory,"egg_analysis_corBlomberg_genome_size_egg_size_workspace.Rdata",sep="/"))
 
-corblom_genome_vol	<- genome_vol_table %>% mutate("p-value" = paste(pval_min,pval_max,sep=" - "),
+corblom_genome_vol	<- round(genome_vol_table,2) %>% mutate("p-value" = paste(pval_min,pval_max,sep=" - "),
 		"intercept" = paste(int_min,int_max,sep=" - "),
 		"slope" = paste(slope_min,slope_max,sep=" - "),
 		"sample size" = round(sample_size,0),
@@ -293,7 +292,7 @@ summary_corbrow <- rbind(summary_development %>%
 		"egg volume vs interval between pre-blastoderm mitoses",
 		"egg volume vs time to cellularization"),
 	clade = "Hexapoda"),
-	summary_genome_vol %>% filter(clade == "Hexapoda"),
+	summary_genome_vol %>% filter(clade == "Hexapoda") %>% mutate(analysis = "genome c-value vs egg volume"),
 	summary_l_w,summary_l_asym_w,summary_l_curv_w,summary_l_w_body,summary_vol_body) %>% 
 	select(analysis,clade,"p-value",slope,"sample size")
 
@@ -301,8 +300,7 @@ combined_corblom_summary <- left_join(summary_corblom %>%
 		rename("Blom. p-value" = "p-value", "Blom. slope" = "slope") %>% 
 		select(-"sample size"),
 	summary_corbrow %>% 
-		rename("Brown, p-value" = "p-value", "Brown. slope" = "slope") %>% 
-		select(-"sample size"), by = c("analysis","clade"))
+		rename("Brown, p-value" = "p-value", "Brown. slope" = "slope"), by = c("analysis","clade"))
 
 print(xtable(combined_corblom_summary,digits=0),include.rownames=F,file="summary_corblom_latex.txt")
 
@@ -338,7 +336,7 @@ summary_ouwie_simulated_results <- rbind(simulated_internal_results %>% mutate(e
 						"p-value, OU1" = OU1_boot_pval,
 						"joint p-value" = joint_pval)		
 
-print(xtable(summary_ouwie_simulated_results,digits=c(0,0,2,2,2,2)),file="ouwie_simulated_latex.txt",include.rownames=F)
+print(xtable(summary_ouwie_simulated_results,digits=c(0,0,0,0,2,2,2,2)),file="ouwie_simulated_latex.txt",include.rownames=F)
 		
 summary_ouwie_mcc_results <- tibble("Misof\ backbone, MCC" = misof_mcc_results$OUM_best,
 	"Rainford\ backbone, MCC" = rainford_mcc_results$OUM_best,

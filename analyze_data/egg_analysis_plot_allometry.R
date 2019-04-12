@@ -26,8 +26,8 @@ run_plotting_resid_pgls(length_curv_width,tree,"length_curv_width")
 
 ### build body size dataset
 # Set factor for resampling the body size dataframe, here no downsampling used
-downsample_factor <- 1.0
-fam_count_threshold <- 0
+downsample_factor <- 0.5
+fam_count_threshold <- 1
 source("analyze_data/egg_analysis_body_size.R")
 
 ### PGLS egg size vs body size

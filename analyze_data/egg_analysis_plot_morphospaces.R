@@ -267,7 +267,7 @@ curv_strip_untransformed <- ggplot(insect_bird_egg_data  %>% filter(!(group == "
 	theme(legend.position = "none")
 
 # Print strip plots
-pdf(file="morpho_volume_aspect_ratio.pdf",width=8,height=8,useDingbats =F)
+pdf(file="morpho_volume_aspect_ratio.pdf",width=9.3,height=8,useDingbats =F)
 print(morpho_volume_aspect_ratio)
 dev.off()
 pdf(file="ar_strip.pdf",width=12,height=8,useDingbats =F)
