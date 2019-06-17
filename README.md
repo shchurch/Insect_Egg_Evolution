@@ -24,7 +24,9 @@ This directory contains the scripts used to generate the phylogeny for insect ge
 
 `egg_database.tsv`
 
-This tsv file is the version of the egg database used to analyses the data in November 2018, and is necessary for running the scripts in `analyze_data`
+This tsv file is the version of the egg database used to analyze the data in November 2018, and is necessary for running the scripts in `analyze_data`. It contains all of the raw measurements extracted from publications. 
+
+A version of the database containing calculated values (e.g. volume, aspect ratio) is included with the file `egg_database_final_values.tsv`.
 
 The sources for the egg database are provided in `bibliography_egg_database.bib`
 
